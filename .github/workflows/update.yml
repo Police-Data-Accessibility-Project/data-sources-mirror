@@ -1,0 +1,34 @@
+
+name: Mirror Airtable data
+
+on:
+  schedule:
+  - cron: "0 17 * * *"
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out the repo
+      uses: actions/checkout@v2
+    - name: Install package manager for deps
+      run: pipx install pipenv
+    - uses: actions/setup-python@v2
+      with:
+        python-version: "3.11"
+        cache: "pipenv"
+    - name: Install deps
+      run: pipenv install
+    - name: Make that mirror, please
+      env:
+        AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+        AIRTABLE_KEY: ${{ secrets.AIRTABLE_KEY }}
+      run: pipenv run python mirror.py
+    - name: Add and commit
+      id: add_commit
+      uses: EndBug/add-and-commit@v8
+      with:
+        committer_name: Automated
+        committer_email: actions@users.noreply.github.com
+        message: "Latest data"
