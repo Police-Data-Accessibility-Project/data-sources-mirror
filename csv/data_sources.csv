@@ -61,7 +61,8 @@ Use of Force Reports for Memphis Police Department - TN,,,Use of Force Reports,h
 Training Materials,Training Materials,,Policies & Contracts,https://louisville-police.org/DocumentCenter/View/778/LMPD-Training-Curriculum-Outline-2018,['recAGAe57BJc0uH3Y'],True,,,,,,,,,,,,True,,,,[],,,,,
 FBI Crime Data Explorer,FBI Crime Data Explorer,"Crime data for the nation are derived from Summary Reporting System (SRS) and National Incident-Based Reporting System (NIBRS) reports voluntarily submitted to the FBI.
 In **2021**, the FBI estimated crime statistics for the nation are based on data received from **11,794** of **18,806** law enforcement agencies in the country that year.
-",Crime Maps & Reports,https://crime-data-explorer.app.cloud.gov/,['recdokcmI0N0lJw2b'],False,"['F', 'e', 'd', 'e', 'r', 'a', 'l', '', 'B', 'u', 'r', 'e', 'a', 'u', '', 'o', 'f', '', 'I', 'n', 'v', 'e', 's', 't', 'i', 'g', 'a', 't', 'i', 'o', 'n', 's', '', '(', 'F', 'B', 'I', ')', '']",True,,False,,,,,,,['Web page'],True,,,,"['CSV', 'Dashboard / Visualization', 'HTML table']",,,,,False
+",Crime Maps & Reports,https://crime-data-explorer.app.cloud.gov/,['recdokcmI0N0lJw2b'],False,"Federal Bureau of Investigations (FBI)
+",True,,False,,,,,,,['Web page'],True,,,,"['CSV', 'Dashboard / Visualization', 'HTML table']",,,,,False
 Local Jail Inmate Roster for Jefferson Parish Sheriff's Office - LA,Local Jail Inmate Roster for Jefferson Parish Sheriff's Office - LA,,Inmate Records,http://www.jefferson.lavns.org/roster.aspx,['rec357Q3UVvGanwkF'],True,,,,False,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,Alphabetical,,False
 Officer Involved Shootings for Denver Police Department - CO,,,Officer Involved Shootings,https://www.denvergov.org/content/dam/denvergov/Portals/374/documents/2019AnnualReport_OIM.pdf,['rec09zJG7sRXlxNva'],True,,,,False,2019-01-01 00:00:00,,,,,,,True,,,,['PDF'],none,,,,False
 List of Data Sources for Colquitt Police Department - GA,,,List of Data Sources,https://www.colquittga.org/Police%20Department.htm,['reca35P58h0ahEPeN'],True,,,,,,,,,,,,,,,,[],,,,,
@@ -99,7 +100,8 @@ Use of Force Reports for Arlington Police Department - TX,,,Use of Force Reports
 Use of Force Reports for New York City Police Department - NY,,"Dataset containing information related to Force Incidents involving NYPD Members of Service.
 
 The Threat, Resistance, or Injury (TRI) Report is the primary means by which the NYPD records use of force incidents. All reportable instances of force – whether used by a member of the Department, or against the member – are recorded on a TRI Report. Data provided here are a result of the information captured on TRI Reports. Each record corresponds to an incident where a member of service used force. The data can be used to explore the various categories of force incidents and when and in which precinct they occurred. The data is used to populate the public facing Force Dashboard (https://app.powerbigov.us/view?r=eyJrIjoiOGNhMjVhYTctMjk3Ny00MTZjLTliNDAtY2M2ZTQ5YWI3N2ViIiwidCI6IjJiOWY1N2ViLTc4ZDEtNDZmYi1iZTgzLWEyYWZkZDdjNjA0MyJ9).
-",Use of Force Reports,https://data.cityofnewyork.us/Public-Safety/NYPD-Use-of-Force-Incidents/f4tj-796d,['recs9GgulhKtr0mey'],True,[''],,,False,2020-01-01 00:00:00,,2022-07-15 00:00:00,,17740,1.4 MB,"['Web page', 'API']",True,Socrata,,,"['CSV', 'JSON', 'XML', 'RDF', 'RSS', 'HTML table']",Quarterly,Append,oldest first,,False
+",Use of Force Reports,https://data.cityofnewyork.us/Public-Safety/NYPD-Use-of-Force-Incidents/f4tj-796d,['recs9GgulhKtr0mey'],True,"
+",,,False,2020-01-01 00:00:00,,2022-07-15 00:00:00,,17740,1.4 MB,"['Web page', 'API']",True,Socrata,,,"['CSV', 'JSON', 'XML', 'RDF', 'RSS', 'HTML table']",Quarterly,Append,oldest first,,False
 Use of Force Reports for Sacramento Police Department - CA,,,Use of Force Reports,https://www.cityofsacramento.org/Police/Transparency/Use-Of-Force-Statistics,['recNTZCTM1vUx3ZtG'],True,,,,True,2015-01-01 00:00:00,2017-12-31 00:00:00,,,,,['Web page'],,,,,[],none,,,,True
 Use of Force Reports for Las Vegas Metropolitan Police Department - NV,,,Use of Force Reports,https://www.lvmpd.com/en-us/InternalOversightConstitutionalPolicing/Documents/Statistical%20Data%20and%20Reports/2020/Use%20of%20Force%20and%20Vehicle%20Pursuit%20Statistical%20Report%202016-2020%20FINAL.pdf,['recm1m23x7Ikl7ozK'],True,,,,True,2016-01-01 00:00:00,2020-12-31 00:00:00,,,,,,True,,,,['PDF'],Annually,,,,True
 Local Jail Inmate Roster for Richland Parish Parish Sheriff's Office - LA,Local Jail Inmate Roster for Richland Parish Parish Sheriff's Office - LA,,Inmate Records,http://www.richland.lavns.org/roster.aspx,['recf61ijjXy4B7nd7'],True,,,,False,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,Alphabetical,,False
@@ -123,7 +125,8 @@ Contact Info & Agency Meta for Kansas City Police Department - KS,,,Contact Info
 Crime Statistics for Los Angeles County Sheriff's Department - CA,,,Crime Statistics,https://lasd.org/transparency/crimeandarrest/,['recORZJTseJPLKsIl'],True,,,,True,2017-01-01 00:00:00,2019-12-31 00:00:00,,,,,,True,,,,['PDF'],Annually,,,,True
 Use of Force Reports for Billings Police Department - MO,,,Use of Force Reports,https://www.ci.billings.mt.us/DocumentCenter/View/44274/2020-Annual-Report,['recbxzvUJ3D5Ddxmz'],True,,,,True,2013-01-01 00:00:00,2020-12-31 00:00:00,,,,,,True,,,,['PDF'],Annually,,,,True
 Pittsburgh Bureau of Police Civil Actions,Pittsburgh Bureau of Police Civil Actions,"Documentation of open police bureau litigation that took place between Jan 1 and Dec 31, 2015.
-",Misc Police Activity,https://data.wprdc.org/dataset/police-civil-actions,['recxUlLdt3Wwov6P1'],False,"['W', 'e', 's', 't', 'e', 'r', 'n', '', 'P', 'e', 'n', 'n', 's', 'y', 'l', 'v', 'a', 'n', 'i', 'a', '', 'R', 'e', 'g', 'i', 'o', 'n', 'a', 'l', '', 'D', 'a', 't', 'a', '', 'C', 'e', 'n', 't', 'e', 'r', '']",True,"Western Pennsylvania Regional Data Center
+",Misc Police Activity,https://data.wprdc.org/dataset/police-civil-actions,['recxUlLdt3Wwov6P1'],False,"Western Pennsylvania Regional Data Center
+",True,"Western Pennsylvania Regional Data Center
 ",False,2015-01-01 00:00:00,2015-12-31 00:00:00,2021-02-03 00:00:00,,1,15KB,['Web page'],True,Opendata,,,['XLS'],,Append,oldest first,,False
 Crime Statistics for Tulsa Police Department - OK,,,Crime Statistics,,['recdeW2nyruv6efXb'],True,,,,,,,,,,,,,,,,[],,,,,
 Complaints & Misconduct for Des Moines Police Department - IA,,,Complaints & Misconduct,,['recjdROlhbGQ9sW4P'],True,,,,,,,,,,,,,,,,[],,,,,
@@ -137,7 +140,8 @@ Contact Info & Agency Meta for Baltimore Police Department - MD,,,Contact Info &
 Contact information for all Louisiana municipal agencies,Contact information for all Louisiana municipal agencies,"Submitted by a member of the PDAP community. ""I spent a lot of time calling town halls and asking around until I found the right contact. The main tip I have re: municipal contacts is find the town attorney.""
 
 Each municipality is on its own sheet. If you'd like to make changes, leave a comment.
-",Contact Info & Agency Meta,https://docs.google.com/spreadsheets/d/1vTyShwANIG3QSOQ6T7sJqazVB2DmokJNb2t5JKXYmsQ/edit?usp=sharing,['recyr1QG5kpJCcmoM'],False,"['P', 'D', 'A', 'P', '-', 'h', 'o', 's', 't', 'e', 'd', '', 'f', 'i', 'l', 'e', '', 's', 'u', 'b', 'm', 'i', 't', 't', 'e', 'd', '', 'b', 'y', '', 'a', '', 'c', 'o', 'm', 'm', 'u', 'n', 'i', 't', 'y', '', 'm', 'e', 'm', 'b', 'e', 'r', '']",True,,False,,,2022-08-29 00:00:00,,,,['Web page'],,,,,['Google Sheets'],,No updates,,,False
+",Contact Info & Agency Meta,https://docs.google.com/spreadsheets/d/1vTyShwANIG3QSOQ6T7sJqazVB2DmokJNb2t5JKXYmsQ/edit?usp=sharing,['recyr1QG5kpJCcmoM'],False,"PDAP-hosted file submitted by a community member
+",True,,False,,,2022-08-29 00:00:00,,,,['Web page'],,,,,['Google Sheets'],,No updates,,,False
 Training Materials,Training Materials,,Policies & Contracts,https://www.wilmingtonde.gov/home/showpublisheddocument/9613/637341128548700000,['recn17bLsakZNwGeT'],True,,,,,,,,,,,,True,,,,[],,,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://public.powerdms.com/DesMoines/tree,['recjdROlhbGQ9sW4P'],True,,,,,,,,,,,,,,,,[],,,,,
 Traffic Stops for Salt Lake City Police Department - UT,,,Traffic Stops,,['rec3BZ9BPYAGNSkxD'],True,,,,,,,,,,,,,,,,[],,,,,
@@ -227,7 +231,8 @@ Contact Info & Agency Meta for Omaha Police Department - NE,,,Contact Info & Age
 Allegheny County Police Contracts Text,Allegheny County Police Contracts Text,"These contracts were acquired primarily through Right to Know requests made with each municipal police agency.
 
 There are search features and more info here: https://www.grieftoaction.org/#/about
-",Policies & Contracts,https://drive.google.com/file/d/1Na7Bsbd9BETB9ER-hyKOqiEhzWMNZk17/view,['recRWuzBP5fcc79XK'],False,"['A', 'l', 'l', 'e', 'g', 'h', 'e', 'n', 'y', '', 'C', 'o', 'u', 'n', 't', 'y', '', 'P', 'o', 'l', 'i', 'c', 'i', 'n', 'g', '', 'P', 'r', 'o', 'j', 'e', 'c', 't', '', 'h', 't', 't', 'p', 's', ':', '/', '/', 'w', 'w', 'w', '.', 'g', 'r', 'i', 'e', 'f', 't', 'o', 'a', 'c', 't', 'i', 'o', 'n', '.', 'o', 'r', 'g', '/', '']",True,,False,,,,,140,6MB,['Web page'],True,,,,['HTML text'],n/a,Not sure,,,False
+",Policies & Contracts,https://drive.google.com/file/d/1Na7Bsbd9BETB9ER-hyKOqiEhzWMNZk17/view,['recRWuzBP5fcc79XK'],False,"Allegheny County Policing Project https://www.grieftoaction.org/
+",True,,False,,,,,140,6MB,['Web page'],True,,,,['HTML text'],n/a,Not sure,,,False
 Local Jail Inmate Roster for Bienville Parish Sheriff's Office - LA,Local Jail Inmate Roster for Bienville Parish Sheriff's Office - LA,,Inmate Records,http://www.bienville.lavns.org/roster.aspx,['recoM2YHgAdBD2MpM'],True,,,,False,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,Alphabetical,,False
 Training Materials,Training Materials,,Policies & Contracts,,['recjdROlhbGQ9sW4P'],True,,,,,,,,,,,,,,,,[],,,,,
 Contact Info & Agency Meta for Albuquerque Police Department - NM,,,Contact Info & Agency Meta,https://www.cabq.gov/police/contact,['rec3zo89q4bbafUuG'],True,,,,,,,,,,,,,,,,[],,,,,
@@ -302,7 +307,8 @@ Training Materials,Training Materials,,Policies & Contracts,https://public.power
 API Information,API Information,,List of Data Sources,https://data.burlingtonvt.gov/pages/home/,['recErbDqVvfy6c4AK'],True,,,,,,,,,,,,,Open Data Soft,,,[],,,,,
 Pittsburgh Bureau of Police Zones,Pittsburgh Bureau of Police Zones,"GIS data of police zones
 
-",Geographic,https://data.wprdc.org/dataset/police-zones,['recxUlLdt3Wwov6P1'],False,"['W', 'e', 's', 't', 'e', 'r', 'n', '', 'P', 'e', 'n', 'n', 's', 'y', 'l', 'v', 'a', 'n', 'i', 'a', '', 'R', 'e', 'g', 'i', 'o', 'n', 'a', 'l', '', 'D', 'a', 't', 'a', '', 'C', 'e', 'n', 't', 'e', 'r', '']",True,"Western Pennsylvania Regional Data Center
+",Geographic,https://data.wprdc.org/dataset/police-zones,['recxUlLdt3Wwov6P1'],False,"Western Pennsylvania Regional Data Center
+",True,"Western Pennsylvania Regional Data Center
 ",True,2021-03-09 00:00:00,,2022-08-17 00:00:00,,,1MB,"['Web page', 'API']",True,Opendata,,,"['CSV', 'JSON', 'GIS / Shapefile']",,Overwrite,,,True
 Training Materials,Training Materials,,Policies & Contracts,https://filetransfer.nashville.gov/portals/0/sitecontent/Police/docs/Administrative%20Svcs/MNPD%20Basic%20Course%20Curriculum.pdf,['rec6qxEjIGfHANoBd'],True,,,,,,,,,,,,True,,,,[],,,,,
 Use of Force Reports for Montgomery County Police Department - MD,,,Use of Force Reports,https://www.montgomerycountymd.gov/pol/data/use-of-force-report.html,['recBOcOSxvItWz5pp'],True,,,,True,2014-01-01 00:00:00,2020-12-31 00:00:00,,,,,,True,,,,['PDF'],Annually,,,,True
@@ -319,7 +325,8 @@ Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://charlotten
 Missouri Vehicle Stops Report,Missouri Vehicle Stops Report,"Aggregated by the state Attorney General from (in theory) every police agency in Missouri.
 Concerns raised by the citizens of Missouri and the Missouri legislature regarding allegations of bias in traffic enforcement prompted the passage of SB 1053 (2000). SB 1053 created **[Section 590.650, RSMo](http://revisor.mo.gov/main/OneSection.aspx?section=590.650&bid=30357&hl=)**. which became effective August 28, 2000. This statute created the Vehicle Stops Report and required that the Attorney General’s Office collect and report on traffic stops conducted by law enforcement officers across the state of Missouri.
  Under § 590.650, RSMo. all peace officers in the state must report specific information, including a driver’s race, for each vehicle stop made in the state. Law enforcement agencies must provide their vehicle stops data to the Attorney General by March 1, and the Attorney General must compile the data and report to the Governor, General Assembly, and each law enforcement agency no later than June 1 of each year. The law allows the Governor to withhold state funds from any agency that does not submit its vehicle stops data to the Attorney General by the statutory deadline.
-",Traffic Stops,https://ago.mo.gov/home/vehicle-stops-report/,['recGghs5gBvP7nAJN'],False,"['M', 'i', 's', 's', 'o', 'u', 'r', 'i', '', 'A', 't', 't', 'o', 'r', 'n', 'e', 'y', '', 'G', 'e', 'n', 'e', 'r', 'a', 'l', '']",True,,True,2000-01-01 00:00:00,,2021-12-31 00:00:00,,21,,['Web page'],,,,,"['HTML table', 'PDF: Machine Created']",Annually,Append,newest first,,True
+",Traffic Stops,https://ago.mo.gov/home/vehicle-stops-report/,['recGghs5gBvP7nAJN'],False,"Missouri Attorney General
+",True,,True,2000-01-01 00:00:00,,2021-12-31 00:00:00,,21,,['Web page'],,,,,"['HTML table', 'PDF: Machine Created']",Annually,Append,newest first,,True
 API Information,API Information,,List of Data Sources,https://coloradosprings-citywide.data.socrata.com/login,['recnOUm1WFltLn9Wv'],True,,,,,,,,,,,,,Socrata,,,[],,,,,
 Calls for Service for Alameda County Sheriff's Office - CA,,,Calls for Service,https://cityprotect.com/agency/acso,['recgmd98fUXFxbKGM'],False,,,,,2017-01-01 00:00:00,,,,,,,,CityProtect,,,[],quarterly,,,,
 Crime Statistics for Denver Police Department - CO,,,Crime Statistics,https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-crime,['rec09zJG7sRXlxNva'],True,,,,False,2017-01-01 00:00:00,2022-12-31 00:00:00,,,,,,True,,,,['CSV'],Quarterly,,,,False
@@ -375,11 +382,13 @@ Definitions and abbreviations:
 - SSN: Social Security Number
 - Artificial Intelligence (AI): Automated identification made by a computer. For example, an AI-based traffic camera might be able to automatically count the number of cars that pass an intersection.
 - City: The City of San José
-",Policies & Contracts,https://www.sanjoseca.gov/your-government/departments-offices/information-technology/digital-privacy/past-privacy-decisions,['recQuWrNs4zJWIKzm'],False,"['C', 'i', 't', 'y', '', 'o', 'f', '', 'S', 'a', 'n', '', 'J', 'o', 's', 'e', '']",False,"City of San Jose
+",Policies & Contracts,https://www.sanjoseca.gov/your-government/departments-offices/information-technology/digital-privacy/past-privacy-decisions,['recQuWrNs4zJWIKzm'],False,"City of San Jose
+",False,"City of San Jose
 ",,,,,,,,['Web page'],,,,,['HTML text'],,Append,,,
 Training Materials,Training Materials,,Policies & Contracts,https://www.columbus.gov/copta-lawenforcementtraining/,['recCbX7E4fOrOhuHv'],True,,,,,,,,,,,,True,,,,[],,,,,
 Pittsburgh Bureau of Police Sectors,Pittsburgh Bureau of Police Sectors,"GIS data of police sectors
-",Geographic,https://data.wprdc.org/dataset/police-sectors,['recxUlLdt3Wwov6P1'],False,"['W', 'e', 's', 't', 'e', 'r', 'n', '', 'P', 'e', 'n', 'n', 's', 'y', 'l', 'v', 'a', 'n', 'i', 'a', '', 'R', 'e', 'g', 'i', 'o', 'n', 'a', 'l', '', 'D', 'a', 't', 'a', '', 'C', 'e', 'n', 't', 'e', 'r', '']",True,"Western Pennsylvania Regional Data Center
+",Geographic,https://data.wprdc.org/dataset/police-sectors,['recxUlLdt3Wwov6P1'],False,"Western Pennsylvania Regional Data Center
+",True,"Western Pennsylvania Regional Data Center
 ",True,2021-03-09 00:00:00,,2022-08-17 00:00:00,,,1MB,"['Web page', 'API']",True,Opendata,,,"['CSV', 'JSON', 'GIS / Shapefile']",,Overwrite,,,True
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,,['rectyJtwkk06tLPf2'],True,,,,,,,,,,,,,,,,[],,,,,
 Local Jail Inmate Roster for Caddo Parish Sheriff's Office - LA,Local Jail Inmate Roster for Caddo Parish Sheriff's Office - LA,,Inmate Records,http://www.caddo.lavns.org/roster.aspx,['rec2R8uoy5xP5g7PP'],True,,,,False,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,Alphabetical,,False
@@ -420,7 +429,8 @@ Pittsburgh Bureau of Police task force response. Not dated.,Pittsburgh Bureau of
 Arrest Records for Pittsburgh Bureau of Police - PA,,"Arrest data contains information on people taken into custody by City of Pittsburgh police officers. More serious crimes such as felony offenses are more likely to result in an arrest. However, arrests can occur as a result of other offenses, such as parole violations or a failure to appear for trial. All data is reported at the block/intersection level, with the exception of sex crimes, which are reported at the police zone level.
 This dataset only contains information reported by City of Pittsburgh Police. It does not contain information about incidents that solely involve other police departments operating within the city (for example, campus police or Port Authority police).
 More documentation is available in our [Crime Data Guide](http://www.wprdc.org/crime/).
-",Arrest Records,https://data.wprdc.org/dataset/arrest-data,['recxUlLdt3Wwov6P1'],False,"['W', 'e', 's', 't', 'e', 'r', 'n', '', 'P', 'e', 'n', 'n', 's', 'y', 'l', 'v', 'a', 'n', 'i', 'a', '', 'R', 'e', 'g', 'i', 'o', 'n', 'a', 'l', '', 'D', 'a', 't', 'a', '', 'C', 'e', 'n', 't', 'e', 'r', '']",True,"Western Pennsylvania Regional Data Center
+",Arrest Records,https://data.wprdc.org/dataset/arrest-data,['recxUlLdt3Wwov6P1'],False,"Western Pennsylvania Regional Data Center
+",True,"Western Pennsylvania Regional Data Center
 ",False,2016-08-01 00:00:00,,2022-08-23 00:00:00,,57266,16.3MB,['Web page'],True,Opendata,,,"['CSV', 'XLS']",daily,Append,oldest first,,False
 API Information,API Information,,List of Data Sources,https://data.ci.newark.nj.us/,['recokZNFBjC0IhPUq'],True,,,,,,,,,,,,,CKAN,,,[],,,,,
 Crime Statistics for Wilson County Sheriff's Office - NC,,,Crime Statistics,https://wilsonnc.policetocitizen.com/DailyBulletin ,['reckr768NwHrxzbty'],True,,,,True,2004-01-01 00:00:00,,,,,,['Web page'],True,,,,[],<2 Weeks,,,,True
@@ -449,7 +459,8 @@ Officer Involved Shootings for Honolulu Police Department - HI,,,Officer Involve
 Calls for Service for Cleveland Division of Police - OH,,,Calls for Service,https://clevelandgis.maps.arcgis.com/apps/webappviewer/index.html?id=5cd6bf3491c1493084e1090cbd03e2c4,['recluKwTp3TBJzSPz'],True,,,,False,2022-01-01 00:00:00,,,,,,['API'],,,,,[],<2 Weeks,,,,False
 Training Logs for Pittsburgh Bureau of Police - PA,,"This dataset shows the time spent by currently active Pittsburgh Police Officers in professional development training. Officers who are no longer employed in the Police Bureau are not included in this data. The data is presented in two ways: total, cumulative hours spent in training, per year, by category and total number of officers who completed training, per year, by category.
 
-",Training Logs,https://data.wprdc.org/dataset/officer-training,['recxUlLdt3Wwov6P1'],False,"['W', 'e', 's', 't', 'e', 'r', 'n', '', 'P', 'e', 'n', 'n', 's', 'y', 'l', 'v', 'a', 'n', 'i', 'a', '', 'R', 'e', 'g', 'i', 'o', 'n', 'a', 'l', '', 'D', 'a', 't', 'a', '', 'C', 'e', 'n', 't', 'e', 'r', '']",True,"Western Pennsylvania Regional Data Center
+",Training Logs,https://data.wprdc.org/dataset/officer-training,['recxUlLdt3Wwov6P1'],False,"Western Pennsylvania Regional Data Center
+",True,"Western Pennsylvania Regional Data Center
 ",True,2006-01-01 00:00:00,,2021-02-03 00:00:00,,3,75KB,['Web page'],True,Opendata,,,['XLS'],annually,Append,oldest first,,True
 Complaints & Misconduct for Fort Worth Police Department - TX,,,Complaints & Misconduct,,['recJlgbsYgxyJU3Hv'],True,,,,,,,,,,,,,,,,[],,,,,
 Crime Statistics for Memphis Police Department - TN,,,Crime Statistics,https://data.memphistn.gov/Public-Safety/Memphis-Police-Department-Aggregate-Crime/n7ue-iwew,['rec6lwwXGqeoMIJ9z'],True,,,,True,2006-01-01 00:00:00,,,,,,['API'],True,,,,[],Monthly,,,,True
@@ -564,7 +575,8 @@ Calls for Service for Whittier Police Department - CA,,,Calls for Service,https:
 Pittsburgh Bureau of Police Incident Blotter (Archive),Pittsburgh Bureau of Police Incident Blotter (Archive),"The Police Blotter Archive contains crime incident data after it has been validated and processed to meet Uniform Crime Reporting (UCR) standards, published on a nightly basis. This data validation process creates a data publishing delay of approximately thirty days. Users who require the most recent incident data should use the 30 Day Police Blotter. The 30 Day Police Blotter dataset contains more recent data, but has not yet been run through quality control and standardization procedures by the Police Bureau. All data is reported at the block/intersection level, with the exception of sex crimes, which are reported at the police zone level.
 This dataset only contains information reported by City of Pittsburgh Police, and does not contain incidents that solely involve other police departments operating within the city (campus police, Port Authority, etc.)
 More documentation is available in our [Crime Data Guide](http://www.wprdc.org/crime/).
-",Calls for Service,https://data.wprdc.org/dataset/uniform-crime-reporting-data,['recxUlLdt3Wwov6P1'],False,"['W', 'e', 's', 't', 'e', 'r', 'n', '', 'P', 'e', 'n', 'n', 's', 'y', 'l', 'v', 'a', 'n', 'i', 'a', '', 'R', 'e', 'g', 'i', 'o', 'n', 'a', 'l', '', 'D', 'a', 't', 'a', '', 'C', 'e', 'n', 't', 'e', 'r', '']",True,"Western Pennsylvania Regional Data Center
+",Calls for Service,https://data.wprdc.org/dataset/uniform-crime-reporting-data,['recxUlLdt3Wwov6P1'],False,"Western Pennsylvania Regional Data Center
+",True,"Western Pennsylvania Regional Data Center
 ",False,2005-01-01 00:00:00,,2022-08-23 00:00:00,,250000,61MB,['Web page'],True,Opendata,,,"['CSV', 'XLS']",daily,Append,oldest first,,False
 Traffic Stops for El Paso Police Department - TX,,,Traffic Stops,,['recJ6eSEdvYpaReDM'],True,,,,,,,,,,,,,,,,[],,,,,
 Calls for Service for Show Low Police Department - AZ,,,Calls for Service,https://cityprotect.com/agency/b0a52afd-b494-4168-a615-a0c6423284a3,['recM0PlVmiLEe6aRW'],False,,,,,2017-01-01 00:00:00,,,,,,,,CityProtect,,,[],quarterly,,,,
@@ -580,13 +592,15 @@ Pittsburgh Bureau of Police Incident Blotter,Pittsburgh Bureau of Police Inciden
 This dataset will be continually overwritten and any records older than thirty days will be removed. Validated incidents will be moved to the Police Blotter Archive dataset. Data in the archived file is of a higher quality and is the file most appropriate for reporting crime statistics.
 This dataset only contains information reported by City of Pittsburgh Police, and does not contain incidents that solely involve other police departments operating within the city (campus police, Port Authority, etc.)
 More documentation is available in our [Crime Data Guide](http://www.wprdc.org/crime/).
-",Calls for Service,https://data.wprdc.org/dataset/police-incident-blotter,['recxUlLdt3Wwov6P1'],False,"['W', 'e', 's', 't', 'e', 'r', 'n', '', 'P', 'e', 'n', 'n', 's', 'y', 'l', 'v', 'a', 'n', 'i', 'a', '', 'R', 'e', 'g', 'i', 'o', 'n', 'a', 'l', '', 'D', 'a', 't', 'a', '', 'C', 'e', 'n', 't', 'e', 'r', '']",True,"Western Pennsylvania Regional Data Center
+",Calls for Service,https://data.wprdc.org/dataset/police-incident-blotter,['recxUlLdt3Wwov6P1'],False,"Western Pennsylvania Regional Data Center
+",True,"Western Pennsylvania Regional Data Center
 ",False,2016-08-23 00:00:00,,2022-08-23 00:00:00,30 days,3290,1MB,['Web page'],True,Opendata,,,"['CSV', 'HTML table']",daily,Append,oldest first,,False
 Operations Manuals,Operations Manuals,,Policies & Contracts,,['rece96HuT3JfD6b2i'],True,,,,,,,,,,,,,,,,[],,,,,
 List of Data Sources for Burke County Schools Campus Police - GA,,,List of Data Sources,https://www.burke.k12.ga.us/apps/pages/index.jsp?uREC_ID=324393&type=d&pREC_ID=733056,['recEvYiIF1m3eVyoN'],True,,,,,,,,,,,,,,,,[],,,,,
 Local Jail Inmate Roster for Sulphur Police Department - LA,Local Jail Inmate Roster for Sulphur Police Department - LA,,Inmate Records,http://www.sulphur.lavns.org/roster.aspx,['recle3Y99RgZ98QjS'],True,,,,False,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,Alphabetical,,False
 Pittsburgh Bureau of Police Community Outreach,Pittsburgh Bureau of Police Community Outreach,"Community outreach activities attended by Pittsburgh Police Officers, starting from January 1 2016. Includes Zone, Event Name, Location, Date and Time.
-",Misc Police Activity,https://data.wprdc.org/dataset/police-community-outreach,['recxUlLdt3Wwov6P1'],False,"['W', 'e', 's', 't', 'e', 'r', 'n', '', 'P', 'e', 'n', 'n', 's', 'y', 'l', 'v', 'a', 'n', 'i', 'a', '', 'R', 'e', 'g', 'i', 'o', 'n', 'a', 'l', '', 'D', 'a', 't', 'a', '', 'C', 'e', 'n', 't', 'e', 'r', '']",True,"Western Pennsylvania Regional Data Center
+",Misc Police Activity,https://data.wprdc.org/dataset/police-community-outreach,['recxUlLdt3Wwov6P1'],False,"Western Pennsylvania Regional Data Center
+",True,"Western Pennsylvania Regional Data Center
 ",False,2016-01-01 00:00:00,,2021-02-03 00:00:00,,762,15KB,['Web page'],True,Opendata,,,['XLS'],,Append,oldest first,,False
 Arrest Records for Miami-Dade Police Department - FL,,,Arrest Records,,['recOc0KkWA2SnMFYJ'],True,,,,,,,,,,,,,,,,[],,,,,
 Crime Maps & Reports for Cleveland Division of Police - OH,,,Crime Maps & Reports,https://clevelandgis.maps.arcgis.com/apps/webappviewer/index.html?id=5cd6bf3491c1493084e1090cbd03e2c4,['recluKwTp3TBJzSPz'],True,,,,False,,,,Last 7 days,,,['API'],,,,,[],,,,,False
@@ -712,7 +726,8 @@ Contact Info & Agency Meta for Athens County Sheriff's Office - OH,,,Contact Inf
 Pittsbugh Bureau of Police Non-Traffic Citations,Pittsbugh Bureau of Police Non-Traffic Citations,"Non-traffic citations (NTCs, also known as ""summary offenses"") document low-level criminal offenses where a law enforcement officer or other authorized official issued a citation in lieu of arrest. These citations normally include a fine. In Pennsylvania, NTCs often include a notice to appear before a magistrate if the person does not provide a guilty plea. Offenses that normally result in a citation include disorderly conduct, loitering, harassment and retail theft.
 This dataset only contains information reported by City of Pittsburgh Police. It does not contain incidents that solely involve other police departments operating within the city (for example, campus police or Port Authority police).
 More documentation is available in our [Crime Data Guide](http://www.wprdc.org/crime/).
-",Citations,https://data.wprdc.org/dataset/non-traffic-citations,['recxUlLdt3Wwov6P1'],False,"['W', 'e', 's', 't', 'e', 'r', 'n', '', 'P', 'e', 'n', 'n', 's', 'y', 'l', 'v', 'a', 'n', 'i', 'a', '', 'R', 'e', 'g', 'i', 'o', 'n', 'a', 'l', '', 'D', 'a', 't', 'a', '', 'C', 'e', 'n', 't', 'e', 'r', '']",True,"Western Pennsylvania Regional Data Center
+",Citations,https://data.wprdc.org/dataset/non-traffic-citations,['recxUlLdt3Wwov6P1'],False,"Western Pennsylvania Regional Data Center
+",True,"Western Pennsylvania Regional Data Center
 ",False,2016-01-01 00:00:00,,2022-08-23 00:00:00,,13547,2.6MB,['Web page'],True,Opendata,,,"['CSV', 'XLS']",daily,Append,oldest first,,False
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://raleighnc.gov/services/safety/police-policies-and-procedures,['recCLCOUnuqB0w6B5'],True,,,,,,,,,,,,True,,,,[],,,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.columbus.gov/police-divisiondirectives/,['recCbX7E4fOrOhuHv'],True,,,,,,,,,,,,,,,,[],,,,,
@@ -750,7 +765,8 @@ Arrest Records for Fort Worth Police Department - TX,,,Arrest Records,,['recJlgb
 Crime Statistics for Seattle Police Department - WA,,,Crime Statistics,https://www.seattle.gov/police/information-and-data/crime-dashboard,['rec7yups5HDhlbkrA'],True,,,,True,2008-01-01 00:00:00,,,,,,['Web page'],True,,,,[],Monthly,,,,True
 Operations Manuals,Operations Manuals,,Policies & Contracts,http://www.charlestonwvpolice.org/images/Policy_Procedure_Redacted2021.pdf,['reciGRFmQ8wyX4U9c'],True,,,,,,,,,,,,,,,,[],,,,,
 Local Jail Inmate Roster for Franklin Parish Sheriff's Office - LA,Local Jail Inmate Roster for Franklin Parish Sheriff's Office - LA,,Inmate Records,http://www.franklin.lavns.org/roster.aspx,['recTgDOG2NpYPwHtn'],True,,,,False,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,Alphabetical,,False
-List of Data Sources for College Park Police Department - GA,,,List of Data Sources,https://collegeparkga.justfoia.com/publicportal/home/search,['recnUhlfSVcRs2k0m'],False,"['J', 'u', 's', 't', 'F', 'o', 'i', 'a', '']",True,,,,,,,,,,,,,,[],,,,,
+List of Data Sources for College Park Police Department - GA,,,List of Data Sources,https://collegeparkga.justfoia.com/publicportal/home/search,['recnUhlfSVcRs2k0m'],False,"JustFoia
+",True,,,,,,,,,,,,,,[],,,,,
 Crime Maps & Reports for Albuquerque Police Department - NM,,,Crime Maps & Reports,https://www.crimemapping.com/map/agency/6,['rec3zo89q4bbafUuG'],True,,,,False,,,,Last 7 Days,,,['Web page'],,,,,[],,,,,False
 API Information,API Information,,List of Data Sources,https://www.huntsvilleal.gov/development/building-construction/gis/data-depot/open-data/,['recgtK1SYZUm6NmRX'],True,,,,,,,,,,,,,ArcGIS,,,[],,,,,
 Crime Maps & Reports for Charlotte-Mecklenburg Police Department - NC,,,Crime Maps & Reports,https://www.crimemapping.com/map/agency/65,['reco9uv3qebC6UdmP'],True,,,,False,,,,Last 6 months,,,['API'],,,,,[],,,,,False
@@ -1050,7 +1066,8 @@ Traffic Stops for Aurora Police Department - CO,,,Traffic Stops,https://www.auro
 Allegheny County Police Contracts Original,Allegheny County Police Contracts Original,"These contracts were acquired primarily through Right to Know requests made with each municipal police agency.
 
 There are search features and more info here:https://www.grieftoaction.org/#/about
-",Policies & Contracts,https://drive.google.com/file/d/102zX-xpY84QLR6N2I5qmeNn6x_8uLOdy/view,['recRWuzBP5fcc79XK'],False,"['A', 'l', 'l', 'e', 'g', 'h', 'e', 'n', 'y', '', 'C', 'o', 'u', 'n', 't', 'y', '', 'P', 'o', 'l', 'i', 'c', 'i', 'n', 'g', '', 'P', 'r', 'o', 'j', 'e', 'c', 't', '', 'h', 't', 't', 'p', 's', ':', '/', '/', 'w', 'w', 'w', '.', 'g', 'r', 'i', 'e', 'f', 't', 'o', 'a', 'c', 't', 'i', 'o', 'n', '.', 'o', 'r', 'g', '/', '']",True,,False,,,,,140,180MB,['Web page'],True,,,,['HTML text'],n/a,Not sure,,,False
+",Policies & Contracts,https://drive.google.com/file/d/102zX-xpY84QLR6N2I5qmeNn6x_8uLOdy/view,['recRWuzBP5fcc79XK'],False,"Allegheny County Policing Project https://www.grieftoaction.org/
+",True,,False,,,,,140,180MB,['Web page'],True,,,,['HTML text'],n/a,Not sure,,,False
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.oaklandca.gov/topics/use-of-force-definitions-and-policies ,['recncupgm6l7tzbqT'],True,,,,,,,,,,,,True,,,,[],,,,,
 Complaints & Misconduct for Tucson Police Department - AZ,,,Complaints & Misconduct,https://policestandards.tucsonaz.gov/,['rec2FkksoIU2I4PtQ'],True,,,,True,2020-01-01 00:00:00,,,,,,['Web page'],,,,,[],Annually,,,,True
 Crime Statistics for Miami-Dade Police Department - FL,,,Crime Statistics,https://www.miamidade.gov/global/service.page?Mduid_service=ser1510669357918648,['recOc0KkWA2SnMFYJ'],True,,,,False,2021-07-10 00:00:00,,,,,,['API'],,,,,[],<2 Weeks,,,,False
@@ -1096,7 +1113,8 @@ Complaints & Misconduct for San Francisco Police Department - CA,,,Complaints & 
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://resources.baltimorecountymd.gov/Documents/Police/policiespdnet/adminmanual2020-01.pdf,['recTK5UVTMIKyVQpR'],True,,,,,,,,,,,,,,,,[],,,,,
 API Information,API Information,,List of Data Sources,,['recjdROlhbGQ9sW4P'],True,,,,,,,,,,,,,,,,[],,,,,
 Policies & Contracts for Long Beach Police Department - CA,,"This webpage contains files disclosable under Senate Bill 978 that the Long Beach Police Department has released through the online [Public Records Act request portal](https://longbeachcapd.govqa.us/WEBAPP/_rs/(S(xvcbmgl1sra5uujrsy5kkp3b))/supporthome.aspx). The Department will continue to upload records disclosed pursuant to SB 978, as they become available.
-",Policies & Contracts,https://www.longbeach.gov/police/about-the-lbpd/lbpd-sb-978/,['recRXsW0gWDYgAo08'],True,[''],,,False,,,,,1,~10 resources linked,['Web page'],,,,,['HTML text'],,Overwrite,,,False
+",Policies & Contracts,https://www.longbeach.gov/police/about-the-lbpd/lbpd-sb-978/,['recRXsW0gWDYgAo08'],True,"
+",,,False,,,,,1,~10 resources linked,['Web page'],,,,,['HTML text'],,Overwrite,,,False
 Traffic Stops for San Jose Police Department - CA,,,Traffic Stops,,['recQuWrNs4zJWIKzm'],True,,,,,,,,,,,,,,,,[],,,,,
 Local Jail Inmate Roster for Natchitoches Parish Sheriff's Office - LA,Local Jail Inmate Roster for Natchitoches Parish Sheriff's Office - LA,,Inmate Records,http://www.natchitoches.lavns.org/roster.aspx,['recJbxpxeSWLQAUbq'],True,,,,False,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,Alphabetical,,False
 Operations Manuals,Operations Manuals,,Policies & Contracts,,['rectyJtwkk06tLPf2'],True,,,,,,,,,,,,,,,,[],,,,,
@@ -1153,7 +1171,8 @@ Officer Involved Shootings for Aurora Police Department - CO,,,Officer Involved 
 Calls for Service for Charleston Police Department - SC,,,Calls for Service,https://www.arcgis.com/apps/MapSeries/index.html?appid=fad2a3f085c644d0b014b507d23bcd9a,['reccKBQkScaxoYvVR'],True,,,,False,2015-01-01 00:00:00,,,,,,['API'],True,,,,[],Annually,,,,False
 Local Jail Inmate Roster for Hammond Police Department - LA,Local Jail Inmate Roster for Hammond Police Department - LA,,Inmate Records,http://www.hammond.lavns.org/roster.aspx,['recI9moBf2HpsABAS'],True,,,,False,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,Alphabetical,,False
 Allegheny County municipal contact info,Allegheny County municipal contact info,"A spreadsheet with multiple tables for contact information of officials for Right to Know requests.
-",Contact Info & Agency Meta,https://docs.google.com/spreadsheets/d/1k-SBpcA0Qc0znWFYKu4JtqNfnFFNPf7Rhl6mT_bPjvU/edit#gid=0,['recRWuzBP5fcc79XK'],False,"['A', 'l', 'l', 'e', 'g', 'h', 'e', 'n', 'y', '', 'C', 'o', 'u', 'n', 't', 'y', '', 'P', 'o', 'l', 'i', 'c', 'i', 'n', 'g', '', 'P', 'r', 'o', 'j', 'e', 'c', 't', '', 'h', 't', 't', 'p', 's', ':', '/', '/', 'w', 'w', 'w', '.', 'g', 'r', 'i', 'e', 'f', 't', 'o', 'a', 'c', 't', 'i', 'o', 'n', '.', 'o', 'r', 'g', '/', '']",True,,False,,,,,,,['Web page'],True,Other,,,"['CSV', 'XLS']",,Not sure,,,False
+",Contact Info & Agency Meta,https://docs.google.com/spreadsheets/d/1k-SBpcA0Qc0znWFYKu4JtqNfnFFNPf7Rhl6mT_bPjvU/edit#gid=0,['recRWuzBP5fcc79XK'],False,"Allegheny County Policing Project https://www.grieftoaction.org/
+",True,,False,,,,,,,['Web page'],True,Other,,,"['CSV', 'XLS']",,Not sure,,,False
 Bellingham Police Daily Activity,Bellingham Police Daily Activity,"Bellingham Police Department Daily activity webpage.  Max days is 365 days, only data available for past 2 years.
 ",Calls for Service,https://cob.org/gov/dept/police/news-police/police-daily-activity,['recRXkviypbmox4Qz'],True,,,,False,2021-09-19 00:00:00,,2022-09-19 00:00:00,365 Days,,,['Web page'],,,,,"['HTML table', 'HTML text']",Daily,,newest first,,False
 API Information,API Information,,List of Data Sources,https://data.cityoforlando.net/browse,['recbeI8oNZPtuka3g'],True,,,,,,,,,,,,,Socrata,,,[],,,,,
@@ -1258,7 +1277,8 @@ Complaints & Misconduct for Indianapolis Police - IN,,,Complaints & Misconduct,,
 Complaints & Misconduct for Wichita Police Department - KS,,,Complaints & Misconduct,https://www.wichita.gov/WPD/Pages/ProfessionalStandards.aspx,['recTfxDdANAoFK39R'],True,,,,True,2018-01-01 00:00:00,2021-12-31 00:00:00,,,,,,True,,,,['PDF'],BiAnnually,,,,True
 Calls for Service for El Paso Police Department - TX,,,Calls for Service,https://www.elpasotexas.gov/police-department/about-us/annual-report/,['recJ6eSEdvYpaReDM'],True,,,,True,2004-01-01 00:00:00,2020-12-31 00:00:00,,,,,,,,,,['PDF'],Annually,,,,True
 Ottumwa Courier police and sheriff records,Ottumwa Courier police and sheriff records,"Public newspaper website with limited views that can be bypassed with 12ft.io. Shows names of those arrested, charges, dates, times and locations. Records for Ottumwa and Centerville Iowa police and sheriff, along with smaller surrounding towns under each jurisdiction.
-",Arrest Records,https://www.ottumwacourier.com/news/record/,['recQnkT68y9JT2JYl'],False,"['O', 't', 't', 'u', 'm', 'w', 'a', '', 'C', 'o', 'u', 'r', 'i', 'e', 'r', '', 'n', 'e', 'w', 's', 'p', 'a', 'p', 'e', 'r', ':', '', 'h', 't', 't', 'p', 's', ':', '/', '/', 'w', 'w', 'w', '.', 'o', 't', 't', 'u', 'm', 'w', 'a', 'c', 'o', 'u', 'r', 'i', 'e', 'r', '.', 'c', 'o', 'm', '/', '']",,,,,,2022-08-03 00:00:00,,,,['Web page'],,,,,[],About weekly at least,,oldest first,,
+",Arrest Records,https://www.ottumwacourier.com/news/record/,['recQnkT68y9JT2JYl'],False,"Ottumwa Courier newspaper: https://www.ottumwacourier.com/
+",,,,,,2022-08-03 00:00:00,,,,['Web page'],,,,,[],About weekly at least,,oldest first,,
 API Information,API Information,,List of Data Sources,https://transparency.jaxsheriff.org/,['recnM8KygH68vlnj0'],True,,,,,,,,,,,,,Department,,,[],,,,,
 Crime Statistics for Chicago Police Department - IL,,,Crime Statistics,https://home.chicagopolice.org/statistics-data/crime-statistics/,['recv9fMNEQTbVarj2'],True,,,,True,2018-01-01 00:00:00,,,,,,,True,,,,['PDF'],<2 Weeks,,,,True
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.sandiego.gov/sites/default/files/legacy/police/pdf/forattach.pdf,['recaC9Prp7sCcmAkS'],True,,,,,,,,,,,,True,,,,[],,,,,
@@ -1589,7 +1609,8 @@ The [FBI](https://www.fbi.gov/services/cjis/ucr/use-of-force) and the Centers 
 The Post seeks to make records as comprehensive as possible; the database is updated regularly as fatal shootings are reported and as facts emerge about individual cases. At times, there may be a lag between the date of the shooting and its inclusion in the database because of delays in reporting and data verification.
 To provide information about fatal police shootings since Jan. 1, 2015, send us an email at [policeshootingsfeedback@washpost.com](mailto:policeshootingsfeedback@washpost.com).
 [Explore the interactive database](https://www.washingtonpost.com/graphics/investigations/police-shootings-database/)
-",Officer Involved Shootings,https://github.com/washingtonpost/data-police-shootings,['recdokcmI0N0lJw2b'],False,"['T', 'h', 'e', '', 'W', 'a', 's', 'h', 'i', 'n', 'g', 't', 'o', 'n', '', 'P', 'o', 's', 't', '', '(', '<', 'h', 't', 't', 'p', 's', ':', '/', '/', 'w', 'w', 'w', '.', 'w', 'a', 's', 'h', 'i', 'n', 'g', 't', 'o', 'n', 'p', 'o', 's', 't', '.', 'c', 'o', 'm', '/', '>', ')', '']",True,,False,2015-01-01 00:00:00,,2022-12-06 00:00:00,,,2MB,['Web page'],True,,,,"['CSV', 'Dashboard / Visualization', 'HTML text']",As new shootings occur,Append,newest first,,False
+",Officer Involved Shootings,https://github.com/washingtonpost/data-police-shootings,['recdokcmI0N0lJw2b'],False,"The Washington Post (<https://www.washingtonpost.com/>)
+",True,,False,2015-01-01 00:00:00,,2022-12-06 00:00:00,,,2MB,['Web page'],True,,,,"['CSV', 'Dashboard / Visualization', 'HTML text']",As new shootings occur,Append,newest first,,False
 Officer Involved Shootings for Fairfax County Sheriff's Office - VA,,,Officer Involved Shootings,https://www.fairfaxcounty.gov/police/chief/generalorders/policies/officerinvolvedshooting ,['rec6Yat9sF3YdU3dy'],True,,,,False,2005-01-01 00:00:00,2021-12-31 00:00:00,,,,,,True,,,,['PDF'],<2 Weeks,,,,False
 Crime Statistics for Oakland Police Department - CA,,,Crime Statistics,https://data.oaklandca.gov/Public-Safety/CrimeWatch-Maps-Past-90-Days/ym6k-rx7a,['recncupgm6l7tzbqT'],True,,,,False,2013-01-01 00:00:00,2016-12-31 00:00:00,,90 days,,,['API'],True,,,,[],<2 Weeks,,,,False
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.kckpd.org/8cantwait.html,['rec9nw1thbPhMmIB6'],True,,,,,,,,,,,,,,,,[],,,,,
@@ -1656,7 +1677,8 @@ Arrest Records for Arlington Police Department - TX,,,Arrest Records,,['rec44U8d
 Agency Open Records Officer search,Agency Open Records Officer search,"The OOR maintains a database of Agency Open Records Officer (""AORO"") contact information for every registered agency in the Commonwealth. This AORO database allows the public to contact the correct AORO to request agency records and ensures that the OOR can contact AOROs in the event an appeal is filed with the OOR.
 To use the search form, at least one field must be selected. Note that sometimes entering all or part of an agency name and no ""County"" or ""Type"" may be the best way to find a matching agency due to variations in spelling (e.g., ""Mount"" vs. ""Mt."") or other discrepancies in the data.
 If you have difficulty using the online search form or have any questions, please contact the OOR at (717) 346-9903 or [openrecords@pa.gov](mailto:openrecords@pa.gov).
-",Records Request Info,https://www.openrecords.pa.gov/RTKL/AOROSearch.cfm,['recJmC0XOdqhvFP00'],False,"['P', 'e', 'n', 'n', 's', 'y', 'l', 'v', 'a', 'n', 'i', 'a', '', 'O', 'f', 'f', 'i', 'c', 'e', '', 'o', 'f', '', 'O', 'p', 'e', 'n', '', 'R', 'e', 'c', 'o', 'r', 'd', 's', '', 'h', 't', 't', 'p', 's', ':', '/', '/', 'w', 'w', 'w', '.', 'o', 'p', 'e', 'n', 'r', 'e', 'c', 'o', 'r', 'd', 's', '.', 'p', 'a', '.', 'g', 'o', 'v', '/', '']",True,,False,,,,,,,['Web page'],,,,,['HTML table'],,Overwrite,Alphabetical,,False
+",Records Request Info,https://www.openrecords.pa.gov/RTKL/AOROSearch.cfm,['recJmC0XOdqhvFP00'],False,"Pennsylvania Office of Open Records https://www.openrecords.pa.gov/
+",True,,False,,,,,,,['Web page'],,,,,['HTML table'],,Overwrite,Alphabetical,,False
 Training Materials,Training Materials,,Policies & Contracts,,['recErbDqVvfy6c4AK'],True,,,,,,,,,,,,,,,,[],,,,,
 Officer Involved Shootings for Arlington Police Department - TX,,,Officer Involved Shootings,https://www.arlingtontx.gov/city_hall/departments/police/reporting/use_of_force_report,['rec44U8d6ZIBHkaS1'],True,,,,False,2014-01-01 00:00:00,2021-12-31 00:00:00,,,,,,True,,,,['PDF'],Annually,,,,False
 Use of Force Reports for Long Beach Police Department - CA,,,Use of Force Reports,https://www.longbeach.gov/police/about-the-lbpd/lbpd-1421748/use-of-force/,['recRXsW0gWDYgAo08'],True,,,,True,2016-01-01 00:00:00,2020-12-31 00:00:00,,,,,,True,,,,['PDF'],Annually,,,,True
@@ -1676,7 +1698,8 @@ Firearms seized by non-City of Pittsburgh law enforcement agencies within the Ci
 Data collected through supplemental reports filled out by Pittsburgh Bureau of Police officers upon taking possession of a firearm.
 Locations where the seizure occurred are anonymized to the address block or nearest intersection. It's not always possible to geocode these anonymized addresses. In cases where geocoding fails, the latitude and longitude fields are left empty. These will display as ""None"" in table views on the WPRDC site.
 Exact date and report numbers have been removed to protect the privacy of individuals and any active investigations.
-",Misc Police Activity,https://data.wprdc.org/dataset/pbp-fire-arm-seizures,['recxUlLdt3Wwov6P1'],False,"['W', 'e', 's', 't', 'e', 'r', 'n', '', 'P', 'e', 'n', 'n', 's', 'y', 'l', 'v', 'a', 'n', 'i', 'a', '', 'R', 'e', 'g', 'i', 'o', 'n', 'a', 'l', '', 'D', 'a', 't', 'a', '', 'C', 'e', 'n', 't', 'e', 'r', '']",True,"Western Pennsylvania Regional Data Center
+",Misc Police Activity,https://data.wprdc.org/dataset/pbp-fire-arm-seizures,['recxUlLdt3Wwov6P1'],False,"Western Pennsylvania Regional Data Center
+",True,"Western Pennsylvania Regional Data Center
 ",False,2015-01-01 00:00:00,,2022-08-01 00:00:00,,4322,1MB,['Web page'],True,Opendata,,,['CSV'],monthly,Append,oldest first,,False
 Contact Info & Agency Meta for Milwaukee Police Department - WI,,,Contact Info & Agency Meta,https://city.milwaukee.gov/police/Contact-MPD,['recK4RVGXK1Kn94d5'],True,,,,,,,,,,,,,,,,[],,,,,
 List of Data Sources for San Francisco Police Department - CA,,,List of Data Sources,https://data.sfgov.org,['recpoCnVvbdpXzQpy'],True,,,,,,,,,,,,,Opendata,,,[],daily,,,,
