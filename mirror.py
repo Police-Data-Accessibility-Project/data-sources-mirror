@@ -217,7 +217,7 @@ def process_sources(data):
 
         supplying_entity = None
         if source.get("supplying_entity", None):
-            supplying_entity = [e.strip for e in source["supplying_entity"]]
+            supplying_entity = [e.strip() for e in source["supplying_entity"]]
 
         update_frequency = None
         if source.get("update_frequency", None):
