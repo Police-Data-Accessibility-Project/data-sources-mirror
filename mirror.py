@@ -15,14 +15,9 @@ def get_table_data(table_name):
     print(f"getting {table_name} table data ....")
     fieldnames = get_fieldnames(table_name)
 
-    # data = Table(
-    #     os.environ["AIRTABLE_KEY"],
-    #     os.environ["AIRTABLE_BASE_ID"],
-    #     table_name
-    # ).all(fields=fieldnames, formula="{approved}=1")
     data = Table(
-        "keyCtUHdrTsnuvnH0",
-        "app473MWXVJVaD7Es",
+        os.environ["AIRTABLE_KEY"],
+        os.environ["AIRTABLE_BASE_ID"],
         table_name
     ).all(fields=fieldnames, formula="{approved}=1")
 
@@ -262,16 +257,11 @@ def source_fieldnames():
 def prep_counties():
     print("making counties ....")
     table_name = "Counties"
-    # counties = Table(
-    #     os.environ["AIRTABLE_KEY"],
-    #     os.environ["AIRTABLE_BASE_ID"],
-    #     table_name
-    # ).all(fieldnames=["fips", "name", "airtable_uid"])
     counties = Table(
-        "keyCtUHdrTsnuvnH0",
-        "app473MWXVJVaD7Es",
+        os.environ["AIRTABLE_KEY"],
+        os.environ["AIRTABLE_BASE_ID"],
         table_name
-    ).all(fields=["fips", "name", "airtable_uid"])
+    ).all(fieldnames=["fips", "name", "airtable_uid"])
 
     # might be more we can do here to be useful
     cleaned = (
