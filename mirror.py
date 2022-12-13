@@ -49,49 +49,17 @@ def process_data(table_name, data):
 def process_agencies(data):
     processed = []
     for agency in data:
-        county_fips = None
-        if agency.get("county_fips", None):
-            county_fips = agency["county_fips"]
-
-        county_name = None
-        if agency.get("county_name", None):
-            county_name = agency["county_name"]
-
-        defunct_year = None
-        if agency.get("defunct_year", None):
-            defunct_year = agency["defunct_year"]
-        
-        homepage_url = None
-        if agency.get("homepage_url", None):
-            homepage_url = agency["homepage_url"]
-
-        jurisdiction_type = None
-        if agency.get("jurisdiction_type", None):
-            jurisdiction_type = agency["jurisdiction_type"]
-
-        lat = None
-        if agency.get("lat", None):
-            lat = agency["lat"]
-
-        lng = None
-        if agency.get("lng", None):
-            lng = agency["lng"]
-
-        municipality = None
-        if agency.get("municipality", None):
-            municipality = agency["municipality"]
-
-        name = None
-        if agency.get("name", None):
-            name = agency["name"]
-
-        state_iso = None
-        if agency.get("state_iso", None):
-            state_iso = agency["state_iso"]
-
-        submitted_name = None
-        if agency.get("submitted_name", None):
-            submitted_name = agency["submitted_name"]
+        county_fips = agency.get("county_fips", None)
+        county_name = agency.get("county_name", None)
+        defunct_year = agency.get("defunct_year", None)
+        homepage_url = agency.get("homepage_url", None)
+        jurisdiction_type = agency.get("jurisdiction_type", None)
+        lat = agency.get("lat", None)
+        lng = agency.get("lng", None)
+        municipality = agency.get("municipality", None)
+        name = agency.get("name", None)
+        state_iso = agency.get("state_iso", None)
+        submitted_name = agency.get("submitted_name", None)
 
         row = {
             "name": name,
@@ -116,20 +84,16 @@ def process_agencies(data):
 def process_sources(data):
     processed = []
     for source in data:
-        agency_linked = None
-        if source.get("agency_described_linked_uid", None):
-            # TODO: handle cases where there is more than one item in the list
-            agency_linked = source["agency_described_linked_uid"]
-
+        # TODO: handle cases where there is more than one item in the list
+        agency_linked = source.get("agency_described_linked_uid", None)
+        
         start_raw = source.get("coverage_start", None)
         start = datetime.datetime.strptime(start_raw, "%Y-%m-%d") if start_raw else None
 
         end_raw = source.get("coverage_end", None)
         end = datetime.datetime.strptime(end_raw, "%Y-%m-%d") if end_raw else None
 
-        access_type = None
-        if source.get("access_type", None):
-            access_type = source["access_type"]
+        access_type = source.get("access_type", None)
 
         aggregated = None
         if source.get("aggregation_type", None):
@@ -140,17 +104,9 @@ def process_sources(data):
             else:
                 aggregated = True
 
-        description = None
-        if source.get("description", None):
-            description = source["description"]
-
-        download_option = None
-        if source.get("record_download_option_provided", None):
-            download_option = source["record_download_option_provided"]
-
-        num_records = None
-        if source.get("number_of_records_available", None):
-            num_records = int(source["number_of_records_available"])
+        description = source.get("description", None)
+        download_option = source.get("record_download_option_provided", None)
+        num_records = source.get("number_of_records_available", None)
 
         originated = None
         if source.get("agency_originated", None):
@@ -159,30 +115,13 @@ def process_sources(data):
             elif source["agency_originated"] == "no":
                 originated = False
         
-        originating_entity = None
-        if source.get("originating_entity", None):
-            # why does this have line endings in the string? c/mon people
-            originating_entity = source["originating_entity"].strip()
-
-        portal_type = None
-        if source.get("data_portal_type", None):
-            portal_type = source["data_portal_type"]
-
-        record_format = []
-        if source.get("record_format", None):
-            record_format = source["record_format"]
-
-        record_type = None
-        if source.get("record_type", None):
-            record_type = source["record_type"]
-
-        restrictions = None
-        if source.get("access_restrictions", None):
-            restrictions = source["access_restrictions"]
-
-        restrictions_notes = None
-        if source.get("access_restrictions_notes", None):
-            restrictions_notes = source["access_restrictions_notes"]
+        # why does this have line endings in the string? c/mon people
+        originating_entity = source.get("originating_entity", None)
+        portal_type = source.get("data_portal_type", None)
+        record_format = source.get("record_format", [])
+        record_type = source.get("record_type", None)
+        restrictions = source.get("access_restrictions", None)
+        restrictions_notes = source.get("access_restrictions_notes", None)
 
         supplied = None
         if source.get("agency_supplied", None):
@@ -191,41 +130,23 @@ def process_sources(data):
             elif source["agency_supplied"] == "no":
                 supplied = False
 
-        retention_schedule = None
-        if source.get("retention_schedule", None):
-            retention_schedule = source["retention_schedule"]
-
-        size = None
-        if source.get("size", None):
-            size = source["size"]
-
-        sort_method = None
-        if source.get("sort_method", None):
-            size = source["sort_method"]
+        retention_schedule = source.get("retention_schedule", None)
+        size = source.get("size", None)
+        sort_method = source.get("sort_method", None)
 
         source_last_updated = None
         if source.get("source_last_updated", None):
             source_last_updated = datetime.datetime.strptime(source["source_last_updated"], "%Y-%m-%d")
 
-        source_url = None
-        if source.get("source_url", None):
-            source_url = source["source_url"]
-
-        submitted_name = None
-        if source.get("submitted_name", None):
-            submitted_name = source["submitted_name"]
+        source_url = source.get("source_url", None)
+        submitted_name = source.get("submitted_name", None)
 
         supplying_entity = None
         if source.get("supplying_entity", None):
             supplying_entity = [e.strip() for e in source["supplying_entity"]]
 
-        update_frequency = None
-        if source.get("update_frequency", None):
-            update_frequency = source["update_frequency"]
-
-        update_method = None
-        if source.get("update_method", None):
-            update_method = source["update_method"]
+        update_frequency = source.get("update_frequency", None)
+        update_method = source.get("update_method", None)
 
         row = {
             "access_restrictions": restrictions,
