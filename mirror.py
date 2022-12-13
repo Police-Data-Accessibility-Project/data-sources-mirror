@@ -15,9 +15,14 @@ def get_table_data(table_name):
     print(f"getting {table_name} table data ....")
     fieldnames = get_fieldnames(table_name)
 
+    # data = Table(
+    #     os.environ["AIRTABLE_KEY"],
+    #     os.environ["AIRTABLE_BASE_ID"],
+    #     table_name
+    # ).all(fields=fieldnames, formula="{approved}=1")
     data = Table(
-        os.environ["AIRTABLE_KEY"],
-        os.environ["AIRTABLE_BASE_ID"],
+        "keyCtUHdrTsnuvnH0",
+        "app473MWXVJVaD7Es",
         table_name
     ).all(fields=fieldnames, formula="{approved}=1")
 
@@ -35,7 +40,7 @@ def process_data(table_name, data):
     # each record might have different fields missing than others,
     # and there's no way in advance to determine which ones.
     # so get ready for lots of sniffing and setting of nulls
-    print("processing {table_name} data ....")
+    print(f"processing {table_name} data ....")
     if table_name == "Agencies":
         processed = process_agencies(data.rows)
     elif table_name == "Data Sources":
@@ -48,8 +53,23 @@ def process_data(table_name, data):
 
 def process_agencies(data):
     processed = []
+    counties = prep_counties()
     for agency in data:
-        county_fips = agency.get("county_fips", None)
+        encoded_fips = agency.get("county_fips", None)
+        if encoded_fips:
+            # TODO: handle cases of more than one county
+            if type(encoded_fips) == list and len(encoded_fips) > 0:
+                encoded_fips_popped = encoded_fips[0]
+                if counties.get(encoded_fips_popped, None):
+                    decoded_fips = counties.get(encoded_fips_popped, None).get("fips", None)
+                else:
+                    decoded_fips = None
+            else:
+                decoded_fips = counties.get(encoded_fips, None).get("fips", None)
+        else:
+            decoded_fips = None
+        county_fips = decoded_fips
+        # TODO: handle cases of more than one county
         county_name = agency.get("county_name", None)
         defunct_year = agency.get("defunct_year", None)
         homepage_url = agency.get("homepage_url", None)
@@ -237,6 +257,35 @@ def source_fieldnames():
         "agency_described_linked_uid",
         "aggregation_type"
     ]
+
+
+def prep_counties():
+    print("making counties ....")
+    table_name = "Counties"
+    # counties = Table(
+    #     os.environ["AIRTABLE_KEY"],
+    #     os.environ["AIRTABLE_BASE_ID"],
+    #     table_name
+    # ).all(fieldnames=["fips", "name", "airtable_uid"])
+    counties = Table(
+        "keyCtUHdrTsnuvnH0",
+        "app473MWXVJVaD7Es",
+        table_name
+    ).all(fields=["fips", "name", "airtable_uid"])
+
+    # might be more we can do here to be useful
+    cleaned = (
+        c["fields"]
+        for c in counties
+    )
+
+    return {
+        county["airtable_uid"]: {
+            "fips": county["fips"],
+            "name": county["name"]
+        }
+        for county in cleaned
+    }
 
 
 def write_csv(data_package, location):
