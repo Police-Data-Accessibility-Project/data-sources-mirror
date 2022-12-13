@@ -261,7 +261,7 @@ def prep_counties():
         os.environ["AIRTABLE_KEY"],
         os.environ["AIRTABLE_BASE_ID"],
         table_name
-    ).all(fieldnames=["fips", "name", "airtable_uid"])
+    ).all(fields=["fips", "name", "airtable_uid"])
 
     # might be more we can do here to be useful
     cleaned = (
