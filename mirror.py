@@ -12,6 +12,7 @@ from pyairtable import Table
 Sheet = namedtuple("Sheet", ['headers', 'rows'])
 
 def get_table_data(table_name):
+    print(f"getting {table_name} table data ....")
     fieldnames = get_fieldnames(table_name)
 
     data = Table(
@@ -34,9 +35,11 @@ def process_data(table_name, data):
     # each record might have different fields missing than others,
     # and there's no way in advance to determine which ones.
     # so get ready for lots of sniffing and setting of nulls
+    print(f"processing {table_name} data ....")
     if table_name == "Agencies":
         processed = process_agencies(data.rows)
     elif table_name == "Data Sources":
+        print("processing sources ....")
         processed = process_sources(data.rows)
     else:
         raise RuntimeError("Check the table name -- it might not be accurate")
@@ -232,8 +235,7 @@ def process_sources(data):
             "agency_described": agency_linked,
             "agency_originated": originated,
             "agency_supplied": supplied,
-            "aggregated": aggregated,
-            "airtable_uid": source["airtable_uid"],
+            "aggregation_type": aggregated,
             "coverage_start": start,
             "coverage_end": end,
             "data_portal_type": portal_type,
@@ -313,6 +315,7 @@ def source_fieldnames():
         "update_method",
         "sort_method",
         "agency_described_linked_uid",
+        "aggregation_type"
     ]
 
 
@@ -329,9 +332,9 @@ def run_the_jewels(table_names, csv_locations):
     for target in targets:
         data = get_table_data(target[0])
         processed = process_data(target[0], data)
+        print(f"writing {target} csv")
         write_csv(processed, target[1])
     
-
 
 if __name__ == "__main__":
     agencies_filename = "csv/agencies.csv"
@@ -341,3 +344,5 @@ if __name__ == "__main__":
     agencies_table_name = "Agencies"
     sources_table_name = "Data Sources"
     table_names = [agencies_table_name, sources_table_name]
+
+    run_the_jewels(table_names, filenames)
