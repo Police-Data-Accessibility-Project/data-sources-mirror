@@ -19,7 +19,7 @@ def get_table_data(table_name):
         os.environ["AIRTABLE_KEY"],
         os.environ["AIRTABLE_BASE_ID"],
         table_name
-    ).all(fields=fieldnames, formula=os.environ["FORMULA"])
+    ).all(fields=fieldnames, formula="{approved}=1")
 
     # ditch unneeded nesting and get to the objects we care about;
     # nothing should have to care about the original
@@ -35,11 +35,10 @@ def process_data(table_name, data):
     # each record might have different fields missing than others,
     # and there's no way in advance to determine which ones.
     # so get ready for lots of sniffing and setting of nulls
-    print(f"processing {table_name} data ....")
+    print("processing {table_name} data ....")
     if table_name == "Agencies":
         processed = process_agencies(data.rows)
     elif table_name == "Data Sources":
-        print("processing sources ....")
         processed = process_sources(data.rows)
     else:
         raise RuntimeError("Check the table name -- it might not be accurate")
