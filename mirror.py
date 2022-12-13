@@ -11,35 +11,35 @@ from pyairtable import Table
 
 Sheet = namedtuple("Sheet", ['headers', 'rows'])
 
-def get_table_data(name):
-    fieldnames = get_fieldnames(name)
+def get_table_data(table_name):
+    fieldnames = get_fieldnames(table_name)
 
     data = Table(
         os.environ["AIRTABLE_KEY"],
         os.environ["AIRTABLE_BASE_ID"],
-        name
+        table_name
     ).all(fields=fieldnames, formula=os.environ["FORMULA"])
 
-    rows = process_data(name, rows)
+    # ditch unneeded nesting and get to the objects we care about;
+    # nothing should have to care about the original
+    # structure beyond this point
+    rows = (d["fields"] for d in data)
 
     return Sheet(fieldnames, rows)
 
 
 def process_data(table_name, data):
-    # break out the nested stuff before passing this along for use;
-    # nothing should have to care about the original
-    # structure beyond this point
-    rows = (d["fields"] for d in data.rows)
-
     # this will get a little weird: the Airtable API doesn't include
     # fields with records that have falsy values;
     # each record might have different fields missing than others,
     # and there's no way in advance to determine which ones.
     # so get ready for lots of sniffing and setting of nulls
     if table_name == "Agencies":
-        processed = process_agencies(rows)
+        processed = process_agencies(data.rows)
     elif table_name == "Data Sources":
-        processed = process_sources(rows)
+        processed = process_sources(data.rows)
+    else:
+        raise RuntimeError("Check the table name -- it might not be accurate")
 
     return Sheet(data.headers, processed)
 
@@ -317,10 +317,27 @@ def source_fieldnames():
 
 
 def write_csv(data_package, location):
-    pass
+    with open(location, "w") as f:
+        writer = csv.DictWriter(f, fieldnames=data_package.headers)
+        writer.writeheader()
+        writer.writerows(data_package.rows)
 
+
+def run_the_jewels(table_names, csv_locations):
+    targets = zip(table_names, csv_locations)
+
+    for target in targets:
+        data = get_table_data(target[0])
+        processed = process_data(target[0], data)
+        write_csv(processed, target[1])
+    
 
 
 if __name__ == "__main__":
-    agencies_filename = "agencies.csv"
-    sources_filename = "sources.csv"
+    agencies_filename = "csv/agencies.csv"
+    sources_filename = "csv/data_sources.csv"
+    filenames = [agencies_filename, sources_filename]
+
+    agencies_table_name = "Agencies"
+    sources_table_name = "Data Sources"
+    table_names = [agencies_table_name, sources_table_name]
