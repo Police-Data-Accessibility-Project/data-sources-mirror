@@ -320,6 +320,8 @@ Accident Reports for Pooler Police Department - GA,,,Accident Reports,https://ww
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,,['reccnFDyDmi6MyRef'],True,,,,,,,,,,,,,,,,[],,,,,
 Arrest Records for Seattle Police Department - WA,,,Arrest Records,https://www.seattle.gov/police/information-and-data/arrest-dashboard,['rec7yups5HDhlbkrA'],True,,,,True,2019-01-01 00:00:00,2021-12-31 00:00:00,,,,,['Web page'],True,,,,[],Annually,,,,True
 Training Materials,Training Materials,,Policies & Contracts,http://www.slcpd.com/transparency/,['rec3BZ9BPYAGNSkxD'],True,,,,,,,,,,,,True,,,,[],,,,,
+Pennsylvania Inmate/Parolee Locator,Pennsylvania Inmate/Parolee Locator,"Using a variety of search criteria, it's possible to find inmates and parolees in Pennsylvania. 
+",Inmate Records,http://inmatelocator.cor.pa.gov/,['rechZ9R9zPOTNAaw5'],True,,,,False,,,,,,,['Web page'],,,,,['HTML table'],,Overwrite,,,False
 Use of Force Reports for Albuquerque Police Department - NM,,,Use of Force Reports,https://www.cabq.gov/police/internal-reports,['rec3zo89q4bbafUuG'],True,,,,True,2015-01-01 00:00:00,2020-12-31 00:00:00,,,,,,True,,,,['PDF'],Annually,,,,True
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://charlottenc.gov/CMPD/Documents/Resources/RulesofConduct.pdf,['reco9uv3qebC6UdmP'],True,,,,,,,,,,,,True,,,,[],,,,,
 Missouri Vehicle Stops Report,Missouri Vehicle Stops Report,"Aggregated by the state Attorney General from (in theory) every police agency in Missouri.
