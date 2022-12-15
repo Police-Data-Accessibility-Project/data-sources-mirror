@@ -217,7 +217,8 @@ def agency_fieldnames():
         "lat",
         "lng",
         "defunct_year",
-        "airtable_uid"
+        "airtable_uid",
+        "county_airtable_uid"  # TODO: remove this before it's a csv header
     ]
 
 
