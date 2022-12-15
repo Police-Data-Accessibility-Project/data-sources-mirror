@@ -3,7 +3,7 @@ name: Mirror Airtable data
 
 on:
   schedule:
-  - cron: "0 17 * * *"
+  - cron: "0 0 1 * *"
   workflow_dispatch:
 
 jobs:
