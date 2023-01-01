@@ -396,7 +396,7 @@ Use of Force Policy,Use of Force Policy,,Policies & Contracts,,['rectyJtwkk06tLP
 Local Jail Inmate Roster for Caddo Parish Sheriff's Office - LA,Local Jail Inmate Roster for Caddo Parish Sheriff's Office - LA,,Inmate Records,http://www.caddo.lavns.org/roster.aspx,['rec2R8uoy5xP5g7PP'],True,,,,False,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,Alphabetical,,False
 Crime Maps & Reports for Colorado Springs Police Department - CO,,,Crime Maps & Reports,https://communitycrimemap.com/,['recnOUm1WFltLn9Wv'],True,,,,False,2008-01-01 00:00:00,,,,,,['API'],,,,,[],,,,,False
 Pittsburgh Bureau of Police Annual Reports,Pittsburgh Bureau of Police Annual Reports,"Annual reports in PDF form back to 2009
-",Annual Reports,https://pittsburghpa.gov/police/police-reports,['recxUlLdt3Wwov6P1'],True,,,,False,2009-01-01 00:00:00,,2021-01-01 00:00:00,,12,,['Web page'],,,,,['PDF: Machine Created'],annually,Append,oldest first,,False
+",Annual & Monthly Reports,https://pittsburghpa.gov/police/police-reports,['recxUlLdt3Wwov6P1'],True,,,,False,2009-01-01 00:00:00,,2021-01-01 00:00:00,,12,,['Web page'],,,,,['PDF: Machine Created'],annually,Append,oldest first,,False
 Contact Info & Agency Meta for Tucson Police Department - AZ,,,Contact Info & Agency Meta,https://www.tucsonaz.gov/police/contacts,['rec2FkksoIU2I4PtQ'],True,,,,,,,,,,,,,,,,[],,,,,
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://fargond.gov/city-government/departments/police/faqs/fargo-police-policy-manual,['recyttVYM3YNTp5QN'],True,,,,,,,,,,,,True,,,,[],,,,,
 Calls for Service for Colorado Springs Police Department - CO,,,Calls for Service,https://web2.coloradosprings.gov/policeblotter/,['recnOUm1WFltLn9Wv'],True,,,,False,2021-01-01 00:00:00,,,,,,['Web page'],,,,,[],<2 Weeks,,,,False
@@ -459,9 +459,9 @@ Crime Statistics for El Paso Police Department - TX,,,Crime Statistics,https://w
 Calls for Service for Fairfax County Sheriff's Office - VA,,,Calls for Service,https://www.fairfaxcounty.gov/police/chief/crimestatistics ,['rec6Yat9sF3YdU3dy'],True,,,,True,2010-01-01 00:00:00,2020-12-31 00:00:00,,,,,,True,,,,['PDF'],Annually,,,,True
 Officer Involved Shootings for Honolulu Police Department - HI,,,Officer Involved Shootings,,['rechA8JrjEAtG6RWY'],True,,,,,,,,,,,,,,,,[],,,,,
 Calls for Service for Cleveland Division of Police - OH,,,Calls for Service,https://clevelandgis.maps.arcgis.com/apps/webappviewer/index.html?id=5cd6bf3491c1493084e1090cbd03e2c4,['recluKwTp3TBJzSPz'],True,,,,False,2022-01-01 00:00:00,,,,,,['API'],,,,,[],<2 Weeks,,,,False
-Training Logs for Pittsburgh Bureau of Police - PA,,"This dataset shows the time spent by currently active Pittsburgh Police Officers in professional development training. Officers who are no longer employed in the Police Bureau are not included in this data. The data is presented in two ways: total, cumulative hours spent in training, per year, by category and total number of officers who completed training, per year, by category.
+Training & Hiring Info for Pittsburgh Bureau of Police - PA,,"This dataset shows the time spent by currently active Pittsburgh Police Officers in professional development training. Officers who are no longer employed in the Police Bureau are not included in this data. The data is presented in two ways: total, cumulative hours spent in training, per year, by category and total number of officers who completed training, per year, by category.
 
-",Training Logs,https://data.wprdc.org/dataset/officer-training,['recxUlLdt3Wwov6P1'],False,"Western Pennsylvania Regional Data Center
+",Training & Hiring Info,https://data.wprdc.org/dataset/officer-training,['recxUlLdt3Wwov6P1'],False,"Western Pennsylvania Regional Data Center
 ",True,"Western Pennsylvania Regional Data Center
 ",True,2006-01-01 00:00:00,,2021-02-03 00:00:00,,3,75KB,['Web page'],True,Opendata,,,['XLS'],annually,Append,oldest first,,True
 Complaints & Misconduct for Fort Worth Police Department - TX,,,Complaints & Misconduct,,['recJlgbsYgxyJU3Hv'],True,,,,,,,,,,,,,,,,[],,,,,
@@ -517,7 +517,7 @@ Arrest Records for Fargo Police Department - ND,,,Arrest Records,https://fargond
 Calls for Service for Huron Police Department - SD,,,Calls for Service,https://cityprotect.com/agency/5d2ef925-427e-4154-b775-d73e7b19f9da,['recQ9MINzH2iOdKvg'],False,,,,,2017-01-01 00:00:00,,,,,,,,CityProtect,,,[],quarterly,,,,
 Arrest Records for Honolulu Police Department - HI,,,Arrest Records,https://www.honolulupd.org/informatioNArrest-logs/,['rechA8JrjEAtG6RWY'],True,,,,False,2021-01-01 00:00:00,,,,,,,True,,,,['PDF'],<2 Weeks,,,,False
 Officer Involved Shootings for Virginia Beach Police Department - VA,,,Officer Involved Shootings,,['recWwVgVXLEcfwZe6'],True,,,,,,,,,,,,,,,,[],,,,,
-Annual Reports for Aurora Police Department - CO,,,Annual Reports,https://www.auroragov.org/cms/One.aspx?portalId=16242704&pageId=16573554,['recyGbfnpoRDptbNz'],True,,,,,,,,,,,,,,,,[],,,,,
+Annual & Monthly Reports for Aurora Police Department - CO,,,Annual & Monthly Reports,https://www.auroragov.org/cms/One.aspx?portalId=16242704&pageId=16573554,['recyGbfnpoRDptbNz'],True,,,,,,,,,,,,,,,,[],,,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.denvergov.org/content/dam/denvergov/Portals/720/documents/OperationsManual/OMSBook/OM_Book.pdf,['rec09zJG7sRXlxNva'],True,,,,,,,,,,,,,,,,[],,,,,
 Arrest Records for Las Vegas Metropolitan Police Department - NV,,,Arrest Records,https://www.lvmpd.com/en-us/Pages/Statistics.aspx,['recm1m23x7Ikl7ozK'],True,,,,True,2021-01-01 00:00:00,,,,,,,True,,,,['PDF'],<2 Weeks,,,,True
 Use of Force Reports for Washington Metropolitan Police Department - DC,,,Use of Force Reports,https://policecomplaints.dc.gov/page/use-force-reports,['recNNfzh6R2eGptZv'],True,,,,True,2017-01-01 00:00:00,2020-12-31 00:00:00,,,,,,True,,,,['PDF'],Annually,,,,True
@@ -655,7 +655,7 @@ Use of Force Reports for Portland Police Bureau - OR,,,Use of Force Reports,http
 Crime Statistics for Wilmington Police Department - DE,,,Crime Statistics,,['recn17bLsakZNwGeT'],True,,,,,,,,,,,,,,,,[],,,,,
 Calls for Service for Urbana Police Department - IL,,,Calls for Service,https://cityprotect.com/agency/urbanapd,['reczqclptDVzCEGx6'],False,,,,,2017-01-01 00:00:00,,,,,,,,CityProtect,,,[],quarterly,,,,
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,"https://www.phoenix.gov/police/outreach-initiatives#:~:text=Use%20of%20Force%20Policy&text=Officers%20are%20trained%20to%20utilize,the%20weapons%2C%20tactics%20or%20techniques.",['rec4URK0s7nbYBi22'],True,,,,,,,,,,,,True,,,,[],,,,,
-Annual Reports for Alameda Police Department - CA,,,Annual Reports,https://www.alamedaca.gov/Departments/Police-Department/Annual-Crime-Stats,['recdaczfZN81k1GP4'],True,,,,,,,,,,,,,,,,[],,,,,
+Annual & Monthly Reports for Alameda Police Department - CA,,,Annual & Monthly Reports,https://www.alamedaca.gov/Departments/Police-Department/Annual-Crime-Stats,['recdaczfZN81k1GP4'],True,,,,,,,,,,,,,,,,[],,,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://public.powerdms.com/CPD5/tree,['reccKBQkScaxoYvVR'],True,,,,,,,,,,,,,,,,[],,,,,
 Contact Info & Agency Meta for Detroit Police Department - MI,,,Contact Info & Agency Meta,https://detroitmi.gov/departments/police-department,['recsCx4e70CrvOc2X'],True,,,,,,,,,,,,,,,,[],,,,,
 Arrest Records for Jackson Police Department - MS,,,Arrest Records,,['rechIAhFfnAuSXtYK'],True,,,,,,,,,,,,,,,,[],,,,,
@@ -699,7 +699,7 @@ Calls for Service for Louisville Metro Police Department - KY,,,Calls for Servic
 Complaints & Misconduct for Los Angeles Police Department - CA,,,Complaints & Misconduct,https://www.lapdonline.org/office-of-the-chief-of-police/constitutional-policing/annual-complaint-report/,['rec72qU5SjuqNmKBx'],True,,,,False,2015-01-01 00:00:00,2019-12-31 00:00:00,,,,,,,,,,['PDF'],,,,,False
 Calls for Service for Little Rock Police Department - AR,,,Calls for Service,https://clrweb.littlerock.state.ar.us/pub/public_menu.php,['receeBsXEet16ZldA'],True,,,,False,2021-01-01 00:00:00,,,,,,['Web page'],,,,,[],<2 Weeks,,,,False
 Traffic Stops for Miami Police Department - FL,,,Traffic Stops,,['recBxBcX5zRhL2oiP'],True,,,,,,,,,,,,,,,,[],,,,,
-Annual Reports for El Camino College Police Department - CA,,,Annual Reports,https://www.elcamino.edu/about/depts/police/cleryact/index.aspx,['recQhfksI90nqwHmW'],True,,,,,2020-01-01 00:00:00,,,,,,,,,,,[],annually,,,,
+Annual & Monthly Reports for El Camino College Police Department - CA,,,Annual & Monthly Reports,https://www.elcamino.edu/about/depts/police/cleryact/index.aspx,['recQhfksI90nqwHmW'],True,,,,,2020-01-01 00:00:00,,,,,,,,,,,[],annually,,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.orlando.gov/Our-Government/Departments-Offices/Orlando-Police-Department/Policies-and-Procedures/Police-Operations,['recbeI8oNZPtuka3g'],True,,,,,,,,,,,,,,,,[],,,,,
 Training Academy Leadership & Staff for Allegheny County Police,Training Academy Leadership & Staff for Allegheny County Police,,Contact Info & Agency Meta,https://www.alleghenycounty.us/police-academy/leadership-and-staff.aspx,['recUrmZRbAAfAfh57'],True,,,,,,,,,,,['Web page'],,,,,['HTML text'],,Overwrite,,,
 Use of Force Reports for Suffolk County Police Department - NY,,,Use of Force Reports,,['rec6K0CpcAATt5Hza'],True,,,,,,,,,,,,,,,,[],,,,,
@@ -872,7 +872,7 @@ Booking Reports for Southeastern Ohio Regional Jail - OH,,,Booking Reports,https
 Use of Force Reports for DeKalb County Police Department - GA,,,Use of Force Reports,,['recB7U0asoiWGDLGI'],True,,,,,,,,,,,,,,,,[],,,,,
 API Information,API Information,,List of Data Sources,https://opendata.cityofboise.org/,['recVhF4i8nnRlqkow'],True,,,,,,,,,,,,,ArcGIS,,,[],,,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,,['recLg3tH58kqChcE8'],True,,,,,,,,,,,,,,,,[],,,,,
-Annual Reports for Dixon Police Department - CA,,,Annual Reports,https://www.dixonpolice.org/evo_cloud_widget/media_folder/?media_folder_id=28802&current_folder=,['recuI6vek88BQGbBh'],True,,,,,2010-01-01 00:00:00,,,,,,,,,,,[],annually,,,,
+Annual & Monthly Reports for Dixon Police Department - CA,,,Annual & Monthly Reports,https://www.dixonpolice.org/evo_cloud_widget/media_folder/?media_folder_id=28802&current_folder=,['recuI6vek88BQGbBh'],True,,,,,2010-01-01 00:00:00,,,,,,,,,,,[],annually,,,,
 Louisville Metro Police Department Site Map,Louisville Metro Police Department Site Map,,List of Data Sources,https://louisville-police.org/sitemap,['recAGAe57BJc0uH3Y'],True,,,,False,,,,,,,['Web page'],,,,,['HTML text'],,,,,False
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.suffolkcountyny.gov/Portals/0/formsdocs/Boardofethics/Suffolk%20County%20SOP%20Manual-1.pdf,['rec6K0CpcAATt5Hza'],True,,,,,,,,,,,,,,,,[],,,,,
 Crime Maps & Reports for Minneapolis Police Department - MN,,,Crime Maps & Reports,https://opendata.minneapolismn.gov/datasets/police-incidents-2021/explore  ,['recek3tj2Iwks1lDC'],True,,,,False,2021-01-01 00:00:00,,,,,,['API'],True,,,,[],,,,,False
@@ -1079,7 +1079,7 @@ Complaints & Misconduct for Los Angeles Police Department - CA,,,Complaints & Mi
 API Information,API Information,,List of Data Sources,,['recyttVYM3YNTp5QN'],True,,,,,,,,,,,,,,,,[],,,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://public.powerdms.com/MESAPD/tree,['recOrC5Wf0RkcLHPG'],True,,,,,,,,,,,,,,,,[],,,,,
 Complaints & Misconduct for Detroit Police Department - MI,,,Complaints & Misconduct,,['recsCx4e70CrvOc2X'],True,,,,,,,,,,,,,,,,[],,,,,
-Annual Reports for Citrus College Campus Safety - CA,,,Annual Reports,https://www.citruscollege.edu/campussafety/Pages/AnnualReports.aspx,['recG49WuJr0PMD27d'],True,,,,,2020-01-01 00:00:00,,,,,,,,,,,[],annually,,,,
+Annual & Monthly Reports for Citrus College Campus Safety - CA,,,Annual & Monthly Reports,https://www.citruscollege.edu/campussafety/Pages/AnnualReports.aspx,['recG49WuJr0PMD27d'],True,,,,,2020-01-01 00:00:00,,,,,,,,,,,[],annually,,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,,['recVhF4i8nnRlqkow'],True,,,,,,,,,,,,,,,,[],,,,,
 Training Materials,Training Materials,,Policies & Contracts,,['recYogPFGEl6gBgud'],True,,,,,,,,,,,,,,,,[],,,,,
 Use of Force Reports for Detroit Police Department - MI,,,Use of Force Reports,,['recsCx4e70CrvOc2X'],True,,,,,,,,,,,,,,,,[],none,,,,
@@ -1248,7 +1248,7 @@ Officer Involved Shootings for Saint Louis County Police Department - MO,,,Offic
 API Information,API Information,,List of Data Sources,https://data.charlottenc.gov/,['reco9uv3qebC6UdmP'],True,,,,,,,,,,,,,ArcGIS,,,[],,,,,
 Crime Maps & Reports for Humboldt State University Campus Police - CA,,,Crime Maps & Reports,https://hsupd.crimegraphics.com/2013/default.aspx,['recpaYig8y9YGb8bB'],False,,,,,,,,,,,,,CrimeGraphics,,,[],daily,,,,
 Complaints & Misconduct for Charlotte-Mecklenburg Police Department - NC,,,Complaints & Misconduct,https://charlottenc.gov/CMPD/Safety/Pages/CrimeStats.aspx,['reco9uv3qebC6UdmP'],True,,,,True,2009-01-01 00:00:00,2020-12-31 00:00:00,,,,,,,,,,['PDF'],,,,,True
-Annual Reports for Lorain County Sheriff's Office - OH,,,Annual Reports,https://loraincountysheriff.com/annual-law-enforcement-reports/,['recwfBbVw3Ew8xVdF'],True,,,,,2018-01-01 00:00:00,,2021-01-01 00:00:00,,4,,['Web page'],,,,,['PDF: Machine Created'],annually,Append,,,
+Annual & Monthly Reports for Lorain County Sheriff's Office - OH,,,Annual & Monthly Reports,https://loraincountysheriff.com/annual-law-enforcement-reports/,['recwfBbVw3Ew8xVdF'],True,,,,,2018-01-01 00:00:00,,2021-01-01 00:00:00,,4,,['Web page'],,,,,['PDF: Machine Created'],annually,Append,,,
 Officer Involved Shootings for San Francisco Police Department - CA,,,Officer Involved Shootings,https://www.sanfranciscopolice.org/your-sfpd/published-reports/officer-involved-shootings-ois-data,['recpoCnVvbdpXzQpy'],True,,,,True,2009-01-01 00:00:00,2021-12-31 00:00:00,,,,,['Web page'],,,,,[],Annually,,,,True
 Complaints & Misconduct for El Cerrito Police Department - CA,,,Complaints & Misconduct,http://www.el-cerrito.org/1343/Administrative-Investigation-12-21,['recKcmEAv5lG93wDu'],True,,,,,,,,,,,,,,,,[],annually,,,,
 Traffic Stops for Austin Police Department - TX,,,Traffic Stops,,['rec4sEAPcstcFaxeM'],True,,,,,,,,,,,,,,,,[],,,,,
@@ -1294,7 +1294,7 @@ Arrest Records for Cleveland Division of Police - OH,,,Arrest Records,,['recluKw
 Crime Maps & Reports for Cincinnati Police Department - OH,,,Crime Maps & Reports,https://insights.cincinnati-oh.gov/stories/s/8eaa-xrvz,['reckfmcGwQJErdkkT'],True,,,,True,2017-01-01 00:00:00,,,,,,['API'],True,,,,[],,,,,True
 API Information,API Information,,List of Data Sources,https://www.phoenixopendata.com/,['rec4URK0s7nbYBi22'],True,,,,,,,,,,,,,Open Knowledge Foundation,,,[],,,,,
 Use of Force Reports for Colorado Springs Police Department - CO,,,Use of Force Reports,https://policedata.coloradosprings.gov/Use-of-Force/Use-of-Force-Reports/ii9t-cvd6,['recnOUm1WFltLn9Wv'],True,,,,False,2017-01-01 00:00:00,2021-12-31 00:00:00,,,,,['API'],True,,,,[],Annually,,,,False
-Annual Reports for Los Rios Community College Police Department - CA,,,Annual Reports,https://police.losrios.edu/clery,['recF0B3vmaWPY3kNE'],True,,,,,2017-01-01 00:00:00,,,,,,,,,,,[],annually,,,,
+Annual & Monthly Reports for Los Rios Community College Police Department - CA,,,Annual & Monthly Reports,https://police.losrios.edu/clery,['recF0B3vmaWPY3kNE'],True,,,,,2017-01-01 00:00:00,,,,,,,,,,,[],annually,,,,
 Contact Info & Agency Meta for Columbus Division of Police - OH,,,Contact Info & Agency Meta,https://www.columbus.gov/police-contactlist/,['recCbX7E4fOrOhuHv'],True,,,,,,,,,,,,,,,,[],,,,,
 Use of Force Reports for Wilmington Police Department - DE,,,Use of Force Reports,,['recn17bLsakZNwGeT'],True,,,,,,,,,,,,,,,,[],,,,,
 Training Materials,Training Materials,,Policies & Contracts,https://www.orlando.gov/Our-Government/Departments-Offices/Orlando-Police-Department/Policies-and-Procedures/Training,['recbeI8oNZPtuka3g'],True,,,,,,,,,,,,True,,,,[],,,,,
@@ -1512,8 +1512,8 @@ Contact Info & Agency Meta for Aurora Police Department - CO,,,Contact Info & Ag
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.wilmingtonde.gov/government/public-safety/wilmington-police-department/policies-and-procedures,['recn17bLsakZNwGeT'],True,,,,,,,,,,,,,,,,[],,,,,
 Arrest Records for Sioux Falls Police Department - SD,,,Arrest Records,,['recAqVRqRe0pCUceO'],True,,,,,,,,,,,,,,,,[],,,,,
 Complaints & Misconduct for Seattle Police Department - WA,,,Complaints & Misconduct,https://data.seattle.gov/Public-Safety/Office-of-Police-Accountability-Complaints/99yi-dthu,['rec7yups5HDhlbkrA'],True,,,,False,2015-01-01 00:00:00,,,,,,['API'],True,,,,[],<2 Weeks,,,,False
-Pittsburgh Bureau of Police UCR reporting,Pittsburgh Bureau of Police UCR reporting,"Tableau dashboard; no downloadable source data
-",UCR Data,https://tableau.alleghenycounty.us/t/PublicSite/views/CJ_UCR_PGH_8-22-17_v3/Home_1?iframeSizedToWindow=true&%3Aembed=y&%3AshowAppBanner=false&%3Adisplay_count=no&%3AshowVizHome=no&%3Aorigin=viz_share_link,['recxUlLdt3Wwov6P1'],True,,,,True,2010-01-01 00:00:00,,2022-06-01 00:00:00,,,,['Web page'],,,,,"['Dashboard / Visualization', 'Tableau']",,Overwrite,,,True
+Pittsburgh Bureau of Police UCR reporting,Pittsburgh Bureau of Police UCR reporting,"Tableau dashboard in UCR format; no downloadable source data
+",Crime Statistics,https://tableau.alleghenycounty.us/t/PublicSite/views/CJ_UCR_PGH_8-22-17_v3/Home_1?iframeSizedToWindow=true&%3Aembed=y&%3AshowAppBanner=false&%3Adisplay_count=no&%3AshowVizHome=no&%3Aorigin=viz_share_link,['recxUlLdt3Wwov6P1'],True,,,,True,2010-01-01 00:00:00,,2022-06-01 00:00:00,,,,['Web page'],,,,,"['Dashboard / Visualization', 'Tableau']",,Overwrite,,,True
 Crime Statistics for Fargo Police Department - ND,,,Crime Statistics,https://fargond.gov/city-government/departments/police/police-records-data/crime-statistics,['recyttVYM3YNTp5QN'],True,,,,True,2013-01-01 00:00:00,,,,,,,True,,,,['PDF'],BiAnnually,,,,True
 Complaints & Misconduct for Baltimore County Police Department - MD,,,Complaints & Misconduct,https://app.powerbigov.us/view?r=eyJrIjoiYmJjZmUwMTEtODY2NS00MGEyLWI0YTctYTVlYzkzYWNlODc3IiwidCI6Ijk0NGZhOWJhLTg0NTQtNDEzZC1iOWU2LWJmNDBhZjFkNmE5YiJ9,['recTK5UVTMIKyVQpR'],True,,,,True,2017-01-01 00:00:00,,,,,,['API'],,,,,[],none,,,,True
 Arrest Records for Miami Police Department - FL,,,Arrest Records,https://www.miami-police.org/annual_reports.html,['recBxBcX5zRhL2oiP'],True,,,,True,1994-01-01 00:00:00,2021-12-31 00:00:00,,,,,,True,,,,['PDF'],Annually,,,,True
@@ -1565,11 +1565,11 @@ Use of Force Reports for Denver Police Department - CO,,,Use of Force Reports,ht
 API Information,API Information,,List of Data Sources,https://data.kcmo.org/,['reccamf6BHYYHmFDn'],True,,,,,,,,,,,,,Socrata,,,[],,,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://p1cdn4static.civiclive.com/UserFiles/Servers/Server_14481062/File/City%20Hall/Depts/HR/Personnel-Manual.pdf,['rec44U8d6ZIBHkaS1'],True,,,,,,,,,,,,,,,,[],,,,,
 Traffic Stops for St. Louis (city) Police Department - MO,,,Traffic Stops,,['recQfnRN2EGNGo6uC'],True,,,,,,,,,,,,,,,,[],,,,,
-Annual Reports for Atlanta Police Department - GA,,,Annual Reports,https://www.atlantapd.org/i-want-to/ops-reports/-folder-133,['reciIjknQX6bXYF4u'],True,,,,,2010-01-01 00:00:00,,,,,,,,,,,[],annually,,,,
+Annual & Monthly Reports for Atlanta Police Department - GA,,,Annual & Monthly Reports,https://www.atlantapd.org/i-want-to/ops-reports/-folder-133,['reciIjknQX6bXYF4u'],True,,,,,2010-01-01 00:00:00,,,,,,,,,,,[],annually,,,,
 Investigations Branch Contact Info,Investigations Branch Contact Info,,Contact Info & Agency Meta,https://pittsburghpa.gov/police/police-investigations,['recxUlLdt3Wwov6P1'],True,,,,,,,,,,,['Web page'],,,,,['HTML text'],,Overwrite,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.portlandoregon.gov/police/65886,['recQP2UsPocuNvjcb'],True,,,,,,,,,,,,,,,,[],,,,,
 Shorewood WI Police Department Monthly Reports,Shorewood WI Police Department Monthly Reports,"Monthly summaries of service calls, crime statistics, complaints, use of force, traffic stops, etc. from Shorewood, WI. PDF format.
-",Annual Reports,https://villageofshorewood.org/966/Police-Department-Monthly-Reports,['rec2lN3c4hjWgvKto'],True,,,,True,2021-04-01 00:00:00,,2022-07-31 00:00:00,,16,,['Web page'],True,,,,['PDF: Machine Created'],Monthly,Append,oldest first,,True
+",Annual & Monthly Reports,https://villageofshorewood.org/966/Police-Department-Monthly-Reports,['rec2lN3c4hjWgvKto'],True,,,,True,2021-04-01 00:00:00,,2022-07-31 00:00:00,,16,,['Web page'],True,,,,['PDF: Machine Created'],Monthly,Append,oldest first,,True
 Traffic Stops for Newark Police Department - NJ,,,Traffic Stops,https://npd.newarkpublicsafety.org/assets/docs/transparency/202110.pdf,['recokZNFBjC0IhPUq'],True,,,,True,2021-01-01 00:00:00,,,,,,,True,,,,['PDF'],Monthly,,,,True
 Local Jail Inmate Roster for Pointe Coupee Parish Sheriff's Office - LA,Local Jail Inmate Roster for Pointe Coupee Parish Sheriff's Office - LA,,Inmate Records,http://www.pointecoupee.lavns.org/roster.aspx,['rechnFPUQVoUcvxza'],True,,,,False,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,Alphabetical,,False
 Calls for Service for Fort Worth Police Department - TX,,,Calls for Service,https://police.fortworthtexas.gov/Public/annual-reports,['recJlgbsYgxyJU3Hv'],True,,,,True,2015-01-01 00:00:00,2020-12-31 00:00:00,,,,,,True,,,,['PDF'],Annually,,,,True
