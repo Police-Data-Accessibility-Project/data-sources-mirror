@@ -49,11 +49,12 @@ def process_data(table_name, data):
 
 def process_agencies(data):
     processed = []
+    # doing this here because we only need to do it for agencies and
+    # only want to do it after we know there's agencies data
     counties = prep_counties()
     for agency in data:
         # TODO: handle cases of more than one county; we have none at the moment, but it's possible
         encoded_fips = agency.get("county_fips", None)
-        encoded_fips = agency.get("county_fips")
         decoded_fips = None
         if encoded_fips:
             if type(encoded_fips) == list and len(encoded_fips) > 0:
