@@ -17,3 +17,13 @@ These `csv`s are updated automatically every week.
 Some caveats:
 - As with all data, this is human-entered and human-devised and subject to imperfections. Corrections and suggestions and questions welcome.
 - We'd love to have more [fields filled out, or new records added](https://docs.pdap.io/activities/share-data/contribute-data-sources), related to any [agencies](https://airtable.com/shr43ihbyM8DDkKx4) or [data sources](https://airtable.com/shrUAtA8qYasEaepI/tblx8XaKnFTphWNQM).
+
+## How you can help
+As mentioned above, you can edit and add data for others to use.
+
+You can also:
+- Learn more about what PDAP considers a [`Data Source`](https://docs.pdap.io/activities/data-sources/what-is-a-data-source)
+- Tell PDAP about data you already have and which [you'd like to share](https://docs.pdap.io/activities/share-data/contribute-data-sources#spreadsheet-of-data-sources) to those seeking it
+- Ask PDAP for help getting access to specific data sources, whether via scraping or other methods
+- Join [our Discord](https://discord.com/invite/cn2ZpVTdw7)
+- [Donate or otherwise contribute](https://pdap.io/contribute.html). PDAP is a 501(c)3 not-for-profit organization
