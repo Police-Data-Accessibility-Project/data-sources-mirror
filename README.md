@@ -19,7 +19,7 @@ Some caveats:
 - We'd love to have more [fields filled out, or new records added](https://docs.pdap.io/activities/share-data/contribute-data-sources), related to any [agencies](https://airtable.com/shr43ihbyM8DDkKx4) or [data sources](https://airtable.com/shrUAtA8qYasEaepI/tblx8XaKnFTphWNQM).
 
 ## How you can help
-As mentioned above, you can edit and add data for others to use.
+As mentioned above, you can edit and add metadata for others to use.
 
 You can also:
 - Learn more about what PDAP considers a [`Data Source`](https://docs.pdap.io/activities/data-sources/what-is-a-data-source)
