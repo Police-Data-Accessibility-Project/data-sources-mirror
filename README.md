@@ -1,8 +1,12 @@
 # Data sources mirror
-**PDAP metadata made easier to access and work with, beginning with data sources and agencies**
 
-The data offered here represents an export of what PDAP and its community of volunteers collects about which law-enforcement agencies create or maintain which data.
+## What this is
+**PDAP metadata made easier to access and work with, beginning with data sources and agencies.**
 
+The data offered here represents an export of the Data Sources being tracked by PDAP and its community of volunteers. It can help you answer the question, "which data is available about a particular police agency?" To learn more about Data Sources, start with [this doc](https://docs.pdap.io/activities/data-sources/what-is-a-data-source).
+
+
+## How it works
 At the moment, that means taking advantage of a `Python` wrapper around the Airtable API to provide flat but joinable data -- an agency's `airtable_uid` making that relatively straightforward.
 
 We're also providing the script we use to do any munging or transformations. The intent is to do as little of that as we can, erring on the side of being true to what the API wrapper returns, while also being transparent about how we're doing things.
@@ -14,5 +18,3 @@ These `csv`s are updated automatically every month.
 Some caveats:
 - As with all data, this is human-entered and human-devised and subject to imperfections. Corrections and suggestions and questions welcome.
 - We'd love to have more [fields filled out, or new records added](https://docs.pdap.io/activities/share-data/contribute-data-sources), about any of these [agencies](https://airtable.com/shr43ihbyM8DDkKx4) or [data sources](https://airtable.com/shrUAtA8qYasEaepI/tblx8XaKnFTphWNQM).
-
-
