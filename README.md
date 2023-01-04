@@ -23,7 +23,7 @@ As mentioned above, you can edit and add metadata for others to use.
 
 You can also:
 - Learn more about what PDAP considers a [`Data Source`](https://docs.pdap.io/activities/data-sources/what-is-a-data-source)
-- Tell PDAP about data you already have and which [you'd like to share](https://docs.pdap.io/activities/share-data/contribute-data-sources#spreadsheet-of-data-sources) to those seeking it
-- Ask PDAP for help getting access to specific data sources, whether via scraping or other methods
+- Tell other data users about [records you've found or collected](https://docs.pdap.io/activities/share-data/contribute-data-sources#submit-data-youve-collected).
+- Request help locating or better accessing [data you are looking to find](https://docs.pdap.io/activities/data-sources/request-data).
 - Join [our Discord](https://discord.com/invite/cn2ZpVTdw7)
 - [Donate or otherwise contribute](https://pdap.io/contribute.html). PDAP is a 501(c)3 not-for-profit organization
