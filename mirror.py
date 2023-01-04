@@ -35,6 +35,7 @@ def process_data(table_name, data):
     # each record might have different fields missing than others,
     # and there's no way in advance to determine which ones.
     # so get ready for lots of sniffing and setting of nulls
+    # in these processing fxns
     print(f"processing {table_name} data ....")
     if table_name == "Agencies":
         processed = process_agencies(data.rows)
@@ -50,21 +51,16 @@ def process_agencies(data):
     processed = []
     counties = prep_counties()
     for agency in data:
+        # TODO: handle cases of more than one county; we have none at the moment, but it's possible
         encoded_fips = agency.get("county_fips", None)
+        encoded_fips = agency.get("county_fips")
+        decoded_fips = None
         if encoded_fips:
-            # TODO: handle cases of more than one county
             if type(encoded_fips) == list and len(encoded_fips) > 0:
                 encoded_fips_popped = encoded_fips[0]
-                if counties.get(encoded_fips_popped, None):
-                    decoded_fips = counties.get(encoded_fips_popped, None).get("fips", None)
-                else:
-                    decoded_fips = None
-            else:
-                decoded_fips = counties.get(encoded_fips, None).get("fips", None)
-        else:
-            decoded_fips = None
-        county_fips = decoded_fips
-        # TODO: handle cases of more than one county
+                if (cfips := counties.get(encoded_fips_popped, None)):
+                    decoded_fips = cfips["fips"]        
+
         county_name = agency.get("county_name", None)
         defunct_year = agency.get("defunct_year", None)
         homepage_url = agency.get("homepage_url", None)
@@ -83,7 +79,7 @@ def process_agencies(data):
             "jurisdiction_type": jurisdiction_type,
             "state_iso": state_iso,
             "municipality": municipality,
-            "county_fips": county_fips,
+            "county_fips": decoded_fips,
             "county_name": county_name,
             "lat": lat,
             "lng": lng,
@@ -155,11 +151,7 @@ def process_sources(data):
 
         source_url = source.get("source_url", None)
         submitted_name = source.get("submitted_name", None)
-
-        supplying_entity = None
-        if source.get("supplying_entity", None):
-            supplying_entity = source["supplying_entity"]
-
+        supplying_entity = source.get("supplying_entity", None)
         update_frequency = source.get("update_frequency", None)
         update_method = source.get("update_method", None)
 
@@ -202,6 +194,8 @@ def get_fieldnames(name):
         return agency_fieldnames()
     elif name == "Data Sources":
         return source_fieldnames()
+    else:
+        raise RuntimeError("This is not a supported name")
 
 
 def agency_fieldnames():
@@ -218,7 +212,7 @@ def agency_fieldnames():
         "lng",
         "defunct_year",
         "airtable_uid",
-        "county_airtable_uid"  # TODO: remove this before it's a csv header
+        # "county_airtable_uid"  # TODO: remove this before it's a csv header
     ]
 
 
