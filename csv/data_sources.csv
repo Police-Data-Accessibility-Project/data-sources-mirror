@@ -610,6 +610,7 @@ Use of Force Reports for Tulsa Police Department - OK,,,Use of Force Reports,htt
 Training Materials,Training Materials,,Policies & Contracts,https://www.princegeorgescountymd.gov/DocumentCenter/View/16570/General-Orders-Manuals-PDF,['recYGl66dvLLadxBw'],True,,,,,,,,,,,,True,,,,[],,,,,
 Contact Info & Agency Meta for Raleigh Police Department - NC,,,Contact Info & Agency Meta,https://wake.nc.networkofcare.org/mh/services/agency.aspx?pid=raleighpolicedepartment_1458_2_0,['recCLCOUnuqB0w6B5'],True,,,,,,,,,,,,,,,,[],,,,,
 Arrest Records for Mesa Police Department - AZ,,,Arrest Records,,['recOrC5Wf0RkcLHPG'],True,,,,,,,,,,,,,,,,[],,,,,
+Court case search for San Francisco Superior Court,Court case search for San Francisco Superior Court,,Court Cases,http://webapps.sftc.org/ci/CaseInfo.dll,['recdvjlYlnCn0aTYZ'],True,,True,,,,,,,,,['Web page'],,,,,['HTML table'],,,,,
 Boston Police Department Crime Incident Reports,Boston Police Department Crime Incident Reports,"A feed of incidents reported from the BPD database, published by the Department of IT under the City of Boston. There's a second endpoint for older data here: <https://data.boston.gov/dataset/crime-incident-reports-july-2012-august-2015-source-legacy-system>
 
 The data uses CKAN to provide an open data platform: <https://docs.ckan.org/en/latest/contents.html>
@@ -859,6 +860,16 @@ API Information,API Information,,List of Data Sources,https://data.birminghamal.
 Use of Force Reports for Charlotte-Mecklenburg Police Department - NC,,,Use of Force Reports,,['reco9uv3qebC6UdmP'],True,,,,,,,,,,,,,,,,[],,,,,
 Arrest Records for Anchorage Police Department - AK,,,Arrest Records,,['recaUcv4xbLyQz5XA'],True,,,,,,,,,,,,,,,,[],,,,,
 Crime Maps & Reports for San Marcos Police Department - TX,,,Crime Maps & Reports,,['rec5OT7Udp0zGePcC'],True,,,,,,,,,,,,,,,,[],,,,,
+Usage of surveillance cameras in New Orleans,Usage of surveillance cameras in New Orleans,"This data was collected in the same repo to analyze the use of city surveillance tools by NOPD.
+### Data includes:
+- New Orleans Cameras: Source RTCC using script below
+- Calls for Service (911 calls): Source data.nola.gov
+- Police Reports: Source data.nola.gov
+- Dataset on requests for surveillance data submitted to the Real Time Crime Center (RTCC) by the New Orleans Police Department (NOPD): Source - Data received from Public Records Requests/FOIAs submitted to NOPD. PRRs/FOIAs can be found in the `prrs` folder.
+## 
+
+",Policies & Contracts,https://github.com/ayyubibrahimi/eos,['rec0cHhCkS656IOeX'],False,"GitHub user ayyubibrahimi
+",True,,False,,,,,,,['Web page'],True,,,,['CSV'],,Not sure,,,False
 Complaints & Misconduct for Montgomery County Police Department - MD,,,Complaints & Misconduct,https://www.montgomerycountymd.gov/pol/data/iad-reports.html,['recBOcOSxvItWz5pp'],True,,,,True,2017-01-01 00:00:00,2021-12-31 00:00:00,,,,,,True,,,,['PDF'],Annually,,,,True
 Crime Statistics for San Jose Police Department - CA,,,Crime Statistics,,['recQuWrNs4zJWIKzm'],True,,,,,,,,,,,,,,,,[],,,,,
 API Information,API Information,,List of Data Sources,https://gis-mdc.opendata.arcgis.com/search?collection=Dataset,['recOc0KkWA2SnMFYJ'],True,,,,,,,,,,,,,ArcGIS,,,[],,,,,
