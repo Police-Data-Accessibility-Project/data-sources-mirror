@@ -283,7 +283,7 @@ def write_csv(data_package, location):
 def write_json(data_package, location):
     print("writing json ....")
     with open(location, "w+") as f:
-        json.dump(data_package, f, indent=4)
+        json.dump(data_package, f, indent=4, default=str)
 
 
 def setup_json(data_dict):
@@ -291,12 +291,24 @@ def setup_json(data_dict):
     agencies = data_dict[AGENCIES_TABLE_NAME]
     sources = data_dict[SOURCES_TABLE_NAME]
 
+    agencies_seen = {}
     for source in sources:
         target_agency = source.get("agency_described", None)
         if target_agency:
+            # so fun that they're wrapped in a list of length 1 🙄
             agency_id = target_agency[0]
-            agency = search_agencies(agency_id, agencies)
-            source["agency_described"] = agency
+            if (a := agencies_seen.get(agency_id, None)):
+                source["agency_described"] = a
+            else:
+                agency = search_agencies(agency_id, agencies)
+                # don't need this anymore and
+                # shouldn't get written to the user-facing file
+                # but somehow getting a KeyError while searching,
+                # which doesn't make sense
+                # agency.pop("airtable_uid", None)
+                source["agency_described"] = agency
+                # who wants to have to search for it a second time?
+                agencies_seen[agency_id] = agency
         else:
             source["agency_described"] = target_agency
 
@@ -304,7 +316,7 @@ def setup_json(data_dict):
 
 
 def search_agencies(agency_id, agencies):
-    return next((a for a in agencies if a["airtable_uid"] == agency_id), None)
+    return next(a for a in agencies if a["airtable_uid"] == agency_id)
 
 
 def run_the_jewels(table_names, csv_locations, json_location):
@@ -315,10 +327,10 @@ def run_the_jewels(table_names, csv_locations, json_location):
     for target in csv_targets:
         data = get_table_data(target[0])
         processed = process_data(target[0], data)
-        print(f"writing {target} csv")
-        write_csv(processed, target[1])
+        # print(f"writing {target} csv")
+        # write_csv(processed, target[1])
 
-        to_json[target[0]] = processed
+        to_json[target[0]] = processed.rows
 
     formatted = setup_json(to_json)
     write_json(formatted, json_location)
