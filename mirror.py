@@ -4,12 +4,17 @@
 from collections import namedtuple
 import csv
 import datetime
+import json
 import os
 
 # third-party imports
 from pyairtable import Table
 
 Sheet = namedtuple("Sheet", ['headers', 'rows'])
+
+AGENCIES_TABLE_NAME = "Agencies"
+SOURCES_TABLE_NAME = "Data Sources"
+
 
 def get_table_data(table_name):
     print(f"getting {table_name} table data ....")
@@ -275,14 +280,48 @@ def write_csv(data_package, location):
         writer.writerows(data_package.rows)
 
 
+def write_json(data_package, location):
+    print("writing json ....")
+    with open(location, "w+") as f:
+        json.dump(data_package, f, indent=4)
+
+
+def setup_json(data_dict):
+    print("preparing json ....")
+    agencies = data_dict[AGENCIES_TABLE_NAME]
+    sources = data_dict[SOURCES_TABLE_NAME]
+
+    for source in sources:
+        target_agency = source.get("agency_described", None)
+        if target_agency:
+            agency_id = target_agency[0]
+            agency = search_agencies(agency_id, agencies)
+            source["agency_described"] = agency
+        else:
+            source["agency_described"] = target_agency
+
+    return sources
+
+
+def search_agencies(agency_id, agencies):
+    return next((a for a in agencies if a["airtable_uid"] == agency_id), None)
+
+
 def run_the_jewels(table_names, csv_locations):
     csv_targets = zip(table_names, csv_locations)
+
+    to_json = {}
 
     for target in csv_targets:
         data = get_table_data(target[0])
         processed = process_data(target[0], data)
         print(f"writing {target} csv")
         write_csv(processed, target[1])
+
+        to_json[target[0]] = processed
+
+    formatted = setup_json(to_json)
+    write_json(formatted)
     
 
 if __name__ == "__main__":
@@ -290,8 +329,6 @@ if __name__ == "__main__":
     sources_filename = "csv/data_sources.csv"
     filenames = [agencies_filename, sources_filename]
 
-    agencies_table_name = "Agencies"
-    sources_table_name = "Data Sources"
-    table_names = [agencies_table_name, sources_table_name]
+    table_names = [AGENCIES_TABLE_NAME, SOURCES_TABLE_NAME]
 
     run_the_jewels(table_names, filenames)
