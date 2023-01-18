@@ -2,15 +2,20 @@
 **PDAP metadata made easier to access and work with, beginning with data sources and agencies.**
 
 ## What this is
-The data offered here represents an export of the Data Sources being tracked by PDAP and its community of volunteers. It can help you answer the question, "which data is available about a particular police agency?" To learn more about Data Sources, start with [this doc](https://docs.pdap.io/activities/data-sources/what-is-a-data-source).
+The data offered in the `csv` and `json` directories represent an export of the Data Sources being tracked by PDAP and its community of volunteers. It can help you answer the question, "which data is available about a particular police agency?"
 
+[Learn more about Data Sources](https://docs.pdap.io/activities/data-sources/what-is-a-data-source)
+[See this same data but in Airtable](https://airtable.com/shrUAtA8qYasEaepI)
+
+### Update frequency
+Weekly
 
 ## How it works
 At the moment, making such an export means taking advantage of a `Python` wrapper around the Airtable API to provide flat but joinable data -- an agency's `airtable_uid` making that relatively straightforward.
 
 We're also providing the script we use to do any munging or transformations. The intent is to do as little of that as we can, erring on the side of being true to what the API wrapper returns, while also being transparent about how we're doing things.
 
-That script won't run on its own out of the box. It relies on Airtable permissions. To request access to those permissions and associated keys, ping PDAP staff. But meanwhile, the data on the other side of those permissions is pretty much what you'll find in the provided data in the `csv/` and `json` directories of this repo. Clone it down or otherwise copy those files and you'll have what we have.
+That script won't run on its own out of the box. It relies on Airtable permissions. To request access to those permissions and associated keys, ping PDAP staff. But meanwhile, the data on the other side of those permissions is pretty much what you'll find in the provided data in the `csv` and `json` directories of this repo. Clone it down or otherwise copy those files and you'll have what we have.
 
 These `csv` and `json` files are updated automatically every week. The difference between them, beyond simply format, is that the nestable nature of `json` means the associated agency is included with each relevant data source.
 
