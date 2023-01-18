@@ -106,16 +106,8 @@ def process_sources(data):
         end = datetime.datetime.strptime(end_raw, "%Y-%m-%d") if end_raw else None
 
         access_type = source.get("access_type", None)
-
-        aggregated = None
-        if source.get("aggregation_type", None):
-            if source["aggregation_type"] == "Individual records" or source["aggregation_type"] == "no":
-                aggregated = False
-            elif source["aggregation_type"] == "":
-                aggregated = None
-            else:
-                aggregated = True
-
+        agency_aggregation = source.get("agency_aggregation", None)
+        detail_level = source.get("agency_aggregation", None)
         description = source.get("description", None)
         download_option = source.get("record_download_option_provided", None)
         num_records = source.get("number_of_records_available", None)
@@ -127,7 +119,7 @@ def process_sources(data):
             elif source["agency_originated"] == "no":
                 originated = False
         
-        # why does this have line endings in the string? c/mon people
+        # why does this have line endings in the string? c'mon people
         originating_entity = source.get("originating_entity", None)
         portal_type = source.get("data_portal_type", None)
         record_format = source.get("record_format", [])
@@ -163,11 +155,12 @@ def process_sources(data):
             "agency_described": agency_linked,
             "agency_originated": originated,
             "agency_supplied": supplied,
-            "aggregation_type": aggregated,
+            "agency_aggregation": agency_aggregation,
             "coverage_start": start,
             "coverage_end": end,
             "data_portal_type": portal_type,
             "description": description,
+            "detail_level": detail_level,
             "name": source["name"],
             "number_of_records_available": num_records,
             "originating_entity": originating_entity,
@@ -213,11 +206,12 @@ def agency_fieldnames():
         "lng",
         "defunct_year",
         "airtable_uid",
-        # "county_airtable_uid"  # TODO: remove this before it's a csv header
     ]
 
 
 def source_fieldnames():
+    # agency_aggregation -- str
+    # detail_level -- str
     return [
         "name",
         "submitted_name",
@@ -229,11 +223,12 @@ def source_fieldnames():
         "supplying_entity",
         "agency_originated",
         "originating_entity",
-        "aggregation_type",
+        "agency_aggregation",
         "coverage_start",
         "coverage_end",
         "source_last_updated",
         "retention_schedule",
+        "detail_level",
         "number_of_records_available",
         "size",
         "access_type",
@@ -246,7 +241,6 @@ def source_fieldnames():
         "update_method",
         "sort_method",
         "agency_described_linked_uid",
-        "aggregation_type"
     ]
 
 
@@ -282,9 +276,9 @@ def write_csv(data_package, location):
 
 
 def run_the_jewels(table_names, csv_locations):
-    targets = zip(table_names, csv_locations)
+    csv_targets = zip(table_names, csv_locations)
 
-    for target in targets:
+    for target in csv_targets:
         data = get_table_data(target[0])
         processed = process_data(target[0], data)
         print(f"writing {target} csv")
