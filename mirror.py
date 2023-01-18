@@ -327,8 +327,8 @@ def run_the_jewels(table_names, csv_locations, json_location):
     for target in csv_targets:
         data = get_table_data(target[0])
         processed = process_data(target[0], data)
-        # print(f"writing {target} csv")
-        # write_csv(processed, target[1])
+        print(f"writing {target} csv")
+        write_csv(processed, target[1])
 
         to_json[target[0]] = processed.rows
 
