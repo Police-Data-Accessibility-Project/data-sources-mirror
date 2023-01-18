@@ -2,7 +2,7 @@
 **PDAP metadata made easier to access and work with, beginning with data sources and agencies.**
 
 ## What this is
-The data offered in the `csv` and `json` directories represent an export of the Data Sources being tracked by PDAP and its community of volunteers. It can help you answer the question, "which data is available about a particular police agency?"
+The data offered in the `csv` and `json` directories represents an export of the Data Sources being tracked by PDAP and its community of volunteers. It can help you answer the question, "which data is available about a particular police agency?"
 
 [Learn more about Data Sources](https://docs.pdap.io/activities/data-sources/what-is-a-data-source)
 [See this same data but in Airtable](https://airtable.com/shrUAtA8qYasEaepI)
@@ -17,7 +17,7 @@ We're also providing the script we use to do any munging or transformations. The
 
 That script won't run on its own out of the box. It relies on Airtable permissions. To request access to those permissions and associated keys, ping PDAP staff. But meanwhile, the data on the other side of those permissions is pretty much what you'll find in the provided data in the `csv` and `json` directories of this repo. Clone it down or otherwise copy those files and you'll have what we have.
 
-These `csv` and `json` files are updated automatically every week. The difference between them, beyond simply format, is that the nestable nature of `json` means the associated agency is included with each relevant data source.
+These `csv` and `json` files are updated automatically at the same time. The difference between them, beyond simply format, is that the nestable nature of `json` means the associated agency is included with each relevant data source.
 
 Some caveats:
 - As with all data, this is human-entered and human-devised and subject to imperfections. Corrections and suggestions and questions welcome.
