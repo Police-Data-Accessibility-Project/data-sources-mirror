@@ -307,7 +307,7 @@ def search_agencies(agency_id, agencies):
     return next((a for a in agencies if a["airtable_uid"] == agency_id), None)
 
 
-def run_the_jewels(table_names, csv_locations):
+def run_the_jewels(table_names, csv_locations, json_location):
     csv_targets = zip(table_names, csv_locations)
 
     to_json = {}
@@ -321,14 +321,14 @@ def run_the_jewels(table_names, csv_locations):
         to_json[target[0]] = processed
 
     formatted = setup_json(to_json)
-    write_json(formatted)
+    write_json(formatted, json_location)
     
 
 if __name__ == "__main__":
     agencies_filename = "csv/agencies.csv"
     sources_filename = "csv/data_sources.csv"
     filenames = [agencies_filename, sources_filename]
-
     table_names = [AGENCIES_TABLE_NAME, SOURCES_TABLE_NAME]
+    json_location = sources_filename.replace("csv", "json")
 
-    run_the_jewels(table_names, filenames)
+    run_the_jewels(table_names, filenames, json_location)
