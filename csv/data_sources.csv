@@ -176,6 +176,9 @@ Calls for Service for Omaha Police Department - NE,,,Calls for Service,,['recYog
 Training Materials,Training Materials,,Policies & Contracts,https://portlandor.govqa.us/WEBAPP/_rs/(S(mygsjcixtqgkcvvr2lmmws2j))/BusinessDisplay.aspx?sSessionID=&did=45&cat=0,['recQP2UsPocuNvjcb'],True,,,,,,,,,,,,,True,,,,[],,,,
 Use of Force Reports for Boston Police Department - MA,,,Use of Force Reports,,['rec3G8tNUNHgBUhd8'],True,,,,,,,,,,,,,,,,,[],none,,,
 Calls for Service for Long Beach Police Department - CA,,,Calls for Service,,['recRXsW0gWDYgAo08'],True,,,,,,,,,,,,,,,,,[],,,,
+Administrative Policies and Procedures for Lodi CA,Administrative Policies and Procedures for Lodi CA,"Scanned 286-page PDF of municipal
+ government administrative policies and procedures, including criminal legal investigations and emergency response protocol.
+",Policies & Contracts,https://www.lodi.gov/DocumentCenter/View/3145/City-of-Lodi-Administrative-Policies-and-Procedures,['recmjI12uKERt6khk'],True,,,,,,,,,,,,['Web page'],,,,,['PDF: Scanned'],,,,
 Training Materials,Training Materials,,Policies & Contracts,https://www.honolulupd.org/information/policies/,['rechA8JrjEAtG6RWY'],True,,,,,,,,,,,,,True,,,,[],,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.burlingtonvt.gov/Police/Key-Department-Directives,['recErbDqVvfy6c4AK'],True,,,,,,,,,,,,,,,,,[],,,,
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://stlouiscountypolice.com/who-we-are/policies-and-procedures/,['recUHGnbrW8IuuafX'],True,,,,,,,,,,,,,True,,,,[],,,,
@@ -236,6 +239,8 @@ Officer Involved Shootings for New York City Police Department - NY,,,Officer In
 Complaints & Misconduct for Washington Metropolitan Police Department - DC,,,Complaints & Misconduct,https://policecomplaints.dc.gov/page/annual-reports-for-OPC,['recNNfzh6R2eGptZv'],True,,,,,2001-01-01 00:00:00,2021-12-31 00:00:00,,,,,,,,,,,['PDF'],Annually,,,
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,"https://www.indy.gov/activity/police-administration#:~:text=IMPD%20values&text=We%20will%20only%20use%20deadly,no%20other%20options%20are%20available.",['recMGHA6Wh8XCACyU'],True,,,,,,,,,,,,,,,,,[],,,,
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.newarkpdmonitor.com/wp-content/uploads/2019/04/Use-of-Force-Policy.pdf,['recokZNFBjC0IhPUq'],True,,,,,,,,,,,,,True,,,,[],,,,
+Police statistics for Lodi CA,Police statistics for Lodi CA,"Staffing and summary crime statistics. At most recent update, covers 2018 and 2019.
+",Crime Statistics,https://www.lodi.gov/392/Statistics,['recmjI12uKERt6khk'],True,,,,,2018-01-01 00:00:00,2019-12-31 00:00:00,2019-12-31 00:00:00,,,,,['Web page'],,,,,['HTML table'],,,,
 Complaints & Misconduct for Philadelphia Police Department - PA,,,Complaints & Misconduct,https://www.phillypolice.com/accountability/?_ID=110&_ClassName=CapPage#!#complaints,['recRvBpZqXM8mjddz'],True,,,,,2016-01-01 00:00:00,,,,,,,['API'],True,,,,[],Monthly,,,
 Calls for Service for Garland Police Department - TX,,,Calls for Service,https://cityprotect.com/agency/55a6d297-f3ec-49d7-9661-ce327d973e7c,['recE3dmfniM0GhH8I'],False,,,,,2017-01-01 00:00:00,,,,,,,,,CityProtect,,,[],quarterly,,,
 Use of Force Reports for Orlando Police Department - FL,,,Use of Force Reports,https://data.cityoforlando.net/Orlando-Police/OPD-Response-to-Resistance-Data-Lens/46mp-aizb,['recbeI8oNZPtuka3g'],True,,,,,,,,,,,,,,,,,[],,,,
@@ -391,6 +396,8 @@ Arrest Records for Houston Police Department - TX,,,Arrest Records,,['recVc4xkNy
 Complaints & Misconduct for Newark Police Department - NJ,,,Complaints & Misconduct,,['recokZNFBjC0IhPUq'],True,,,,,,,,,,,,,,,,,[],,,,
 Officer Involved Shootings for Seattle Police Department - WA,,,Officer Involved Shootings,https://data.seattle.gov/Public-Safety/SPD-Officer-Involved-Shooting-OIS-Data/mg5r-efcm,['rec7yups5HDhlbkrA'],True,,,,,2005-01-01 00:00:00,2019-12-31 00:00:00,,,,,,['API'],True,,,,[],none,,,
 Brea Police Department Website Policies,Brea Police Department Website Policies,,Records Request Info,https://www.ci.brea.ca.us/DocumentCenter/View/1329/Website-Content-User-Policy,['rech5k5vcghWfmsbW'],True,,,,,,,,,,,,,,,,,[],annually,,,
+Staff Directory for Lodi CA Police,Staff Directory for Lodi CA Police,"Police & staff roster and contact information
+",Contact Info & Agency Meta,https://www.lodi.gov/directory.aspx?did=15,['recmjI12uKERt6khk'],True,,,,,,,,,,1,,['Web page'],,,,,['HTML text'],,Overwrite,,
 Officer Involved Shootings for Tucson Police Department - AZ,,,Officer Involved Shootings,http://data-cotgis.opendata.arcgis.com/datasets/tucson-police-officer-involved-shooting-incidents,['rec2FkksoIU2I4PtQ'],True,,,,,2010-01-01 00:00:00,2018-12-31 00:00:00,,,,,,,True,,,,['CSV'],none,,,
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.nassaucountyny.gov/4913/Use-of-Force-Policy,['recwli8NkT9k7Ep7w'],True,,,,,,,,,,,,,True,,,,[],,,,
 Officer Involved Shootings for San Diego Police Department - CA,,,Officer Involved Shootings,,['recaC9Prp7sCcmAkS'],True,,,,,,,,,,,,,,,,,[],,,,
@@ -487,6 +494,8 @@ Training & Hiring Info for Pittsburgh Bureau of Police - PA,,"This dataset shows
 Complaints & Misconduct for Fort Worth Police Department - TX,,,Complaints & Misconduct,,['recJlgbsYgxyJU3Hv'],True,,,,,,,,,,,,,,,,,[],,,,
 Crime Statistics for Memphis Police Department - TN,,,Crime Statistics,https://data.memphistn.gov/Public-Safety/Memphis-Police-Department-Aggregate-Crime/n7ue-iwew,['rec6lwwXGqeoMIJ9z'],True,,,,,2006-01-01 00:00:00,,,,,,,['API'],True,,,,[],Monthly,,,
 Local Jail Inmate Roster for Bossier Parish Sheriff's Office - LA,Local Jail Inmate Roster for Bossier Parish Sheriff's Office - LA,,Inmate Records,http://www.bossier.lavns.org/roster.aspx,['recmhq7Aks2gNIYJ7'],True,,,,,,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,alphabetical,
+Policy and Procedure for Lodi CA Police,Policy and Procedure for Lodi CA Police,"901-page PDF of full policy and procedure manual.
+",Policies & Contracts,https://www.lodi.gov/DocumentCenter/View/4153/Lodi-Police-Policy-and-Procedure,['recmjI12uKERt6khk'],True,,,,,,,,,,,,['Web page'],,,,,['PDF: Machine Created'],,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.clevelandohio.gov/CityofCleveland/Home/Government/CityAgencies/PublicSafety/Police/PolicyProcedures,['recluKwTp3TBJzSPz'],True,,,,,,,,,,,,,,,,,[],,,,
 Calls for Service for Montgomery County Police Department - MD,,,Calls for Service,https://data.montgomerycountymd.gov/Public-Safety/Police-Dispatched-Incidents/98cc-bc7d,['recBOcOSxvItWz5pp'],True,,,,,2017-01-01 00:00:00,,,,,,,['API'],True,,,,[],<2 Weeks,,,
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.doj.nh.gov/criminal/documents/law-enforcement-manual.pdf,['recC2M0g6aX2ReloE'],True,,,,,,,,,,,,,True,,,,[],,,,
@@ -1278,6 +1287,8 @@ Traffic Stops for Huntsville Police Department - AL,,,Traffic Stops,https://www.
 Arrest Records for Newark Police Department - NJ,,,Arrest Records,http://npd.newarkpublicsafety.org/statistics/arrestdata,['recokZNFBjC0IhPUq'],True,,,,,2017-01-01 00:00:00,,,,,,,,True,,,,['PDF'],none,,,
 Crime Maps & Reports for Milwaukee Police Department - WI,,,Crime Maps & Reports,https://city.milwaukee.gov/Directory/police/Crime-Maps-and-Statistics.htm#.Xt6WOzpKhPY,['recK4RVGXK1Kn94d5'],True,,,,,2019-01-01 00:00:00,2021-12-31 00:00:00,,,,,,['Web page'],,,,,[],,,,
 Arrest Records for Kansas City Police Department - MO,,,Arrest Records,,['reccamf6BHYYHmFDn'],True,,,,,,,,,,,,,,,,,[],,,,
+2022 Training Memorandum for Lodi CA Police,2022 Training Memorandum for Lodi CA Police,"Clicking the link directly downloads a Word document.
+",Training & Hiring Info,https://www.lodi.gov/DocumentCenter/View/3140/2022-Training-Plan-,['recmjI12uKERt6khk'],True,,,,,2022-01-01 00:00:00,2022-12-31 00:00:00,,,,,,['Web page'],True,,,,['DOC / TXT'],,,,
 Calls for Service for Arnold Police Department - MO,,,Calls for Service,https://cityprotect.com/agency/47fb67d5-a52f-4edb-a2b4-12568e29212b,['rec30HbKT3kQJkc5V'],False,,,,,2017-01-01 00:00:00,,,,,,,,,CityProtect,,,[],quarterly,,,
 Officer Involved Shootings for Saint Louis County Police Department - MO,,,Officer Involved Shootings,,['recUHGnbrW8IuuafX'],True,,,,,,,,,,,,,,,,,[],,,,
 API Information,API Information,,List of Data Sources,https://data.charlottenc.gov/,['reco9uv3qebC6UdmP'],True,,,,,,,,,,,,,,ArcGIS,,,[],,,,
@@ -1583,6 +1594,11 @@ Calls for Service for Cicero Police Department - IN,,,Calls for Service,https://
 List of Data Sources for Atlanta Police Department - GA,,,List of Data Sources,https://www.atlantapd.org/i-want-to/crime-data-downloads,['reciIjknQX6bXYF4u'],True,,,,,2011-01-01 00:00:00,,,,,,,,,,,,[],weekly,,,
 Crime Maps & Reports for New Haven Police Department - CT,,,Crime Maps & Reports,,['recWXq0JokYyu2QLo'],True,,,,,,,,,,,,,,,,,[],,,,
 Complaints & Misconduct for Philadelphia Police Department - PA,,,Complaints & Misconduct,https://www.phila.gov/documents/police-advisory-commission-annual-reports/,['recRvBpZqXM8mjddz'],True,,,,,2014-01-01 00:00:00,2020-12-31 00:00:00,,,,,,,,,,,['PDF'],Annually,,,
+"SpotCrime map for Lodi, CA","SpotCrime map for Lodi, CA","Lodi Police Department uses [Spot Crime](http://www.spotcrime.com/) which maps and publishes real-time crime data from police information systems. Residents can access and browse information about their neighborhoods from any computer or mobile device.
+
+Crime reporting; does not include mention of police activity.
+",Crime Maps & Reports,https://spotcrime.com/map?lat=38.1297971384506&lon=-121.2687494888574,['recmjI12uKERt6khk'],False,"SpotCrime
+",True,,,,,,~10 days,,,,['Web page'],,SpotCrime,,,['Dashboard / Visualization'],,Overwrite,,
 Local Jail Inmate Roster for St. Bernard Parish Sheriff's Office - LA,Local Jail Inmate Roster for St. Bernard Parish Sheriff's Office - LA,,Inmate Records,http://www.stbernard.lavns.org/roster.aspx,['recZGQqU1vURTlEVt'],True,,,,,,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,alphabetical,
 Calls for Service for Newark Police Department - NJ,,,Calls for Service,,['recokZNFBjC0IhPUq'],True,,,,,,,,,,,,,,,,,[],,,,
 Complaints & Misconduct for Houston Police Department - TX,,,Complaints & Misconduct,https://mycity.maps.arcgis.com/apps/dashboards/0ccace0ba9a84c8db1e926bf1f9cbcac,['recVc4xkNy2pxFxIB'],True,,,,,2020-01-01 00:00:00,,,,,,,['Web page'],,,,,[],Monthly,,,

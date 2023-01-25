@@ -6506,6 +6506,54 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Lodi Police Department - CA",
+            "submitted_name": "Lodi Police Department",
+            "homepage_url": "http://www.lodi.gov/215/Police",
+            "jurisdiction_type": "local",
+            "state_iso": "CA",
+            "municipality": "Lodi",
+            "county_fips": "06077",
+            "county_name": [
+                "San Joaquin"
+            ],
+            "lat": 38.135765,
+            "lng": -121.27573,
+            "defunct_year": null,
+            "airtable_uid": "recmjI12uKERt6khk"
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Scanned 286-page PDF of municipal\n government administrative policies and procedures, including criminal legal investigations and emergency response protocol.\n",
+        "detail_level": null,
+        "name": "Administrative Policies and Procedures for Lodi CA",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "PDF: Scanned"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.lodi.gov/DocumentCenter/View/3145/City-of-Lodi-Administrative-Policies-and-Procedures",
+        "submitted_name": "Administrative Policies and Procedures for Lodi CA",
+        "supplying_entity": null,
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Honolulu Police Department - HI",
@@ -9167,6 +9215,54 @@
         "source_last_updated": null,
         "source_url": "https://www.newarkpdmonitor.com/wp-content/uploads/2019/04/Use-of-Force-Policy.pdf",
         "submitted_name": "Use of Force Policy",
+        "supplying_entity": null,
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Lodi Police Department - CA",
+            "submitted_name": "Lodi Police Department",
+            "homepage_url": "http://www.lodi.gov/215/Police",
+            "jurisdiction_type": "local",
+            "state_iso": "CA",
+            "municipality": "Lodi",
+            "county_fips": "06077",
+            "county_name": [
+                "San Joaquin"
+            ],
+            "lat": 38.135765,
+            "lng": -121.27573,
+            "defunct_year": null,
+            "airtable_uid": "recmjI12uKERt6khk"
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2018-01-01 00:00:00",
+        "coverage_end": "2019-12-31 00:00:00",
+        "data_portal_type": null,
+        "description": "Staffing and summary crime statistics. At most recent update, covers 2018 and 2019.\n",
+        "detail_level": null,
+        "name": "Police statistics for Lodi CA",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table"
+        ],
+        "record_type": "Crime Statistics",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2019-12-31 00:00:00",
+        "source_url": "https://www.lodi.gov/392/Statistics",
+        "submitted_name": "Police statistics for Lodi CA",
         "supplying_entity": null,
         "update_frequency": null,
         "update_method": null
@@ -15398,6 +15494,54 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Lodi Police Department - CA",
+            "submitted_name": "Lodi Police Department",
+            "homepage_url": "http://www.lodi.gov/215/Police",
+            "jurisdiction_type": "local",
+            "state_iso": "CA",
+            "municipality": "Lodi",
+            "county_fips": "06077",
+            "county_name": [
+                "San Joaquin"
+            ],
+            "lat": 38.135765,
+            "lng": -121.27573,
+            "defunct_year": null,
+            "airtable_uid": "recmjI12uKERt6khk"
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Police & staff roster and contact information\n",
+        "detail_level": null,
+        "name": "Staff Directory for Lodi CA Police",
+        "number_of_records_available": 1,
+        "originating_entity": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text"
+        ],
+        "record_type": "Contact Info & Agency Meta",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.lodi.gov/directory.aspx?did=15",
+        "submitted_name": "Staff Directory for Lodi CA Police",
+        "supplying_entity": null,
+        "update_frequency": null,
+        "update_method": "Overwrite"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Tucson Police Department - AZ",
@@ -18652,6 +18796,54 @@
         "supplying_entity": null,
         "update_frequency": "Hourly",
         "update_method": "Overwrite"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Lodi Police Department - CA",
+            "submitted_name": "Lodi Police Department",
+            "homepage_url": "http://www.lodi.gov/215/Police",
+            "jurisdiction_type": "local",
+            "state_iso": "CA",
+            "municipality": "Lodi",
+            "county_fips": "06077",
+            "county_name": [
+                "San Joaquin"
+            ],
+            "lat": 38.135765,
+            "lng": -121.27573,
+            "defunct_year": null,
+            "airtable_uid": "recmjI12uKERt6khk"
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "901-page PDF of full policy and procedure manual.\n",
+        "detail_level": null,
+        "name": "Policy and Procedure for Lodi CA Police",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.lodi.gov/DocumentCenter/View/4153/Lodi-Police-Policy-and-Procedure",
+        "submitted_name": "Policy and Procedure for Lodi CA Police",
+        "supplying_entity": null,
+        "update_frequency": null,
+        "update_method": null
     },
     {
         "access_restrictions": null,
@@ -27092,8 +27284,10 @@
             "jurisdiction_type": "county",
             "state_iso": "CA",
             "municipality": "Dublin",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "06001",
+            "county_name": [
+                "Alameda"
+            ],
             "lat": null,
             "lng": null,
             "defunct_year": null,
@@ -51565,6 +51759,54 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Lodi Police Department - CA",
+            "submitted_name": "Lodi Police Department",
+            "homepage_url": "http://www.lodi.gov/215/Police",
+            "jurisdiction_type": "local",
+            "state_iso": "CA",
+            "municipality": "Lodi",
+            "county_fips": "06077",
+            "county_name": [
+                "San Joaquin"
+            ],
+            "lat": 38.135765,
+            "lng": -121.27573,
+            "defunct_year": null,
+            "airtable_uid": "recmjI12uKERt6khk"
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2022-01-01 00:00:00",
+        "coverage_end": "2022-12-31 00:00:00",
+        "data_portal_type": null,
+        "description": "Clicking the link directly downloads a Word document.\n",
+        "detail_level": null,
+        "name": "2022 Training Memorandum for Lodi CA Police",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "DOC / TXT"
+        ],
+        "record_type": "Training & Hiring Info",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.lodi.gov/DocumentCenter/View/3140/2022-Training-Plan-",
+        "submitted_name": "2022 Training Memorandum for Lodi CA Police",
+        "supplying_entity": null,
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Arnold Police Department - MO",
@@ -64607,6 +64849,54 @@
         "supplying_entity": null,
         "update_frequency": "Annually",
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Lodi Police Department - CA",
+            "submitted_name": "Lodi Police Department",
+            "homepage_url": "http://www.lodi.gov/215/Police",
+            "jurisdiction_type": "local",
+            "state_iso": "CA",
+            "municipality": "Lodi",
+            "county_fips": "06077",
+            "county_name": [
+                "San Joaquin"
+            ],
+            "lat": 38.135765,
+            "lng": -121.27573,
+            "defunct_year": null,
+            "airtable_uid": "recmjI12uKERt6khk"
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "SpotCrime",
+        "description": "Lodi Police Department uses\u00a0[Spot Crime](http://www.spotcrime.com/)\u00a0which maps and publishes real-time crime data from police information systems. Residents can access and browse information about their neighborhoods from any computer or mobile device.\n\nCrime reporting; does not include mention of police activity.\n",
+        "detail_level": null,
+        "name": "SpotCrime map for Lodi, CA",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Crime Maps & Reports",
+        "retention_schedule": "~10 days",
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://spotcrime.com/map?lat=38.1297971384506&lon=-121.2687494888574",
+        "submitted_name": "SpotCrime map for Lodi, CA",
+        "supplying_entity": "SpotCrime\n",
+        "update_frequency": null,
+        "update_method": "Overwrite"
     },
     {
         "access_restrictions": null,
