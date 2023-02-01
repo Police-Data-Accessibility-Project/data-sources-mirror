@@ -21,10 +21,15 @@ def get_table_data(table_name):
     fieldnames = get_fieldnames(table_name)
 
     data = Table(
-        os.environ["AIRTABLE_KEY"],
-        os.environ["AIRTABLE_BASE_ID"],
+        "keyZY48Khx2ZEqQLU",
+        "app473MWXVJVaD7Es",
         table_name
     ).all(fields=fieldnames, formula="{approved}=1")
+    # data = Table(
+    #     os.environ["AIRTABLE_KEY"],
+    #     os.environ["AIRTABLE_BASE_ID"],
+    #     table_name
+    # ).all(fields=fieldnames, formula="{approved}=1")
 
     # ditch unneeded nesting and get to the objects we care about;
     # nothing should have to care about the original
@@ -253,8 +258,8 @@ def prep_counties():
     print("making counties ....")
     table_name = "Counties"
     counties = Table(
-        os.environ["AIRTABLE_KEY"],
-        os.environ["AIRTABLE_BASE_ID"],
+        "keyZY48Khx2ZEqQLU",
+        "app473MWXVJVaD7Es",
         table_name
     ).all(fields=["fips", "name", "airtable_uid"])
 
@@ -297,15 +302,18 @@ def setup_json(data_dict):
         if target_agency:
             # so fun that they're wrapped in a list of length 1 🙄
             agency_id = target_agency[0]
-            if (a := agencies_seen.get(agency_id, None)):
-                source["agency_described"] = a
+            if (agency := agencies_seen.get(agency_id, None)):
+                source["agency_described"] = agency
             else:
                 agency = search_agencies(agency_id, agencies)
+
                 # don't need this anymore and
                 # shouldn't get written to the user-facing file
                 # but somehow getting a KeyError while searching,
                 # which doesn't make sense
-                # agency.pop("airtable_uid", None)
+                agency.pop("airtable_uid", None)
+
+                # nest this gently into the source obj
                 source["agency_described"] = agency
                 # who wants to have to search for it a second time?
                 agencies_seen[agency_id] = agency
@@ -316,7 +324,7 @@ def setup_json(data_dict):
 
 
 def search_agencies(agency_id, agencies):
-    return next(a for a in agencies if a["airtable_uid"] == agency_id)
+    return next(a for a in agencies if a.get("airtable_uid", None) == agency_id)
 
 
 def run_the_jewels(table_names, csv_locations, json_location):
@@ -327,8 +335,8 @@ def run_the_jewels(table_names, csv_locations, json_location):
     for target in csv_targets:
         data = get_table_data(target[0])
         processed = process_data(target[0], data)
-        print(f"writing {target} csv")
-        write_csv(processed, target[1])
+        # print(f"writing {target} csv")
+        # write_csv(processed, target[1])
 
         to_json[target[0]] = processed.rows
 
