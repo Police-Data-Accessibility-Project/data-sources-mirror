@@ -318,6 +318,7 @@ def setup_json(data_dict):
     return sources
 
 
+# a simple scan; ignore anything that doesn't match something we know about
 def search_agencies(agency_id, agencies):
     return next(a for a in agencies if a.get("airtable_uid", None) == agency_id)
 
