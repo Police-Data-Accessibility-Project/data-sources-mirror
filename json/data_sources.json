@@ -52793,6 +52793,52 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Pennsylvania Aggregated - PA",
+            "submitted_name": "Pennsylvania Aggregated",
+            "homepage_url": null,
+            "jurisdiction_type": "state",
+            "state_iso": "PA",
+            "municipality": "All police departments",
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null,
+            "airtable_uid": "recJmC0XOdqhvFP00"
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": "state",
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Court case search for any court in Pennsylvania.\n\nRecent entries made in the court filing offices may not be immediately reflected on these docket sheets. Neither the courts of the Unified Judicial System of the Commonwealth of Pennsylvania nor the Administrative Office of Pennsylvania Courts assumes any liability for inaccurate or delayed data, errors or omissions on these docket sheets. Docket sheet information should not be used in place of a criminal history background check, which can only be provided by the Pennsylvania State Police. Employers who do not comply with the provisions of the Criminal History Record Information Act (18 Pa.C.S. Section 9101 et seq.) may be subject to civil liability as set forth in 18 Pa.C.S. Section 9183.\nThe webpage you are viewing is operated and maintained by Pennsylvania's Unified Judicial System as a source of public information. The webpage is not affiliated with any search system for public records provided by private organizations for which fees may be incurred.\n**The ability to search for and review information contained in these web docket sheets is a free public service.**\n**Magisterial District Court Cases:**\nOn April 1, 2012, AOPC implemented a new protocol in its Magisterial District Judge System to ensure that when the official paper case records of an individual case have been or should have been destroyed in accordance with the Record Retention and Disposition Schedule with Guidelines (\u201cSchedule\u201d) promulgated pursuant to Pa.R.J.A. No. 507 that the public web docket sheet for the case will no longer be accessible. These actions are consistent with the Schedule\u2019s purpose to implement record disposition consistently throughout the UJS. Therefore, destruction of the official record pursuant to the Schedule will also result in the electronic case record information regarding the record no longer being accessible to the public.\n**Philadelphia Municipal Court and Common Pleas Court Cases:**\nWhen a search of cases from Philadelphia County is conducted using \"other criteria\", the search results will include all applicable Philadelphia Municipal Court (MC) and Court of Common Pleas (CP) cases. In Philadelphia County, MC has initial jurisdiction in processing every criminal arrest in Philadelphia and conducts misdemeanor trials and preliminary hearings for all felony cases. Therefore, some cases, such as those involving felony offenses, will initially be filed in MC but will be adjudicated in the CP. Thus, some cases will have both a MC and CP docket number that concern the same incident or offenses. To determine if a MC case has a related CP case (or vice versa), please review the \"cross court docket number\" field appearing on the web docket sheet (see page one in the case information section). Specifically, if a MC case has a corresponding CP case, the CP case docket number will most often be set forth as the \"cross court docket number\" on the web docket sheet for the MC. Similarly, if a CP case has a corresponding MC case, the MC case docket number will most often be set forth as the \"cross court docket number\" on the CP case web docket sheet.\n[Click here](https://ujsportal.pacourts.us/resource/lib/CPCMSCaseLoad.pdf)\u00a0to view information concerning the 'number' and 'oldest year' of cases migrated from county legacy systems to CPCMS. While not all cases were migrated, this chart will provide a general guideline as to the age of a criminal case available from the Court of Common Pleas Web Docket Sheet.\n",
+        "detail_level": "state",
+        "name": "Court Cases for Pennsylvania Aggregated - PA",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Court Cases",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://ujsportal.pacourts.us/CaseSearch",
+        "submitted_name": null,
+        "supplying_entity": null,
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Lakewood Police Department - WA",
@@ -55968,6 +56014,54 @@
         "source_last_updated": null,
         "source_url": "https://www.atlantapd.org/home/showpublisheddocument/4560/637762918331970000",
         "submitted_name": "Use of Force Policy",
+        "supplying_entity": null,
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Ashley County Sheriff's Office - AR",
+            "submitted_name": "Ashley County Sheriff's Office",
+            "homepage_url": "https://www.ashleycountyar.com/sheriff/",
+            "jurisdiction_type": "county",
+            "state_iso": "AR",
+            "municipality": "Hamburg",
+            "county_fips": "05003",
+            "county_name": [
+                "Ashley"
+            ],
+            "lat": 33.22909,
+            "lng": -91.81334,
+            "defunct_year": null,
+            "airtable_uid": "recWfzAIvgkaFP6My"
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2021-01-01 00:00:00",
+        "coverage_end": "2021-12-31 00:00:00",
+        "data_portal_type": null,
+        "description": "Scanned PDF of a certified financial statement for Ashley County.\t\n",
+        "detail_level": null,
+        "name": "Ashley County Financial Statement 2021",
+        "number_of_records_available": 1,
+        "originating_entity": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Scanned"
+        ],
+        "record_type": "Annual & Monthly Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.ashleycountyar.com/financial-reports/ashley-county-financial-statement-12312021-certified-copy/",
+        "submitted_name": "Ashley County Financial Statement 2021",
         "supplying_entity": null,
         "update_frequency": null,
         "update_method": null
