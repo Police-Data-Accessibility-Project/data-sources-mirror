@@ -306,7 +306,11 @@ def setup_json(data_dict):
                 # shouldn't get written to the user-facing file
                 agency.pop("airtable_uid", None)
 
-                # nest this gently into the source obj                # who wants to have to search for it a second time?
+                # nest this gently into the source obj
+                source["agency_described"] = agency
+
+                # who wants to have to search for it a second time?
+                # just make it a lookup
                 agencies_seen[agency_id] = agency
         else:
             source["agency_described"] = target_agency
