@@ -1487,6 +1487,10 @@ Arrest data sources & how to use them,Arrest data sources & how to use them,"As 
 API Information,API Information,,List of Data Sources,https://data-cosm.hub.arcgis.com/,['rec5OT7Udp0zGePcC'],True,,,,,,,,,,,,,,ArcGIS,,,[],,,,
 API Information,API Information,,List of Data Sources,https://opennassau.nassaucountyny.gov/,['recwli8NkT9k7Ep7w'],True,,,,,,,,,,,,,,Socrata,,,[],,,,
 Use of Force Reports for Seattle Police Department - WA,,,Use of Force Reports,https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj,['rec7yups5HDhlbkrA'],True,,,,,2014-01-01 00:00:00,2022-12-31 00:00:00,,,,,,['API'],True,,,,[],<2 Weeks,,,
+United States Brady List complaints database ,United States Brady List complaints database ,"Aggregated complaints about law enforcement officers, prosecutors, and judges. Brady offenses, citizen reports, decertification, do not call, public complaint, and use of force reports. Supports search by name and employer.
+",Complaints & Misconduct,https://giglio-bradylist.com/,['recdokcmI0N0lJw2b'],False,"Brady List, ""[Level Playing Field _Solutions_](https://levelplayingfield.solutions/)""
+",True,,federal,,,,,federal,,,['Web page'],,,Other,"Government organizations can apply and pay for enhanced access of some kind.
+","['HTML text', 'PDF: Machine Created', 'PDF: Scanned']",,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.fresno.gov/police/wp-content/uploads/sites/5/2020/08/PolicyManual-Redacted-December-2021_Redacted.pdf,['recMeq6VnHbu0eb81'],True,,,,,,,,,,,,,,,,,[],,,,
 Local Jail Inmate Roster for Rapides Parish Sheriff's Office - LA,Local Jail Inmate Roster for Rapides Parish Sheriff's Office - LA,,Inmate Records,http://www.rapides.lavns.org/roster.aspx,['recx038VZmmcX0v6f'],True,,,,,,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,alphabetical,
 Use of Force Reports for Los Angeles Police Department - CA,,,Use of Force Reports,https://www.lapdonline.org/police-commission/categorical-use-of-force/,['rec72qU5SjuqNmKBx'],True,,,,,2006-01-01 00:00:00,2021-12-31 00:00:00,,,,,,,True,,,,['PDF'],<2 Weeks,,,

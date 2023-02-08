@@ -58415,6 +58415,53 @@
         "update_method": null
     },
     {
+        "access_restrictions": "Other",
+        "access_restrictions_notes": "Government organizations can apply and pay for enhanced access of some kind.\n",
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "United States Aggregated",
+            "submitted_name": "United States Aggregated",
+            "homepage_url": "https://www.usa.gov/",
+            "jurisdiction_type": "federal",
+            "state_iso": null,
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": "federal",
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Aggregated complaints about law enforcement officers, prosecutors, and judges. Brady offenses, citizen reports, decertification, do not call, public complaint, and use of force reports. Supports search by name and employer.\n",
+        "detail_level": "federal",
+        "name": "United States Brady List complaints database ",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text",
+            "PDF: Machine Created",
+            "PDF: Scanned"
+        ],
+        "record_type": "Complaints & Misconduct",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://giglio-bradylist.com/",
+        "submitted_name": "United States Brady List complaints database ",
+        "supplying_entity": "Brady List, \"[Level Playing Field\u00a0_Solutions_](https://levelplayingfield.solutions/)\"\n",
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": null,
