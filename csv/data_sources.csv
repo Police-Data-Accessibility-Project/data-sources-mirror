@@ -297,6 +297,9 @@ Complaints & Misconduct for Raleigh Police Department - NC,,,Complaints & Miscon
 Calls for Service for Berkeley Police Department - CA,,,Calls for Service,https://data.cityofberkeley.info/Public-Safety/Berkeley-PD-Calls-for-Service/k2nh-s5h5,['recaUdXpMqh66Z37L'],True,,,,,,,,,,,,,,,,,[],semi-annually,,,
 Calls for Service for Bakersfield Police Department - CA,,,Calls for Service,,['recqYtWX1o3EXiF8F'],True,,,,,,,,,,,,,,,,,[],,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,,['recRvBpZqXM8mjddz'],True,,,,,,,,,,,,,,,,,[],,,,
+Warden's Report for Jail Oversight Board Meeting December 2022,Warden's Report for Jail Oversight Board Meeting December 2022,"A scanned PDF of notes prepared for the monthly JOB meeting. 11 pages.
+",Annual & Monthly Reports,https://www.documentcloud.org/documents/23577766-january-2023-warden-report,['recNjgPW5kD573LeK'],False,"PDAP <https://pdap.io>
+",True,,,2022-11-16 00:00:00,2022-12-15 00:00:00,2022-12-29 00:00:00,,,1,,['Web page'],True,DocumentCloud,,,['PDF: Scanned'],,,,
 Calls for Service for Oakland Police Department - CA,,,Calls for Service,http://gisapps1.mapoakland.com/callsforservice/ ,['recncupgm6l7tzbqT'],True,,,,,,,,Past 1–2 days ,,,,['API'],,ArcGIS,Other,"The [ArcGIS/Esri REST API](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/common/base_scrapers/esri/esri_process.md) process can be used on this URL: <http://gismaps.oaklandca.gov/oaklandgis/rest/services/callforservice_2015_FC/FeatureServer/0>
 ",['HTML table'],Daily,,,
 Contact Info & Agency Meta for Austin Police Department - TX,,,Contact Info & Agency Meta,https://www.austintexas.gov/department/police,['rec4sEAPcstcFaxeM'],True,,,,,,,,,,,,,,,,,[],,,,
@@ -596,6 +599,11 @@ Calls for Service for Philadelphia Police Department - PA,,,Calls for Service,,[
 Complaints & Misconduct for Cleveland Division of Police - OH,,,Complaints & Misconduct,https://www.clevelandohio.gov/CityofCleveland/Home/Government/CityAgencies/OPS/Publications,['recluKwTp3TBJzSPz'],True,,,,,2016-01-01 00:00:00,,,,,,,,True,,,,['PDF'],BiAnnually,,,
 Arrest Records for Sacramento Police Department - CA,,,Arrest Records,,['recNTZCTM1vUx3ZtG'],True,,,,,,,,,,,,,,,,,[],,,,
 Training Materials,Training Materials,,Policies & Contracts,,['rechIAhFfnAuSXtYK'],True,,,,,,,,,,,,,,,,,[],,,,
+Health Inspections for Allegheny County Jail 2/23/2018–3/26/2018,Health Inspections for Allegheny County Jail 2/23/2018–3/26/2018,"Inspections with date, purpose, and full report PDF. Allegheny County Jail is classified as a ""restaurant"" in this context.
+Note: there is more than one ""Allegheny County Jail"" entry in the database, so it's worth searching again if you can't seem to find the most recent one.
+",Contact Info & Agency Meta,https://eapps.alleghenycounty.us/restaurant/RestaurantDetail.aspx?ID=201408080003,['recNjgPW5kD573LeK'],False,"Allegheny County Health Department <https://www.alleghenycounty.us/healthdepartment/index.aspx>, via the restaurant finder <https://eapps.alleghenycounty.us/restaurant/>
+",False,"Allegheny County Health Department <https://www.alleghenycounty.us/healthdepartment/index.aspx>, via the restaurant finder <https://eapps.alleghenycounty.us/restaurant/>
+",,2018-02-23 00:00:00,2018-03-26 00:00:00,2018-03-26 00:00:00,,,4,,['Web page'],True,,,,['PDF: Machine Created'],Irregularly every few months upon complaint or request.,Append,newest first,
 Use of Force Reports for Atlanta Police Department - GA,,,Use of Force Reports,https://justicereform.atlantaga.gov/use-of-force  ,['reciIjknQX6bXYF4u'],True,,,,,2019-01-01 00:00:00,2020-12-31 00:00:00,,,,,,['API'],,,,,[],Annually,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.tucsonaz.gov/police/general-orders,['rec2FkksoIU2I4PtQ'],True,,,,,,,,,,,,,,,,,[],,,,
 Crime Statistics for Salt Lake City Police Department - UT,,,Crime Statistics,http://www.slcpd.com/open-data/crimestatistics/,['rec3BZ9BPYAGNSkxD'],True,,,,,2017-01-01 00:00:00,,,,,,,,True,,,,['PDF'],<2 Weeks,,,
@@ -867,6 +875,9 @@ Officer Involved Shootings for Wichita Police Department - KS,,,Officer Involved
 Officer Involved Shootings for Omaha Police Department - NE,,,Officer Involved Shootings,,['recYogPFGEl6gBgud'],True,,,,,,,,,,,,,,,,,[],,,,
 Contact Info & Agency Meta for Montgomery County Police Department - MD,,,Contact Info & Agency Meta,https://www.montgomerycountymd.gov/pol/contact.html,['recBOcOSxvItWz5pp'],True,,,,,,,,,,,,,,,,,[],,,,
 Crime Maps & Reports for Billings Police Department - MO,,,Crime Maps & Reports,https://www.arcgis.com/apps/dashboards/3703a48c34af408f8ed612e0583ec176,['recbxzvUJ3D5Ddxmz'],True,,,,,,,,rolling 6 months,,,,['API'],,,,,[],,,,
+ACJ Incarcerated individual welfare fund summary 12/31/2022,ACJ Incarcerated individual welfare fund summary 12/31/2022,"A one-page table summarizing the financial state of the incarcerated individual welfare fund.
+",Annual & Monthly Reports,https://www.documentcloud.org/documents/23577768-incarcerated-individual-welfare-fund-fs,['recNjgPW5kD573LeK'],False,"PDAP <https://pdap.io>
+",True,,,2014-12-31 00:00:00,2022-12-31 00:00:00,2022-12-31 00:00:00,,,1,,['Web page'],True,DocumentCloud,,,['PDF: Machine Created'],,,,
 Local Jail Inmate Roster for Claiborne Parish Sheriff's Office - LA,Local Jail Inmate Roster for Claiborne Parish Sheriff's Office - LA,,Inmate Records,http://www.claiborne.lavns.org/roster.aspx,['recg6dfJikkoLnANR'],True,,,,,,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,alphabetical,
 Calls for Service for New York City Police Department Midtown South Precinct - NY,,,Calls for Service,https://data.cityofnewyork.us/Public-Safety/NYPD-Calls-for-Service-Year-to-Date-/n2zq-pubd,['recIxvCNfmFqb6TMK'],,,,,,,,,,,,,,,,,,[],,,,
 Use Of Force Policy,Use Of Force Policy,,Policies & Contracts,https://www.vofishkill.us/sites/g/files/vyhlif3136/f/uploads/police_dept._-_use_of_force_6.pdf,['rec0gqe5iuZ2pnqsj'],True,,,,,,,,,,,,['Web page'],True,,,,['PDF: Machine Created'],,,,
@@ -904,6 +915,12 @@ Usage of surveillance cameras in New Orleans,Usage of surveillance cameras in Ne
 ",True,,,,,,,,,,['Web page'],True,,,,['CSV'],,Not sure,,
 Complaints & Misconduct for Montgomery County Police Department - MD,,,Complaints & Misconduct,https://www.montgomerycountymd.gov/pol/data/iad-reports.html,['recBOcOSxvItWz5pp'],True,,,,,2017-01-01 00:00:00,2021-12-31 00:00:00,,,,,,,True,,,,['PDF'],Annually,,,
 Crime Statistics for San Jose Police Department - CA,,,Crime Statistics,,['recQuWrNs4zJWIKzm'],True,,,,,,,,,,,,,,,,,[],,,,
+311 Calls for City of Chicago,311 Calls for City of Chicago,"311 Service Requests received by the City of Chicago. This dataset includes requests created after the launch of the new 311 system on 12/18/2018 and some records from the previous system, indicated in the LEGACY\_RECORD column.
+
+Included as a Data Source because in some cities 311 calls lead to police response; that does not appear to be the case in Chicago.
+",Calls for Service,https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy,['recv9fMNEQTbVarj2'],False,"City of Chicago
+",False,"City of Chicago
+",,2018-12-18 00:00:00,,2023-02-21 00:00:00,,,,,"['Web page', 'API']",True,Opendata,,,"['CSV', 'XML', 'RDF', 'RSS']",,,,
 API Information,API Information,,List of Data Sources,https://gis-mdc.opendata.arcgis.com/search?collection=Dataset,['recOc0KkWA2SnMFYJ'],True,,,,,,,,,,,,,,ArcGIS,,,[],,,,
 Police Administration contact info,Police Administration contact info,,Contact Info & Agency Meta,https://pittsburghpa.gov/police/police-administration,['recxUlLdt3Wwov6P1'],True,,,,,,,,,,,,['Web page'],,,,,['HTML text'],,Overwrite,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.fairfaxcounty.gov/police/chief/generalorders/gos ,['rec6Yat9sF3YdU3dy'],True,,,,,,,,,,,,,,,,,[],,,,
@@ -932,6 +949,8 @@ Complaints & Misconduct for Oakland Police Department - CA,,,Complaints & Miscon
 Complaints & Misconduct for New Haven Police Department - CT,,,Complaints & Misconduct,https://www.newhavenct.gov/government/departments-divisions/new-haven-police-department/divisions/nhpd-internal-affairs,['recWXq0JokYyu2QLo'],True,,,,,2015-01-01 00:00:00,,,,,,,,True,,,,['PDF'],Annually,,,
 Training Materials,Training Materials,,Policies & Contracts,,['recCLCOUnuqB0w6B5'],True,,,,,,,,,,,,,,,,,[],,,,
 Crime Maps & Reports for Chico Police Department - CA,,,Crime Maps & Reports,https://csucpd.crimegraphics.com/2013/default.aspx#BulletinMenu,['reckTAbZWxd7WdGko'],False,,,,,,,,,,,,,,,,,[],daily,,,
+Court Cases for North Carolina Judicial Branch - NC,,"Court case search portal for North Carolina Judicial. The site alludes to not all counties and courts being represented, but is not specific about which are present.
+",Court Cases,https://portal-nc.tylertech.cloud/Portal/,['rech9W5VHZ9bGLhGS'],,,,,,,,,,,,,['Web page'],,Tyler Technologies,,,['HTML text'],,,,
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://pittsburghpa.gov/files/police/orders/ch1/12-06-Use-of-Force.pdf,['recxUlLdt3Wwov6P1'],True,,,,,,,,,,,,,True,,,,[],,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.montgomerycountymd.gov/POL/resource/Directives/100.html,['recBOcOSxvItWz5pp'],True,,,,,,,,,,,,,,,,,[],,,,
 Complaints & Misconduct for Louisville Metro Police Department - KY,,,Complaints & Misconduct,https://louisville-police.org/DocumentCenter/View/2386/PSU-INVESTIGATED-CASES-Monthly-Breakdown-2022,['recAGAe57BJc0uH3Y'],True,,,,,2016-01-01 00:00:00,2021-12-31 00:00:00,,,,,,,,,,,['PDF'],Monthly,,,
@@ -1090,6 +1109,8 @@ Calls for Service for Detroit Police Department - MI,,,Calls for Service,https:/
 Contact Info & Agency Meta for San Francisco Police Department - CA,,,Contact Info & Agency Meta,https://www.sanfranciscopolice.org/contact-and-directory,['recpoCnVvbdpXzQpy'],True,,,,,,,,,,,,,,,,,[],,,,
 Crime Statistics for Manchester Police Department - NH,,,Crime Statistics,manchesternh.gov/Departments/Police/Administration/Crime-Data/Crime-Statistics,['recC2M0g6aX2ReloE'],True,,,,,2020-01-01 00:00:00,,,,,,,['Web page'],True,,,,[],Annually,,,
 Complaints & Misconduct for Tulsa Police Department - OK,,,Complaints & Misconduct,,['recdeW2nyruv6efXb'],True,,,,,,,,,,,,,,,,,[],,,,
+Allegheny County Jail Segregated Housing reports,Allegheny County Jail Segregated Housing reports,"The reports at the bottom of the page are monthly accounts of the instances where incarcerated people were kept in segregated or solitary confinement, with reasons, demographics, and dates.
+",Inmate Records,https://www.alleghenycounty.us/jail/inmate-information.aspx,['recNjgPW5kD573LeK'],True,,,,,2021-06-01 00:00:00,,2023-01-01 00:00:00,,,,,['Web page'],,,,,['PDF: Machine Created'],Monthly,Append,newest first,
 Calls for Service for Sanford Police Department - FL,,,Calls for Service,https://cityprotect.com/agency/693cc3ad-63f5-46e1-913a-1388f6062946,['recgo70Cz2Oq4wtWf'],False,,,,,2017-01-01 00:00:00,,,,,,,,,CityProtect,,,[],quarterly,,,
 API Information,API Information,,List of Data Sources,https://data.providenceri.gov/,['recPkOsZeJIhPxyMW'],True,,,,,,,,,,,,,,Socrata,,,[],,,,
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.fresno.gov/police/wp-content/uploads/sites/5/2020/08/PolicyManual-Redacted-December-2021_Redacted.pdf,['recMeq6VnHbu0eb81'],True,,,,,,,,,,,,,True,,,,[],,,,
@@ -1279,6 +1300,12 @@ Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.vbgov.
 Complaints & Misconduct for Arlington Police Department - TX,,,Complaints & Misconduct,,['rec44U8d6ZIBHkaS1'],True,,,,,,,,,,,,,,,,,[],,,,
 Domestic Violence resource guide,Domestic Violence resource guide,"Contact information and guidance.
 ",Resources,https://pittsburghpa.gov/police/domestic-violence-resource-guide,['recxUlLdt3Wwov6P1'],True,,,,,,,,,,,,['Web page'],,,,,['HTML text'],,Overwrite,,
+Health Inspections for Allegheny County Jail 7/25/18–2/23/21,Health Inspections for Allegheny County Jail 7/25/18–2/23/21,"Inspections with date, purpose, and full report PDF. Allegheny County Jail is classified as a ""restaurant"" in this context.
+
+Note: there is more than one ""Allegheny County Jail"" entry in the database, so it's worth searching again if you can't seem to find the most recent one.
+",Contact Info & Agency Meta,https://eapps.alleghenycounty.us/restaurant/RestaurantDetail.aspx?ID=201808060005,['recNjgPW5kD573LeK'],False,"Allegheny County Health Department <https://www.alleghenycounty.us/healthdepartment/index.aspx>, via the restaurant finder <https://eapps.alleghenycounty.us/restaurant/>
+",False,"Allegheny County Health Department <https://www.alleghenycounty.us/healthdepartment/index.aspx>, via the restaurant finder <https://eapps.alleghenycounty.us/restaurant/>
+",,2018-07-25 00:00:00,2021-02-23 00:00:00,2021-02-23 00:00:00,,,6,,['Web page'],True,,,,['PDF: Machine Created'],Irregularly every few months upon complaint or request.,Append,newest first,
 Arrest Records for Antioch Police Department - CA,,,Arrest Records,https://www.antiochca.gov/fc/police/crime-maps/this-weeks-aar.pdf,['recsHLsYrlwwosqDf'],True,,,,,,,,,,,,,,,,,[],weekly,,,
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.clevelandohio.gov/sites/default/files/gpo/CHAPTER%202%20LEGAL/2.01%20USE%20OF%20FORCE/2.01.03%20Use%20of%20Force-General%20(r).pdf,['recluKwTp3TBJzSPz'],True,,,,,,,,,,,,,True,,,,[],,,,
 Local Jail Inmate Roster for West Feliciana Parish Sheriff's Office - LA,Local Jail Inmate Roster for West Feliciana Parish Sheriff's Office - LA,,Inmate Records,http://www.westfeliciana.lavns.org/roster.aspx,['recXac1DuJWjlVahE'],True,,,,,,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,alphabetical,
@@ -1302,6 +1329,9 @@ List of Data Sources for Stewart County Sheriff's Office - GA,,,List of Data Sou
 Complaints & Misconduct for Omaha Police Department - NE,,,Complaints & Misconduct,https://police.cityofomaha.org/crime-informatioNAnnual-reports,['recYogPFGEl6gBgud'],True,,,,,2008-01-01 00:00:00,2020-12-31 00:00:00,,,,,,,True,,,,['PDF'],Annually,,,
 Westland Police Crime Map,Westland Police Crime Map,"A map of Reported Incidents in Westland with details about each incident. The details include a short description, the date/location, and the incident number.
 ",Crime Statistics,https://www.crimemapping.com/map/agency/405,['recUA2egBydYJ6hKp'],False,,True,,,2022-03-24 00:00:00,,2022-09-18 00:00:00,180 Days,,631,,['Web page'],,,,,['Dashboard / Visualization'],Daily,Not sure,newest first,
+Draft Jail Oversight Board meeting minutes 12/1/2022,Draft Jail Oversight Board meeting minutes 12/1/2022,"Allegheny County Jail's Jail Oversight Board's meeting minutes for December 1, 2022. 255 pages.
+",Other,https://www.documentcloud.org/documents/23577767-draft-job-meeting-minutes-december-1-2022,['recNjgPW5kD573LeK'],False,"PDAP <https://pdap.io>
+",True,,,2022-12-31 00:00:00,2022-12-31 00:00:00,,,,1,,['Web page'],True,DocumentCloud,,,['PDF: Machine Created'],,,,
 Use of Force Reports for Saint Louis County Police Department - MO,,,Use of Force Reports,https://data-stlcogis.opendata.arcgis.com/apps/st-louis-county-police-department-uses-of-force/explore,['recUHGnbrW8IuuafX'],True,,,,,2018-01-01 00:00:00,2021-12-31 00:00:00,,,,,,['API'],,,,,[],Annually,,,
 Crime Statistics for Louisville Metro Police Department - KY,,,Crime Statistics,https://data.louisvilleky.gov/dataset/crime-reports,['recAGAe57BJc0uH3Y'],True,,,,,2003-01-01 00:00:00,2021-12-31 00:00:00,,,,,,,True,,,,['CSV'],Annually,,,
 Operations Manuals,Operations Manuals,,Policies & Contracts,,['recaC9Prp7sCcmAkS'],True,,,,,,,,,,,,,,,,,[],,,,
@@ -1428,6 +1458,9 @@ Use of Force Reports for New Orleans Police Department - LA,,,Use of Force Repor
 Officer Involved Shootings for Birmingham Police Department - AL,,,Officer Involved Shootings,,['reccnFDyDmi6MyRef'],True,,,,,,,,,,,,,,,,,[],,,,
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.wichita.gov/WPD/WPDPolicyAndProcedureManual/Policy%20906%20-%20Use%20of%20Force.pdf,['recTfxDdANAoFK39R'],True,,,,,,,,,,,,,True,,,,[],,,,
 Officer Involved Shootings for San Jose Police Department - CA,,,Officer Involved Shootings,,['recQuWrNs4zJWIKzm'],True,,,,,,,,,,,,,,,,,[],,,,
+Allegheny County Jail population summary,Allegheny County Jail population summary,"A demographic summary about who's in the Allegheny County Jail. 2 pages.
+",Inmate Records,https://www.documentcloud.org/documents/23577764-1423-jail-summary,['recNjgPW5kD573LeK'],False,"PDAP <https://pdap.io>
+",True,,,2023-01-04 00:00:00,2023-01-04 00:00:00,2023-01-04 00:00:00,,,1,,['Web page'],True,DocumentCloud,,,['PDF: Machine Created'],,,,
 Calls for Service for Jackson Police Department - MS,,,Calls for Service,,['rechIAhFfnAuSXtYK'],True,,,,,,,,,,,,,,,,,[],,,,
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://public.powerdms.com/TAMPA/documents/424130,['recdCTc76JGEXNuxP'],True,,,,,,,,,,,,,True,,,,[],,,,
 Officer Involved Shootings for Pittsburgh Bureau of Police - PA,,,Officer Involved Shootings,,['recxUlLdt3Wwov6P1'],True,,,,,,,,,,,,,,,,,[],,,,
@@ -1456,6 +1489,8 @@ Operations Manuals,Operations Manuals,,Policies & Contracts,https://city.milwauk
 Local Jail Inmate Roster for Morehouse Parish Sheriff's Office - LA,Local Jail Inmate Roster for Morehouse Parish Sheriff's Office - LA,,Inmate Records,http://www.morehouse.lavns.org/roster.aspx,['recZV4vg01dqfcHJz'],True,,,,,,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,alphabetical,
 List of Data Sources for Clayton County School Police - GA,,,List of Data Sources,https://www.clayton.k12.ga.us/departments/safety_and_security/forms,['reckaQcAdWf9jwKHX'],True,,,,,,,,,,,,,,,,,[],,,,
 Local Jail Inmate Roster for East Feliciana Parish Sheriff's Office - LA,Local Jail Inmate Roster for East Feliciana Parish Sheriff's Office - LA,,Inmate Records,http://www.eastfeliciana.lavns.org/roster.aspx,['recWpcGlplhCXGqjQ'],True,,,,,,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,alphabetical,
+Allegheny County Jail interactive population dashboard,Allegheny County Jail interactive population dashboard,"Summarized demographics statistics updated daily. Limited download options available.
+",Inmate Records,https://analytics.alleghenycounty.us/2021/03/04/allegheny-county-jail-population-management-dashboards-2/,['recNjgPW5kD573LeK'],True,,,,,2018-01-01 00:00:00,,,,,,,['Web page'],True,Tableau,,,"['Dashboard / Visualization', 'CSV']",,,,
 Local Jail Inmate Roster for St. Mary Parish Sheriff's Office - LA,Local Jail Inmate Roster for St. Mary Parish Sheriff's Office - LA,,Inmate Records,http://www.stmary.lavns.org/roster.aspx,['recF4YzHfYjHhCXFl'],True,,,,,,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,alphabetical,
 Crime Statistics for Dallas Police Department - TX,,,Crime Statistics,https://www.dallasopendata.com/Public-Safety/Police-Incidents/qv6i-rri7,['rece96HuT3JfD6b2i'],True,,,,,2014-06-01 00:00:00,,,,,,,['API'],True,,,,[],<2 Weeks,,,
 Calls for Service for Capitola Police Department - CA,,,Calls for Service,https://cityprotect.com/agency/1f1336f9-4f15-4542-97f0-ea70b206149f,['recOHecSGW9CGEyrX'],False,,,,,2017-01-01 00:00:00,,,,,,,,,CityProtect,,,[],quarterly,,,
@@ -1791,6 +1826,9 @@ Local Jail Inmate Roster for Winn Parish Sheriff's Office - LA,Local Jail Inmate
 Contact Info & Agency Meta for Bridgeport Police Department - CT,,,Contact Info & Agency Meta,https://www.bridgeportct.gov/content/341307/341425/341439/341792.aspx,['recAfUbY3LGHK5bMn'],True,,,,,,,,,,,,,,,,,[],,,,
 Training Materials,Training Materials,,Policies & Contracts,https://mpdc.dc.gov/node/423092,['recNNfzh6R2eGptZv'],True,,,,,,,,,,,,,True,,,,[],,,,
 Arrest Records for Providence Police Department - RI,,,Arrest Records,https://data.providenceri.gov/Public-Safety/Providence-Police-Department-Arrest-Log-Past-60-Da/vank-fyx9,['recPkOsZeJIhPxyMW'],True,,,,,2021-01-01 00:00:00,,,,,,,['API'],True,,,,[],<2 Weeks,,,
+Allegheny County Jail DocumentCloud folder published by PDAP,Allegheny County Jail DocumentCloud folder published by PDAP,"Documents about the Allegheny County Jail sent to and published by PDAP. Potentially useful public records circulating in the Allegheny County area will end up here.
+",List of Data Sources,https://www.documentcloud.org/app?q=%2Bproject%3Aallegheny-county-jail-211877%20,['recNjgPW5kD573LeK'],False,"PDAP https://pdap.io
+",True,,,,,,,,,,['Web page'],True,DocumentCloud,,,[],,Append,,
 Contact Info & Agency Meta for Virginia Beach Police Department - VA,,,Contact Info & Agency Meta,https://www.vbgov.com/government/departments/police/Pages/contact-us.aspx ,['recWwVgVXLEcfwZe6'],True,,,,,,,,,,,,,,,,,[],,,,
 Traffic Stops for Charleston Police Department - WV,,,Traffic Stops,,['reciGRFmQ8wyX4U9c'],True,,,,,,,,,,,,,,,,,[],,,,
 API Information,API Information,,List of Data Sources,https://datadriven.nola.gov/open-data/,['rec0cHhCkS656IOeX'],True,,,,,,,,,,,,,,Socrata,,,[],,,,
@@ -1868,5 +1906,11 @@ Property and Evidence
 Uniforms
 Volunteer Units and Members
 ",Policies & Contracts,https://wp.sbcounty.gov/sheriff/policiesoperatingprocedures-department/,['recuwLv3r3NDHDSu5'],True,,,,,,,2022-03-01 00:00:00,,,1,4.8MB,['Web page'],True,,,,['PDF: Machine Created'],,Overwrite,,
+Health Inspections for Allegheny County Jail 2/23/21–present,Health Inspections for Allegheny County Jail 2/23/21–present,"Inspections with date, purpose, and full report PDF. Allegheny County Jail is classified as a ""restaurant"" in this context.
+
+Note: there is more than one ""Allegheny County Jail"" entry in the database, so it's worth searching again if you can't seem to find the most recent one.
+",Contact Info & Agency Meta,https://eapps.alleghenycounty.us/restaurant/RestaurantDetail.aspx?ID=202102230002,['recNjgPW5kD573LeK'],False,"Allegheny County Health Department <https://www.alleghenycounty.us/healthdepartment/index.aspx>, via the restaurant finder <https://eapps.alleghenycounty.us/restaurant/>
+",False,"Allegheny County Health Department <https://www.alleghenycounty.us/healthdepartment/index.aspx>, via the restaurant finder <https://eapps.alleghenycounty.us/restaurant/>
+",,2021-02-23 00:00:00,,2023-01-18 00:00:00,,,15,,['Web page'],True,,,,['PDF: Machine Created'],Irregularly every few months upon complaint or request.,Append,newest first,
 Local Jail Inmate Roster for Oakdale Police Department - LA,Local Jail Inmate Roster for Oakdale Police Department - LA,,Inmate Records,http://www.oakdale.lavns.org/roster.aspx,['recsKrKebRtDwzU2I'],True,,,,,,,,,,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,alphabetical,
 Arrest Records for Atlanta Police Department - GA,,,Arrest Records,,['reciIjknQX6bXYF4u'],True,,,,,,,,,,,,,,,,,[],,,,

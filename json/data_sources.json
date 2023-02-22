@@ -11301,6 +11301,53 @@
         "update_method": null
     },
     {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Allegheny County Jail - PA",
+            "submitted_name": "Allegheny County Jail",
+            "homepage_url": "https://www.alleghenycounty.us/jail/index.aspx",
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.4345561,
+            "lng": -79.9959509,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2022-11-16 00:00:00",
+        "coverage_end": "2022-12-15 00:00:00",
+        "data_portal_type": "DocumentCloud",
+        "description": "A scanned PDF of notes prepared for the monthly JOB meeting. 11 pages.\n",
+        "detail_level": null,
+        "name": "Warden's Report for Jail Oversight Board Meeting December 2022",
+        "number_of_records_available": 1,
+        "originating_entity": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Scanned"
+        ],
+        "record_type": "Annual & Monthly Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2022-12-29 00:00:00",
+        "source_url": "https://www.documentcloud.org/documents/23577766-january-2023-warden-report",
+        "submitted_name": "Warden's Report for Jail Oversight Board Meeting December 2022",
+        "supplying_entity": "PDAP <https://pdap.io>\n",
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
         "access_restrictions": "Other",
         "access_restrictions_notes": "The [ArcGIS/Esri REST API](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/common/base_scrapers/esri/esri_process.md) process can be used on this URL: <http://gismaps.oaklandca.gov/oaklandgis/rest/services/callforservice_2015_FC/FeatureServer/0>\n",
         "access_type": [
@@ -22775,6 +22822,53 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Allegheny County Jail - PA",
+            "submitted_name": "Allegheny County Jail",
+            "homepage_url": "https://www.alleghenycounty.us/jail/index.aspx",
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.4345561,
+            "lng": -79.9959509,
+            "defunct_year": null
+        },
+        "agency_originated": false,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2018-02-23 00:00:00",
+        "coverage_end": "2018-03-26 00:00:00",
+        "data_portal_type": null,
+        "description": "Inspections with date, purpose, and full report PDF. Allegheny County Jail is classified as a \"restaurant\" in this context.\nNote: there is more than one \"Allegheny County Jail\" entry in the database, so it's worth searching again if you can't seem to find the most recent one.\n",
+        "detail_level": null,
+        "name": "Health Inspections for Allegheny County Jail 2/23/2018\u20133/26/2018",
+        "number_of_records_available": 4,
+        "originating_entity": "Allegheny County Health Department <https://www.alleghenycounty.us/healthdepartment/index.aspx>, via the restaurant finder <https://eapps.alleghenycounty.us/restaurant/>\n",
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Contact Info & Agency Meta",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": "2018-03-26 00:00:00",
+        "source_url": "https://eapps.alleghenycounty.us/restaurant/RestaurantDetail.aspx?ID=201408080003",
+        "submitted_name": "Health Inspections for Allegheny County Jail 2/23/2018\u20133/26/2018",
+        "supplying_entity": "Allegheny County Health Department <https://www.alleghenycounty.us/healthdepartment/index.aspx>, via the restaurant finder <https://eapps.alleghenycounty.us/restaurant/>\n",
+        "update_frequency": "Irregularly every few months upon complaint or request.",
+        "update_method": "Append"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "API"
         ],
         "agency_described": {
@@ -33430,6 +33524,53 @@
             "Web page"
         ],
         "agency_described": {
+            "name": "Allegheny County Jail - PA",
+            "submitted_name": "Allegheny County Jail",
+            "homepage_url": "https://www.alleghenycounty.us/jail/index.aspx",
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.4345561,
+            "lng": -79.9959509,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2014-12-31 00:00:00",
+        "coverage_end": "2022-12-31 00:00:00",
+        "data_portal_type": "DocumentCloud",
+        "description": "A one-page table summarizing the financial state of the incarcerated individual welfare fund.\n",
+        "detail_level": null,
+        "name": "ACJ Incarcerated individual welfare fund summary 12/31/2022",
+        "number_of_records_available": 1,
+        "originating_entity": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Annual & Monthly Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2022-12-31 00:00:00",
+        "source_url": "https://www.documentcloud.org/documents/23577768-incarcerated-individual-welfare-fund-fs",
+        "submitted_name": "ACJ Incarcerated individual welfare fund summary 12/31/2022",
+        "supplying_entity": "PDAP <https://pdap.io>\n",
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
             "name": "Claiborne Parish Sheriff's Office - LA",
             "submitted_name": "Claiborne Parish Sheriff's Office",
             "homepage_url": "https://www.claiborneparish.org/sheriffs-office.php",
@@ -34650,6 +34791,57 @@
         "source_url": null,
         "submitted_name": null,
         "supplying_entity": null,
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page",
+            "API"
+        ],
+        "agency_described": {
+            "name": "Chicago Police Department - IL",
+            "submitted_name": "Chicago Police Department",
+            "homepage_url": "https://home.chicagopolice.org/",
+            "jurisdiction_type": "local",
+            "state_iso": "IL",
+            "municipality": "Chicago",
+            "county_fips": "17031",
+            "county_name": [
+                "Cook"
+            ],
+            "lat": 41.85861,
+            "lng": -87.62802,
+            "defunct_year": null
+        },
+        "agency_originated": false,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2018-12-18 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": "Opendata",
+        "description": "311 Service Requests received by the City of Chicago. This dataset includes requests created after the launch of the new 311 system on 12/18/2018 and some records from the previous system, indicated in the LEGACY\\_RECORD column.\n\nIncluded as a Data Source because in some cities 311 calls lead to police response; that does not appear to be the case in Chicago.\n",
+        "detail_level": null,
+        "name": "311 Calls for City of Chicago",
+        "number_of_records_available": null,
+        "originating_entity": "City of Chicago\n",
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "XML",
+            "RDF",
+            "RSS"
+        ],
+        "record_type": "Calls for Service",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2023-02-21 00:00:00",
+        "source_url": "https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy",
+        "submitted_name": "311 Calls for City of Chicago",
+        "supplying_entity": "City of Chicago\n",
         "update_frequency": null,
         "update_method": null
     },
@@ -35883,6 +36075,51 @@
         "submitted_name": null,
         "supplying_entity": null,
         "update_frequency": "daily",
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "North Carolina Judicial Branch - NC",
+            "submitted_name": "North Carolina Judicial Branch",
+            "homepage_url": "https://www.nccourts.gov/",
+            "jurisdiction_type": "state",
+            "state_iso": "NC",
+            "municipality": "Raleigh",
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": null,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "Tyler Technologies",
+        "description": "Court case search portal for North Carolina Judicial. The site alludes to not all counties and courts being represented, but is not specific about which are present.\n",
+        "detail_level": null,
+        "name": "Court Cases for North Carolina Judicial Branch - NC",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text"
+        ],
+        "record_type": "Court Cases",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://portal-nc.tylertech.cloud/Portal/",
+        "submitted_name": null,
+        "supplying_entity": null,
+        "update_frequency": null,
         "update_method": null
     },
     {
@@ -42655,6 +42892,53 @@
         "supplying_entity": null,
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Allegheny County Jail - PA",
+            "submitted_name": "Allegheny County Jail",
+            "homepage_url": "https://www.alleghenycounty.us/jail/index.aspx",
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.4345561,
+            "lng": -79.9959509,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2021-06-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "The reports at the bottom of the page are monthly accounts of the instances where incarcerated people were kept in segregated or solitary confinement, with reasons, demographics, and dates.\n",
+        "detail_level": null,
+        "name": "Allegheny County Jail Segregated Housing reports",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Inmate Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": "2023-01-01 00:00:00",
+        "source_url": "https://www.alleghenycounty.us/jail/inmate-information.aspx",
+        "submitted_name": "Allegheny County Jail Segregated Housing reports",
+        "supplying_entity": null,
+        "update_frequency": "Monthly",
+        "update_method": "Append"
     },
     {
         "access_restrictions": null,
@@ -50248,6 +50532,53 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Allegheny County Jail - PA",
+            "submitted_name": "Allegheny County Jail",
+            "homepage_url": "https://www.alleghenycounty.us/jail/index.aspx",
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.4345561,
+            "lng": -79.9959509,
+            "defunct_year": null
+        },
+        "agency_originated": false,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2018-07-25 00:00:00",
+        "coverage_end": "2021-02-23 00:00:00",
+        "data_portal_type": null,
+        "description": "Inspections with date, purpose, and full report PDF. Allegheny County Jail is classified as a \"restaurant\" in this context.\n\nNote: there is more than one \"Allegheny County Jail\" entry in the database, so it's worth searching again if you can't seem to find the most recent one.\n",
+        "detail_level": null,
+        "name": "Health Inspections for Allegheny County Jail 7/25/18\u20132/23/21",
+        "number_of_records_available": 6,
+        "originating_entity": "Allegheny County Health Department <https://www.alleghenycounty.us/healthdepartment/index.aspx>, via the restaurant finder <https://eapps.alleghenycounty.us/restaurant/>\n",
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Contact Info & Agency Meta",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": "2021-02-23 00:00:00",
+        "source_url": "https://eapps.alleghenycounty.us/restaurant/RestaurantDetail.aspx?ID=201808060005",
+        "submitted_name": "Health Inspections for Allegheny County Jail 7/25/18\u20132/23/21",
+        "supplying_entity": "Allegheny County Health Department <https://www.alleghenycounty.us/healthdepartment/index.aspx>, via the restaurant finder <https://eapps.alleghenycounty.us/restaurant/>\n",
+        "update_frequency": "Irregularly every few months upon complaint or request.",
+        "update_method": "Append"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Antioch Police Department - CA",
@@ -51179,6 +51510,53 @@
         "supplying_entity": null,
         "update_frequency": "Daily",
         "update_method": "Not sure"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Allegheny County Jail - PA",
+            "submitted_name": "Allegheny County Jail",
+            "homepage_url": "https://www.alleghenycounty.us/jail/index.aspx",
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.4345561,
+            "lng": -79.9959509,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2022-12-31 00:00:00",
+        "coverage_end": "2022-12-31 00:00:00",
+        "data_portal_type": "DocumentCloud",
+        "description": "Allegheny County Jail's Jail Oversight Board's meeting minutes for December 1, 2022. 255 pages.\n",
+        "detail_level": null,
+        "name": "Draft Jail Oversight Board meeting minutes 12/1/2022",
+        "number_of_records_available": 1,
+        "originating_entity": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Other",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.documentcloud.org/documents/23577767-draft-job-meeting-minutes-december-1-2022",
+        "submitted_name": "Draft Jail Oversight Board meeting minutes 12/1/2022",
+        "supplying_entity": "PDAP <https://pdap.io>\n",
+        "update_frequency": null,
+        "update_method": null
     },
     {
         "access_restrictions": null,
@@ -55996,6 +56374,53 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Allegheny County Jail - PA",
+            "submitted_name": "Allegheny County Jail",
+            "homepage_url": "https://www.alleghenycounty.us/jail/index.aspx",
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.4345561,
+            "lng": -79.9959509,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2023-01-04 00:00:00",
+        "coverage_end": "2023-01-04 00:00:00",
+        "data_portal_type": "DocumentCloud",
+        "description": "A demographic summary about who's in the Allegheny County Jail. 2 pages.\n",
+        "detail_level": null,
+        "name": "Allegheny County Jail population summary",
+        "number_of_records_available": 1,
+        "originating_entity": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Inmate Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2023-01-04 00:00:00",
+        "source_url": "https://www.documentcloud.org/documents/23577764-1423-jail-summary",
+        "submitted_name": "Allegheny County Jail population summary",
+        "supplying_entity": "PDAP <https://pdap.io>\n",
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Jackson Police Department - MS",
@@ -57175,6 +57600,54 @@
         "supplying_entity": null,
         "update_frequency": "Hourly",
         "update_method": "Overwrite"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Allegheny County Jail - PA",
+            "submitted_name": "Allegheny County Jail",
+            "homepage_url": "https://www.alleghenycounty.us/jail/index.aspx",
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.4345561,
+            "lng": -79.9959509,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2018-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": "Tableau",
+        "description": "Summarized demographics statistics updated daily. Limited download options available.\n",
+        "detail_level": null,
+        "name": "Allegheny County Jail interactive population dashboard",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "Dashboard / Visualization",
+            "CSV"
+        ],
+        "record_type": "Inmate Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://analytics.alleghenycounty.us/2021/03/04/allegheny-county-jail-population-management-dashboards-2/",
+        "submitted_name": "Allegheny County Jail interactive population dashboard",
+        "supplying_entity": null,
+        "update_frequency": null,
+        "update_method": null
     },
     {
         "access_restrictions": null,
@@ -69040,6 +69513,51 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Allegheny County Jail - PA",
+            "submitted_name": "Allegheny County Jail",
+            "homepage_url": "https://www.alleghenycounty.us/jail/index.aspx",
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.4345561,
+            "lng": -79.9959509,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "DocumentCloud",
+        "description": "Documents about the Allegheny County Jail sent to and published by PDAP. Potentially useful public records circulating in the Allegheny County area will end up here.\n",
+        "detail_level": null,
+        "name": "Allegheny County Jail DocumentCloud folder published by PDAP",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "record_download_option_provided": true,
+        "record_format": [],
+        "record_type": "List of Data Sources",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.documentcloud.org/app?q=%2Bproject%3Aallegheny-county-jail-211877%20",
+        "submitted_name": "Allegheny County Jail DocumentCloud folder published by PDAP",
+        "supplying_entity": "PDAP https://pdap.io\n",
+        "update_frequency": null,
+        "update_method": "Append"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Virginia Beach Police Department - VA",
@@ -72020,6 +72538,53 @@
         "supplying_entity": null,
         "update_frequency": null,
         "update_method": "Overwrite"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Allegheny County Jail - PA",
+            "submitted_name": "Allegheny County Jail",
+            "homepage_url": "https://www.alleghenycounty.us/jail/index.aspx",
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.4345561,
+            "lng": -79.9959509,
+            "defunct_year": null
+        },
+        "agency_originated": false,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2021-02-23 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Inspections with date, purpose, and full report PDF. Allegheny County Jail is classified as a \"restaurant\" in this context.\n\nNote: there is more than one \"Allegheny County Jail\" entry in the database, so it's worth searching again if you can't seem to find the most recent one.\n",
+        "detail_level": null,
+        "name": "Health Inspections for Allegheny County Jail 2/23/21\u2013present",
+        "number_of_records_available": 15,
+        "originating_entity": "Allegheny County Health Department <https://www.alleghenycounty.us/healthdepartment/index.aspx>, via the restaurant finder <https://eapps.alleghenycounty.us/restaurant/>\n",
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Contact Info & Agency Meta",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": "2023-01-18 00:00:00",
+        "source_url": "https://eapps.alleghenycounty.us/restaurant/RestaurantDetail.aspx?ID=202102230002",
+        "submitted_name": "Health Inspections for Allegheny County Jail 2/23/21\u2013present",
+        "supplying_entity": "Allegheny County Health Department <https://www.alleghenycounty.us/healthdepartment/index.aspx>, via the restaurant finder <https://eapps.alleghenycounty.us/restaurant/>\n",
+        "update_frequency": "Irregularly every few months upon complaint or request.",
+        "update_method": "Append"
     },
     {
         "access_restrictions": null,
