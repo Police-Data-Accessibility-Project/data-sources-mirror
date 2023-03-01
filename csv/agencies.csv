@@ -7599,7 +7599,7 @@ Pike County Sheriff's Office - IN,Pike County Sheriff's Office,http://pikecounty
 Olivet Police Department - MI,Olivet Police Department,http://www.cityofolivet.org/departments/police-department,local,MI,Olivet,26045,['Eaton'],42.44624,-84.92377,,recJlnGzi4JcDsN1k
 Franklin County District Attorney's Office - NY,Franklin County District Attorney's Office,https://www.franklincountyny.gov/departments/public_safety/district_attorney_s_office/index.php,county,NY,Malone,,,,,,recJlyrwXfaktDe1d
 University of California - Irvine Police - CA,University of California - Irvine Police,,school,CA,Irvine,06059,['Orange'],,,,recJm9KgirtQWrWOI
-Pennsylvania Aggregated - PA,Pennsylvania Aggregated,,state,PA,All police departments,,,,,,recJmC0XOdqhvFP00
+Pennsylvania Aggregated - PA,Pennsylvania Aggregated,,state,PA,,,,,,,recJmC0XOdqhvFP00
 Metamora Township Police Department - MI,Metamora Township Police Department,,local,MI,Metamora,26087,['Lapeer'],,,,recJmEdnptcHIMI8Y
 University of Arkansas at Fort Smith Police Department - AR,University of Arkansas at Fort Smith Police Department,https://uafs.edu/upd/upd-home,school,AR,Fort Smith,05131,['Sebastian'],35.382587,-94.42359,,recJmMYLB4ewSgL3f
 Smith County Sheriff's Office - KS,Smith County Sheriff's Office,http://www.smithcoks.com/electedofficials/sheriff/tabid/4253/default.aspx,county,KS,Smith Center,20183,['Smith'],39.7763,-98.78155,,recJmRL6MRemuzwDc
@@ -9284,6 +9284,7 @@ Shreve Village Police Department - OH,Shreve Village Police Department,,local,OH
 Coleman County Sheriff's Office - TX,Coleman County Sheriff's Office,https://www.facebook.com/coleman.ccso/,county,TX,Coleman,48083,['Coleman'],31.83139,-99.42306,,recOORDI7UIvHEB6J
 Raymond Police Department - IL,Raymond Police Department,https://raymondpolice.com/,local,IL,Raymond,33015,['Rockingham'],43.02938,-71.19646,,recOOfUc87jTWiceK
 Hudson Police Department - IA,Hudson Police Department,,local,IA,Hudson,19013,['Black Hawk'],,,,recOOfg2MCBGBPM2P
+Connecticut Aggregated - CT,Connecticut Aggregated,,state,CT,,,,,,,recOP878mnJLrMPMG
 Adelanto Police Department - CA,Adelanto Police Department,https://wp.sbcounty.gov/sheriff/patrol-stations/victor-valley/,local,CA,Adelanto,,,,,,recOPFtBXIvDRK3KV
 Luxemburg Police Department - WI,Luxemburg Police Department,http://www.luxemburgusa.com/police.html,local,WI,Luxemburg,55061,['Kewaunee'],44.54147,-87.70679,,recOPN2TJ5zhEvLKb
 Mount Pleasant I.S.D. Police Department. - TX,Mount Pleasant I.S.D. Police Department.,,local,TX,Mount Pleasant,48449,['Titus'],,,,recOPtf7TpQ1QEpe5
@@ -10373,7 +10374,7 @@ Maine Department of Corrections - ME,Maine Department of Corrections,http://www.
 Georgetown County Sheriff’s Office - SC,Georgetown County Sheriff’s Office,http://www.gcsheriff.org/,county,SC,Georgetown,45043,['Georgetown'],33.37696,-79.28727,,recRWrF8taJmhIdxA
 Fairfax County Police Department Helicopter Division - VA,Fairfax County Police Department Helicopter Division,https://www.fairfaxcounty.gov/police/#gsc.tab=0,county,VA,Fairfax,51059,['Fairfax'],38.85346,-77.37349,,recRWsFs6u8T5qj4T
 Pepper Pike Police Department - OH,Pepper Pike Police Department,,local,OH,Pepper Pike,39035,['Cuyahoga'],,,,recRWsHC5YUN4Ozqp
-Allegheny County Aggregated - PA,Allegheny County Aggregated,,county,PA,All police departments,42003,['Allegheny'],,,,recRWuzBP5fcc79XK
+Allegheny County Aggregated - PA,Allegheny County Aggregated,,county,PA,,42003,['Allegheny'],,,,recRWuzBP5fcc79XK
 Bay City Police Department - TX,Bay City Police Department,,local,TX,Bay City,48321,['Matagorda'],28.98166,-95.96692,,recRXGZJ4MSfn2DfT
 Plymouth Police Department - CT,Plymouth Police Department,http://www.plymouthct.us/Police/,local,CT,Terryville,09005,['Litchfield'],41.679764,-72.99886,,recRXITLX5Z4bqbjC
 Northampton County Sheriff's Office - VA,Northampton County Sheriff's Office,https://co.northampton.va.us/government/departments_elected_offices/sheriff_s_office,county,VA,Eastville,51131,['Northampton'],37.35118,-75.93849,,recRXQ7pDZyJIEqvm
@@ -12822,6 +12823,7 @@ Scott Township Police Department - PA,Scott Township Police Department,http://sc
 Blawnox Police Department - PA,Blawnox Police Department,http://blawnox.com/,local,PA,Pittsburgh,42003,['Allegheny'],40.49417,-79.85993,,recY5LO2xLKrZuHkI
 Alabama Law Enforcement Agency - AL,Alabama Law Enforcement Agency,http://www.alea.gov/,local,AL,,,,,,,recY5daPwT1W2xxkd
 Pike County Sheriff's Office - AR,Pike County Sheriff's Office,https://www.pikecoga.com/sheriffsdepartment,county,AR,Murfreesboro,05109,['Pike'],34.06044,-93.69114,,recY5iFjoIUlfSd1j
+Virginia Aggregated - VA,Virginia Aggregated,,state,VA,,,,,,,recY5roicQUrJyAcj
 Cleveland County Sheriff's Office - NC,Cleveland County Sheriff's Office,,county,NC,Shelby,37045,['Cleveland'],,,,recY5y9cSP6yiuwBd
 Versailles Police Department - KY,Versailles Police Department,https://versailles.ky.gov/services/Pages/police.aspx,local,KY,Versailles,21239,['Woodford'],38.05224,-84.73096,,recY6LGWrAEuJtYKc
 Morton College Police Department - IL,Morton College Police Department,https://www.morton.edu/campus-services/morton-college-police-department/,school,IL,Morton,,,,,,recY6brbr9qlSPZME
@@ -13979,6 +13981,7 @@ Granite Quarry Police Department - NC,Granite Quarry Police Department,https://w
 Shaker Heights Police Department - OH,Shaker Heights Police Department,https://shakeronline.com/159/Police,local,OH,Cleveland,39035,['Cuyahoga'],41.46798,-81.56455,,recb6B2GGUXkCeXO5
 Woodville I.S.D. Police Department. - TX,Woodville I.S.D. Police Department.,,local,TX,Woodville,48457,['Tyler'],,,,recb6JfwOXexCp67F
 University of Wisconsin - La Crosse Police Department - WI,University of Wisconsin - La Crosse Police Department,http://www.uwlax.edu/police,school,WI,La Crosse,55063,['La Crosse'],43.81755,-91.230576,,recb6Sow15hbbjUuG
+California Aggregated - CA,California Aggregated,,state,CA,,,,,,,recb6VfwtscERI4c5
 Monmouth Police Department - ME,Monmouth Police Department,https://www.ci.monmouth.or.us/pview.aspx?id=4746,local,ME,Monmouth,23011,['Kennebec'],44.244675,-70.03398,,recb6j4ox9m9eDphd
 Placitas Police Department - NM,Placitas Police Department,https://www.townofbernalillo.org/departments/police_department/index.php,local,NM,Bernalillo,35043,['Sandoval'],35.305317,-106.54911,,recb6vHoOEoulsa1Q
 Freestone County Sheriff's Office - TX,Freestone County Sheriff's Office,http://www.co.freestone.tx.us/page/freestone.sheriff,county,TX,Fairfield,48161,['Freestone'],31.725979,-96.15967,,recb6zTWFsG8im2KT
@@ -20365,6 +20368,7 @@ Leon County Sheriff's Office - TX,Leon County Sheriff's Office,https://www.co.le
 Lebanon Division of Police - OH,Lebanon Division of Police,https://lebanonohio.gov/departments/police/index.php,local,OH,Lebanon,39165,['Warren'],39.435284,-84.2093,,recrpHWIRcByyWzeI
 United States Naval District of Washington Police - Naval Support Facility - Indian Head - MD,United States Naval District of Washington Police - Naval Support Facility - Indian Head,https://www.navfac.navy.mil/products_and_services/ev/products_and_services/env_restoration/installation_map/navfac_atlantic/washington/nsf_indian_head.html,state,MD,,,,,,,recrpZIneFoTQdgf3
 Glenrock Police Department - WY,Glenrock Police Department,glenrock.org/index.asp?sec=ca3b0d63-413f-467c-a9bb-09b4afc462b4&type=b_basic,local,WY,Glenrock,56009,['Converse'],42.860603,-105.871284,,recrpekPuQDaN4iTV
+New Jersey Aggregated - NJ,New Jersey Aggregated,,state,NJ,,,,,,,recrpnKIxZ5TKqtfB
 Arkansas State Hospital Department of Public Safety - AR,Arkansas State Hospital Department of Public Safety,,state,AR,Little Rock,05119,['Pulaski'],,,,recrpoPNhN9ZPJecq
 Franklin County Sheriff's Office - NC,Franklin County Sheriff's Office,,county,NC,Louisburg,37069,['Franklin'],36.09452,-78.31964,,recrponKBKWtvv07s
 Paint Borough Police Department - PA,Paint Borough Police Department,,local,PA,Windber,42111,['Somerset'],,,,recrppGtowHDw5afY
@@ -22985,7 +22989,7 @@ Itawamba County Sheriff's Office - MS,Itawamba County Sheriff's Office,http://it
 Golden Beach Police Department - FL,Golden Beach Police Department,https://www.goldenbeach.us/police-department/,local,FL,North Miami Beach,12086,['Miami-Dade'],25.957373,-80.12135,,recyqTCUn5Hkae7oW
 La Salle Police Department - IL,La Salle Police Department,https://www.lasalle-il.gov/departments/police-department,local,IL,La Salle,17099,['LaSalle'],41.32964,-89.09467,,recyqdh0VWtPsbQyC
 Tidioute Borough Police Department - PA,Tidioute Borough Police Department,https://www.tidioute.org/administration/departments/,local,PA,Tidioute,42123,['Warren'],41.688023,-79.41166,,recyqk0NF4WoGPLsf
-Louisiana Aggregated - LA,Louisiana Aggregated,,state,LA,All police departments,,,,,,recyr1QG5kpJCcmoM
+Louisiana Aggregated - LA,Louisiana Aggregated,,state,LA,,,,,,,recyr1QG5kpJCcmoM
 Bancroft Police Department - NE,Bancroft Police Department,https://www.bancroftnebraska.com/business/bancroft-police-department/,local,NE,Bancroft,31039,['Cuming'],42.011734,-96.57283,,recyr2e4BGZUepGD9
 Glenwood Police Department - AR,Glenwood Police Department,http://www.glenwoodar.com/wp/police-department/,local,AR,Glenwood,05109,['Pike'],34.327488,-93.551125,,recyr2uXCP1UopLwy
 Westbrook Police Department - MN,Westbrook Police Department,https://cityofwestbrookmn.com/departments/emergency-services/police-department/,local,MN,Westbrook,27033,['Cottonwood'],44.04147,-95.43572,,recyrZeOoyzTHvu2l
