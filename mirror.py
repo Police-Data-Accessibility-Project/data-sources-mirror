@@ -127,6 +127,7 @@ def process_sources(data):
         # why does this have line endings in the string? c'mon people
         originating_entity = source.get("originating_entity", None)
         portal_type = source.get("data_portal_type", None)
+        readme_url = source.get("readme_url", None)
         record_format = source.get("record_format", [])
         record_type = source.get("record_type", None)
         restrictions = source.get("access_restrictions", None)
@@ -150,6 +151,7 @@ def process_sources(data):
         source_url = source.get("source_url", None)
         submitted_name = source.get("submitted_name", None)
         supplying_entity = source.get("supplying_entity", None)
+        tags = source.get("tags", [])
         update_frequency = source.get("update_frequency", None)
         update_method = source.get("update_method", None)
 
@@ -169,6 +171,7 @@ def process_sources(data):
             "name": source["name"],
             "number_of_records_available": num_records,
             "originating_entity": originating_entity,
+            "readme_url": readme_url,
             "record_download_option_provided": download_option,
             "record_format": record_format,
             "record_type": record_type,
@@ -179,6 +182,7 @@ def process_sources(data):
             "source_url": source_url,
             "submitted_name": submitted_name,
             "supplying_entity": supplying_entity,
+            "tags": tags,
             "update_frequency": update_frequency,
             "update_method": update_method,
         }
