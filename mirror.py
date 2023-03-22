@@ -250,6 +250,8 @@ def source_fieldnames():
         "update_method",
         "sort_method",
         "agency_described_linked_uid",
+        "tags",
+        "readme_url"
     ]
 
 
