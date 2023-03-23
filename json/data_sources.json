@@ -24905,6 +24905,55 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Allegheny County Jail - PA",
+            "submitted_name": "Allegheny County Jail",
+            "homepage_url": "https://www.alleghenycounty.us/jail/index.aspx",
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.4345561,
+            "lng": -79.9959509,
+            "defunct_year": null
+        },
+        "agency_originated": false,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "The Prison Society serves as Pennsylvania's independent monitor for county and state correctional facilities. The Prison Society conducted this survey at the request of the Allegheny County Jail Oversight Board (JOB) and with cooperation and support from the ACJ and the Allegany County Department of Human Services (DHS). It was distributed via tablet to all individuals in the general population from July 11, 2022 to August 14, 2022. A total of 330 people responded.\n",
+        "detail_level": null,
+        "name": "Allegheny County Jail 2022 survey",
+        "number_of_records_available": 1,
+        "originating_entity": "Pennsylvania Prison Society: https://www.prisonsociety.org/\n",
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Incarceration Records",
+        "retention_schedule": null,
+        "size": "572KB",
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://global-uploads.webflow.com/62957b3831cc3cd13ca36180/63dbc77f2da7c2800ae1a816_Prison%20Experience%20Survey%20Report%20and%20Response_Allegheny%20County.pdf",
+        "submitted_name": "Allegheny County Jail 2022 survey",
+        "supplying_entity": "Pennsylvania Prison Society: https://www.prisonsociety.org/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "No updates"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Baldwin County Sheriff's Office - GA",
