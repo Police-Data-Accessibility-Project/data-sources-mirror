@@ -112,7 +112,7 @@ def process_sources(data):
 
         access_type = source.get("access_type", None)
         agency_aggregation = source.get("agency_aggregation", None)
-        detail_level = source.get("agency_aggregation", None)
+        detail_level = source.get("detail_level", None)
         description = source.get("description", None)
         download_option = source.get("record_download_option_provided", None)
         num_records = source.get("number_of_records_available", None)
