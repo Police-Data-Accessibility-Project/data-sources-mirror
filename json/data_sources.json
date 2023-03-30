@@ -12360,6 +12360,57 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Pittsburgh Bureau of Police - PA",
+            "submitted_name": "Pittsburgh Bureau of Police",
+            "homepage_url": "http://pittsburghpa.gov/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "PA",
+            "municipality": "Pittsburgh",
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.450523,
+            "lng": -80.02128,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2020-01-01 00:00:00",
+        "coverage_end": "2022-12-30 00:00:00",
+        "data_portal_type": "MuckRock",
+        "description": "City of Pittsburgh response to a Right to Know Law request for traffic stops between 2020\u20132022. Separate request for data dictionary provided. 27,033 rows. Anonymized data with demographic information intact.\n",
+        "detail_level": "Individual record",
+        "name": "Pittsburgh Traffic Stops 2020\u20132022",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "XLS"
+        ],
+        "record_type": "Stops",
+        "retention_schedule": null,
+        "size": "2.7MB",
+        "sort_method": null,
+        "source_last_updated": "2022-12-30 00:00:00",
+        "source_url": "https://www.muckrock.com/foi/pittsburgh-130/traffic-stops-140596/",
+        "submitted_name": "Pittsburgh Traffic Stops 2020\u20132022",
+        "supplying_entity": "City of Pittsburgh Department of Law\n",
+        "tags": [
+            "traffic"
+        ],
+        "update_frequency": null,
+        "update_method": "No updates"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "API"
         ],
         "agency_described": {
@@ -81505,9 +81556,9 @@
         "coverage_start": null,
         "coverage_end": null,
         "data_portal_type": null,
-        "description": "The Pittsburgh Police Incident Blotter represents the previous seven (7) days incidents within the City of Pittsburgh.\nDISCLAIMER: The City of Pittsburgh Bureau of Police is pleased to share this information as a service to concerned citizens within our community.\nPlease be advised that the data provided is generally based upon initial reports. Further investigation into these matters may, and often does, reveal additional information relevant to the incident. These reports are not a comprehensive list of every police event within the City. The City of Pittsburgh also assumes no responsibility for the use of the information posted on this site.\n",
+        "description": "This is a more recent view of some of the same information contained here: https://data.wprdc.org/dataset/arrest-data\n\nThe Pittsburgh Police Incident Blotter represents the previous seven (7) days incidents within the City of Pittsburgh.\nDISCLAIMER: The City of Pittsburgh Bureau of Police is pleased to share this information as a service to concerned citizens within our community.\nPlease be advised that the data provided is generally based upon initial reports. Further investigation into these matters may, and often does, reveal additional information relevant to the incident. These reports are not a comprehensive list of every police event within the City. The City of Pittsburgh also assumes no responsibility for the use of the information posted on this site.\n",
         "detail_level": "Individual record",
-        "name": "Weekly police blotter",
+        "name": "Weekly incident and arrest blotter",
         "number_of_records_available": 7,
         "originating_entity": null,
         "readme_url": null,
@@ -81522,7 +81573,7 @@
         "sort_method": "oldest first",
         "source_last_updated": null,
         "source_url": "https://communitysafety.pittsburghpa.gov/blotter.aspx",
-        "submitted_name": "Weekly police blotter",
+        "submitted_name": "Weekly incident and arrest blotter",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": "Daily",
@@ -81713,6 +81764,55 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Kingston Police Department - TN",
+            "submitted_name": "Kingston Police Department",
+            "homepage_url": "https://police.kingstontn.gov/",
+            "jurisdiction_type": "local",
+            "state_iso": "TN",
+            "municipality": "Kingston",
+            "county_fips": "47145",
+            "county_name": [
+                "Roane"
+            ],
+            "lat": 35.88411,
+            "lng": -84.49859,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2023-03-29 00:00:00",
+        "coverage_end": "2023-03-29 00:00:00",
+        "data_portal_type": "MuckRock",
+        "description": "Scanned 4-page PDF containing the original FOIA request and 1 page of police roster with hire dates.\n",
+        "detail_level": "Individual record",
+        "name": "Roster and hire dates for Kingston PD as of 3/29/23",
+        "number_of_records_available": 1,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Scanned"
+        ],
+        "record_type": "Personnel Records",
+        "retention_schedule": null,
+        "size": "654KB",
+        "sort_method": null,
+        "source_last_updated": "2023-03-29 00:00:00",
+        "source_url": "https://www.muckrock.com/foi/kingston-30521/roster-and-hire-dates-143168/#files",
+        "submitted_name": "Roster and hire dates for Kingston PD as of 3/29/23",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "No updates"
     },
     {
         "access_restrictions": null,
