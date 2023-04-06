@@ -5806,7 +5806,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -9685,7 +9685,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -15012,7 +15012,7 @@
         "coverage_start": null,
         "coverage_end": null,
         "data_portal_type": "ArcGIS",
-        "description": null,
+        "description": "GIS map and accompanying table updated every 48 hours. Calls older than that may be removed. Archives accessible via the linked scraper.\n",
         "detail_level": "Individual record",
         "name": "Calls for Service for Oakland Police Department - CA",
         "number_of_records_available": null,
@@ -21178,7 +21178,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -23135,6 +23135,55 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "University of Tennessee at Knoxville Police - TN",
+            "submitted_name": "University of Tennessee at Knoxville Police",
+            "homepage_url": "http://utpolice.utk.edu/",
+            "jurisdiction_type": "school",
+            "state_iso": "TN",
+            "municipality": "Knoxville",
+            "county_fips": "47093",
+            "county_name": [
+                "Knox"
+            ],
+            "lat": 35.959404,
+            "lng": -83.92507,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "Microsoft Power BI",
+        "description": "Roster and salary of the entire university, including police officers.\nTo filter by police: select corresponding tab for the university in question (UTK, UTC, etc.), search for \"police\" in the primary position title search field, and check all the boxes to display all the employees.\nProvided via FOIA request to University of Tennesse: https://www.muckrock.com/foi/tennessee-155/roster-and-hire-dates-143166/\n",
+        "detail_level": "Individual record",
+        "name": "University of Tennessee Police roster and salaries",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table"
+        ],
+        "record_type": "Personnel Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://data.tennessee.edu/salary-database/",
+        "submitted_name": "University of Tennessee Police roster and salaries",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Overwrite"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "API"
         ],
         "agency_described": {
@@ -24985,7 +25034,7 @@
         "name": "Allegheny County Jail 2022 survey",
         "number_of_records_available": 1,
         "originating_entity": "Pennsylvania Prison Society: https://www.prisonsociety.org/\n",
-        "readme_url": null,
+        "readme_url": "https://www.prisonsociety.org/updates/our-survey-of-allegheny-county-jail-finds-hunger-violence-and-medical-neglect-are-common",
         "record_download_option_provided": true,
         "record_format": [
             "PDF: Machine Created"
@@ -24995,7 +25044,7 @@
         "size": "572KB",
         "sort_method": null,
         "source_last_updated": null,
-        "source_url": "https://global-uploads.webflow.com/62957b3831cc3cd13ca36180/63dbc77f2da7c2800ae1a816_Prison%20Experience%20Survey%20Report%20and%20Response_Allegheny%20County.pdf",
+        "source_url": "https://www.documentcloud.org/documents/23741390-allegheny-county-jail-experience-survey-report-and-response",
         "submitted_name": "Allegheny County Jail 2022 survey",
         "supplying_entity": "Pennsylvania Prison Society: https://www.prisonsociety.org/\n",
         "tags": [],
@@ -27210,7 +27259,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -33057,7 +33106,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -34922,7 +34971,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -37924,7 +37973,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -39354,7 +39403,7 @@
         "name": "Allegheny County Jail 2021 survey",
         "number_of_records_available": 1,
         "originating_entity": "University of Pittsburgh School of Social Work: https://www.socialwork.pitt.edu/\n",
-        "readme_url": null,
+        "readme_url": "https://www.socialwork.pitt.edu/news/new-jail-report-released",
         "record_download_option_provided": true,
         "record_format": [
             "PDF: Machine Created"
@@ -39364,7 +39413,7 @@
         "size": "2.1MB",
         "sort_method": null,
         "source_last_updated": null,
-        "source_url": "https://alleghenycontroller.com/wp-content/uploads/2022/09/Pitt-School-of-Social-Work-ACJ-Needs-Assessment-Fall-2021.pdf",
+        "source_url": "https://www.documentcloud.org/documents/23741389-allegheny-county-jail-needs-assessment-2022",
         "submitted_name": "Allegheny County Jail 2021 survey",
         "supplying_entity": "Allegheny County Controller\n",
         "tags": [],
@@ -42214,7 +42263,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -48652,7 +48701,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -49901,7 +49950,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -59780,7 +59829,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -75246,7 +75295,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -76793,7 +76842,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -84905,7 +84954,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"
@@ -92315,7 +92364,7 @@
             "homepage_url": "https://www.lvmpd.com/en-us/Pages/default.aspx",
             "jurisdiction_type": "local",
             "state_iso": "NV",
-            "municipality": "Jean",
+            "municipality": "Las Vegas",
             "county_fips": "32003",
             "county_name": [
                 "Clark"

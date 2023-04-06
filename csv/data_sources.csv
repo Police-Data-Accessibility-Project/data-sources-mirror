@@ -384,7 +384,8 @@ Stops for St. Paul Police Department - MN,,,Stops,https://information.stpaul.gov
 Warden's Report for Jail Oversight Board Meeting December 2022,Warden's Report for Jail Oversight Board Meeting December 2022,"A scanned PDF of notes prepared for the monthly JOB meeting. 11 pages.
 ",Annual & Monthly Reports,https://www.documentcloud.org/documents/23577766-january-2023-warden-report,['recNjgPW5kD573LeK'],False,"PDAP <https://pdap.io>
 ",True,,,2022-11-16 00:00:00,2022-12-15 00:00:00,2022-12-29 00:00:00,,,1,,['Web page'],True,DocumentCloud,,,['PDF: Scanned'],,,,,[],
-Calls for Service for Oakland Police Department - CA,,,Calls for Service,http://gisapps1.mapoakland.com/callsforservice/ ,['recncupgm6l7tzbqT'],True,,,,,,,,Past 1–2 days ,Individual record,,,['API'],,ArcGIS,Other,"The [ArcGIS/Esri REST API](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/common/base_scrapers/esri/esri_process.md) process can be used on this URL: <http://gismaps.oaklandca.gov/oaklandgis/rest/services/callforservice_2015_FC/FeatureServer/0>
+Calls for Service for Oakland Police Department - CA,,"GIS map and accompanying table updated every 48 hours. Calls older than that may be removed. Archives accessible via the linked scraper.
+",Calls for Service,http://gisapps1.mapoakland.com/callsforservice/ ,['recncupgm6l7tzbqT'],True,,,,,,,,Past 1–2 days ,Individual record,,,['API'],,ArcGIS,Other,"The [ArcGIS/Esri REST API](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/common/base_scrapers/esri/esri_process.md) process can be used on this URL: <http://gismaps.oaklandca.gov/oaklandgis/rest/services/callforservice_2015_FC/FeatureServer/0>
 ",['HTML table'],Daily,,,,[],
 Contact Info & Agency Meta for Austin Police Department - TX,,,Contact Info & Agency Meta,https://www.austintexas.gov/department/police,['rec4sEAPcstcFaxeM'],True,,,,,,,,,,,,,,,,,[],,,,,[],
 API Information,API Information,,List of Data Sources,,['rec3BZ9BPYAGNSkxD'],True,,,,,,,,,,,,,,,,,[],,,,,[],
@@ -592,6 +593,10 @@ Local Jail Inmate Roster for Avoyelles Parish Sheriff's Office - LA,Local Jail I
 Training Materials,Training Materials,,Policies & Contracts,,['recC2M0g6aX2ReloE'],True,,,,,,,,,,,,,,,,,[],,,,,[],
 Crime Statistics for Virginia Beach Police Department - VA,,,Crime Statistics,https://data.vbgov.com/dataset/police-incident-reports ,['recWwVgVXLEcfwZe6'],True,,,,,2016-01-01 00:00:00,,,,Individual record,,,['API'],True,,,,[],<2 Weeks,,,,[],
 Contact Info & Agency Meta for Sioux Falls Police Department - SD,,,Contact Info & Agency Meta,https://siouxfalls.org/contactus/police/police-lec,['recAqVRqRe0pCUceO'],True,,,,,,,,,,,,,,,,,[],,,,,[],
+University of Tennessee Police roster and salaries,University of Tennessee Police roster and salaries,"Roster and salary of the entire university, including police officers.
+To filter by police: select corresponding tab for the university in question (UTK, UTC, etc.), search for ""police"" in the primary position title search field, and check all the boxes to display all the employees.
+Provided via FOIA request to University of Tennesse: https://www.muckrock.com/foi/tennessee-155/roster-and-hire-dates-143166/
+",Personnel Records,https://data.tennessee.edu/salary-database/,"['rechWsCJCVtaElCf9', 'recxrH1ayEo8cB13u', 'recHHPLl4rFPqN2QF', 'recmesGaHqbE9GeHj']",True,,,,,,,,,Individual record,,,['Web page'],,Microsoft Power BI,,,['HTML table'],,Overwrite,,,[],
 Stops for New Orleans Police Department - LA,,,Stops,https://data.nola.gov/Public-Safety-and-Preparedness/Stop-and-Search-Field-Interviews-/kitu-f4uy,['rec0cHhCkS656IOeX'],True,,,,,1991-01-01 00:00:00,,,,Individual record,,,['API'],True,,,,[],<2 Weeks,,,,[],
 Stops for Houston Police Department - TX,,,Stops,https://mycity.maps.arcgis.com/apps/dashboards/8e62e67b8855477b993cfdc48a94ca17,['recVc4xkNy2pxFxIB'],True,,,,,2020-01-01 00:00:00,2021-12-31 00:00:00,,,Summarized totals,,,['Web page'],,,,,[],<2 Weeks,,,,[],
 Contact Info & Agency Meta for Fairfax County Sheriff's Office - VA,,,Contact Info & Agency Meta,https://www.fairfaxcounty.gov/police/fairfax-county-police-department ,['rec6Yat9sF3YdU3dy'],True,,,,,,,,,,,,,,,,,[],,,,,[],
@@ -637,9 +642,9 @@ Calls for Service for Baltimore Police Department - MD,,,Calls for Service,https
 Local Jail Inmate Roster for Tensas Parish Sheriff's Office - LA,Local Jail Inmate Roster for Tensas Parish Sheriff's Office - LA,,Incarceration Records,http://www.tensas.lavns.org/roster.aspx,['recIrN1rtXWjTRpBd'],True,,,,,,,,,Individual record,,,['Web page'],,,,,['HTML table'],Hourly,Overwrite,alphabetical,,[],
 Incident Reports for Bloomington Police Department - IN,,,Incident Reports,https://bloomington.data.socrata.com/Police/Accidents/vf95-pwwj,['recGl9GMIH8g9CKwt'],True,,,,,2016-01-01 00:00:00,,,,,,,['API'],True,Socrata,,,"['JSON', 'CSV', 'RDF', 'XML']",,,,,['crashes'],https://bloomington.data.socrata.com/Police/Accidents/vf95-pwwj
 Allegheny County Jail 2022 survey,Allegheny County Jail 2022 survey,"The Prison Society serves as Pennsylvania's independent monitor for county and state correctional facilities. The Prison Society conducted this survey at the request of the Allegheny County Jail Oversight Board (JOB) and with cooperation and support from the ACJ and the Allegany County Department of Human Services (DHS). It was distributed via tablet to all individuals in the general population from July 11, 2022 to August 14, 2022. A total of 330 people responded.
-",Incarceration Records,https://global-uploads.webflow.com/62957b3831cc3cd13ca36180/63dbc77f2da7c2800ae1a816_Prison%20Experience%20Survey%20Report%20and%20Response_Allegheny%20County.pdf,['recNjgPW5kD573LeK'],False,"Pennsylvania Prison Society: https://www.prisonsociety.org/
+",Incarceration Records,https://www.documentcloud.org/documents/23741390-allegheny-county-jail-experience-survey-report-and-response,['recNjgPW5kD573LeK'],False,"Pennsylvania Prison Society: https://www.prisonsociety.org/
 ",False,"Pennsylvania Prison Society: https://www.prisonsociety.org/
-",,,,,,Individual record,1,572KB,['Direct download'],True,,,,['PDF: Machine Created'],,No updates,,,[],
+",,,,,,Individual record,1,572KB,['Direct download'],True,,,,['PDF: Machine Created'],,No updates,,,[],https://www.prisonsociety.org/updates/our-survey-of-allegheny-county-jail-finds-hunger-violence-and-medical-neglect-are-common
 List of Data Sources for Baldwin County Sheriff's Office - GA,,,List of Data Sources,https://www.baldwinsheriff.com/clerical-personal/,['recPMA7CKqutDDaEt'],True,,,,,,,,,,,,,,,,,[],,,,,[],
 Officer Involved Shootings for Miami-Dade Police Department - FL,,,Officer Involved Shootings,https://www.arcgis.com/apps/dashboards/714e29a27f694137a29f2ee048dfb8a3  ,['recOc0KkWA2SnMFYJ'],True,,,,,2018-01-01 00:00:00,2021-12-31 00:00:00,,,Individual record,,,['API'],True,,,,[],Quarterly,,,,[],
 Officer Involved Shootings for Wilmington Police Department - DE,,,Officer Involved Shootings,,['recn17bLsakZNwGeT'],True,,,,,,,,,,,,,,,,,[],,,,,[],
@@ -993,9 +998,9 @@ Crime Statistics for Miami Police Department - FL,,,Crime Statistics,https://www
 Allegheny County Jail 2021 survey,Allegheny County Jail 2021 survey,"Prepared in Response to Request by: Inmate Welfare Fund Subcommittee of the Allegheny County Jail Oversight Board. 
 Funded by Contract from: Allegheny County Department of Human Services.
 Conducted by: Elizabeth M.Z. Farmer, PhD HyungJik (Daniel) Lee, PhD Christina Huerta, PhD Amanda Cruce, MSW, LCSW.
-",Incarceration Records,https://alleghenycontroller.com/wp-content/uploads/2022/09/Pitt-School-of-Social-Work-ACJ-Needs-Assessment-Fall-2021.pdf,['recNjgPW5kD573LeK'],False,"Allegheny County Controller
+",Incarceration Records,https://www.documentcloud.org/documents/23741389-allegheny-county-jail-needs-assessment-2022,['recNjgPW5kD573LeK'],False,"Allegheny County Controller
 ",False,"University of Pittsburgh School of Social Work: https://www.socialwork.pitt.edu/
-",,,,,,Individual record,1,2.1MB,['Direct download'],True,,,,['PDF: Machine Created'],,No updates,,,[],
+",,,,,,Individual record,1,2.1MB,['Direct download'],True,,,,['PDF: Machine Created'],,No updates,,,[],https://www.socialwork.pitt.edu/news/new-jail-report-released
 Contact Info & Agency Meta for Prince George's County Police Department - MD,,,Contact Info & Agency Meta,https://www.princegeorgescountymd.gov/1961/Contact-Us,['recYGl66dvLLadxBw'],True,,,,,,,,,,,,,,,,,[],,,,,[],
 Complaints & Misconduct for Sioux Falls Police Department - SD,,,Complaints & Misconduct,https://siouxfalls.org/police/complaints-commendations/complaints,['recAqVRqRe0pCUceO'],True,,,,,2015-01-01 00:00:00,2021-12-31 00:00:00,,,Individual record,,,['Web page'],,,,,[],Quarterly,,,,[],
 Use of Force Reports for Des Moines Police Department - IA,,,Use of Force Reports,,['recjdROlhbGQ9sW4P'],True,,,,,,,,,,,,,,,,,[],none,,,,[],
