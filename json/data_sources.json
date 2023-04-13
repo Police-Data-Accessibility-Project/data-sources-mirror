@@ -9453,6 +9453,54 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page",
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "United States Aggregated",
+            "submitted_name": "United States Aggregated",
+            "homepage_url": "https://www.usa.gov/",
+            "jurisdiction_type": "federal",
+            "state_iso": null,
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "A dashboard showing aggregated incarceration data across all 50 states and federally, with tools for downloading raw data.\n",
+        "detail_level": "Summarized totals",
+        "name": "Sentencing Project mass incarceration data",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "HTML table"
+        ],
+        "record_type": "Incarceration Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.sentencingproject.org/research/us-criminal-justice-data/",
+        "submitted_name": "Sentencing Project mass incarceration data",
+        "supplying_entity": "The Sentencing Project: https://www.sentencingproject.org/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Overwrite"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Wilson County Sheriff's Office - NC",
@@ -11758,6 +11806,57 @@
         "tags": [],
         "update_frequency": null,
         "update_method": "Append"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page",
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "United States Capitol Police (USCP) - DC",
+            "submitted_name": "United States Capitol Police (USCP)",
+            "homepage_url": "https://www.uscp.gov/becoming-uscp-police-officer",
+            "jurisdiction_type": "state",
+            "state_iso": "DC",
+            "municipality": "Washington",
+            "county_fips": "11001",
+            "county_name": [
+                "District of Columbia"
+            ],
+            "lat": 38.894627,
+            "lng": -77.00469,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2020-01-22 00:00:00",
+        "coverage_end": "2021-01-05 00:00:00",
+        "data_portal_type": null,
+        "description": "U.S. Capitol Police Reports parsed from PDF files by Andrew Ba Tran of the Washington Post. \n",
+        "detail_level": "Individual record",
+        "name": "U.S. Capitol Police reports 2020\u20132021",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://github.com/wpinvestigative/us_capitol_police_reports",
+        "record_download_option_provided": true,
+        "record_format": [
+            "XLS",
+            "CSV"
+        ],
+        "record_type": "Arrest Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://biglocalnews.org/#/project/UHJvamVjdDo5NTI5MzAwYy1jNmZiLTQ3ZDItYWI2ZC03MDMxYjFlMTNjNDk=",
+        "submitted_name": "U.S. Capitol Police reports 2020\u20132021",
+        "supplying_entity": "Big Local News via Washington Post investigative\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
     },
     {
         "access_restrictions": null,
@@ -24849,6 +24948,53 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "United States Aggregated",
+            "submitted_name": "United States Aggregated",
+            "homepage_url": "https://www.usa.gov/",
+            "jurisdiction_type": "federal",
+            "state_iso": null,
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2016-04-01 00:00:00",
+        "coverage_end": "2016-10-04 00:00:00",
+        "data_portal_type": null,
+        "description": "The BJS reports on the differences between the three national sources of police employment data. 17 pages.\n\"The FBI, U.S. Census Bureau, and the Bureau of Justice Statistics (BJS) data collections programs have different purposes, data definitions, respondent universes, and data collection procedures. This report details the similarities and differences among these three collections and discusses when the use of one may be preferred over the others.\"\n",
+        "detail_level": "Individual record",
+        "name": "Bureau of Justice Statistics report on National Sources of Law Enforcement Employment Data",
+        "number_of_records_available": 1,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Personnel Records",
+        "retention_schedule": null,
+        "size": "1.2MB",
+        "sort_method": null,
+        "source_last_updated": "2016-10-04 00:00:00",
+        "source_url": "https://bjs.ojp.gov/content/pub/pdf/nsleed.pdf",
+        "submitted_name": "Bureau of Justice Statistics report on National Sources of Law Enforcement Employment Data",
+        "supplying_entity": "U.S. Department of Justice, Bureau of Justice Statistics\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "No updates"
     },
     {
         "access_restrictions": null,
@@ -57114,6 +57260,56 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page",
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Philadelphia County Aggregated - PA",
+            "submitted_name": "Philadelphia County Aggregated",
+            "homepage_url": null,
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42101",
+            "county_name": [
+                "Philadelphia"
+            ],
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2010-01-01 00:00:00",
+        "coverage_end": "2020-12-31 00:00:00",
+        "data_portal_type": null,
+        "description": "Raw data and analysis of court cases in Philadelphia, aimed at understanding judicial patterns.\n",
+        "detail_level": null,
+        "name": "2010\u20132020 Philadelphia court data from RLadies 2021 datathon",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://github.com/rladiesPHL/2021_datathon",
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV"
+        ],
+        "record_type": "Court Cases",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2021-04-06 00:00:00",
+        "source_url": "https://github.com/rladiesPHL/2021_datathon/blob/main/data/data_links.md",
+        "submitted_name": "2010\u20132020 Philadelphia court data from RLadies 2021 datathon",
+        "supplying_entity": "R Ladies Philly: https://www.rladiesphilly.org/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "No updates"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Maryville Police Department - TN",
@@ -76187,6 +76383,56 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page",
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Chicago Police Department - IL",
+            "submitted_name": "Chicago Police Department",
+            "homepage_url": "https://home.chicagopolice.org/",
+            "jurisdiction_type": "local",
+            "state_iso": "IL",
+            "municipality": "Chicago",
+            "county_fips": "17031",
+            "county_name": [
+                "Cook"
+            ],
+            "lat": 41.85861,
+            "lng": -87.62802,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "A living repository of public data about Chicago\u2019s police officers and their interactions with the public. The various datasets stored within cover complaints of misconduct, misconduct investigations, use of force reports, awards, promotions, salary, official rosters, unit assignment over time.\nThe\u00a0[Invisible Institute](https://invisible.institute/introduction)\u00a0maintains this repo and uses these datasets to inform\u00a0[CPDP.co](https://beta.cpdp.co/)\u00a0and @CPDPbot.\n",
+        "detail_level": "Individual record",
+        "name": "Invisible Institute Chicago Police Data repo",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV"
+        ],
+        "record_type": "Personnel Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://github.com/invinst/chicago-police-data",
+        "submitted_name": "Invisible Institute Chicago Police Data repo",
+        "supplying_entity": "Invisible Institute: https://invisible.institute/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Append"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Los Angeles County Sheriff's Department - CA",
@@ -77614,6 +77860,56 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Snohomish County Aggregated - WA",
+            "submitted_name": "Snohomish County Aggregated",
+            "homepage_url": null,
+            "jurisdiction_type": "county",
+            "state_iso": "WA",
+            "municipality": null,
+            "county_fips": "53061",
+            "county_name": [
+                "Snohomish"
+            ],
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "LexisNexis",
+        "description": "The LexisNexis\u00a0[Snohomish County Community Crime Map](https://communitycrimemap.com/?address=snohomishcounty,wa&zoom=11)\u00a0is an interactive website that tracks and displays certain calls for service and criminal activity in Snohomish County.\n",
+        "detail_level": "Individual record",
+        "name": "Snohomish County Crime Map",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://snohomishcountywa.gov/236/Community-Crime-Map",
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table",
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Crime Maps & Reports",
+        "retention_schedule": "30 days",
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://communitycrimemap.com/?address=snohomishcounty,wa&zoom=11",
+        "submitted_name": "Snohomish County Crime Map",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Charleston Police Department - WV",
@@ -78170,6 +78466,55 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Allegheny County Jail - PA",
+            "submitted_name": "Allegheny County Jail",
+            "homepage_url": "https://www.alleghenycounty.us/jail/index.aspx",
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.4345561,
+            "lng": -79.9959509,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "DocumentCloud",
+        "description": "Scanned PDFs of monthly reports by the Allegheny County Jail warden to the Jail Oversight Board.\n",
+        "detail_level": null,
+        "name": "Archive of Warden's Reports for Jail Oversight Board Meetings",
+        "number_of_records_available": 1,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Scanned"
+        ],
+        "record_type": "Annual & Monthly Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://alleghenycontroller.com/reports-audits/",
+        "submitted_name": "Archive of Warden's Reports for Jail Oversight Board Meetings",
+        "supplying_entity": "Allegheny County Controller https://alleghenycontroller.com/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Corpus Christi Police Department - TX",
@@ -78626,6 +78971,56 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page",
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Los Angeles Police Department - CA",
+            "submitted_name": "Los Angeles Police Department",
+            "homepage_url": "http://www.lapdonline.org/west_bureau/content_basic_view/1871",
+            "jurisdiction_type": "local",
+            "state_iso": "CA",
+            "municipality": "Los Angeles",
+            "county_fips": "06037",
+            "county_name": [
+                "Los Angeles"
+            ],
+            "lat": 34.221325,
+            "lng": -118.59928,
+            "defunct_year": null
+        },
+        "agency_originated": false,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2000-01-31 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "The Los Angeles Times' database of people killed by local police in Los Angeles County.\n",
+        "detail_level": "Individual record",
+        "name": "Los Angeles police killings",
+        "number_of_records_available": null,
+        "originating_entity": "Unknown, assuming Los Angeles Times\n",
+        "readme_url": "https://github.com/datadesk/los-angeles-police-killings-data/",
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV"
+        ],
+        "record_type": "Use of Force Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": null,
+        "source_url": "https://github.com/datadesk/los-angeles-police-killings-data/blob/master/los-angeles-police-killings.csv",
+        "submitted_name": "Los Angeles police killings",
+        "supplying_entity": "Los Angeles Times Data and Graphics Department: https://github.com/datadesk\n",
+        "tags": [],
+        "update_frequency": "As shootings occur",
+        "update_method": "Append"
     },
     {
         "access_restrictions": null,
@@ -82284,6 +82679,55 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page",
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "United States Aggregated",
+            "submitted_name": "United States Aggregated",
+            "homepage_url": "https://www.usa.gov/",
+            "jurisdiction_type": "federal",
+            "state_iso": null,
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "A state-by-state catalog of laws which protect people calling 911 for drug overdoses from prosecution.\n",
+        "detail_level": null,
+        "name": "911 Good Samaritan Law inventory",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "PDF: Machine Created"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2022-06-01 00:00:00",
+        "source_url": "https://data.mendeley.com/datasets/r65b6hrdhm/2",
+        "submitted_name": "911 Good Samaritan Law inventory",
+        "supplying_entity": "Mendeley Data: [https://data.mendeley.com/datasets/r65b6hrdhm/2](https://www.mendeley.com/?interaction_required=true)\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Overwrite"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "Web page"
         ],
         "agency_described": {
@@ -85272,6 +85716,53 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Washington Aggregated - WA",
+            "submitted_name": "Washington Aggregated",
+            "homepage_url": null,
+            "jurisdiction_type": "state",
+            "state_iso": "WA",
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2020-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": "Microsoft Power BI",
+        "description": "A dashboard with charts and tabular data about court cases, primarily geared toward analyzing felony sentencing. Currently contains data about Washington courts. Users have the ability to analyze and sort data based on demographics, date, judge, geography, and more.\n",
+        "detail_level": "Individual record",
+        "name": "American Equity & Justice Group dashboard",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://americanequity.org/instructions.html",
+        "record_download_option_provided": null,
+        "record_format": [
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Court Cases",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://americanequity.org/dashboard.html",
+        "submitted_name": "American Equity & Justice Group dashboard",
+        "supplying_entity": "American Equity & Justice Group: https://americanequity.org/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "API"
         ],
         "agency_described": {
@@ -88017,6 +88508,56 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Direct download",
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Allegheny County Aggregated - PA",
+            "submitted_name": "Allegheny County Aggregated",
+            "homepage_url": null,
+            "jurisdiction_type": "county",
+            "state_iso": "PA",
+            "municipality": null,
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "District Attorney Zappala has worked closely in partnership with the Allegheny County Chiefs of Police Association, the Allegheny County Criminal Justice Advisory Board, the Pennsylvania Human Relations Commission and the Western Pennsylvania Chiefs of Police Association as well as outside consultants and experts within academic entities to develop training programs (e.g. Cultural Diversity, Racial Profiling, Implicit Bias) that were\u00a0_adopted by the\u00a0**Pennsylvania Municipal Police Officers Education and Training Commission (MPOETC)**\u00a0_and made part of the Act 120 curriculum for recruits and mandatory updates for all officers throughout the state.\n",
+        "detail_level": "Individual record",
+        "name": "Model police policies for Allegheny County",
+        "number_of_records_available": 1,
+        "originating_entity": null,
+        "readme_url": "http://alleghenycountyda.us/model-police-policies/",
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": "1.2MB",
+        "sort_method": null,
+        "source_last_updated": "2022-03-01 00:00:00",
+        "source_url": "https://alleghenycountyda.us/wp-content/uploads/2023/03/2-ACCPA-DA-MODEL-USE-OF-FORCE-PROCEDURES-March-2022.pdf",
+        "submitted_name": "Model police policies for Allegheny County",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": "Every few years",
+        "update_method": "Overwrite"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "Web page"
         ],
         "agency_described": {
@@ -88342,6 +88883,53 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "United States Aggregated",
+            "submitted_name": "United States Aggregated",
+            "homepage_url": "https://www.usa.gov/",
+            "jurisdiction_type": "federal",
+            "state_iso": null,
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "Opendata",
+        "description": "The Public Safety category contains data, from across the Open Data Network of publishers, related to public safety, 911 data, ambulance, emergency, fire, police, prison, evacuation, arrests, and crime.\n",
+        "detail_level": null,
+        "name": "Open Data Network: Public Safety category",
+        "number_of_records_available": 7000,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table"
+        ],
+        "record_type": "List of Data Sources",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "unsorted",
+        "source_last_updated": null,
+        "source_url": "https://www.opendatanetwork.com/search?categories=public%20safety",
+        "submitted_name": "Open Data Network: Public Safety category",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Append"
     },
     {
         "access_restrictions": null,
