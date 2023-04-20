@@ -1564,7 +1564,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -3027,8 +3027,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -3832,8 +3834,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -9454,6 +9458,55 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Ann Arbor Police Department - MI",
+            "submitted_name": "Ann Arbor Police Department",
+            "homepage_url": "https://www.a2gov.org/departments/police/Pages/default.aspx",
+            "jurisdiction_type": "local",
+            "state_iso": "MI",
+            "municipality": "Ann Arbor",
+            "county_fips": "26161",
+            "county_name": [
+                "Washtenaw"
+            ],
+            "lat": 42.281868,
+            "lng": -83.74582,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Instructions and fees for filing police reports for various types of documents.\n",
+        "detail_level": null,
+        "name": "Records info for Ann Arbor PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table"
+        ],
+        "record_type": "Records Request Info",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": null,
+        "submitted_name": "Records info for Ann Arbor PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "Web page",
             "Direct download"
         ],
@@ -11633,8 +11686,10 @@
             "jurisdiction_type": "county",
             "state_iso": "NY",
             "municipality": "Jamaica",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "36081",
+            "county_name": [
+                "Queens"
+            ],
             "lat": null,
             "lng": null,
             "defunct_year": null
@@ -16907,7 +16962,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -16922,9 +16977,9 @@
         "coverage_start": "2015-03-15 00:00:00",
         "coverage_end": null,
         "data_portal_type": "Socrata",
-        "description": null,
+        "description": "This data represents records of police reported stops under Terry v. Ohio, 392 U.S. 1 (1968). Each row represents a unique stop.\n\n\\- Each record contains perceived demographics of the subject, as reported by the officer making the stop and officer demographics as reported to the Seattle Police Department, for employment purposes.\n\n\\- Where available, data elements from the associated Computer Aided Dispatch (CAD) event (e.g. Call Type, Initial Call Type, Final Call Type) are included.\n",
         "detail_level": "Individual record",
-        "name": "Stops for Seattle Police Department - WA",
+        "name": "Terry Stops for Seattle Police Department",
         "number_of_records_available": null,
         "originating_entity": null,
         "readme_url": "https://data.seattle.gov/Public-Safety/Terry-Stops/28ny-9ts8",
@@ -16941,7 +16996,7 @@
         "sort_method": null,
         "source_last_updated": null,
         "source_url": "https://data.seattle.gov/Public-Safety/Terry-Stops/28ny-9ts8",
-        "submitted_name": null,
+        "submitted_name": "Terry Stops for Seattle Police Department",
         "supplying_entity": null,
         "tags": [
             "pedestrian"
@@ -17288,7 +17343,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -17813,8 +17868,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -25344,7 +25401,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -28154,8 +28211,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -28503,6 +28562,55 @@
         "supplying_entity": null,
         "tags": [],
         "update_frequency": "none",
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Ann Arbor Police Department - MI",
+            "submitted_name": "Ann Arbor Police Department",
+            "homepage_url": "https://www.a2gov.org/departments/police/Pages/default.aspx",
+            "jurisdiction_type": "local",
+            "state_iso": "MI",
+            "municipality": "Ann Arbor",
+            "county_fips": "26161",
+            "county_name": [
+                "Washtenaw"
+            ],
+            "lat": 42.281868,
+            "lng": -83.74582,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Information about the hiring process.\n",
+        "detail_level": "Individual record",
+        "name": "Careers for Ann Arbor PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text"
+        ],
+        "record_type": "Training & Hiring Info",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.a2gov.org/departments/police/Pages/Careers.aspx",
+        "submitted_name": "Careers for Ann Arbor PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
         "update_method": null
     },
     {
@@ -32648,7 +32756,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -34093,8 +34201,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -34357,6 +34467,55 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Ann Arbor Police Department - MI",
+            "submitted_name": "Ann Arbor Police Department",
+            "homepage_url": "https://www.a2gov.org/departments/police/Pages/default.aspx",
+            "jurisdiction_type": "local",
+            "state_iso": "MI",
+            "municipality": "Ann Arbor",
+            "county_fips": "26161",
+            "county_name": [
+                "Washtenaw"
+            ],
+            "lat": 42.281868,
+            "lng": -83.74582,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "Other",
+        "description": "PowerDMS dashboard containing dozens of policy documents.\n",
+        "detail_level": "Individual record",
+        "name": "Policy and Procedural Orders for Ann Arbor PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://public.powerdms.com/a2gov/tree",
+        "submitted_name": "Policy and Procedural Orders for Ann Arbor PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Overwrite"
     },
     {
         "access_restrictions": null,
@@ -36890,7 +37049,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -38881,7 +39040,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -39850,7 +40009,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -44810,7 +44969,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -46916,8 +47075,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -49919,8 +50080,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -51003,6 +51166,55 @@
         "source_last_updated": null,
         "source_url": "https://www.como.gov/police/data-reporting-forms/",
         "submitted_name": null,
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Ann Arbor Police Department - MI",
+            "submitted_name": "Ann Arbor Police Department",
+            "homepage_url": "https://www.a2gov.org/departments/police/Pages/default.aspx",
+            "jurisdiction_type": "local",
+            "state_iso": "MI",
+            "municipality": "Ann Arbor",
+            "county_fips": "26161",
+            "county_name": [
+                "Washtenaw"
+            ],
+            "lat": 42.281868,
+            "lng": -83.74582,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Description of training policies and programs.\n",
+        "detail_level": "Individual record",
+        "name": "Training info for Ann Arbor PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text"
+        ],
+        "record_type": "Training & Hiring Info",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.a2gov.org/departments/police/units/Pages/Training.aspx",
+        "submitted_name": "Training info for Ann Arbor PD",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -54330,7 +54542,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -54655,7 +54867,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -56204,8 +56416,10 @@
             "jurisdiction_type": "local",
             "state_iso": "TX",
             "municipality": "Southlake",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "48439",
+            "county_name": [
+                "Tarrant"
+            ],
             "lat": null,
             "lng": null,
             "defunct_year": null
@@ -57362,7 +57576,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -59517,51 +59731,6 @@
         "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
-            "name": "Montgomery County Police Department - MD",
-            "submitted_name": "Montgomery County Police Department",
-            "homepage_url": "https://www.montgomerycountymd.gov/police",
-            "jurisdiction_type": "county",
-            "state_iso": "MD",
-            "municipality": "Gaithersburg",
-            "county_fips": "24031",
-            "county_name": [
-                "Montgomery"
-            ],
-            "lat": 39.113018,
-            "lng": -77.236435,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": null,
-        "coverage_end": null,
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": null,
-        "name": "Stops for Montgomery County Police Department - MD",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": null,
-        "record_format": [],
-        "record_type": "Stops",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": null,
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": null,
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
             "name": "Chicago Police Department - IL",
             "submitted_name": "Chicago Police Department",
             "homepage_url": "https://home.chicagopolice.org/",
@@ -59613,8 +59782,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -60170,7 +60341,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -66114,6 +66285,55 @@
             "Web page"
         ],
         "agency_described": {
+            "name": "Alliance Police Department - NE",
+            "submitted_name": "Alliance Police Department",
+            "homepage_url": "https://www.cityofalliance.net/186/Police",
+            "jurisdiction_type": "local",
+            "state_iso": "NE",
+            "municipality": "Alliance",
+            "county_fips": "31013",
+            "county_name": [
+                "Box Butte"
+            ],
+            "lat": 42.09941,
+            "lng": -102.86909,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Contact info and a table of officer names, with some phone numbers. \n",
+        "detail_level": "Individual record",
+        "name": "Staff Directory of Alliance PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table"
+        ],
+        "record_type": "Personnel Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.cityofalliance.net/directory.aspx?did=6",
+        "submitted_name": "Staff Directory of Alliance PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Overwrite"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
             "name": "San Francisco Police Department - CA",
             "submitted_name": "San Francisco Police Department",
             "homepage_url": "https://www.sanfranciscopolice.org/stations/central-station",
@@ -69656,8 +69876,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -69875,6 +70097,56 @@
         "tags": [],
         "update_frequency": null,
         "update_method": "Overwrite"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Ann Arbor Police Department - MI",
+            "submitted_name": "Ann Arbor Police Department",
+            "homepage_url": "https://www.a2gov.org/departments/police/Pages/default.aspx",
+            "jurisdiction_type": "local",
+            "state_iso": "MI",
+            "municipality": "Ann Arbor",
+            "county_fips": "26161",
+            "county_name": [
+                "Washtenaw"
+            ],
+            "lat": 42.281868,
+            "lng": -83.74582,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "This is a Web-based crime map of the City of Ann Arbor. Users\u00a0can map out\u00a0verified\u00a0criminal\u00a0activity\u00a0near any address, select crime types, date ranges and\u00a0generate\u00a0reports.\u200b\u200b\n- [CrimeMapping.com](http://www.crimemapping.com/map/mi/annarbor)\u00a0pulls incid\u200b\u200bent data every 24 hours from the Ann Arbor police records \u200b\u200bsyste\u200bm.\n- Citizens can\u00a0[subscribe to crime alerts and receive email updates](http://www.crimemapping.com/map/agency/12)\u00a0when new crimes occur near a specific address.\n- Only crimes that have been through\u00a0a review and approval process are displayed. Cases under review are not in the daily updates.\n- The site uses ESRI technology to locate each event before posting it, to ensure data integrity and accuracy.\n",
+        "detail_level": "Aggregated records",
+        "name": "Crimemapping dashboard for Ann Arbor",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://www.a2gov.org/departments/police/Pages/Crime-Mapping.aspx",
+        "record_download_option_provided": null,
+        "record_format": [
+            "Dashboard / Visualization",
+            "HTML table"
+        ],
+        "record_type": "Crime Maps & Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.crimemapping.com/map/mi/annarbor",
+        "submitted_name": "Crimemapping dashboard for Ann Arbor",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": "Daily",
+        "update_method": null
     },
     {
         "access_restrictions": null,
@@ -72608,8 +72880,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -72913,6 +73187,55 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Alliance Police Department - NE",
+            "submitted_name": "Alliance Police Department",
+            "homepage_url": "https://www.cityofalliance.net/186/Police",
+            "jurisdiction_type": "local",
+            "state_iso": "NE",
+            "municipality": "Alliance",
+            "county_fips": "31013",
+            "county_name": [
+                "Box Butte"
+            ],
+            "lat": 42.09941,
+            "lng": -102.86909,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "Microsoft Power BI",
+        "description": "Calls for Service, Offenses, Code Enforcement, and some definitions.\n",
+        "detail_level": "Summarized totals",
+        "name": "Alliance PD Data Dashboard",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "Dashboard / Visualization"
+        ],
+        "record_type": "List of Data Sources",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://app.powerbi.com/view?r=eyJrIjoiYTBiMTkwNDAtMjIwNy00MGE4LThmMDktNWJiMjdlOTAwNGRjIiwidCI6IjgxMGUyYjFkLWIxZGQtNDg1Ni04MzAzLWMwMTY1MDBhNWNmYSJ9",
+        "submitted_name": "Alliance PD Data Dashboard",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": "Daily",
+        "update_method": "Overwrite"
     },
     {
         "access_restrictions": null,
@@ -81513,9 +81836,9 @@
         "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
-            "name": "Dallas Police Department - Central Division - TX",
-            "submitted_name": "Dallas Police Department - Central Division",
-            "homepage_url": "https://www.dallaspolice.net/division/central/welcome",
+            "name": "Dallas Police Department - TX",
+            "submitted_name": "Dallas Police Department",
+            "homepage_url": "https://dallaspolice.net/",
             "jurisdiction_type": "local",
             "state_iso": "TX",
             "municipality": "Dallas",
@@ -81523,8 +81846,8 @@
             "county_name": [
                 "Dallas"
             ],
-            "lat": 32.78294,
-            "lng": -96.77793,
+            "lat": 32.828606,
+            "lng": -96.796234,
             "defunct_year": null
         },
         "agency_originated": null,
@@ -82316,8 +82639,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -84348,8 +84673,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -85496,8 +85823,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -86888,8 +87217,10 @@
             "jurisdiction_type": "local",
             "state_iso": "CO",
             "municipality": "Denver",
-            "county_fips": null,
-            "county_name": null,
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
             "lat": 36.586388,
             "lng": -79.39192,
             "defunct_year": null
@@ -90237,7 +90568,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -92074,7 +92405,7 @@
             "homepage_url": "https://www.seattle.gov/police",
             "jurisdiction_type": "local",
             "state_iso": "WA",
-            "municipality": "Snohomish",
+            "municipality": "Seattle",
             "county_fips": "53033",
             "county_name": [
                 "King"
@@ -92089,7 +92420,7 @@
         "coverage_start": "2009-06-02 00:00:00",
         "coverage_end": null,
         "data_portal_type": "Socrata",
-        "description": null,
+        "description": "This data represents police response activity. Each row is a record of a Call for Service (CfS) logged with the Seattle Police Department (SPD) Communications Center. Calls originated from the community and range from in progress or active emergencies to requests for problem solving. Additionally, officers will log calls from their observations of the field.\n\nPrevious versions of this data set have withheld approximately 40% of calls. This updated process will release more than 95% of all calls but we will no longer provide latitude and longitude specific location data. In an effort to safeguard the privacy of our community, calls will only be located to the \u201cbeat\u201d level. Beats are the most granular unit of management used for patrol deployment. To learn more about patrol deployment, please visit:\u00a0<https://www.seattle.gov/police/about-us/about-policing/precinct-and-patrol-boundaries>\n",
         "detail_level": "Individual record",
         "name": "Calls for Service for Seattle Police Department - WA",
         "number_of_records_available": null,
