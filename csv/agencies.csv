@@ -208,7 +208,6 @@ Riverhead Town Police Department - NY,Riverhead Town Police Department,https://w
 Hialeah Gardens Police Department - FL,Hialeah Gardens Police Department,https://www.cityofhialeahgardens.com/departments/police,local,FL,Hialeah,12086,['Miami-Dade'],25.868858,-80.33849,,rec0UUMSE5POmhgOD
 Cambria Township Police Department - PA,Cambria Township Police Department,https://www.facebook.com/cambriatownshippolice/,local,PA,Ebensburg,42021,['Cambria'],40.496,-78.7543,,rec0UWhmn0xfAyI6H
 Braselton Police Department - GA,Braselton Police Department,https://www.braselton.net/departments/police_department/index.php,local,GA,Braselton,13157,['Jackson'],34.107716,-83.76219,,rec0Uk6TyhFC71C0H
-Harris County Sheriff's Office - Criminal Law Division - TX,Harris County Sheriff's Office - Criminal Law Division,http://www.harriscountyso.org/,county,TX,Houston,48201,['Harris'],29.76208,-95.35772,,rec0UpAbSw9XyDMwV
 Hagerman Department of Public Safety - NM,Hagerman Department of Public Safety,,local,NM,Hagerman,35057,['Torrance'],,,,rec0UvEaGBq3xZXLS
 Euharlee Police Department - GA,Euharlee Police Department,http://www.euharlee.com/departments_police.aspx,local,GA,Kingston,13015,['Bartow'],34.1473,-84.93677,,rec0V2IAU7rC7VlD7
 Fountain Valley Police Department - CA,Fountain Valley Police Department,https://fountainvalley.org/1307/Police-Department,local,CA,Fountain Valley,06059,['Orange'],33.70864,-117.9522,,rec0VBnLFU9xIZSgB
@@ -413,7 +412,6 @@ Hamilton County Sheriff's Office - IN,Hamilton County Sheriff's Office,https://w
 Menomonie Police Department - WI,Menomonie Police Department,http://menomonie-pd.com/,local,WI,Menomonie,55033,['Dunn'],44.88809,-91.88163,,rec13JNkx1eYyGYYp
 Patterson Police Department - GA,Patterson Police Department,,local,GA,Patterson,13229,['Pierce'],,,,rec13KDGEdUEDF7B0
 Canal Fulton Police Department - OH,Canal Fulton Police Department,,local,OH,Canal Fulton,39151,['Stark'],,,,rec13ZDPXjKqduOve
-Houston Police Department - Clear Lake Division - TX,Houston Police Department - Clear Lake Division,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.57963,-95.10672,,rec13f0G6cyLTWg03
 Riverdale Park Police Department - MD,Riverdale Park Police Department,http://www.riverdaleparkmd.gov/our_town/police/index.php,local,MD,Hyattsville,24033,"[""Prince George's""]",38.949944,-76.929695,,rec13joMuHE264OLD
 Howard County Department of Fire and Rescue - Office of the Fire Marshal - MD,Howard County Department of Fire and Rescue - Office of the Fire Marshal,https://www.howardcountymd.gov/fire-and-rescue-services/office-fire-marshal,county,MD,Ellicott City,24027,['Howard'],39.275517,-76.80621,,rec13zp5IOZRPDr8m
 Carney Police Department - OK,Carney Police Department,https://www.cityofkearney.org/625/Police-Department,local,OK,Carney,40081,['Lincoln'],35.80854,-97.0121,,rec14IlAF19dG1YUo
@@ -1140,7 +1138,6 @@ Mariposa County Sheriff's Office La Grange - CA,Mariposa County Sheriff's Office
 Friars Point Police Department - MS,Friars Point Police Department,,local,MS,Friars Point,28027,['Coahoma'],34.370758,-90.63955,,rec31z2KmzNjo3jno
 Matawan Police Department - NJ,Matawan Police Department,http://matawanpolice.org/,local,NJ,Matawan,34025,['Monmouth'],40.41397,-74.23061,,rec3262XT6Z3lAwJu
 Hemingway Police Department - SC,Hemingway Police Department,https://townofhemingway.weebly.com/contact-us.html,local,SC,Hemingway,45089,['Williamsburg'],33.753098,-79.4472,,rec32Ejx3V42BXOml
-Houston Police Department - Willowbrook - TX,Houston Police Department - Willowbrook,http://www.houstonpolice.org,local,TX,Houston,48201,['Harris'],29.95766,-95.53824,,rec32PMbE7DejLXkK
 Paradise Police Department - CA,Paradise Police Department,https://www.townofparadise.com/police,local,CA,Paradise,06007,['Butte'],39.753777,-121.62407,,rec32i1ScN9QukUnj
 St Anthony Police Department - ID,St Anthony Police Department,http://www.cityofstanthony.org/police.html,local,ID,Saint Anthony,16043,['Fremont'],43.9705,-111.681725,,rec33aYSQYJZfWAmD
 "North Eastern Massachusetts Law Enforcement Council ""NEMLEC"" - MA","North Eastern Massachusetts Law Enforcement Council ""NEMLEC""",http://www.nemlec.com/,local,MA,,,,,,,rec33mMuUhwssws6p
@@ -1696,6 +1693,7 @@ Pennsauken Township Police Department - PA,Pennsauken Township Police Department
 Northwest Regional Police Department - PA,Northwest Regional Police Department,http://nwrpd.org/,local,PA,Elizabethtown,42071,['Lancaster'],40.17284,-76.5575,,rec4TBdcunLeFgW62
 Belle Police Department - MO,Belle Police Department,,local,MO,Belle,29125,['Maries'],,,,rec4TSjXOiZLgY7CI
 Gramercy Police Department - LA,Gramercy Police Department,https://www.gramercypd.com/,local,LA,Gramercy,22093,['St. James'],30.047688,-90.68979,,rec4TXSCMXB6xWJgO
+Birmingham Municipal Court - AL,Birmingham Municipal Court,https://www.birminghamal.gov/municipal-court/,local,AL,Birmingham,01073,['Jefferson'],33.520562328269534,-86.81409245767131,,rec4U0w8NFBPCqS41
 Savannah Police Department - MO,Savannah Police Department,,local,MO,Savannah,29003,['Andrew'],,,,rec4U1oNmRrFsnYLu
 Phoenix Police Department - AZ,Phoenix Police Department,https://www.phoenix.gov/police,local,AZ,Phoenix,04013,['Maricopa'],33.596878,-112.14326,,rec4URK0s7nbYBi22
 Hawesville Police Department - KY,Hawesville Police Department,,local,KY,Hawesville,21091,['Hancock'],,,,rec4Ua95pE9wdIXL2
@@ -1778,7 +1776,6 @@ Rainbow City Police Department - AL,Rainbow City Police Department,https://www.r
 Jacksonville Aviation Authority Police Department - FL,Jacksonville Aviation Authority Police Department,https://www.flyjacksonville.com/content.aspx?id=163,local,FL,Jacksonville,12031,['Duval'],30.49317,-81.68166,,rec4h8t9iaF6l2mpx
 Atlanta Police Department Zone 4 Mini Precinct - GA,Atlanta Police Department Zone 4 Mini Precinct,https://www.atlantapd.org/community/apd-zones/zone-4-541,local,GA,Atlanta,13121,['Fulton'],33.7602,-84.50422,,rec4hVSiWk9tgr8A7
 Oilton Police Department - OK,Oilton Police Department,http://www.cityofoilton.com/police-department/,local,OK,Oilton,40037,['Creek'],36.086727,-96.58628,,rec4hW9QZGDWaaKxb
-Houston Police Department - Greenspoint - TX,Houston Police Department - Greenspoint,http://www.houstontx.gov/police/,local,TX,Houston,48201,['Harris'],29.94373,-95.41041,,rec4hb4tSwIFD0XIW
 Cape Girardeau Police Department - MO,Cape Girardeau Police Department,,local,MO,Cape Girardeau,29031,['Cape Girardeau'],,,,rec4hcYOFEucqmhD6
 Dousman Police Department - WI,Dousman Police Department,https://villageofdousman.com/police-department,local,WI,Dousman,55133,['Waukesha'],43.01309,-88.47251,,rec4hi5HGuSFJpMz1
 Richmond International Airport Police Department - VA,Richmond International Airport Police Department,https://flyrichmond.com/employment/,local,VA,Richmond,51087,['Henrico'],37.5082,-77.332954,,rec4hzR4O7nUIiXNm
@@ -2196,7 +2193,6 @@ Sequim Police Department - WA,Sequim Police Department,https://www.sequimwa.gov/
 Blue Mounds Police Department - WI,Blue Mounds Police Department,http://www.bluemoundsvillage.com/police,local,WI,Blue Mounds,55025,['Dane'],43.01851,-89.83365,,rec5nAx1BL52OilKT
 Jackson County Sheriff's Department - WV,Jackson County Sheriff's Department,https://www.facebook.com/JacksonCountySheriffsDepartment,county,WV,Ripley,54035,['Jackson'],38.819714,-81.713264,,rec5nJnEbKu0CM0jP
 Emmonak Police Department - AK,Emmonak Police Department,,local,AK,Emmonak,02158,['Kusilvak'],62.77761,-164.5253,,rec5nWXLVJpBLxPdR
-Houston Police Department - Ranchester - TX,Houston Police Department - Ranchester,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.70572,-95.54399,,rec5neeHPhjSbxD3P
 Basehor Police Department - KS,Basehor Police Department,https://www.cityofbasehor.org/170/Police-Department,local,KS,Basehor,20103,['Leavenworth'],39.13722,-94.93929,,rec5njoJ9PXDh5hJF
 Elizabeth Police Department - CO,Elizabeth Police Department,,local,CO,Elizabeth,08039,['Elbert'],39.35903,-104.59547,,rec5oMhn5Mo2un6An
 Gordon Police Department - NE,Gordon Police Department,https://www.gordon-ne.us/department/index.php?structureid=12,local,NE,Gordon,31161,['Sheridan'],42.806995,-102.20424,,rec5oc9wNhRAIf08h
@@ -2401,6 +2397,7 @@ Linn County Sheriff Rescue - IA,Linn County Sheriff Rescue,https://www.linncount
 Bridgewater State College Campus Police - MA,Bridgewater State College Campus Police,,school,MA,Bridgewater,25023,['Plymouth'],,,,rec6I9ukE2cbjcRGk
 Fairfield Police Department - CT,Fairfield Police Department,https://fpdct.com/,local,CT,Fairfield,09001,['Fairfield'],41.13948,-73.257095,,rec6IVui84wcmx4Gn
 Rice County Sheriff's Office - KS,Rice County Sheriff's Office,https://www.ricecounty.us/departments/rice_county_sheriffs_office/index.php,county,KS,Lyons,20159,['Rice'],38.346455,-98.22365,,rec6IavegCz4whRTA
+Harris County Courts - TX,Harris County Courts,https://www.ccl.hctx.net/,county,TX,,48201,['Harris'],,,,rec6IgUEE41clHKzI
 Noblesville Police Department - IN,Noblesville Police Department,https://www.cityofnoblesville.org/department/index.php?structureid=14,local,IN,Noblesville,18057,['Hamilton'],40.044365,-86.01417,,rec6IztavllIdw6j9
 Coquille Police Department - OR,Coquille Police Department,http://www.cityofcoquille.org/public_safety/police.php,local,OR,Coquille,41011,['Coos'],43.182224,-124.189285,,rec6JLOibLwXjt4si
 Gallatin County Police Department - KY,Gallatin County Police Department,,county,KY,Warsaw,21077,['Gallatin'],,,,rec6JTk9a38LJ1qOU
@@ -2605,7 +2602,6 @@ Stockton Police Department - KS,Stockton Police Department,http://ww1.stocktonca
 Covington Police Department - VA,Covington Police Department,,local,VA,Covington,51580,['Covington'],,,,rec6rYCjbdru2LqeS
 Opa Locka Police Department - FL,Opa Locka Police Department,https://www.facebook.com/opalockapd,local,FL,Opa Locka,12086,['Miami-Dade'],25.901936,-80.25143,,rec6rYkdkI7Qp1XTW
 Westville Police Department - OK,Westville Police Department,https://www.facebook.com/westvillepd/,local,OK,Westville,40001,['Adair'],35.991837,-94.56726,,rec6rZ8TPgCgpftOc
-Houston Police Department - Palm Center - TX,Houston Police Department - Palm Center,https://www.houstontx.gov/police/,local,TX,Houston,48201,['Harris'],29.69582,-95.33406,,rec6rqN1SlvbzPD8Q
 North Branch Police Department - MN,North Branch Police Department,http://ci.north-branch.mn.us/departments/police/index.php,local,MN,North Branch,27025,['Chisago'],45.5125,-92.98111,,rec6s6HIykK0mPXZL
 Butte-Glenn Community College District Police - CA,Butte-Glenn Community College District Police,,school,CA,Oroville,06007,['Butte'],,,,rec6sEzlnX4gKIx1R
 Brookside Police Department - TX,Brookside Police Department,https://brooksidevillage-tx.org/police-department,local,TX,Pearland,48039,['Brazoria'],29.58757,-95.30989,,rec6sIIPOQd9ShsWy
@@ -3172,7 +3168,6 @@ Chester Township Police - OH,Chester Township Police,https://townshipofchester.c
 Bar Harbor Police Department - ME,Bar Harbor Police Department,https://www.barharbormaine.gov/178/Police-Department,local,ME,Bar Harbor,23009,['Hancock'],44.388237,-68.205536,,rec8RI274JwIe0EW9
 Meadow Grove Police Department - NE,Meadow Grove Police Department,,local,NE,Meadow Grove,31119,['Madison'],42.02889,-97.73395,,rec8ROnYyJMbOWDUC
 Lake Angelus Police Department - MI,Lake Angelus Police Department,https://lakeangelus.org/lake-angelus-police,local,MI,Auburn Hills,26125,['Oakland'],42.69583,-83.30584,,rec8RbIxCLJ7R7cb8
-Houston Police Department - Near Town - Montrose - TX,Houston Police Department - Near Town - Montrose,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.74501,-95.38989,,rec8RpOyrmNFq1yYP
 Hugoton Police Department - KS,Hugoton Police Department,http://cityofhugoton.com/departments/police_department.php,local,KS,Hugoton,20189,['Stevens'],37.179623,-101.34271,,rec8RvBy35rrUkI4V
 Alma Police Department - IL,Alma Police Department,https://myalma.org/police-department.php,local,IL,Salem,17121,['Marion'],38.628124,-88.94427,,rec8Ry3XtKjAajRCD
 Barnsdall Police Department - OK,Barnsdall Police Department,https://www.facebook.com/barnsdallokpd/,local,OK,Barnsdall,40113,['Osage'],36.56171,-96.16106,,rec8S4K91ECiulA8Q
@@ -3436,7 +3431,6 @@ Grandville Police Department - MI,Grandville Police Department,http://www.cityof
 Pine Valley Police Department - NJ,Pine Valley Police Department,https://www.pvnj.org/police,local,NJ,Clementon,34007,['Camden'],39.77689,-74.9718,,rec96rT5gLK8bd8h0
 Kanawha Police Department - IA,Kanawha Police Department,,local,IA,Kanawha,19081,['Hancock'],,,,rec96xqnZScnp68rt
 Gladwin Police Department - MI,Gladwin Police Department,https://www.facebook.com/gladwinpolicedepartment/,local,MI,Gladwin,,,,,,rec971sX8H0HbjrIs
-Houston Police Department - Gulfton - TX,Houston Police Department - Gulfton,http://www.houstonpolice.org,local,TX,Houston,48201,['Harris'],29.71702,-95.4856,,rec979WJ0WAxGhu19
 Boykins Police Department - VA,Boykins Police Department,https://townofboykinsva.com/police/,local,VA,Boykins,51175,['Southampton'],36.583767,-77.19915,,rec97C2vgmSiVNI7x
 Trenton Police Department - NJ,Trenton Police Department,http://www.trentonpolice.com/,local,NJ,Trenton,34021,['Mercer'],40.2267,-74.75291,,rec97GPds0yTa8RP2
 Newton County Prosecutor's Office - IN,Newton County Prosecutor's Office,https://www.newtoncounty.in.gov/department/index.php?structureid=13,county,IN,,,,,,,rec97JvkkeT84RNxo
@@ -4113,7 +4107,6 @@ Tequesta Police Department - FL,Tequesta Police Department,http://tequesta.org/6
 Walls Police Department - MS,Walls Police Department,https://www.facebook.com/Walls-Police-Department-555755304487874/,local,MS,Walls,28033,['DeSoto'],34.94702,-90.15167,,recAnARE8gaOipKAa
 Bryson City Police Department - NC,Bryson City Police Department,https://www.brysoncitync.gov/?SEC=8425C7A0-27E0-4E0A-AE80-D3EFB6E2A594,local,NC,Bryson City,37173,['Swain'],35.426258,-83.446884,,recAnCfIGSZjw6WhY
 Bloomfield Police Department - NJ,Bloomfield Police Department,https://www.bloomfieldnjpd.com/,local,NJ,Bloomfield,34013,['Essex'],40.791904,-74.19522,,recAnKJljjkHXG9c5
-Houston Police Department - Kingwood Division - TX,Houston Police Department - Kingwood Division,https://www.houstontx.gov/mayor/press/2021/police-transparency-hub.html,local,TX,Kingwood,48201,['Harris'],30.05473,-95.18827,,recAnU80Sb2eUckd7
 Brackenridge Police Department - PA,Brackenridge Police Department,,local,PA,Brackenridge,42003,['Allegheny'],40.60461,-79.7392,,recAncy7lbbYCTPCY
 Richfield Police Department - MN,Richfield Police Department,http://www.richfieldmn.gov/departments/public_safety/index.php,local,MN,Minneapolis,27053,['Hennepin'],44.881092,-93.26918,,recAnnxBD0Qzckwjk
 Rye Police Department - NH,Rye Police Department,http://www.ryepolice.us/,local,NH,Rye,33015,['Rockingham'],43.01258,-70.77248,,recAnpXW234rBWzWG
@@ -5600,6 +5593,7 @@ Martin County Sheriff's Office - KY,Martin County Sheriff's Office,https://www.f
 West Lafayette Police Department - IN,West Lafayette Police Department,https://www.westlafayette.in.gov/wlpd,local,IN,West Lafayette,18157,['Tippecanoe'],40.45146,-86.918144,,recEipo9S0XpoD0vJ
 Byron Police Department - GA,Byron Police Department,https://www.byronga.com/police-department.php,local,GA,Byron,13225,['Peach'],32.65424,-83.7621,,recEirRTe0NAl5F7r
 Franklin Police Department - NH,Franklin Police Department,https://www.franklinnh.org/police-department,local,NH,Franklin,33013,['Merrimack'],43.44405,-71.64728,,recEiwZ8HeccKdxOx
+Harris County Aggregated - TX,Harris County Aggregated,,county,TX,,48201,['Harris'],,,,recEj4iPVUAG4YdUc
 Osburn Police Department - ID,Osburn Police Department,https://www.facebook.com/osburnpolice/,local,ID,Osburn,16079,['Shoshone'],47.502098,-115.99113,,recEjFCPb6HR2ByPf
 Orange County Sheriff's Office - Main - TX,Orange County Sheriff's Office - Main,http://ocsheriffsoffice.com/,county,TX,Orange,48361,['Orange'],30.08869,-93.73662,,recEjKOXNcrc3eN1w
 Graymoor-Devondale Police Department - KY,Graymoor-Devondale Police Department,https://www.graymoor-devondale.com/police.html,local,KY,Louisville,21111,['Jefferson'],38.25452,-85.76184,,recEjKmPbKSLkzXbR
@@ -5856,7 +5850,6 @@ Hurley Police Department - WI,Hurley Police Department,,local,WI,Hurley,55051,['
 Mason County Sheriff's Office - KY,Mason County Sheriff's Office,http://www.masoncountysheriffky.com/,county,KY,Maysville,21161,['Mason'],38.647896,-83.76805,,recFGCVPwm1FMfGBi
 Baton Rouge Police Department - Recruiting - LA,Baton Rouge Police Department - Recruiting,https://www.brla.gov/203/Police-Department,local,LA,Baton Rouge,22033,['East Baton Rouge'],30.44053,-91.1843,,recFGDlhk966DyMcA
 Grand Haven Department of Public Safety - MI,Grand Haven Department of Public Safety,,local,MI,Grand Haven,26139,['Ottawa'],,,,recFGEke48qzX5j3p
-Houston Police Department - Northeast Division - TX,Houston Police Department - Northeast Division,http://www.houstontx.gov/mayor/press/2021/police-transparency-hub.html,local,TX,Houston,48201,['Harris'],29.83219,-95.27329,,recFGNv1Wnlpdl6c6
 Schenectady County Probation Department - NY,Schenectady County Probation Department,https://www.schenectadycounty.com/probation,county,NY,Schenectady,36093,['Schenectady'],42.810127,-73.93953,,recFGigjUmhf7Itt2
 Ringwood Police Department - NJ,Ringwood Police Department,http://www.ringwoodnj.net/content/2347/2361/default.aspx,local,NJ,Ringwood,34031,['Passaic'],41.12942,-74.26514,,recFHE78AqoGcPJ4d
 Ava Police Department - IL,Ava Police Department,http://avapolice.org/,local,IL,Ava,,,,,,recFHa4iFV9YBdeka
@@ -6132,7 +6125,6 @@ Kentucky Horse Park Police - KY,Kentucky Horse Park Police,https://kyhorsepark.c
 Granby Police Department - CO,Granby Police Department,www.townofgranby.com/police,local,CO,Granby,08049,['Grand'],40.08699,-105.94217,,recG16LhPZHN87DsH
 Estes Park Police Department - CO,Estes Park Police Department,https://www.facebook.com/estesparkpolicedepartment/,local,CO,Estes Park,08069,['Larimer'],40.37769,-105.520515,,recG1IZ6rHkWhfdsJ
 Clarkston Police Department - GA,Clarkston Police Department,https://www.clarkstonga.gov/police-services,local,GA,Clarkston,13089,['DeKalb'],33.80891,-84.23939,,recG1J9qFLVPj0cZ0
-Houston Police Department - Lake Houston - TX,Houston Police Department - Lake Houston,,local,TX,Huffman,48201,['Harris'],30.00371,-95.11376,,recG1NczkOAJwgrJ6
 Clarendon County Sheriff's Office - SC,Clarendon County Sheriff's Office,https://www.facebook.com/clarendonsheriff,county,SC,Manning,45027,['Clarendon'],33.69448,-80.22589,,recG1VYVG1Ul8CggD
 Wilkins Township Police Department - PA,Wilkins Township Police Department,,local,PA,Turtle Creek,42003,['Allegheny'],,,,recG1aI8TGzWL61d9
 Colville Tribal Police - WA,Colville Tribal Police,https://www.colvilletribes.com/police,tribal,WA,Pasco,53019,['Ferry'],,,,recG1esMhoWt1DisT
@@ -6336,7 +6328,6 @@ McLennan Community College Police Department - TX,McLennan Community College Pol
 Harrisburg Area Community College Department of Public Safety - PA,Harrisburg Area Community College Department of Public Safety,https://www.hacc.edu/AboutHACC/PublicSafetyandSecurity/index.cfm,school,PA,,,,,,,recGVZLhLFFf7PrkU
 Ellis Police Department - KS,Ellis Police Department,http://ellispd.net/,local,KS,Ellis,20051,['Ellis'],38.939686,-99.5612,,recGVynOAtf2BbNjr
 Volusia County Sheriff's Office - Daytona Civil Division - FL,Volusia County Sheriff's Office - Daytona Civil Division,,county,FL,Daytona Beach,12127,['Volusia'],29.21549,-81.02155,,recGWH1aufgdjb8FO
-Houston Police Department - Central Division - TX,Houston Police Department - Central Division,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.76546,-95.3714,,recGWJZoJaCed1Xgu
 Lone Star Police Department - TX,Lone Star Police Department,,local,TX,Lone Star,48343,['Morris'],32.93907,-94.71343,,recGWRH4OwHN0xPxh
 Harrison Police Department - AR,Harrison Police Department,http://cityofharrison.com/,local,AR,Harrison,05009,['Boone'],36.2292,-93.11018,,recGWXHtTJmbsGFWq
 Lexington Police Department - TX,Lexington Police Department,https://cityoflexingtontx.com/police-department,local,TX,Lexington,48287,['Lee'],30.415121,-97.01054,,recGWe4wZcsQl3x79
@@ -7016,7 +7007,6 @@ Wallingford Police Department - CT,Wallingford Police Department,http://www.town
 Cheektowaga Police Department - NY,Cheektowaga Police Department,https://cpdny.org/,local,NY,Buffalo,36029,['Erie'],42.90156,-78.75355,,recIEPSXWct5fSdG1
 Wisconsin State Patrol - WI,Wisconsin State Patrol,,state,WI,Madison,55025,['Dane'],,,,recIEQjQmAOvoQEdr
 Tekamah Police Department - NE,Tekamah Police Department,https://www.tekamah.net/vnews/display.v/SEC/City%20Departments%7CPolice,local,NE,Tekamah,31021,['Burt'],41.77749,-96.22169,,recIESxlXgPVCJ0vu
-Houston Police Department - Marq - E - TX,Houston Police Department - Marq - E,http://www.houstontx.gov/mayor/press/2021/police-transparency-hub.html,local,TX,Houston,48201,['Harris'],29.78593,-95.46503,,recIEWp56mZ6FGkgm
 Chilhowie Police Department - VA,Chilhowie Police Department,https://www.facebook.com/Chilhowie-Police-Department-292987878064733/,local,VA,Chilhowie,51173,['Smyth'],36.800327,-81.680374,,recIEgFPHRtcbCQLr
 Sewickley Heights Borough Police Department - PA,Sewickley Heights Borough Police Department,http://sewickleyheightsboro.com/,local,PA,Sewickley,42003,['Allegheny'],40.56028,-80.16458,,recIEjGirTf18xesq
 Law Enforcement Division - NV,Law Enforcement Division,https://www.sled.sc.gov/,local,NV,Carson City,,,39.11667,-119.75744,,recIEthEuEhf3CJfo
@@ -7581,7 +7571,6 @@ Penn College Police Department - PA,Penn College Police Department,,school,PA,Wi
 Muhlenberg Township Police Department - PA,Muhlenberg Township Police Department,https://www.muhlenbergtwp.com/298/Muhlenberg-Township-Police-Department,local,PA,Reading,42011,['Berks'],40.37785,-75.92677,,recJhA8tbeuP1abzg
 Choudrant Police Department - LA,Choudrant Police Department,https://www.choudrant.org/government/,local,LA,Ruston,22061,['Lincoln'],32.532787,-92.63917,,recJhO5d54NAf5c0E
 Manor Police Department - TX,Manor Police Department,http://www.cityofmanor.org/page/pd_main,local,TX,Manor,48453,['Travis'],30.34099,-97.55641,,recJhfsRXdqv6T3rU
-Houston Police Department - Fondren Patrol - TX,Houston Police Department - Fondren Patrol,https://www.houstontx.gov/police/,local,TX,Houston,48201,['Harris'],29.65887,-95.50887,,recJho9xD4cNZsEMa
 New Market Police Department - IN,New Market Police Department,https://www.newmarketvirginia.com/government/town-departments/police-department/,local,IN,New Market,47089,['Jefferson'],36.105865,-83.55512,,recJhuJ8V35dKd0Fk
 Monroe Police Department - MI,Monroe Police Department,http://monroepd.org/,local,MI,Monroe,26115,['Monroe'],41.91406,-83.39755,,recJiD76FLep0sEun
 Burns Paiute Tribal Police Department - OR,Burns Paiute Tribal Police Department,https://burnspaiute-nsn.gov/departments/tribal-police-courts/,local,OR,Burns,41025,['Harney'],43.61093,-119.072395,,recJiQmMZ1uraETbk
@@ -7917,7 +7906,6 @@ Albuquerque Public Schools Police - NM,Albuquerque Public Schools Police,https:/
 Eureka Police Department - NC,Eureka Police Department,https://www.facebook.com/Fremont-NC-Police-Department-630374207017146,local,NC,Fremont,37191,['Wayne'],35.54236,-77.87244,,recKer3xAntepOn69
 Georgia Department of Human Resource and Developmental Disabilities - GA,Georgia Department of Human Resource and Developmental Disabilities,https://dbhdd.georgia.gov/regional-field-offices/region-3-field-office,local,GA,Atlanta,13121,['Fulton'],33.754128,-84.390656,,recKet6KyrCtYoGUq
 Belleview Police Department - FL,Belleview Police Department,https://bolivar.mo.us/police-department-2/,local,FL,Belleview,12083,['Marion'],29.062147,-82.059326,,recKf2V6IhSspfZSS
-Harris County Sheriff's Office - Economic Crimes - TX,Harris County Sheriff's Office - Economic Crimes,http://www.harriscountyso.org/,county,TX,Houston,48201,['Harris'],29.76208,-95.35772,,recKf7qHivmmtv0l9
 Norlina Police Department - NC,Norlina Police Department,http://norlic.com/departments/,local,NC,Norlina,37185,['Warren'],36.444065,-78.19298,,recKfHAmVuSMkJi2m
 Rio Arriba County Sheriff's Office Espanola - NM,Rio Arriba County Sheriff's Office Espanola,http://www.rio-arriba.org/departments_and_divisions/sheriff.html,county,NM,Espanola,35039,['Rio Arriba'],36.00938,-106.10078,,recKfUAfMkevXeu1N
 Norfolk County Police Department - VA,Norfolk County Police Department,https://www.norfolk.gov/305/Police,county,VA,Norfolk,,,,,,recKfbATKMY1QT5WM
@@ -8210,7 +8198,6 @@ Carroll County Sheriff's Office - MD,Carroll County Sheriff's Office,https://she
 Everett Police Department - PA,Everett Police Department,https://everettwa.gov/police,local,PA,Everett,42009,['Bedford'],40.011265,-78.37511,,recLRwYVsUAySutpB
 Boardman Police Department - OR,Boardman Police Department,https://www.cityofboardman.com/police,local,OR,Boardman,41049,['Morrow'],45.832462,-119.703735,,recLS6eEURDILbi8x
 Long View Police Department - NC,Long View Police Department,https://www.ci.longview.nc.us/police-department,local,NC,Hickory,37035,['Catawba'],35.729275,-81.37917,,recLSVFixqvoZjPWf
-Houston Police Department - Hiram Clarke - TX,Houston Police Department - Hiram Clarke,http://www.houstontx.gov/mayor/press/2021/police-transparency-hub.html,local,TX,Houston,48201,['Harris'],29.61223,-95.44358,,recLSYLFu8QZWbueY
 Nescopeck Borough Police Department - PA,Nescopeck Borough Police Department,https://www.facebook.com/nescopeckpd/,local,PA,Nescopeck,42079,['Luzerne'],41.054073,-76.220764,,recLSqi5FtOlxrU34
 Lynchburg Sheriff's Office - VA,Lynchburg Sheriff's Office,http://www.lynchburgva.gov/sheriffsoffice,local,VA,Lynchburg,,,37.412586,-79.144554,,recLSufiHZkRZrEuK
 Barrington Police Department - RI,Barrington Police Department,http://www.barringtonpolice.org/,local,RI,Barrington,44001,['Bristol'],41.748188,-71.3281,,recLTCNHWWDEUKm9K
@@ -8382,7 +8369,6 @@ Milwaukie Police Department - OR,Milwaukie Police Department,https://www.milwauk
 Bellefontaine Neighbors Police Department - MO,Bellefontaine Neighbors Police Department,https://www.cityofbn.com/departments/police,local,MO,Saint Louis,29189,['St. Louis'],38.742043,-90.22686,,recLuvisbaNaWS89o
 Nicholas County Sheriff's Office - KY,Nicholas County Sheriff's Office,https://www.facebook.com/Nicholas-County-Sheriffs-Office-1066717340070619/,county,KY,Brooksville,21023,['Bracken'],38.682545,-84.06714,,recLuxTCKaqscHRnY
 Oakton Community College Police Department - IL,Oakton Community College Police Department,https://www.oakton.edu/about/officesanddepartments/public_safety/,school,IL,,,,,,,recLv2hopckR1HJIu
-Houston Police Department - Acres Homes - TX,Houston Police Department - Acres Homes,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.85744,-95.42181,,recLvW6Enr2PnjyRK
 Sadieville Police Department - KY,Sadieville Police Department,https://www.sadievilleky.gov/department/public-safety-police/,local,KY,Sadieville,21209,['Scott'],38.39075,-84.5359,,recLvk2YpENGNlpZZ
 Monmouth Department of Public Safety - IL,Monmouth Department of Public Safety,,local,IL,Monmouth,17187,['Warren'],,,,recLvmKDMGROH0mkw
 Fredericksburg Police Department - VA,Fredericksburg Police Department,https://www.facebook.com/FXBGPolice/,local,VA,Fredericksburg,,,38.303326,-77.48891,,recLvmbZczHmomphi
@@ -8677,7 +8663,6 @@ Taneytown Police Department - MD,Taneytown Police Department,http://www.taneytow
 Onley Police Department - VA,Onley Police Department,http://townofonley.org/contact/,local,VA,Melfa,51001,['Accomack'],37.689743,-75.71512,,recMitkvHUHcoopnM
 Cape May Police - NJ,Cape May Police,,local,NJ,Cape May,34009,['Cape May'],,,,recMivLZo7vbjK696
 Latimer County Sheriff's Office - OK,Latimer County Sheriff's Office,http://latimercountysheriff.com/,county,OK,Wilburton,40077,['Latimer'],34.919632,-95.31008,,recMjP02fT5dfKsfQ
-Houston Police Department - Airport Division - Bush Intercontinental Airport - TX,Houston Police Department - Airport Division - Bush Intercontinental Airport,,local,TX,Houston,48201,['Harris'],29.98688,-95.33961,,recMjWVV1fcgc0yK8
 Morganza Police Department - LA,Morganza Police Department,http://www.dss.state.la.us/directory/office/9284,local,LA,Morganza,22077,['Pointe Coupee'],30.719725,-91.57936,,recMjkKs8BhbukRA6
 Heyburn Police Department - ID,Heyburn Police Department,https://heyburn.id.gov/index.asp?SEC=913D709B-F780-4792-9A10-628EBAE5B2A0&DE=AC60215E-F5BB-4DB0-B9FC-2C894B59E885&Type=B_BASIC,local,ID,Heyburn,16067,['Minidoka'],42.558586,-113.75661,,recMk3qNmGfYcBgg6
 Dallas Theological Seminary Police Department Kiosk - TX,Dallas Theological Seminary Police Department Kiosk,https://www.dts.edu/student-life/safety-well-being/campus-police/,local,TX,Dallas,48113,['Dallas'],32.79491,-96.7801,,recMk67vAqYP0M4HF
@@ -9064,7 +9049,6 @@ Union County Prosecutor's Chief - NJ,Union County Prosecutor's Chief,,county,NJ,
 Gloucester County Prosecutor's Chief - NJ,Gloucester County Prosecutor's Chief,,county,NJ,Woodbury,34015,['Gloucester'],,,,recNl3fsF2g2rS5rj
 Farmersville Police Department - TX,Farmersville Police Department,,local,TX,Farmersville,48085,['Collin'],,,,recNl3il9T8TnXnym
 Highland Park Police Department - MI,Highland Park Police Department,https://www.highlandparkmi.gov/Services/Police.aspx,local,MI,Highland Park,26163,['Wayne'],42.408962,-83.09731,,recNlcKYywvFjcscI
-Houston Police Department - Aldine - TX,Houston Police Department - Aldine,http://www.houstontx.gov/police/,local,TX,Houston,48201,['Harris'],29.92427,-95.41131,,recNlspwvNVsgazLU
 United States Forest Service Law Enforcement and Investigations - FL,United States Forest Service Law Enforcement and Investigations,https://www.fs.fed.us/lei/,state,FL,,,,,,,recNlvlqyE3yZJ2mA
 Gates County Sheriff's Department - Gatesville - NC,Gates County Sheriff's Department - Gatesville,gatescountync.gov/index.asp?sec=92c40bab-fd61-489f-b976-a8c4b4f1bdbc&type=b_basic,county,NC,Gatesville,37073,['Gates'],36.402916,-76.75397,,recNlwyVKimlHoLrq
 Medina Police Department - MN,Medina Police Department,https://medinamn.us/citygov/departments/police-dept,local,MN,Hamel,27053,['Hennepin'],45.047615,-93.53772,,recNm1jneYbY9vrPu
@@ -10316,7 +10300,6 @@ Edgewater Police Department - CO,Edgewater Police Department,https://www.faceboo
 Forest Preserve District of Will County Police Department - IL,Forest Preserve District of Will County Police Department,https://www.reconnectwithnature.org/police-department,county,IL,Joliet,17197,['Will'],41.483456,-88.04349,,recRHv1M54A4G3edN
 Wheatfield Police Department - IN,Wheatfield Police Department,https://www.in.gov/towns/wheatfield/resources/police-department/,local,IN,Wheatfield,18073,['Jasper'],41.191288,-87.05186,,recRIBGaCMleZ6o7K
 Nanticoke City Police Department - PA,Nanticoke City Police Department,,local,PA,Nanticoke,42079,['Luzerne'],41.19914,-76.00064,,recRIC5Q1uX81bxXk
-Houston Police Department - Independence Heights - TX,Houston Police Department - Independence Heights,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.82892,-95.3881,,recRIIFhqzeeydvvF
 Imperial County Sheriff's Office - Ocotillo - CA,Imperial County Sheriff's Office - Ocotillo,https://icso.imperialcounty.org/,county,CA,Ocotillo,06025,['Imperial'],32.73731,-115.99445,,recRIJ3P8H1BxS62h
 Morven Police Department - GA,Morven Police Department,https://www.gacities.com/Directories/Cities/MORVEN/53032,local,GA,Morven,13027,['Brooks'],30.943018,-83.49822,,recRIM2gBAKr6VZSW
 Turkey Creek Police Department - LA,Turkey Creek Police Department,http://www.dss.state.la.us/directory/office/9247,local,LA,Ville Platte,22039,['Evangeline'],30.891567,-92.41059,,recRIT7ldYDy7OJ9v
@@ -10453,7 +10436,6 @@ Linden Police Department - NJ,Linden Police Department,https://linden-nj.gov/dir
 Hiawatha Police Department - IA,Hiawatha Police Department,https://www.hiawatha-iowa.com/departments/police/,local,IA,Hiawatha,19113,['Linn'],42.03846,-91.675255,,recRgWmXVfh1P0NVu
 Onondaga County Sheriff's Office - NY,Onondaga County Sheriff's Office,http://sheriff.ongov.net/,county,NY,Liverpool,36067,['Onondaga'],43.115276,-76.18423,,recRgfFpBWZx1Nt6N
 Birmingham Police Department - MI,Birmingham Police Department,https://www.bhamgov.org/government/departments/police/index.php,local,MI,Birmingham,26125,['Oakland'],42.5456,-83.21553,,recRglVsAwY3Qkjqv
-Houston Police Department - Sunnyside - TX,Houston Police Department - Sunnyside,http://www.houstontx.gov/police/,local,TX,Houston,48201,['Harris'],29.65853,-95.3717,,recRgtGhl8q991yWH
 Albany Police Department - IL,Albany Police Department,https://www.whiteside.org/albany-police-department.html,local,IL,Chicago,17031,['Cook'],41.966167,-87.728325,,recRh4VfwE6Dr5o06
 Florida International University Police Department - Modesto Maidique Campus - FL,Florida International University Police Department - Modesto Maidique Campus,https://police.fiu.edu/,school,FL,Miami,12086,['Miami-Dade'],25.76023,-80.37168,,recRhZjp9HwKCSIhk
 Butler Township Police - OH,Butler Township Police,http://butlertwp.org/police/,local,OH,Dayton,39113,['Montgomery'],39.85377,-84.197624,,recRhzIgp8Ku00Bac
@@ -10607,7 +10589,6 @@ Stagecoach Police Department - TX,Stagecoach Police Department,,local,TX,Magnoli
 Warm Springs Police Department - GA,Warm Springs Police Department,,local,GA,Warm Springs,13199,['Meriwether'],,,,recS3Qml26geoEDIR
 Lilesville Police Department - NC,Lilesville Police Department,https://www.countyoffice.org/lilesville-police-department-lilesville-nc-3a3/,local,NC,Lilesville,37007,['Anson'],34.967445,-79.98393,,recS3R4BqCQlXj7BJ
 Evansville Vanderburgh Community School Corporation Police Department - IN,Evansville Vanderburgh Community School Corporation Police Department,http://www.evansvillepolice.com/criminal-investigation-division/criminal-juvenile-investigations/school-liaison-unit,school,IN,Evansville,,,,,,recS3g7oEpqWMMmqU
-Houston Police Department - Richmond - TX,Houston Police Department - Richmond,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.73269,-95.49411,,recS3iGZLhxFEdAlP
 Middleburg Police Department - VA,Middleburg Police Department,http://middleburgva.gov/167/Police-Department,local,VA,Middleburg,51107,['Loudoun'],38.967278,-77.73721,,recS3iUdrEwp2S7wK
 Magnolia Police Department - MS,Magnolia Police Department,https://www.facebook.com/CityofMagnolia/,local,MS,Magnolia,28113,['Pike'],31.14195,-90.46085,,recS3j1O7DA65Gd7j
 Walworth County Sheriff's Office - SD,Walworth County Sheriff's Office,https://www.co.walworth.wi.us/251/Sheriffs-Office,county,SD,Elkhorn,55127,['Walworth'],42.66396,-88.49986,,recS3mtiFZqaBjVws
@@ -12018,7 +11999,6 @@ Tucson Airport Authority Police Department - AZ,Tucson Airport Authority Police 
 Mandan Police Department - ND,Mandan Police Department,https://www.mandanpd.com/,local,ND,Mandan,38059,['Morton'],46.827698,-100.89192,,recVsw6O3pf8KFmOO
 Warren Police Department - OH,Warren Police Department,https://warren.org/living/departments/police-department,local,OH,Warren,39155,['Trumbull'],41.234623,-80.81697,,recVt2EbVgnagmwZN
 Dozier Police Department - AL,Dozier Police Department,,local,AL,Dozier,01041,['Crenshaw'],,,,recVtB0bFtuw2aOhp
-Houston Police Department - Fifth Ward - TX,Houston Police Department - Fifth Ward,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.77226,-95.33047,,recVtChMF14eAaXTE
 Gagetown Police Department - MI,Gagetown Police Department,,local,MI,Gagetown,26157,['Tuscola'],43.65573,-83.24552,,recVtGzMPAGSb9CWf
 Absentee Shawnee Tribal Police of Oklahoma - OK,Absentee Shawnee Tribal Police of Oklahoma,,local,OK,Shawnee,40127,['Pushmataha'],,,,recVtKOyKkGFPoVjZ
 Port Gamble S'Klallam Police Department - WA,Port Gamble S'Klallam Police Department,https://www.pgst.nsn.us/tribal-programs/tribal-government/department-of-public-safety/police-services,tribal,WA,Tacoma,53035,['Kitsap'],47.299744,-122.51118,,recVtNHbEOjcadfoJ
@@ -12259,7 +12239,7 @@ Hollywood Police Department - AL,Hollywood Police Department,,local,AL,Hollywood
 Arkansas State University Police - AR,Arkansas State University Police,https://www.asun.edu/campus_police,state,AR,Fort Smith,05131,['Sebastian'],35.37952,-94.37609,,recWUCKS2jAoMjMNp
 Mill Hall Borough Police Department - PA,Mill Hall Borough Police Department,https://www.facebook.com/millhallboroughpd/,local,PA,Mill Hall,42035,['Clinton'],41.111706,-77.492424,,recWUMFakVFeqHbaO
 Greensboro Police Department - Division 4 - NC,Greensboro Police Department - Division 4,,local,NC,Greensboro,37081,['Guilford'],36.09006,-79.77705,,recWUaDcZ6P2WJGjM
-Iowa County Police Department - TX,Iowa County Police Department,https://www.iowacolonytx.gov/police-department,local,TX,Iowa County,48039,['Brazoria'],29.4100395,-95.4108303,,recWUokK2M2rqM9Cb
+Iowa Colony Police Department - TX,Iowa Colony Police Department,https://www.iowacolonytx.gov/police-department,local,TX,Iowa Colony,48039,['Brazoria'],29.4100395,-95.4108303,,recWUokK2M2rqM9Cb
 Bunkie Police Department - LA,Bunkie Police Department,http://www.dss.state.la.us/directory/office/9397,local,LA,Bunkie,22009,['Avoyelles'],30.957735,-92.18728,,recWVRmAdxcgEVGLI
 Fredonia Police Department - KS,Fredonia Police Department,http://fredoniapolice.org/,local,KS,Fredonia,20205,['Wilson'],37.53108,-95.834435,,recWVlCW1DtNGAjdB
 Elko County School District - NV,Elko County School District,,school,NV,Elko,32007,['Elko'],,,,recWVmH4gFgkN53CU
@@ -12519,7 +12499,6 @@ Custer City Police Department - OK,Custer City Police Department,,local,OK,Custe
 Mahnomen County Sheriff's Office - MN,Mahnomen County Sheriff's Office,https://www.facebook.com/MahnomenCountySheriffsOffice/,county,MN,Mahnomen,27087,['Mahnomen'],47.31777,-95.96972,,recXAzlvS3zMdjz6Z
 Saint Martinville Police Department - Chief - LA,Saint Martinville Police Department - Chief,https://www.facebook.com/SMPD70582,local,LA,Saint Martinville,22099,['St. Martin'],30.12318,-91.82747,,recXB5Dit2fSJphJa
 U.S. Department of Veterans Affairs Police - PA,U.S. Department of Veterans Affairs Police,https://www.osp.va.gov/Police_Services.asp,local,PA,,,,,,,recXBEzoumrTzLqMT
-Houston Police Department - Near North - TX,Houston Police Department - Near North,http://www.houstontx.gov/police,local,TX,Houston,48201,['Harris'],29.8275,-95.43155,,recXBGRZXo8KP0QoN
 Spenser Police Department - MA,Spenser Police Department,http://www.spencerma.gov/police-department,local,MA,Spencer,25027,['Worcester'],42.2365,-72.00572,,recXBRReNFiNuw4Oy
 Suquamish Tribal Police - WA,Suquamish Tribal Police,https://suquamish.nsn.us/home/departments/police-courts/,tribal,WA,Deming,53035,['Kitsap'],,,,recXBd9b5xznpCFWP
 Honey Brook Borough Police Department - PA,Honey Brook Borough Police Department,,local,PA,Honey Brook,42029,['Chester'],40.09546,-75.91494,,recXC0yB07CLZPt6I
@@ -12545,7 +12524,6 @@ Rib Lake Police Department - WI,Rib Lake Police Department,,local,WI,Rib Lake,55
 Huerfano County Sheriff's Office - CO,Huerfano County Sheriff's Office,https://www.huerfano.us/,county,CO,Walsenburg,,,,,,recXEzB8ToDKJA8HW
 Columbia Gorge Community College Department of Public Safety - OR,Columbia Gorge Community College Department of Public Safety,https://www.cgcc.edu/safety,school,OR,,,,,,,recXF2A7OyZJacmcb
 Ironton Police Department - MO,Ironton Police Department,,local,MO,Ironton,29093,['Iron'],,,,recXFF0VFefw7mg4l
-Houston Police Department - Ana Maria Lopez - TX,Houston Police Department - Ana Maria Lopez,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.78203,-95.35852,,recXFIzUbuoZZQHXb
 Jim Hogg County I.S.D. Police Department. - TX,Jim Hogg County I.S.D. Police Department.,,county,TX,Hebbronville,48247,['Jim Hogg'],,,,recXFuT3daA0hfapv
 Shelton Police Department - WA,Shelton Police Department,http://www.sheltonpolice.net/,local,WA,Airway Heights,53045,['Mason'],47.643265,-117.59564,,recXFvh9jeoQVZi9p
 Champion Township Police - OH,Champion Township Police,https://championtownship.org/police-chief,local,OH,,,,,,,recXG5GSNwY0BTmfj
@@ -13312,7 +13290,6 @@ Pewaukee (village) Police Department - WI,Pewaukee (village) Police Department,,
 Hurleyville Police Department - NY,Hurleyville Police Department,http://townoffallsburg.com/police-department/,local,NY,,,,,,,recZKCav1UstMVqsS
 CUNY New York City College of Technology Police - NY,CUNY New York City College of Technology Police,,school,NY,Brooklyn,36047,['Kings'],,,,recZKhfgycShWMMTr
 Craigsville Police Department - VA,Craigsville Police Department,https://www.countyoffice.org/craigsville-police-department-craigsville-va-940/,local,VA,Craigsville,,,,,,recZKnqtgjpzlIa0Y
-Houston Police Department - Spring Branch - TX,Houston Police Department - Spring Branch,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.80348,-95.49618,,recZL5lz0C9ZhLCjE
 Reyno Police Department - AR,Reyno Police Department,https://www.fayetteville-ar.gov/167/Police-Department,local,AR,Nineveh,18081,['Johnson'],39.3542,-86.10373,,recZL6XnWgdOCzdrC
 Pascagoula Police Department - MS,Pascagoula Police Department,http://www.cityofpascagoula.com/203/Police-Department,local,MS,Pascagoula,28059,['Jackson'],30.370163,-88.5575,,recZLOQqprKvkNBFh
 Alma Police Department - KS,Alma Police Department,https://www.almaarkansas.gov/police/,local,KS,Alma,20197,['Wabaunsee'],39.01375,-96.28924,,recZLktskE0XQeCRe
@@ -13361,7 +13338,6 @@ Bayside Police Department - WI,Bayside Police Department,http://www.baysidewi.go
 Florida Southwestern State College Department of Public Safety - FL,Florida Southwestern State College Department of Public Safety,https://www.fsw.edu/publicsafety,state,FL,,,,,,,recZR3nbyFcTnkDBh
 Victor Valley College Police Department - CA,Victor Valley College Police Department,https://www.vvc.edu/offices/campus_police/,school,CA,,,,,,,recZR9tmkhvYM8tPn
 Keith County Sheriff's Office - NE,Keith County Sheriff's Office,http://www.keithcountyne.gov/residents/sheriff.php,county,NE,Ogallala,31101,['Keith'],41.128662,-101.718895,,recZREA4aYiB0gMG3
-Houston Police Department - Westwood - TX,Houston Police Department - Westwood,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.67714,-95.54647,,recZRESvvxgRkrpae
 Clarks Police Department - LA,Clarks Police Department,,local,LA,Grand Rapids,26081,['Kent'],42.96375,-85.668724,,recZRFq5bCI9EwuQa
 Harrison County Prosecutor's Office - IN,Harrison County Prosecutor's Office,https://www.harrisoncounty.in.gov/,county,IN,Corydon,18061,['Harrison'],38.222923,-86.14336,,recZRGMAbV2joonyX
 Capital Community College Police - CT,Capital Community College Police,,school,CT,Hartford,09003,['Hartford'],,,,recZRIIGUqhUoQPoK
@@ -13545,7 +13521,6 @@ Penn Hills Police Department - PA,Penn Hills Police Department,http://www.pennhi
 Paintsville Police Department - KY,Paintsville Police Department,,local,KY,Paintsville,21115,['Johnson'],37.81519,-82.80247,,recZsv0iTlFsj70sI
 North Park Police Department - PA,North Park Police Department,,local,PA,Allison Park,42003,['Allegheny'],40.58878,-80.00987,,recZt37JE6afLDZoN
 Lindale Police Department - TX,Lindale Police Department,,local,TX,Lindale,48423,['Smith'],32.49156,-95.39958,,recZt5pe2fkySVZRe
-Houston Police Department - Braeburn - TX,Houston Police Department - Braeburn,http://www.houstonpolice.org,local,TX,Houston,48201,['Harris'],29.65752,-95.51008,,recZtAoWUtbONAEla
 Hudson Police Department - NH,Hudson Police Department,https://www.hudsonnh.gov/police,local,NH,Hudson,33011,['Hillsborough'],42.77695,-71.385666,,recZtZKdiPSxFqT7i
 Westwood Police Department - KS,Westwood Police Department,https://www.facebook.com/Westwood-KS-Police-Department-1863245077244655/,local,KS,Mission,20091,['Johnson'],39.01918,-94.65405,,recZtamql68ITiR6o
 Henry County Sheriff's Department Emergency Medical Service - IN,Henry County Sheriff's Department Emergency Medical Service,,county,IN,New Castle,18065,['Henry'],39.93167,-85.37184,,recZtmmqTIITlnFMe
@@ -13587,7 +13562,6 @@ Beckley Police Department - WV,Beckley Police Department,https://beckley.org/pol
 "Coos, Lower Umpqua & Siuslaw Tribal Police - OR","Coos, Lower Umpqua & Siuslaw Tribal Police",,local,OR,Florence,41039,['Lane'],,,,recZznCoxnoYu73Xq
 Wayne County Community College District Police - MI,Wayne County Community College District Police,https://www.wcccd.edu/dept/campussafety.htm,county,MI,,,,,,,recZzoY1jQJtlPUE6
 Monroe County Sheriff's Office - OH,Monroe County Sheriff's Office,http://www.monroesheriff.com/,county,OH,Woodsfield,39111,['Monroe'],39.78036,-81.11043,,recZzqeMxlOWRjeON
-Houston Police Department - Southmore - TX,Houston Police Department - Southmore,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.71287,-95.35737,,recZzusELOrw4vgwi
 Bellaire Police Department - MI,Bellaire Police Department,http://www.bellairemichigan.com/police/,local,MI,Bellaire,26009,['Antrim'],44.97579,-85.20775,,recZzzEil4vr3V4pP
 Egg Harbor Police Department - NJ,Egg Harbor Police Department,https://www.ehtgov.org/departments/public_safety/egg_harbor_township_police_department/index.php,local,NJ,Egg Harbor Township,34001,['Atlantic'],39.361904,-74.58178,,reca05L9iQi0brO6E
 Portland Police Department Munjoy Hill Center - ME,Portland Police Department Munjoy Hill Center,,local,ME,Portland,23005,['Cumberland'],43.66648,-70.24681,,reca11veIPlQxqPcD
@@ -13995,7 +13969,7 @@ Winnemucca Police Department - NV,Winnemucca Police Department,http://www.winnem
 Dawson Police Department - MN,Dawson Police Department,https://www.dawsonmn.com/police-department,local,MN,Dawson,27073,['Lac qui Parle'],44.92972,-96.05556,,recb5anJSAzWMp0xZ
 Edgewood Police Department - KY,Edgewood Police Department,https://edgewoodky.gov/police/,local,KY,Ft Mitchell,21117,['Kenton'],39.007763,-84.56532,,recb5jn6nzPeL1PEg
 Granite Quarry Police Department - NC,Granite Quarry Police Department,https://www.granitequarrync.gov/Departments/Police-Department,local,NC,Granite Quarry,37159,['Rowan'],35.614662,-80.447495,,recb6A0c2TK0sS3zq
-Shaker Heights Police Department - OH,Shaker Heights Police Department,https://shakeronline.com/159/Police,local,OH,Cleveland,39035,['Cuyahoga'],41.46798,-81.56455,,recb6B2GGUXkCeXO5
+Shaker Heights Police Department - OH,Shaker Heights Police Department,https://shakeronline.com/159/Police,local,OH,Shaker Heights,39035,['Cuyahoga'],41.46798,-81.56455,,recb6B2GGUXkCeXO5
 Woodville I.S.D. Police Department. - TX,Woodville I.S.D. Police Department.,,local,TX,Woodville,48457,['Tyler'],,,,recb6JfwOXexCp67F
 University of Wisconsin - La Crosse Police Department - WI,University of Wisconsin - La Crosse Police Department,http://www.uwlax.edu/police,school,WI,La Crosse,55063,['La Crosse'],43.81755,-91.230576,,recb6Sow15hbbjUuG
 California Aggregated - CA,California Aggregated,,state,CA,,,,,,,recb6VfwtscERI4c5
@@ -14239,7 +14213,6 @@ Plainfield Police Department - IL,Plainfield Police Department,https://www.plain
 Anderson Police Department - CA,Anderson Police Department,https://www.andersonpolice.org/,local,CA,Anderson,06089,['Shasta'],40.45321,-122.29873,,recbhHUTeu7UfhZFq
 Nickerson Police Department - KS,Nickerson Police Department,https://www.nickersonks.org/,local,KS,Nickerson,20155,['Reno'],38.14741,-98.08233,,recbhOWPjYUNhvBEL
 Galesburg Police Department - MI,Galesburg Police Department,,local,MI,Galesburg,26077,['Kalamazoo'],,,,recbhT42IiJ6LYtwj
-Houston Police Department - Midwest Division - TX,Houston Police Department - Midwest Division,http://www.houstonpolice.org,local,TX,Houston,48201,['Harris'],29.71661,-95.51148,,recbhcfTWfvaSwLVX
 Hall County Sheriff's Office - NE,Hall County Sheriff's Office,https://www.hallcounty.org/168/Sheriffs-Office,county,NE,,,,,,,recbhplOBezh8kExX
 Knox County Constable District 3 - KY,Knox County Constable District 3,,county,KY,Mount Vernon,39083,['Knox'],40.401585,-82.43159,,recbhzHaKYc6cSLuN
 Marshall County Sheriff's Office - WV,Marshall County Sheriff's Office,,county,WV,Moundsville,54051,['Marshall'],,,,recbi0qUQrVLHdb9G
@@ -14895,7 +14868,6 @@ Guymon Police Department - OK,Guymon Police Department,https://www.facebook.com/
 Lake Providence Police Department - LA,Lake Providence Police Department,https://www.facebook.com/LakeProvidencePD/,local,LA,Lake Providence,22035,['East Carroll'],32.803013,-91.17071,,recdQjtw9er96rafh
 Chaves County Sheriff's Office - NM,Chaves County Sheriff's Office,,county,NM,Roswell,35005,['Chaves'],33.37603,-104.5241,,recdQu5uByXvovu0T
 Sparks Police Department - GA,Sparks Police Department,,local,GA,Sparks,13075,['Cook'],,,,recdR6Rgwmr08zZsQ
-Houston Police Department - Westbury - TX,Houston Police Department - Westbury,http://www.houstontx.gov/police,local,TX,Houston,48201,['Harris'],29.65222,-95.47632,,recdR9xsojwsNO0yo
 Post Falls Police Department - ID,Post Falls Police Department,http://www.postfallspolice.com/,local,ID,Post Falls,16055,['Kootenai'],47.71489,-116.92065,,recdRAs1YdY9scEQ0
 Lawson State Community College Police Department - AL,Lawson State Community College Police Department,http://www.lawsonstate.edu/campus_police.aspx,state,AL,,,,,,,recdREJX9KfNTozXj
 McIntosh Police Department - MN,McIntosh Police Department,,local,MN,Mcintosh,27119,['Polk'],47.63694,-95.88611,,recdROHjKwtG6B0re
@@ -15286,7 +15258,6 @@ Owasso Police Department - OK,Owasso Police Department,https://www.cityofowasso.
 Bridgewater Police Department - MA,Bridgewater Police Department,https://bridgewaterpolice.org/,local,MA,Bridgewater,25023,['Plymouth'],41.986523,-70.98702,,receOsAzqjtzrh7mg
 McIntosh County Sheriff's Office - ND,McIntosh County Sheriff's Office,https://www.facebook.com/McintoshCountySheriffDept,county,ND,Ashley,38051,['McIntosh'],46.03597,-99.37102,,recePbWuwFt02RihT
 New Troy Police Department - MI,New Troy Police Department,https://troymi.gov/departments/police/index.php,local,MI,New Troy,26021,['Berrien'],41.87806,-86.55,,receQ5myybhGhIJNc
-Houston Police Department - Westside Division - TX,Houston Police Department - Westside Division,https://www.houstontx.gov/police/divisions/westside/index.htm,local,TX,Houston,48201,['Harris'],29.72739,-95.60476,,receQ9mBOgyFTBmQ1
 Ellis County Sheriff's Office - OK,Ellis County Sheriff's Office,https://www.facebook.com/elliscountysheriffsoffice/,county,OK,Waxahachie,48139,['Ellis'],32.383667,-96.84768,,receQTTmEH1dhHe29
 Tesuque Tribal Police Department - NM,Tesuque Tribal Police Department,,local,NM,Santa Fe,35049,['Santa Fe'],,,,receQWSeaQ3A0ZRRk
 Camp Robinson Department of Public Safety - AR,Camp Robinson Department of Public Safety,https://www.dps.arkansas.gov/fire-safety/fire-prevention-commission/about-fpc/,local,AR,North Little Rock,05119,['Pulaski'],34.823524,-92.286736,,receQoOd5ghEBaVZS
@@ -16404,7 +16375,6 @@ Hubbard Police Department - TX,Hubbard Police Department,https://www.hubbardcity
 Wintergreen Police Department - VA,Wintergreen Police Department,http://www.wintergreenpolice.org/,local,VA,Nellysford,51125,['Nelson'],37.903934,-78.96955,,rechJpb80QDKNEX4E
 Emerado Police Department - ND,Emerado Police Department,https://www.facebook.com/epd.1407/,local,ND,Emerado,38035,['Grand Forks'],47.917385,-97.37002,,rechJrRoZf0kXKmx9
 SUNY Upstate Medical University Police - NY,SUNY Upstate Medical University Police,,school,NY,Syracuse,36067,['Onondaga'],,,,rechJrw5okWnbY4cJ
-Houston Police Department - Heights - TX,Houston Police Department - Heights,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.79139,-95.41026,,rechK5Lu4ci9bgq6A
 North Slope Borough Police Department Prudhoe Bay - AK,North Slope Borough Police Department Prudhoe Bay,http://www.north-slope.org/departments/police,local,AK,Prudhoe Bay,02185,['North Slope'],70.19907,-148.46048,,rechK7JqAr5E0OpQ0
 Tulsa County Sheriff's Office Downtown - OK,Tulsa County Sheriff's Office Downtown,https://tcso.org/,county,OK,Tulsa,40143,['Tulsa'],36.15417,-95.99604,,rechKH0j3W0bnOBDa
 Jasper County Sheriff's Office - IN,Jasper County Sheriff's Office,http://jaspercountypolice.com/,county,IN,Demotte,18073,['Jasper'],41.187153,-87.160355,,rechKRfEihymMON1l
@@ -16534,7 +16504,6 @@ DeWitt Police Department - MI,DeWitt Police Department,http://www.dewittmi.org/C
 Hudson County Department of Corrections - NJ,Hudson County Department of Corrections,http://www.hudsoncountynj.org/about-hccc/,county,NJ,Jersey City,34017,['Hudson'],40.73257,-74.05807,,rechhOj2eQyzLTi1B
 Wyandotte Tribal Police - OK,Wyandotte Tribal Police,,local,OK,Wyandotte,40115,['Ottawa'],,,,rechhqezDWyWZHRKE
 Roanoke County Police Department - VA,Roanoke County Police Department,https://www.roanokecountyva.gov/83/Police,county,VA,Roanoke,51161,['Roanoke'],37.321613,-80.02146,,rechhwc9ClHgnReaW
-Houston Police Department - Telephone Road - TX,Houston Police Department - Telephone Road,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.61936,-95.28492,,rechi2R3XnGMgagiG
 New Paltz Police Department - NY,New Paltz Police Department,http://newpaltzpolice.org/,local,NY,New Paltz,36111,['Ulster'],41.73143,-74.074165,,rechiAnUGmTXfJfgY
 Siskiyou County Sheriff's Office Mount Shasta - CA,Siskiyou County Sheriff's Office Mount Shasta,http://www.co.siskiyou.ca.us/sheriff,county,CA,Mount Shasta,06093,['Siskiyou'],41.32741,-122.31783,,rechiMvsauJpfUrdA
 Florissant Valley College Police Department - MO,Florissant Valley College Police Department,,school,MO,St. Louis,29189,['St. Louis'],,,,rechiNIChum1AcQO4
@@ -16663,7 +16632,6 @@ Blue Rapids Police Department - KS,Blue Rapids Police Department,http://www.blue
 Atlantic County Sheriff's Office Mays Landing - NJ,Atlantic County Sheriff's Office Mays Landing,https://www.facebook.com/AtlanticCountySheriffNJ,county,NJ,Mays Landing,34001,['Atlantic'],39.4384,-74.69104,,reci2KtK8SVYN1cHc
 United States Park Police - MD,United States Park Police,http://police.pgparks.com/,state,MD,Mc Lean,51059,['Fairfax'],38.961674,-77.14821,,reci2NIIk3X1STv2S
 Keene Police Department - NH,Keene Police Department,https://ci.keene.nh.us/police,local,NH,Keene,33005,['Cheshire'],42.92416,-72.26365,,reci2ZcxQk4OdovB7
-Houston Police Department - Ripley House - Navigation - TX,Houston Police Department - Ripley House - Navigation,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.75201,-95.32844,,reci2gKVdckrYCwWo
 Niobrara County Sheriff's Office Lusk - WY,Niobrara County Sheriff's Office Lusk,https://www.niobraracountysheriff.org,county,WY,Lusk,56027,['Niobrara'],42.76108,-104.45077,,reci2nb7TfG7MddBz
 Beauregard Parish Sheriff's Office - LA,Beauregard Parish Sheriff's Office,http://www.beauregardparishsheriff.org/,local,LA,Deridder,22011,['Beauregard'],30.842192,-93.28416,,reci2p8AW7kYfkIUu
 Sublette County Sheriff's Office - WY,Sublette County Sheriff's Office,https://www.sublettewyo.com/139/Sublette-County-Sheriffs-Office,county,WY,Big Piney,56035,['Sublette'],42.55603,-110.11142,,reci2tgHjyJAHjpjZ
@@ -17375,13 +17343,11 @@ Washington Metropolitan Area Transit Authority Police - DC,Washington Metropolit
 Moline Police Department - KS,Moline Police Department,https://www.ourquadcities.com/news/local-news/moline-police-department-shows-new-mayor-the-ropes-with-training-simulator/,local,KS,Moline,20049,['Elk'],37.36194,-96.30262,,recjzrvuX9ol7VW7Z
 Sodus Village Police Department - NY,Sodus Village Police Department,,local,NY,Sodus,36117,['Wayne'],,,,recjzs82TocE59MQe
 Wilburton Police Department - OK,Wilburton Police Department,http://www.cityofwilburton.com/Government/OtherDepartments/PoliceDepartment.aspx,local,OK,Wilburton,40077,['Latimer'],34.919632,-95.31008,,reck09mUkveL3roP8
-Houston Police Department - Leija - TX,Houston Police Department - Leija,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.68652,-95.25512,,reck0O1ns94NZnDGo
 Fouke Police Department - AR,Fouke Police Department,https://cityoffouke.com/police-department,local,AR,Fouke,05091,['Miller'],33.260952,-93.884544,,reck0WzKEHieCaEi9
 Cheboygan Police Department - MI,Cheboygan Police Department,https://www.cheboygan.org/departments/public-safety/,local,MI,Cheboygan,26031,['Cheboygan'],45.648434,-84.4745,,reck0YoQqxDymML6Y
 Meredith College Campus Police – Raleigh - NC,Meredith College Campus Police – Raleigh,https://www.meredith.edu/campus-police/,school,NC,,,,,,,reck0iEtafSUVXDx3
 Prospect Police Department - CT,Prospect Police Department,,local,CT,Prospect,09009,['New Haven'],,,,reck0jgk1MEG51cnB
 Irwindale Police Department - CA,Irwindale Police Department,https://www.irwindaleca.gov/122/Police,local,CA,Baldwin Park,06037,['Los Angeles'],34.104713,-117.93335,,reck0ld4ScrLNdTYf
-Houston Police Department - Northline - TX,Houston Police Department - Northline,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.86715,-95.39078,,reck1fAqoNVLH4q9d
 Marlinton Police Department - WV,Marlinton Police Department,https://www.countyoffice.org/marlinton-police-department-marlinton-wv-b75/,local,WV,,,,,,,reck1oUieku6wCLSU
 Dunmore Police Department - PA,Dunmore Police Department,http://dunmorepa.gov/police-department,local,PA,Scranton,42069,['Lackawanna'],41.417896,-75.635025,,reck29WvMhqPaMAqg
 Columbus County Sheriff's Office - NC,Columbus County Sheriff's Office,https://columbussheriff.com/,county,NC,Whiteville,37047,['Columbus'],34.33686,-78.71858,,reck2NfnqHjju999T
@@ -18286,7 +18252,6 @@ Georgia Department of Agriculture - GA,Georgia Department of Agriculture,,local,
 Aspinwall Borough Police Department - PA,Aspinwall Borough Police Department,https://www.facebook.com/aspinwallpolice/,local,PA,Pittsburgh,42003,['Allegheny'],40.490505,-79.90431,,recmJVSiLQSz2jH27
 Samford University Police Department - AL,Samford University Police Department,https://www.samford.edu/departments/public-safety/,school,AL,,,,,,,recmJX3K7Vvix42ko
 Weehawken Township Police Department - NJ,Weehawken Township Police Department,,local,NJ,Weehawken,34017,['Hudson'],40.76756,-74.02312,,recmJYZ29okKwrAtQ
-Houston Police Department - Denver Harbor - TX,Houston Police Department - Denver Harbor,http://www.houstontx.gov/mayor/press/2021/police-transparency-hub.html,local,TX,Houston,48201,['Harris'],29.77233,-95.30491,,recmJbCSFqbSFIvPA
 Broughton Hospital Police - NC,Broughton Hospital Police,,local,NC,Morganton,37023,['Burke'],,,,recmJqiialczdIV94
 Bradford County Sheriff's Office - Brooker - FL,Bradford County Sheriff's Office - Brooker,https://www.facebook.com/BradfordSheriff,county,FL,Brooker,12007,['Bradford'],29.88945,-82.33505,,recmJrCatYsQm9p9S
 Bexar County Constable Precinct 3 - TX,Bexar County Constable Precinct 3,http://www.bexarpolice.org/,county,TX,San Antonio,48029,['Bexar'],29.557995,-98.48793,,recmK3wV4BxG8ktgb
@@ -19111,7 +19076,6 @@ Madison County Sheriff's Office - NE,Madison County Sheriff's Office,https://www
 Clark Fork Police Department - ID,Clark Fork Police Department,https://www.sandpointonline.com/businessdir/show.phtml?a=3&b=193,local,ID,,,,,,,recoMj4wJbWOABiwx
 Panola College Campus Police - TX,Panola College Campus Police,,school,TX,Carthage,48365,['Panola'],,,,recoN7ltGrCHa0438
 Locust Police Department - NC,Locust Police Department,https://locustnc.com/locust-police-department/,local,NC,Locust,37167,['Stanly'],35.261192,-80.43138,,recoNAzaltCowj2bi
-Houston Police Department - Eastside Division - TX,Houston Police Department - Eastside Division,https://www.houstontx.gov/police/divisions/eastside/index.htm,local,TX,Houston,48201,['Harris'],29.73433,-95.29011,,recoNR7C6qrynvhQt
 Cornelius Police Department - NC,Cornelius Police Department,https://www.cornelius.org/189/Police-Department,local,NC,Cornelius,37119,['Mecklenburg'],35.481365,-80.859184,,recoNkmrdRR3kHW2y
 Clinton Department of Public Safety - SC,Clinton Department of Public Safety,,local,SC,Clinton,45059,['Laurens'],,,,recoNvSZVnVGfnvPP
 Jemison Police Department - AL,Jemison Police Department,http://jemisonalabama.org/,local,AL,Jemison,01021,['Chilton'],32.95915,-86.74413,,recoO4KefqQddSDR3
@@ -19351,7 +19315,6 @@ Shannon County Sheriff's Office - SD,Shannon County Sheriff's Office,https://www
 Mustang Ridge Police Department - TX,Mustang Ridge Police Department,,local,TX,Buda,48453,['Travis'],30.05057,-97.69185,,recp53FKNQDsX7WT3
 Geneseo Police Department - NY,Geneseo Police Department,https://www.facebook.com/Village-of-Geneseo-Police-Department-NY-448131485266425/,local,NY,Geneseo,36051,['Livingston'],42.79517,-77.816635,,recp5485uYRbM6v3d
 Allegany County District Attorney's Office - NY,Allegany County District Attorney's Office,https://www.alleganyco.com/departments/district-attorney/,county,NY,Belmont,36003,['Allegany'],42.229694,-78.03555,,recp5GFudBfOR8wNl
-Houston Police Department - South Gessner Division - TX,Houston Police Department - South Gessner Division,http://www.houstonpolice.org/go/doc/2133/289249/,local,TX,Houston,48201,['Harris'],29.64954,-95.52834,,recp5HNYNjT1BRSnM
 New Lenox Police Department - IL,New Lenox Police Department,https://www.newlenox.net/police,local,IL,New Lenox,17197,['Will'],41.51492,-87.97897,,recp5JHQZfGl1YBuq
 Miami Police Department - Crime Suppression - FL,Miami Police Department - Crime Suppression,http://www.miami-police.org/index.asp,local,FL,Miami,12086,['Miami-Dade'],25.89504,-80.16156,,recp5JlsgIM5YBLGa
 Longview Police Department Beat 20 - TX,Longview Police Department Beat 20,https://longviewtexas.gov/2775/PAR-Beat-20/3890/Police-Department,local,TX,Longview,48183,['Gregg'],32.53857,-94.75255,,recp5Oxe9zvZn9840
@@ -19657,7 +19620,6 @@ Winfield Police Department - TX,Winfield Police Department,https://www.nwitimes.
 Brandenburg Police Department - KY,Brandenburg Police Department,https://brandenburg.ky.gov/police-department/,local,KY,Brandenburg,21163,['Meade'],37.99867,-86.17391,,recppI2fSgOMBbvly
 Milford Borough Police Department - PA,Milford Borough Police Department,https://www.facebook.com/MilfordPAPolice/,local,PA,Milford,42103,['Pike'],41.324753,-74.80054,,recppK8uAiOjaKC1J
 Linn Police Department - WI,Linn Police Department,http://www.townoflinnpolice.com,local,WI,Zenda,55127,['Walworth'],42.51328,-88.48318,,recppcTiKgpBmhdEE
-Houston Police Department - South Central Division - TX,Houston Police Department - South Central Division,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.74281,-95.36277,,recpphEJN131tMOvQ
 Le Sueur Police Department - MN,Le Sueur Police Department,https://www.cityoflesueur.com/187/Police,local,MN,Le Sueur,27079,['Le Sueur'],44.44667,-93.91417,,recppp8O43mW2Yd1Y
 Coulee Dam Police Department - WA,Coulee Dam Police Department,http://townofcouleedam.org/emergencyservices,local,WA,Grand Coulee,53025,['Grant'],47.94172,-119.00487,,recppuTRUn1UDWtcE
 Ludlow Police Department - KY,Ludlow Police Department,https://www.ludlow.org/government/departments/police.aspx,local,KY,Covington,21117,['Kenton'],39.09454,-84.54448,,recppzhoILIU0D4vV
@@ -21009,7 +20971,6 @@ Newtown Police Department - OH,Newtown Police Department,,local,OH,Cincinnati,39
 Fletcher Police Department - NC,Fletcher Police Department,https://www.fletchernc.org/departments/police/,local,NC,Fletcher,37089,['Henderson'],35.429993,-82.49871,,rectTxTbayqc4YovO
 Coffeeville Police Department - AL,Coffeeville Police Department,,local,AL,Coffeeville,01025,['Clarke'],,,,rectU3x6qZnuEDk1C
 Byram Police Department - MS,Byram Police Department,http://police.byram-ms.us/,local,MS,Byram,28049,['Hinds'],32.188572,-90.25168,,rectUD37G5NP7yFBr
-Houston Police Department - East Freeway - TX,Houston Police Department - East Freeway,http://www.houstonpolice.org,local,TX,Houston,48201,['Harris'],29.77295,-95.22397,,rectUKtttC23VDGW0
 Salem Police Department - UT,Salem Police Department,http://www.salemcity.org/police-department.htm,local,UT,Salem,49049,['Utah'],40.053284,-111.67385,,rectUU9wv2bthabC8
 Harford Community College Department of Public Safety - MD,Harford Community College Department of Public Safety,https://www.harford.edu/the-harford-experience/safety-on-campus/index.php,school,MD,,,,,,,rectUZkivIEEpq3P1
 Confederated Tribes of Grand Ronde Tribal Police - OR,Confederated Tribes of Grand Ronde Tribal Police,https://www.grandronde.org/government/tribal-police/,local,OR,Grand Ronde,41053,['Polk'],45.075195,-123.61226,,rectUkSrdI4ZEEkGa
@@ -21863,7 +21824,6 @@ Dade County Sheriff's Office - GA,Dade County Sheriff's Office,https://www.faceb
 Noel Marshal's Office - MO,Noel Marshal's Office,,local,MO,Noel,29119,['McDonald'],,,,recvmZifzleT6OpDY
 Bunceton Police Department - MO,Bunceton Police Department,https://maps123.net/en/US/bunceton-police-department-p1361634,local,MO,Bunceton,29053,['Cooper'],38.78794,-92.79904,,recvmeOkR5T2M0g0a
 Quitman County Sheriff's Office - GA,Quitman County Sheriff's Office,http://www.quitmansheriff.com/,county,GA,Georgetown,13239,['Quitman'],31.88577,-85.1092,,recvmil2cywULSftR
-Harris County Sheriff's Office - Recruitment and Detective Bureau - TX,Harris County Sheriff's Office - Recruitment and Detective Bureau,http://www.harriscountyso.org/,county,TX,Houston,48201,['Harris'],29.7535,-95.32278,,recvmpByoLYsuXS1o
 Dos Palos Police Department - CA,Dos Palos Police Department,http://www.dospalospd.org/,local,CA,Dos Palos,06047,['Merced'],36.9849,-120.62792,,recvmpxn8de6TB6QF
 Harvard Police Department - MA,Harvard Police Department,,local,MA,Harvard,25027,['Worcester'],,,,recvmwYqTf56xfhn3
 Dallas Police Department - Southeast Division - TX,Dallas Police Department - Southeast Division,https://www.dallaspolice.net/division/Southeast/welcome,local,TX,Dallas,48113,['Dallas'],32.72307,-96.70121,,recvn1WASJNRi5JyB
@@ -22113,7 +22073,6 @@ Girardville Police Department - PA,Girardville Police Department,,local,PA,Girar
 Westlake Hills Police Department - TX,Westlake Hills Police Department,,local,TX,Austin,48453,['Travis'],,,,recwV5AtJJR2av2kF
 Beebe Police Department - AR,Beebe Police Department,https://www.beebeark.org/departments,local,AR,Beebe,05145,['White'],35.070023,-91.881516,,recwV9YABlXEPcWpd
 Rio Rancho Department of Public Safety - NM,Rio Rancho Department of Public Safety,,local,NM,Rio Rancho,35043,['Sandoval'],,,,recwVAI6F8bfne1gt
-Houston Police Department - Hobby / Ellington - TX,Houston Police Department - Hobby / Ellington,http://www.houstonpolice.org/,local,TX,Houston,48201,['Harris'],29.65606,-95.27669,,recwVBSKcO6TiXQeF
 Submarine Base New London Police Department (US SUBASE) - CT,Submarine Base New London Police Department (US SUBASE),https://www.cnic.navy.mil/newlondon/index.htm,local,CT,,,,,,,recwVGkOS7XUU7w32
 Bibb County Sheriff's Department - AL,Bibb County Sheriff's Department,http://bibbsheriff.us/,county,AL,Centreville,01007,['Bibb'],32.946262,-87.13508,,recwVKGVmfTX2eE8w
 Champlin Police Department - MN,Champlin Police Department,https://ci.champlin.mn.us/police-department/,local,MN,Champlin,27053,['Hennepin'],45.17202,-93.393974,,recwVPIJtjV6mwlbc
@@ -22276,7 +22235,6 @@ Franklin County Sheriff's Office - AR,Franklin County Sheriff's Office,https://w
 Pettis County Sheriff's Office - MO,Pettis County Sheriff's Office,http://www.pettiscountysheriff.com/,county,MO,Sedalia,29159,['Pettis'],38.707924,-93.2267,,recwtnIAhI3oeEBL3
 South Suburban College Police Department - IL,South Suburban College Police Department,https://www.ssc.edu/services/campus-police/,school,IL,,,,,,,recwtqPOYwFh71yy1
 Haines Police Department - AK,Haines Police Department,http://www.hainesalaska.gov/police,local,AK,Haines,,,59.231773,-135.44821,,recwtz7RHwb2wa7Pq
-Houston Police Department - Southeast Division - TX,Houston Police Department - Southeast Division,https://www.houstontx.gov/police/divisions/southeast/index.htm,local,TX,Houston,48201,['Harris'],29.65751,-95.31644,,recwtzf8tMKPar9BI
 University of Colorado Police Department - CO,University of Colorado Police Department,https://www.colorado.edu/police/,school,CO,Boulder,08013,['Boulder'],40.018177,-105.25062,,recwu273g53rXSINS
 Lexington County Sheriff’s Office - SC,Lexington County Sheriff’s Office,https://www.lexingtonscsheriff.com/,county,SC,Lexington,45063,['Lexington'],33.979977,-81.25121,,recwuEN5FIwEwcubX
 New Hampshire Marine Patrol - NH,New Hampshire Marine Patrol,https://www.nh.gov/safety/divisions/nhsp/fob/marine-patrol/index.html,local,NH,Gilford,33001,['Belknap'],43.58514,-71.38754,,recwuLyYfQTLVDL1S
@@ -22769,7 +22727,6 @@ Coweta County Sheriff's Office - GA,Coweta County Sheriff's Office,https://www.c
 Brighton Police Department - CO,Brighton Police Department,https://www.brightonco.gov/264/Police-Department,local,CO,Brighton,08001,['Adams'],39.973312,-104.78236,,recyDWw7QfPe6bgKB
 Arcadia Police Department - LA,Arcadia Police Department,https://www.arcadialouisiana.org/arcadialouisiana/Police_Dept.html,local,LA,Arcadia,06037,['Los Angeles'],34.136677,-118.03973,,recyDs7k7WVvzN9cB
 Daviess County Sheriff's Office - MO,Daviess County Sheriff's Office,http://ww1.daviesscountysheriff.com/,county,MO,Gallatin,29061,['Daviess'],39.91502,-93.96181,,recyE98Z7Si4IPRhw
-Houston Police Department - Broadway Square - TX,Houston Police Department - Broadway Square,,local,TX,Houston,48201,['Harris'],29.66189,-95.27633,,recyEH7wOXWEoJHmK
 Birmingham Township Police Department - PA,Birmingham Township Police Department,https://www.birminghamtownship.org/police-department,local,PA,West Chester,42029,['Chester'],39.9078,-75.6032,,recyEHgMjrGehxiuq
 Swift County Sheriff's Office - MN,Swift County Sheriff's Office,https://www.facebook.com/theswiftcountysheriffsoffice,county,MN,Wheaton,27155,['Traverse'],45.806583,-96.49297,,recyEjyct3SB4yNsv
 Manchester Police Department - KY,Manchester Police Department,,local,KY,Manchester,21051,['Clay'],37.15361,-83.762,,recyEnVN3kTwq3zMp
@@ -23318,7 +23275,6 @@ Scottsboro Police Department - AL,Scottsboro Police Department,http://scottsboro
 La Vernia Police Department - TX,La Vernia Police Department,,local,TX,La Vernia,48493,['Wilson'],29.35547,-98.11487,,reczcxyLn4IVkz4xL
 Montreat Police Department - NC,Montreat Police Department,https://townofmontreat.org/police/,local,NC,Black Mountain,37021,['Buncombe'],35.618706,-82.3213,,reczdbjFavkZVhosL
 Jefferson County Constable District 3 - KY,Jefferson County Constable District 3,https://ballotpedia.org/Robert_Colvert_III,county,KY,,,,,,,reczdnDBWgeuY9WrL
-Harris County Sheriff's Office - Patrol and Criminal Warrants - TX,Harris County Sheriff's Office - Patrol and Criminal Warrants,http://www.harriscountyso.org/,county,TX,Houston,48201,['Harris'],29.55823,-95.12022,,reczdxuKDvjRFQWyB
 Port Angeles Police Department - WA,Port Angeles Police Department,http://wa-portangeles.civicplus.com/288/Police-Department,local,WA,Roy,53009,['Clallam'],47.003036,-122.54317,,reczdy3IRLk5K1lFs
 Jennerstown Borough Police Department - PA,Jennerstown Borough Police Department,,local,PA,Jennerstown,42111,['Somerset'],40.16262,-79.07055,,recze4swH3eRpTEpD
 Evansville Police Department East Sector - IN,Evansville Police Department East Sector,http://www.evansvillepolice.com/patrol-division/east-sector,local,IN,Evansville,18163,['Vanderburgh'],37.97199,-87.49154,,reczeWHtmBYJUY0qo

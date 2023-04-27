@@ -689,7 +689,7 @@
         "name": "Officer Involved Shootings for Dallas Police Department - TX",
         "number_of_records_available": null,
         "originating_entity": null,
-        "readme_url": null,
+        "readme_url": "https://www.dallaspolice.net/ois/ois",
         "record_download_option_provided": true,
         "record_format": [],
         "record_type": "Officer Involved Shootings",
@@ -697,7 +697,7 @@
         "size": null,
         "sort_method": null,
         "source_last_updated": null,
-        "source_url": "https://www.dallaspolice.net/ois/ois",
+        "source_url": "https://www.dallasopendata.com/Public-Safety/Dallas-Police-Officer-Involved-Shootings/4gmt-jyx2/explore/query/SELECT%0A%20%20%60case%60%2C%0A%20%20%60date%60%2C%0A%20%20%60suspect_deceased_injured_or_shoot_and_miss%60%2C%0A%20%20%60suspect_weapon%60%2C%0A%20%20%60officer_s%60%2C%0A%20%20%60grand_jury_disposition%60%2C%0A%20%20%60ag_forms%60%2C%0A%20%20%60summary_url%60%2C%0A%20%20%60geolocation%60%2C%0A%20%20%60%3A%40computed_region_sjyw_rtbm%60%2C%0A%20%20%60%3A%40computed_region_2f7u_b5gs%60%2C%0A%20%20%60%3A%40computed_region_at43_7y52%60%2C%0A%20%20%60%3A%40computed_region_3qur_xvie%60%2C%0A%20%20%60%3A%40computed_region_28rh_izyk%60%0AORDER%20BY%20%60date%60%20DESC%20NULL%20LAST/page/filter",
         "submitted_name": null,
         "supplying_entity": null,
         "tags": [],
@@ -846,6 +846,55 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Birmingham Police Department - AL",
+            "submitted_name": "Birmingham Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "AL",
+            "municipality": "Birmingham",
+            "county_fips": "01073",
+            "county_name": [
+                "Jefferson"
+            ],
+            "lat": 33.479446,
+            "lng": -86.79001,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2021-11-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Citywide budgets by department, including Police and Municipal Courts. Tabular data in PDF form.\n",
+        "detail_level": "Individual record",
+        "name": "Monthly Expense budget by Organization",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Annual & Monthly Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": null,
+        "source_url": "https://data.birminghamal.gov/dataset/detail-of-departmental-expense-budget-by-organization-report",
+        "submitted_name": "Monthly Expense budget by Organization",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": "Monthly",
+        "update_method": "Append"
     },
     {
         "access_restrictions": null,
@@ -2529,9 +2578,9 @@
         "coverage_start": "2022-01-01 00:00:00",
         "coverage_end": null,
         "data_portal_type": null,
-        "description": null,
+        "description": "The calls listed here are only those where the element assigned to the call has arrived and is currently working the call. It does not include any calls for service, whether currently being worked or not, that are not releasable due to privacy laws.\n",
         "detail_level": "Individual record",
-        "name": "Calls for Service for Dallas Police Department - TX",
+        "name": "Active Calls for Service for Dallas PD",
         "number_of_records_available": null,
         "originating_entity": null,
         "readme_url": null,
@@ -2543,7 +2592,7 @@
         "sort_method": null,
         "source_last_updated": null,
         "source_url": "https://www.dallasopendata.com/Public-Safety/Dallas-Police-Active-Calls/9fxf-t2tr",
-        "submitted_name": null,
+        "submitted_name": "Active Calls for Service for Dallas PD",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": "<2 Weeks",
@@ -4006,6 +4055,56 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Birmingham Municipal Court - AL",
+            "submitted_name": "Birmingham Municipal Court",
+            "homepage_url": "https://www.birminghamal.gov/municipal-court/",
+            "jurisdiction_type": "local",
+            "state_iso": "AL",
+            "municipality": "Birmingham",
+            "county_fips": "01073",
+            "county_name": [
+                "Jefferson"
+            ],
+            "lat": 33.520562328269534,
+            "lng": -86.81409245767131,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2023-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Annualized court dockets with names, demographics, and offense information.\n",
+        "detail_level": "Individual record",
+        "name": "Municipal court dockets and citations for Birmingham",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "XLS"
+        ],
+        "record_type": "Court Cases",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "unsorted",
+        "source_last_updated": null,
+        "source_url": "https://data.birminghamal.gov/dataset/municipal-courts",
+        "submitted_name": "Municipal court dockets and citations for Birmingham",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Not sure"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Boston Police Department - MA",
@@ -4193,6 +4292,55 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Buffalo Police Department - NY",
+            "submitted_name": "Buffalo Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Buffalo",
+            "county_fips": "36029",
+            "county_name": [
+                "Erie"
+            ],
+            "lat": 42.947433,
+            "lng": -78.883736,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "Tyler Technologies",
+        "description": "City open data portal filtered by Buffalo Police Department.\n",
+        "detail_level": null,
+        "name": "Buffalo Police Department Open Data portal",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table"
+        ],
+        "record_type": "List of Data Sources",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://data.buffalony.gov/browse?Dataset-Information_Department=Buffalo+Police+Department",
+        "submitted_name": "Buffalo Police Department Open Data portal",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Fargo Police Department - ND",
@@ -4238,6 +4386,53 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Pittsburgh Bureau of Police - PA",
+            "submitted_name": "Pittsburgh Bureau of Police",
+            "homepage_url": "http://pittsburghpa.gov/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "PA",
+            "municipality": "Pittsburgh",
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.450523,
+            "lng": -80.02128,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2020-01-01 00:00:00",
+        "coverage_end": "2023-03-31 00:00:00",
+        "data_portal_type": null,
+        "description": "Right-to-know request from the Pittsburgh Police for Calls for Service.\n",
+        "detail_level": "Individual record",
+        "name": "Calls for Service from Pittsburgh PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [],
+        "record_type": "Calls for Service",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.muckrock.com/foi/pittsburgh-130/calls-for-service-144982/",
+        "submitted_name": "Calls for Service from Pittsburgh PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Houston Police Department - TX",
@@ -4275,6 +4470,55 @@
         "source_last_updated": null,
         "source_url": "https://www.houstontx.gov/police/general_orders/index.htm",
         "submitted_name": "Operations Manuals",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Shaker Heights Police Department - OH",
+            "submitted_name": "Shaker Heights Police Department",
+            "homepage_url": "https://shakeronline.com/159/Police",
+            "jurisdiction_type": "local",
+            "state_iso": "OH",
+            "municipality": "Shaker Heights",
+            "county_fips": "39035",
+            "county_name": [
+                "Cuyahoga"
+            ],
+            "lat": 41.46798,
+            "lng": -81.56455,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Police reports of incidents, searchable with a variety of criteria. May be a good candidate for web scraping because it's searchable by date and only visible one day at a time.\n",
+        "detail_level": "Individual record",
+        "name": "Incident reports for Shaker Heights PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Incident Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://shakeronline.com/614/Police-Reports",
+        "submitted_name": "Incident reports for Shaker Heights PD",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -5317,6 +5561,55 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Montgomery County Police Department - MD",
+            "submitted_name": "Montgomery County Police Department",
+            "homepage_url": "https://www.montgomerycountymd.gov/police",
+            "jurisdiction_type": "county",
+            "state_iso": "MD",
+            "municipality": "Gaithersburg",
+            "county_fips": "24031",
+            "county_name": [
+                "Montgomery"
+            ],
+            "lat": 39.113018,
+            "lng": -77.236435,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2018-01-01 00:00:00",
+        "coverage_end": "2022-12-31 00:00:00",
+        "data_portal_type": null,
+        "description": "A PDF with analysis of traffic violations and stops by the County's Office of Legislative Oversight.\n",
+        "detail_level": "Summarized totals",
+        "name": "Analysis of Montgomery Traffic Violations Dataset",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Citations",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.montgomerycountymd.gov/OLO/Resources/Files/2022_reports/OLOReport2022-12.pdf",
+        "submitted_name": "Analysis of Montgomery Traffic Violations Dataset",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "No updates"
     },
     {
         "access_restrictions": null,
@@ -8731,7 +9024,7 @@
         "data_portal_type": "Socrata",
         "description": null,
         "detail_level": null,
-        "name": "API Information",
+        "name": "Open data portal for Montgomery County",
         "number_of_records_available": null,
         "originating_entity": null,
         "readme_url": null,
@@ -8743,7 +9036,7 @@
         "sort_method": null,
         "source_last_updated": null,
         "source_url": "https://data.montgomerycountymd.gov/",
-        "submitted_name": "API Information",
+        "submitted_name": "Open data portal for Montgomery County",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -9550,6 +9843,55 @@
         "tags": [],
         "update_frequency": null,
         "update_method": "Overwrite"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Beacon Police Department - NY",
+            "submitted_name": "Beacon Police Department",
+            "homepage_url": "https://www.beaconny.gov/index.php/departments/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Beacon",
+            "county_fips": "36027",
+            "county_name": [
+                "Dutchess"
+            ],
+            "lat": 41.508034,
+            "lng": -73.97847,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "A few paragraphs about how police respond to calls for service.\n",
+        "detail_level": null,
+        "name": "Police calls for service \"how it works\" for Beacon PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://beaconny.gov/index.php/departments/police/how-it-works-police-calls-for-service/",
+        "submitted_name": "Police calls for service \"how it works\" for Beacon PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
     },
     {
         "access_restrictions": null,
@@ -15603,6 +15945,55 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Birmingham Police Department - AL",
+            "submitted_name": "Birmingham Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "AL",
+            "municipality": "Birmingham",
+            "county_fips": "01073",
+            "county_name": [
+                "Jefferson"
+            ],
+            "lat": 33.479446,
+            "lng": -86.79001,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2015-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Budgets back to 2015 for Birmingham City organizations.\n",
+        "detail_level": "Individual record",
+        "name": "Annual Operating Budgets for Birmingham Departments",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Annual & Monthly Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": null,
+        "source_url": "https://data.birminghamal.gov/dataset/annual-operating-budgets",
+        "submitted_name": "Annual Operating Budgets for Birmingham Departments",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Insert"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "API"
         ],
         "agency_described": {
@@ -16158,6 +16549,55 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Beacon Police Department - NY",
+            "submitted_name": "Beacon Police Department",
+            "homepage_url": "https://www.beaconny.gov/index.php/departments/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Beacon",
+            "county_fips": "36027",
+            "county_name": [
+                "Dutchess"
+            ],
+            "lat": 41.508034,
+            "lng": -73.97847,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "7-page PDF about use of force policy for the police in Beacon, NY.\n",
+        "detail_level": "Individual record",
+        "name": "Use of Force policy manual for Beacon PD ",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://beaconny.gov/wp-content/uploads/2019/09/Beacon-PD-Policy.pdf",
+        "submitted_name": "Use of Force policy manual for Beacon PD ",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Mint Hill Police Department - NC",
@@ -16525,6 +16965,57 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page",
+            "API"
+        ],
+        "agency_described": {
+            "name": "Buffalo Police Department - NY",
+            "submitted_name": "Buffalo Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Buffalo",
+            "county_fips": "36029",
+            "county_name": [
+                "Erie"
+            ],
+            "lat": 42.947433,
+            "lng": -78.883736,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2009-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": "Tyler Technologies",
+        "description": "This is a dataset of crime incidents in the City of Buffalo. This dataset is updated daily and offers a preliminary look at crime reports in the City of Buffalo.\n",
+        "detail_level": "Aggregated records",
+        "name": "Crime Incidents for Buffalo NY",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://data.buffalony.gov/Public-Safety/Crime-Incidents/d6g9-xbgu",
+        "record_download_option_provided": null,
+        "record_format": [
+            "CSV",
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Crime Maps & Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": null,
+        "source_url": "https://data.buffalony.gov/Public-Safety/Crime-Incidents/d6g9-xbgu/explore/query/SELECT%0A%20%20%60case_number%60%2C%0A%20%20%60incident_datetime%60%2C%0A%20%20%60incident_id%60%2C%0A%20%20%60incident_type_primary%60%2C%0A%20%20%60incident_description%60%2C%0A%20%20%60parent_incident_type%60%2C%0A%20%20%60hour_of_day%60%2C%0A%20%20%60day_of_week%60%2C%0A%20%20%60address_1%60%2C%0A%20%20%60city%60%2C%0A%20%20%60state%60%2C%0A%20%20%60location%60%2C%0A%20%20%60latitude%60%2C%0A%20%20%60longitude%60%2C%0A%20%20%60created_at%60%2C%0A%20%20%60updated_at%60%2C%0A%20%20%60census_tract_2010%60%2C%0A%20%20%60census_block_group_2010%60%2C%0A%20%20%60census_block_2010%60%2C%0A%20%20%60census_tract%60%2C%0A%20%20%60census_block%60%2C%0A%20%20%60census_block_group%60%2C%0A%20%20%60neighborhood_1%60%2C%0A%20%20%60police_district%60%2C%0A%20%20%60council_district%60%2C%0A%20%20%60tractce20%60%2C%0A%20%20%60geoid20_tract%60%2C%0A%20%20%60geoid20_blockgroup%60%2C%0A%20%20%60geoid20_block%60%2C%0A%20%20%60%3A%40computed_region_kwzn_pe6v%60%2C%0A%20%20%60%3A%40computed_region_eziv_p4ck%60%2C%0A%20%20%60%3A%40computed_region_uh5x_q5mi%60%2C%0A%20%20%60%3A%40computed_region_dwzh_dtk5%60%2C%0A%20%20%60%3A%40computed_region_xbxg_7ifr%60%2C%0A%20%20%60%3A%40computed_region_tmcg_v66k%60%2C%0A%20%20%60%3A%40computed_region_fk4y_hpmh%60%2C%0A%20%20%60%3A%40computed_region_ff6v_jbaa%60%2C%0A%20%20%60%3A%40computed_region_h7a8_iwt4%60%2C%0A%20%20%60%3A%40computed_region_vsen_jbmg%60%2C%0A%20%20%60%3A%40computed_region_em9m_yf6k%60%2C%0A%20%20%60%3A%40computed_region_esq4_fkew%60/page/filter",
+        "submitted_name": "Crime Incidents for Buffalo NY",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": "Daily",
+        "update_method": "Append"
     },
     {
         "access_restrictions": null,
@@ -18984,6 +19475,56 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Davis Police Department - CA",
+            "submitted_name": "Davis Police Department",
+            "homepage_url": "https://www.cityofdavis.org/city-hall/police-department",
+            "jurisdiction_type": "local",
+            "state_iso": "CA",
+            "municipality": "Davis",
+            "county_fips": "06113",
+            "county_name": [
+                "Yolo"
+            ],
+            "lat": 38.55126,
+            "lng": -121.7193,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2019-12-19 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Records of use of force, shootings, officer misconduct, and other \"critical incidents\" whose reporting is mandated under SB 1421. Mostly links to YouTube videos.\n",
+        "detail_level": "Individual record",
+        "name": "Critical Incidents in Davis, CA",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "Video / Image",
+            "HTML text"
+        ],
+        "record_type": "Use of Force Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": "2020-08-27 00:00:00",
+        "source_url": "https://www.cityofdavis.org/city-hall/police-department/officer-involved-shootings",
+        "submitted_name": "Critical Incidents in Davis, CA",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Append"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Oklahoma City Police Department - OK",
@@ -20276,6 +20817,57 @@
         "source_last_updated": null,
         "source_url": null,
         "submitted_name": null,
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page",
+            "API"
+        ],
+        "agency_described": {
+            "name": "Buffalo Police Department - NY",
+            "submitted_name": "Buffalo Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Buffalo",
+            "county_fips": "36029",
+            "county_name": [
+                "Erie"
+            ],
+            "lat": 42.947433,
+            "lng": -78.883736,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2008-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "This dataset contains statistics on the main offense classifications known as Part I crimes by type and month from 2008-present. The seven Part I offense classifications include the violent crimes of homicide, rape, robbery, and aggravated assault, and the property crimes of burglary, larceny-theft, and motor vehicle theft. The FBI's Uniform Crime Reporting (UCR) Program is a nationwide, cooperative statistical effort of nearly 18,000 city, university and college, county, state, tribal, and federal law enforcement agencies voluntarily reporting data on crimes brought to their attention.\n",
+        "detail_level": "Summarized totals",
+        "name": "Monthly UCR crime data for Buffalo NY",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://data.buffalony.gov/Public-Safety/Monthly-Uniform-Crime-Reporting-UCR-Program-Statis/xxu9-yrhd",
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Crime Maps & Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://data.buffalony.gov/Public-Safety/Monthly-Uniform-Crime-Reporting-UCR-Program-Statis/xxu9-yrhd/explore",
+        "submitted_name": "Monthly UCR crime data for Buffalo NY",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -21973,6 +22565,103 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Buffalo Police Department - NY",
+            "submitted_name": "Buffalo Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Buffalo",
+            "county_fips": "36029",
+            "county_name": [
+                "Erie"
+            ],
+            "lat": 42.947433,
+            "lng": -78.883736,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "PowerDMS",
+        "description": "Policies, meetings, orders, news, and other records related to a community-driven police reform project.\n",
+        "detail_level": "Individual record",
+        "name": "Buffalo Reform Agenda updates and policies",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created",
+            "PDF: Scanned"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.buffalony.gov/1315/Buffalo-Reform-Agenda",
+        "submitted_name": "Buffalo Reform Agenda updates and policies",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Texas Aggregated - TX",
+            "submitted_name": "Texas Aggregated",
+            "homepage_url": null,
+            "jurisdiction_type": "state",
+            "state_iso": "TX",
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2016-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Texas Occupations Code 1701.164 specifies that the Texas Commission on Law Enforcement (TCOLE) collect incident-based data in accordance with\u00a0the [Code of Criminal Procedure Article 2.131 \u2013 2.138](http://www.statutes.legis.state.tx.us/Docs/CR/htm/CR.2.htm#2.131).\u00a0Chief administrators of\u00a0law enforcement agencies that meet the criteria\u00a0must submit racial profiling reports to\u00a0their governing body, as well as TCOLE.\n",
+        "detail_level": "Summarized totals",
+        "name": "Texas Racial Profiling Reports from TCOLE",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "XLS"
+        ],
+        "record_type": "Stops",
+        "retention_schedule": "Seemingly 7 years",
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": null,
+        "source_url": "https://www.tcole.texas.gov/content/racial-profiling-reports",
+        "submitted_name": "Texas Racial Profiling Reports from TCOLE",
+        "supplying_entity": "Texas Commission on Law Enforcement https://www.tcole.texas.gov/\n",
+        "tags": [],
+        "update_frequency": "Yearly",
+        "update_method": "Append"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Logan Police Department - UT",
@@ -22387,6 +23076,55 @@
         "source_last_updated": null,
         "source_url": null,
         "submitted_name": null,
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Denver Police Department - CO",
+            "submitted_name": "Denver Police Department",
+            "homepage_url": "https://www.denvergov.org/content/denvergov/en/police-department.html",
+            "jurisdiction_type": "local",
+            "state_iso": "CO",
+            "municipality": "Denver",
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
+            "lat": 36.586388,
+            "lng": -79.39192,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "How to order police records in Denver.\t\n",
+        "detail_level": "Individual record",
+        "name": "Denver police records request info",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text"
+        ],
+        "record_type": "Records Request Info",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Police-Department/Police-Records",
+        "submitted_name": "Denver police records request info",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -24823,51 +25561,6 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
-            "name": "Birmingham Police Department - AL",
-            "submitted_name": "Birmingham Police Department",
-            "homepage_url": null,
-            "jurisdiction_type": "local",
-            "state_iso": "AL",
-            "municipality": "Birmingham",
-            "county_fips": "01073",
-            "county_name": [
-                "Jefferson"
-            ],
-            "lat": 33.479446,
-            "lng": -86.79001,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": null,
-        "coverage_end": null,
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": null,
-        "name": "Crime Statistics for Birmingham Police Department - AL",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": null,
-        "record_format": [],
-        "record_type": "Crime Statistics",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": null,
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": null,
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
         "access_type": [
             "Web page"
         ],
@@ -26985,6 +27678,57 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page",
+            "API"
+        ],
+        "agency_described": {
+            "name": "Buffalo Police Department - NY",
+            "submitted_name": "Buffalo Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Buffalo",
+            "county_fips": "36029",
+            "county_name": [
+                "Erie"
+            ],
+            "lat": 42.947433,
+            "lng": -78.883736,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2006-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": "Tyler Technologies",
+        "description": "Received traffic incidents, consisting of crash-related calls for service are sourced from the Complaint History And Record Management System (CHARMS). The data is a record of community-generated 9-1-1 and non-emergency public safety calls as well as self-initiated responses by Buffalo Police Department officers. Each record is a 911 call reporting a motor vehicle accident. Not every call results in an official accident report. The date and time of a received traffic incident call reflects the date and time of the call, not the incident itself.\n",
+        "detail_level": "Aggregated records",
+        "name": "Traffic Incident calls for service for Buffalo PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://data.buffalony.gov/Public-Safety/Received-Traffic-Incident-Calls/6at3-hpb5",
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Calls for Service",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": null,
+        "source_url": "https://data.buffalony.gov/Public-Safety/Received-Traffic-Incident-Calls/6at3-hpb5/explore",
+        "submitted_name": "Traffic Incident calls for service for Buffalo PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": "Daily",
+        "update_method": "Insert"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "API"
         ],
         "agency_described": {
@@ -27222,6 +27966,56 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Madison Police Department - WI",
+            "submitted_name": "Madison Police Department",
+            "homepage_url": "https://www.cityofmadison.com/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "WI",
+            "municipality": "Madison",
+            "county_fips": "55025",
+            "county_name": [
+                "Dane"
+            ],
+            "lat": 43.03947,
+            "lng": -89.39578,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "LexisNexis",
+        "description": "Crime / calls for service map for Madison PD.\n",
+        "detail_level": "Individual record",
+        "name": "Crime map for Madison PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "Dashboard / Visualization",
+            "HTML table"
+        ],
+        "record_type": "Crime Maps & Reports",
+        "retention_schedule": "3\u20134 weeks",
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://communitycrimemap.com/?address=Madison,%20WI",
+        "submitted_name": "Crime map for Madison PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Honolulu Police Department - HI",
@@ -27305,6 +28099,55 @@
         "source_url": null,
         "submitted_name": null,
         "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "United States Aggregated",
+            "submitted_name": "United States Aggregated",
+            "homepage_url": "https://www.usa.gov/",
+            "jurisdiction_type": "federal",
+            "state_iso": null,
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "A third-party database of police contracts from around the country, with the ability to search the content of the documents and find commonly searched keywords. At least a few contracts are available about nearly every state, but bulk download is not possible.\t\n",
+        "detail_level": "Aggregated records",
+        "name": "Nix the 6 police contracts database",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://nixthe6.org/about",
+        "record_download_option_provided": true,
+        "record_format": [
+            "HTML text",
+            "PDF: Machine Created",
+            "PDF: Scanned"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://nixthe6.org/contracts/",
+        "submitted_name": "Nix the 6 police contracts database",
+        "supplying_entity": "Campaign Zero via Nix the Six. https://campaignzero.org/\n",
         "tags": [],
         "update_frequency": null,
         "update_method": null
@@ -32248,6 +33091,55 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Seattle Police Department - WA",
+            "submitted_name": "Seattle Police Department",
+            "homepage_url": "https://www.seattle.gov/police",
+            "jurisdiction_type": "local",
+            "state_iso": "WA",
+            "municipality": "Seattle",
+            "county_fips": "53033",
+            "county_name": [
+                "King"
+            ],
+            "lat": 47.913876,
+            "lng": -122.089294,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "A letter from the Chief of Police from January 14, 2022 detailing changes to police response to non-criminalized traffic violations.\n",
+        "detail_level": "Individual record",
+        "name": "SPD Updates Traffic Stop guidelines",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2022-01-14 00:00:00",
+        "source_url": "https://spdblotter.seattle.gov/2022/01/14/spd-updates-traffic-stop-guidelines/",
+        "submitted_name": "SPD Updates Traffic Stop guidelines",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Minneapolis Police Department - MN",
@@ -34494,7 +35386,7 @@
         "agency_aggregation": null,
         "coverage_start": null,
         "coverage_end": null,
-        "data_portal_type": "Other",
+        "data_portal_type": "PowerDMS",
         "description": "PowerDMS dashboard containing dozens of policy documents.\n",
         "detail_level": "Individual record",
         "name": "Policy and Procedural Orders for Ann Arbor PD",
@@ -35547,6 +36439,55 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Harris County Aggregated - TX",
+            "submitted_name": "Harris County Aggregated",
+            "homepage_url": null,
+            "jurisdiction_type": "county",
+            "state_iso": "TX",
+            "municipality": null,
+            "county_fips": "48201",
+            "county_name": [
+                "Harris"
+            ],
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2020-01-01 00:00:00",
+        "coverage_end": "2020-12-31 00:00:00",
+        "data_portal_type": "Microsoft Power BI",
+        "description": "PowerBI dashboard for analyzing traffic stop data from 2020.\n",
+        "detail_level": "Summarized totals",
+        "name": "Harris County 2020 Traffic Stops summary",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://jad.harriscountytx.gov/Portals/70/documents/DashboardGuides/HarrisCountyTrafficStopDashboardGuide.pdf",
+        "record_download_option_provided": null,
+        "record_format": [
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Stops",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2021-05-26 00:00:00",
+        "source_url": "https://app.powerbigov.us/view?r=eyJrIjoiZjEwYTI3YWUtODhjZi00MTJiLWEzMGItMDM2NWIzZGRiNjgxIiwidCI6IjBkOWJjNzljLTU4MWItNDQ3Ny1hY2Y3LThkNzBkZDNlNTU1YSJ9",
+        "submitted_name": "Harris County 2020 Traffic Stops summary",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "No updates"
     },
     {
         "access_restrictions": null,
@@ -36949,6 +37890,55 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Denver Police Department - CO",
+            "submitted_name": "Denver Police Department",
+            "homepage_url": "https://www.denvergov.org/content/denvergov/en/police-department.html",
+            "jurisdiction_type": "local",
+            "state_iso": "CO",
+            "municipality": "Denver",
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
+            "lat": 36.586388,
+            "lng": -79.39192,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "839-page full operations manual.\n",
+        "detail_level": "Individual record",
+        "name": "Operations manual for Denver Police",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.denvergov.org/files/assets/public/police-department/documents/operations-manual/om_book.pdf",
+        "submitted_name": "Operations manual for Denver Police",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "Web page"
         ],
         "agency_described": {
@@ -37037,51 +38027,6 @@
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
-            "name": "Seattle Police Department - WA",
-            "submitted_name": "Seattle Police Department",
-            "homepage_url": "https://www.seattle.gov/police",
-            "jurisdiction_type": "local",
-            "state_iso": "WA",
-            "municipality": "Seattle",
-            "county_fips": "53033",
-            "county_name": [
-                "King"
-            ],
-            "lat": 47.913876,
-            "lng": -122.089294,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": null,
-        "coverage_end": null,
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": null,
-        "name": "Complaints & Misconduct for Seattle Police Department - WA",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": null,
-        "record_format": [],
-        "record_type": "Complaints & Misconduct",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": null,
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": "NA",
         "update_method": null
     },
     {
@@ -37410,6 +38355,55 @@
         "tags": [],
         "update_frequency": "weekly or more often",
         "update_method": "Append"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Denver Police Department - CO",
+            "submitted_name": "Denver Police Department",
+            "homepage_url": "https://www.denvergov.org/content/denvergov/en/police-department.html",
+            "jurisdiction_type": "local",
+            "state_iso": "CO",
+            "municipality": "Denver",
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
+            "lat": 36.586388,
+            "lng": -79.39192,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "111-page PDF detailing disciplinary policy.\n",
+        "detail_level": "Individual record",
+        "name": "Disciplinary handbook for Denver PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.denvergov.org/files/assets/public/police-department/documents/discipline-handbook/discipline-handbook.pdf",
+        "submitted_name": "Disciplinary handbook for Denver PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
     },
     {
         "access_restrictions": null,
@@ -37935,6 +38929,55 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Montgomery County Police Department - MD",
+            "submitted_name": "Montgomery County Police Department",
+            "homepage_url": "https://www.montgomerycountymd.gov/police",
+            "jurisdiction_type": "county",
+            "state_iso": "MD",
+            "municipality": "Gaithersburg",
+            "county_fips": "24031",
+            "county_name": [
+                "Montgomery"
+            ],
+            "lat": 39.113018,
+            "lng": -77.236435,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Annual reports about community policing and departmental statistics.\tIncludes generalized personnel records.\n",
+        "detail_level": "Summarized totals",
+        "name": "Community Policing Reports",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Annual & Monthly Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.montgomerycountymd.gov/pol/data/community-pol-report.html",
+        "submitted_name": "Community Policing Reports",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Athens County Sheriff's Office - OH",
@@ -38212,6 +39255,55 @@
         "source_last_updated": null,
         "source_url": null,
         "submitted_name": null,
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Montgomery County Police Department - MD",
+            "submitted_name": "Montgomery County Police Department",
+            "homepage_url": "https://www.montgomerycountymd.gov/police",
+            "jurisdiction_type": "county",
+            "state_iso": "MD",
+            "municipality": "Gaithersburg",
+            "county_fips": "24031",
+            "county_name": [
+                "Montgomery"
+            ],
+            "lat": 39.113018,
+            "lng": -77.236435,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Links to monthly and state-wide reports related to public safety.\n",
+        "detail_level": "Aggregated records",
+        "name": "Public Safety Data for Montgomery County PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text"
+        ],
+        "record_type": "List of Data Sources",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.montgomerycountymd.gov/pol/crime-data.html",
+        "submitted_name": "Public Safety Data for Montgomery County PD",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -40461,6 +41553,56 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Birmingham Police Department - AL",
+            "submitted_name": "Birmingham Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "AL",
+            "municipality": "Birmingham",
+            "county_fips": "01073",
+            "county_name": [
+                "Jefferson"
+            ],
+            "lat": 33.479446,
+            "lng": -86.79001,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2017-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Annualized crime data in spreadsheet form.\n",
+        "detail_level": "Individual record",
+        "name": "Birmingham West precinct crime data",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "XLS"
+        ],
+        "record_type": "Crime Maps & Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://data.birminghamal.gov/dataset/west-precinct-crime-data",
+        "submitted_name": "Birmingham West precinct crime data",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "API"
         ],
         "agency_described": {
@@ -42428,51 +43570,6 @@
         "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
-            "name": "Dallas Police Department - TX",
-            "submitted_name": "Dallas Police Department",
-            "homepage_url": "https://dallaspolice.net/",
-            "jurisdiction_type": "local",
-            "state_iso": "TX",
-            "municipality": "Dallas",
-            "county_fips": "48113",
-            "county_name": [
-                "Dallas"
-            ],
-            "lat": 32.828606,
-            "lng": -96.796234,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": null,
-        "coverage_end": null,
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": null,
-        "name": "Complaints & Misconduct for Dallas Police Department - TX",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": null,
-        "record_format": [],
-        "record_type": "Complaints & Misconduct",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": null,
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": null,
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
             "name": "Kansas City Police Department - KS",
             "submitted_name": "Kansas City Police Department",
             "homepage_url": "http://www.kckpd.org/",
@@ -43171,6 +44268,55 @@
         ],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Federal Bureau of Investigation (FBI) - DC",
+            "submitted_name": "Federal Bureau of Investigation (FBI)",
+            "homepage_url": "https://www.fbi.gov/contact-us",
+            "jurisdiction_type": "local",
+            "state_iso": "DC",
+            "municipality": "Washington",
+            "county_fips": "11001",
+            "county_name": [
+                "District of Columbia"
+            ],
+            "lat": 38.89539,
+            "lng": -77.0247,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2022-07-21 00:00:00",
+        "coverage_end": "2022-07-21 00:00:00",
+        "data_portal_type": null,
+        "description": "A 35-page presentation from the July 21, 2022 SEARCH conference, presented by The National Consortium for Justice Information and Statistics. The National Incident-Based Reporting System (NIBRS) is a system to which police agencies across the United States submit instances of crime to the FBI.\nThis presentation can give a reader insight into how the U.S. federal government thinks about the objectives, KPIs, reporting coverage, and other factors of the NIBRS program.\n",
+        "detail_level": "Individual record",
+        "name": "Presentation: New Directions in NIBRS/Incident-Based Research",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Annual & Monthly Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://mg.search.org/wp-content/uploads/2022_AnnMtg-NewDirectionsNIBRSAndIncidentBasedResearch.pdf",
+        "submitted_name": "Presentation: New Directions in NIBRS/Incident-Based Research",
+        "supplying_entity": "The National Consortium for Justice Information and Statistics, https://www.search.org/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "No updates"
     },
     {
         "access_restrictions": null,
@@ -44073,6 +45219,55 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Beacon Police Department - NY",
+            "submitted_name": "Beacon Police Department",
+            "homepage_url": "https://www.beaconny.gov/index.php/departments/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Beacon",
+            "county_fips": "36027",
+            "county_name": [
+                "Dutchess"
+            ],
+            "lat": 41.508034,
+            "lng": -73.97847,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "A 2017 study to determine whether the City of Beacon, Town of Fishkill, and Village of Fishkill should combine police departments. Contains crime analysis and policy ideas.\n",
+        "detail_level": "Individual record",
+        "name": "Beacon police services consolidation study",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Annual & Monthly Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://beaconny.gov/wp-content/uploads/2019/09/Beacon_Police_Presentation.pptx",
+        "submitted_name": "Beacon police services consolidation study",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "No updates"
     },
     {
         "access_restrictions": null,
@@ -47066,6 +48261,56 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Birmingham Police Department - AL",
+            "submitted_name": "Birmingham Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "AL",
+            "municipality": "Birmingham",
+            "county_fips": "01073",
+            "county_name": [
+                "Jefferson"
+            ],
+            "lat": 33.479446,
+            "lng": -86.79001,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2017-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Annualized crime data in spreadsheet form.\n",
+        "detail_level": "Individual record",
+        "name": "Birmingham North precinct crime data",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "XLS"
+        ],
+        "record_type": "Crime Maps & Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://data.birminghamal.gov/dataset/north-precinct-crime-data",
+        "submitted_name": "Birmingham North precinct crime data",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "Direct download"
         ],
         "agency_described": {
@@ -47523,6 +48768,55 @@
         "source_last_updated": null,
         "source_url": null,
         "submitted_name": null,
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Iowa Colony Police Department - TX",
+            "submitted_name": "Iowa Colony Police Department",
+            "homepage_url": "https://www.iowacolonytx.gov/police-department",
+            "jurisdiction_type": "local",
+            "state_iso": "TX",
+            "municipality": "Iowa Colony",
+            "county_fips": "48039",
+            "county_name": [
+                "Brazoria"
+            ],
+            "lat": 29.4100395,
+            "lng": -95.4108303,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Staff roster and contact information for patrol officers.\n",
+        "detail_level": "Individual record",
+        "name": "Patrol division staff for Iowa Colony PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table"
+        ],
+        "record_type": "Personnel Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.iowacolonytx.gov/divisions/patrol-division",
+        "submitted_name": "Patrol division staff for Iowa Colony PD",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -50252,6 +51546,55 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Beacon Police Department - NY",
+            "submitted_name": "Beacon Police Department",
+            "homepage_url": "https://www.beaconny.gov/index.php/departments/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Beacon",
+            "county_fips": "36027",
+            "county_name": [
+                "Dutchess"
+            ],
+            "lat": 41.508034,
+            "lng": -73.97847,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Document prepared in response to Governor Andrew Cuomo's executive order 203, March 2021.\n",
+        "detail_level": "Individual record",
+        "name": "Police Reform and Modernization Collaborative Plan for Beacon PD",
+        "number_of_records_available": 1,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2021-03-01 00:00:00",
+        "source_url": "https://beaconny.gov/wp-content/uploads/2021/03/City-of-Beacon-Police-Reform-and-Modernization-Collaborative-Plan-Adopted.pdf",
+        "submitted_name": "Police Reform and Modernization Collaborative Plan for Beacon PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Las Vegas Metropolitan Police Department - NV",
@@ -51313,6 +52656,57 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page",
+            "API"
+        ],
+        "agency_described": {
+            "name": "Dallas Police Department - TX",
+            "submitted_name": "Dallas Police Department",
+            "homepage_url": "https://dallaspolice.net/",
+            "jurisdiction_type": "local",
+            "state_iso": "TX",
+            "municipality": "Dallas",
+            "county_fips": "48113",
+            "county_name": [
+                "Dallas"
+            ],
+            "lat": 32.828606,
+            "lng": -96.796234,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "Tyler Technologies",
+        "description": "A database of arrestees, suspects, victims, and other people who have been part of Dallas Police activities.\n",
+        "detail_level": "Aggregated records",
+        "name": "Dallas Police Persons database",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://www.dallasopendata.com/Public-Safety/Police-Person/chez-ydz4",
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Field Contacts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.dallasopendata.com/Public-Safety/Police-Person/chez-ydz4/explore",
+        "submitted_name": "Dallas Police Persons database",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Philadelphia Police Department - PA",
@@ -51539,6 +52933,56 @@
         "supplying_entity": null,
         "tags": [],
         "update_frequency": "Monthly",
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Shaker Heights Police Department - OH",
+            "submitted_name": "Shaker Heights Police Department",
+            "homepage_url": "https://shakeronline.com/159/Police",
+            "jurisdiction_type": "local",
+            "state_iso": "OH",
+            "municipality": "Shaker Heights",
+            "county_fips": "39035",
+            "county_name": [
+                "Cuyahoga"
+            ],
+            "lat": 41.46798,
+            "lng": -81.56455,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Links to policy PDFs with their effective dates and brief descriptions.\n",
+        "detail_level": "Aggregated records",
+        "name": "Policies & Practices for Shaker Heights PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text",
+            "PDF: Machine Created"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://shakeronline.com/714/Policies-Practices",
+        "submitted_name": "Policies & Practices for Shaker Heights PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
         "update_method": null
     },
     {
@@ -51890,29 +53334,27 @@
         "agency_originated": null,
         "agency_supplied": true,
         "agency_aggregation": null,
-        "coverage_start": "2019-01-01 00:00:00",
-        "coverage_end": "2020-12-31 00:00:00",
+        "coverage_start": null,
+        "coverage_end": null,
         "data_portal_type": null,
         "description": null,
-        "detail_level": "Summarized totals",
+        "detail_level": null,
         "name": "Use of Force Reports for Birmingham Police Department - AL",
         "number_of_records_available": null,
         "originating_entity": null,
         "readme_url": null,
         "record_download_option_provided": null,
-        "record_format": [
-            "PDF"
-        ],
+        "record_format": [],
         "record_type": "Use of Force Reports",
         "retention_schedule": null,
         "size": null,
         "sort_method": null,
         "source_last_updated": null,
-        "source_url": "https://police.birminghamal.gov/accountability/",
+        "source_url": null,
         "submitted_name": null,
         "supplying_entity": null,
         "tags": [],
-        "update_frequency": "none",
+        "update_frequency": null,
         "update_method": null
     },
     {
@@ -53812,9 +55254,9 @@
         "coverage_start": "2010-09-17 00:00:00",
         "coverage_end": null,
         "data_portal_type": "Socrata",
-        "description": null,
+        "description": "This dataset contains uniform traffic tickets issued by the Buffalo Police Department. Buffalo police officers may issue a traffic ticket in circumstances in which there has been a violation of the traffic laws or ordinances and the motorist has not been issued a warning/traffic stop receipt or has not been placed under arrest. Traffic tickets may be issued to any person who is at least 16 years of age (refer to M.O.P. Chapter 7, link in note section). They shall be issued for any violation of the Vehicle and Traffic Law, or City Ordinances relating to traffic, except those relating to parking, standing, or stopping for which a parking tag must be issued. For violations involving driving during a snow ban, an Adjudication Summons shall be issued in lieu of a traffic ticket (refer to M.O.P. Chapter 3, link in note section).\n",
         "detail_level": null,
-        "name": "Citations for Buffalo Police Department - NY",
+        "name": "Traffic tickets for Buffalo PD",
         "number_of_records_available": null,
         "originating_entity": null,
         "readme_url": "https://data.buffalony.gov/Public-Safety/Uniform-Traffic-Tickets/s37s-kh9q",
@@ -53827,8 +55269,8 @@
         "size": null,
         "sort_method": null,
         "source_last_updated": null,
-        "source_url": "https://data.buffalony.gov/Public-Safety/Uniform-Traffic-Tickets/s37s-kh9q",
-        "submitted_name": null,
+        "source_url": "https://data.buffalony.gov/Public-Safety/Uniform-Traffic-Tickets/s37s-kh9q/explore",
+        "submitted_name": "Traffic tickets for Buffalo PD",
         "supplying_entity": null,
         "tags": [
             "traffic"
@@ -55244,6 +56686,55 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Madison Police Department - WI",
+            "submitted_name": "Madison Police Department",
+            "homepage_url": "https://www.cityofmadison.com/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "WI",
+            "municipality": "Madison",
+            "county_fips": "55025",
+            "county_name": [
+                "Dane"
+            ],
+            "lat": 43.03947,
+            "lng": -89.39578,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Includes active incidents. Incidents listed are selected by the Officer In Charge of each shift that may have significant public interest. Incidents listed are not inclusive of all incidents. \n",
+        "detail_level": "Individual record",
+        "name": "Noteworthy incident reports for Madison PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table"
+        ],
+        "record_type": "Incident Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": null,
+        "source_url": "https://www.cityofmadison.com/police/newsroom/incidentreports/",
+        "submitted_name": "Noteworthy incident reports for Madison PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": "In real time",
+        "update_method": "Append"
     },
     {
         "access_restrictions": null,
@@ -57241,6 +58732,55 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Madison Police Department - WI",
+            "submitted_name": "Madison Police Department",
+            "homepage_url": "https://www.cityofmadison.com/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "WI",
+            "municipality": "Madison",
+            "county_fips": "55025",
+            "county_name": [
+                "Dane"
+            ],
+            "lat": 43.03947,
+            "lng": -89.39578,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "A page of links to reports, portals, archives, etc.\n",
+        "detail_level": "Individual record",
+        "name": "Data source list for Madison PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text"
+        ],
+        "record_type": "List of Data Sources",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.cityofmadison.com/police/data/",
+        "submitted_name": "Data source list for Madison PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Miami-Dade Police Department - FL",
@@ -57976,6 +59516,55 @@
         "source_last_updated": null,
         "source_url": "https://webmaster2166.wixsite.com/bartowso/online-forms",
         "submitted_name": null,
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Shaker Heights Police Department - OH",
+            "submitted_name": "Shaker Heights Police Department",
+            "homepage_url": "https://shakeronline.com/159/Police",
+            "jurisdiction_type": "local",
+            "state_iso": "OH",
+            "municipality": "Shaker Heights",
+            "county_fips": "39035",
+            "county_name": [
+                "Cuyahoga"
+            ],
+            "lat": 41.46798,
+            "lng": -81.56455,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "A list of some trainings received by Shaker Heights police officers.\n",
+        "detail_level": "Individual record",
+        "name": "Training descriptions for Shaker Heights PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table"
+        ],
+        "record_type": "Training & Hiring Info",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://shakeronline.com/719/Training",
+        "submitted_name": "Training descriptions for Shaker Heights PD",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -59404,6 +60993,55 @@
             "Web page"
         ],
         "agency_described": {
+            "name": "Beacon Police Department - NY",
+            "submitted_name": "Beacon Police Department",
+            "homepage_url": "https://www.beaconny.gov/index.php/departments/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Beacon",
+            "county_fips": "36027",
+            "county_name": [
+                "Dutchess"
+            ],
+            "lat": 41.508034,
+            "lng": -73.97847,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "A few paragraphs about how police deal with complaints.\n",
+        "detail_level": null,
+        "name": "Police complaints \"how it works\" about Beacon PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://beaconny.gov/index.php/departments/police/how-it-works-complaints-about-police/",
+        "submitted_name": "Police complaints \"how it works\" about Beacon PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
             "name": "Cameron Parish Sheriff's Office - LA",
             "submitted_name": "Cameron Parish Sheriff's Office",
             "homepage_url": "http://cameronso.org/",
@@ -59798,7 +61436,7 @@
         "data_portal_type": "City",
         "description": null,
         "detail_level": null,
-        "name": "API Information",
+        "name": "List of Data Sources for Denver Police Department - CO",
         "number_of_records_available": null,
         "originating_entity": null,
         "readme_url": null,
@@ -59810,7 +61448,7 @@
         "sort_method": null,
         "source_last_updated": null,
         "source_url": "https://www.denvergov.org/opendata",
-        "submitted_name": "API Information",
+        "submitted_name": null,
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -61608,51 +63246,6 @@
         "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
-            "name": "Birmingham Police Department - AL",
-            "submitted_name": "Birmingham Police Department",
-            "homepage_url": null,
-            "jurisdiction_type": "local",
-            "state_iso": "AL",
-            "municipality": "Birmingham",
-            "county_fips": "01073",
-            "county_name": [
-                "Jefferson"
-            ],
-            "lat": 33.479446,
-            "lng": -86.79001,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": null,
-        "coverage_end": null,
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": null,
-        "name": "Operations Manuals",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": null,
-        "record_format": [],
-        "record_type": "Policies & Contracts",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": null,
-        "submitted_name": "Operations Manuals",
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": null,
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
             "name": "Oklahoma City Police Department - OK",
             "submitted_name": "Oklahoma City Police Department",
             "homepage_url": "https://www.okc.gov/residents/police-briefing-stations",
@@ -62644,51 +64237,6 @@
         "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
-            "name": "Dallas Police Department - TX",
-            "submitted_name": "Dallas Police Department",
-            "homepage_url": "https://dallaspolice.net/",
-            "jurisdiction_type": "local",
-            "state_iso": "TX",
-            "municipality": "Dallas",
-            "county_fips": "48113",
-            "county_name": [
-                "Dallas"
-            ],
-            "lat": 32.828606,
-            "lng": -96.796234,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": null,
-        "coverage_end": null,
-        "data_portal_type": "Tyler Technologies",
-        "description": null,
-        "detail_level": null,
-        "name": "List of Data Sources for Dallas Police Department - TX",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": null,
-        "record_format": [],
-        "record_type": "List of Data Sources",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": "https://www.dallasopendata.com",
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": "annually",
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
             "name": "Gloucester City Police Department - NJ",
             "submitted_name": "Gloucester City Police Department",
             "homepage_url": "https://www.cityofgloucester.org/gloucester-city-police-department",
@@ -63043,6 +64591,56 @@
         "source_last_updated": null,
         "source_url": null,
         "submitted_name": "Training Materials",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Beacon Police Department - NY",
+            "submitted_name": "Beacon Police Department",
+            "homepage_url": "https://www.beaconny.gov/index.php/departments/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Beacon",
+            "county_fips": "36027",
+            "county_name": [
+                "Dutchess"
+            ],
+            "lat": 41.508034,
+            "lng": -73.97847,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Hub for links about the police reform plan by Beacon PD. Records of meetings, resolutions, news articles, orders, etc.\n",
+        "detail_level": null,
+        "name": "Beacon PD Police Reform and Modernization Collaborative homepage",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "PDF: Machine Created",
+            "HTML text"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.dutchessny.gov/County-Government/Police-Reform-and-Modernization-Collaborative.htm",
+        "submitted_name": "Beacon PD Police Reform and Modernization Collaborative homepage",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -63657,6 +65255,56 @@
         "source_last_updated": null,
         "source_url": "https://www.normanok.gov/public-safety/police-department/open-data-portal/use-force",
         "submitted_name": null,
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Birmingham Police Department - AL",
+            "submitted_name": "Birmingham Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "AL",
+            "municipality": "Birmingham",
+            "county_fips": "01073",
+            "county_name": [
+                "Jefferson"
+            ],
+            "lat": 33.479446,
+            "lng": -86.79001,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Spreadsheets of traffic fines.\n",
+        "detail_level": "Individual record",
+        "name": "Traffic violation fines and fees",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "XLS",
+            "CSV"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://data.birminghamal.gov/dataset/schedule-of-fines-and-fees-for-traffic-violations-equipment-offenses",
+        "submitted_name": "Traffic violation fines and fees",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -64357,6 +66005,56 @@
         "supplying_entity": null,
         "tags": [],
         "update_frequency": "<2 Weeks",
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Birmingham Police Department - AL",
+            "submitted_name": "Birmingham Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "AL",
+            "municipality": "Birmingham",
+            "county_fips": "01073",
+            "county_name": [
+                "Jefferson"
+            ],
+            "lat": 33.479446,
+            "lng": -86.79001,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2017-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Annual spreadsheets of crime information.\n",
+        "detail_level": "Individual record",
+        "name": "Birmingham South Precinct crime data",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "XLS"
+        ],
+        "record_type": "Crime Maps & Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://data.birminghamal.gov/dataset/south-precinct-crime-data",
+        "submitted_name": "Birmingham South Precinct crime data",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
         "update_method": null
     },
     {
@@ -66377,6 +68075,55 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Beacon Police Department - NY",
+            "submitted_name": "Beacon Police Department",
+            "homepage_url": "https://www.beaconny.gov/index.php/departments/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Beacon",
+            "county_fips": "36027",
+            "county_name": [
+                "Dutchess"
+            ],
+            "lat": 41.508034,
+            "lng": -73.97847,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "4-page council resolution in PDF form about plans to investigate and rethink the local police services.\n",
+        "detail_level": "Individual record",
+        "name": "2020 City Council resolution announcing action plan for evaluation and rethinking of community public safety services",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Scanned"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2021-04-01 00:00:00",
+        "source_url": "https://beaconny.gov/wp-content/uploads/2021/04/Resolution-Announcing-City-Councils-Action-Plan-for-Evaluation-and-Rethinking-of-Community-Public-Safety-Services-Executed-Copy.pdf",
+        "submitted_name": "2020 City Council resolution announcing action plan for evaluation and rethinking of community public safety services",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "El Cerrito Police Department - CA",
@@ -68288,6 +70035,55 @@
         "source_last_updated": null,
         "source_url": "https://www.sandiego.gov/sites/default/files/legacy/police/pdf/forattach.pdf",
         "submitted_name": "Use of Force Policy",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Denver Police Department - CO",
+            "submitted_name": "Denver Police Department",
+            "homepage_url": "https://www.denvergov.org/content/denvergov/en/police-department.html",
+            "jurisdiction_type": "local",
+            "state_iso": "CO",
+            "municipality": "Denver",
+            "county_fips": "08031",
+            "county_name": [
+                "Denver"
+            ],
+            "lat": 36.586388,
+            "lng": -79.39192,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "NIBRS format hate crime data for Denver.\n",
+        "detail_level": "Aggregated records",
+        "name": "Denver Hate crime data",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV"
+        ],
+        "record_type": "Crime Maps & Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://denvergov.org/opendata/dataset/hate-crimes",
+        "submitted_name": "Denver Hate crime data",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -70576,6 +72372,56 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Madison Police Department - WI",
+            "submitted_name": "Madison Police Department",
+            "homepage_url": "https://www.cityofmadison.com/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "WI",
+            "municipality": "Madison",
+            "county_fips": "55025",
+            "county_name": [
+                "Dane"
+            ],
+            "lat": 43.03947,
+            "lng": -89.39578,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2016-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Summarized data about incident-based reporting, arrests, personnel demographics, traffic stops, and uses of force.\n",
+        "detail_level": "Summarized totals",
+        "name": "Archived 21st Century Policing Quarterly Data",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created",
+            "XLS"
+        ],
+        "record_type": "Annual & Monthly Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": null,
+        "source_url": "https://www.cityofmadison.com/police/data/archived-quarterly-data.cfm",
+        "submitted_name": "Archived 21st Century Policing Quarterly Data",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": "Quarterly",
+        "update_method": "Insert"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Cheyenne Police Department - WY",
@@ -70750,51 +72596,6 @@
         "source_last_updated": null,
         "source_url": "https://dekalbcounty.org/wp-content/uploads/2020/06/so-policy-use-of-force300.pdf\u00a0",
         "submitted_name": "Use of Force Policy",
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": null,
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
-            "name": "Birmingham Police Department - AL",
-            "submitted_name": "Birmingham Police Department",
-            "homepage_url": null,
-            "jurisdiction_type": "local",
-            "state_iso": "AL",
-            "municipality": "Birmingham",
-            "county_fips": "01073",
-            "county_name": [
-                "Jefferson"
-            ],
-            "lat": 33.479446,
-            "lng": -86.79001,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": null,
-        "coverage_end": null,
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": null,
-        "name": "Crime Maps & Reports for Birmingham Police Department - AL",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": null,
-        "record_format": [],
-        "record_type": "Crime Maps & Reports",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": null,
-        "submitted_name": null,
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -71550,6 +73351,57 @@
         "source_last_updated": null,
         "source_url": "https://data.montgomerycountymd.gov/Public-Safety/Internal-Affairs-Allegations/usip-62e2",
         "submitted_name": null,
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page",
+            "API"
+        ],
+        "agency_described": {
+            "name": "Dallas Police Department - TX",
+            "submitted_name": "Dallas Police Department",
+            "homepage_url": "https://dallaspolice.net/",
+            "jurisdiction_type": "local",
+            "state_iso": "TX",
+            "municipality": "Dallas",
+            "county_fips": "48113",
+            "county_name": [
+                "Dallas"
+            ],
+            "lat": 32.828606,
+            "lng": -96.796234,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "Tyler Technologies",
+        "description": "A database of vehicles which have been involved in activities by Dallas police.\t\n",
+        "detail_level": "Aggregated records",
+        "name": "Dallas police-involved vehicles",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://www.dallasopendata.com/Public-Safety/Police-Involved-Vehicles/hd9z-g72a",
+        "record_download_option_provided": null,
+        "record_format": [
+            "CSV",
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Field Contacts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.dallasopendata.com/Public-Safety/Police-Involved-Vehicles/hd9z-g72a/explore",
+        "submitted_name": "Dallas police-involved vehicles",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -74032,6 +75884,55 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Knoxville Police Department - TN",
+            "submitted_name": "Knoxville Police Department",
+            "homepage_url": "http://knoxvilletn.gov/government/city_departments_offices/police_department",
+            "jurisdiction_type": "local",
+            "state_iso": "TN",
+            "municipality": "Knoxville",
+            "county_fips": "47093",
+            "county_name": [
+                "Knox"
+            ],
+            "lat": 35.967136,
+            "lng": -83.90817,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "MuckRock",
+        "description": "Spreadsheet results of a FOIA request via MuckRock which was fulfilled on 4/24/23. Last name, first name, and start date.\n",
+        "detail_level": "Individual record",
+        "name": "Roster and start dates for Knoxville PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "XLS"
+        ],
+        "record_type": "Personnel Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2023-04-24 00:00:00",
+        "source_url": "https://www.muckrock.com/foi/knoxville-30436/roster-and-hire-dates-143162/?",
+        "submitted_name": "Roster and start dates for Knoxville PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "No updates"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "API"
         ],
         "agency_described": {
@@ -76193,6 +78094,55 @@
             "Web page"
         ],
         "agency_described": {
+            "name": "Houston Police Department - TX",
+            "submitted_name": "Houston Police Department",
+            "homepage_url": "http://www.houstonpolice.org/",
+            "jurisdiction_type": "local",
+            "state_iso": "TX",
+            "municipality": "Houston",
+            "county_fips": "48201",
+            "county_name": [
+                "Harris"
+            ],
+            "lat": 29.657627,
+            "lng": -95.31682,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Links to a few charts and dashboards about Houston PD. Citations, stops, use of force, disciplinary actions, and personnel diversity.\n",
+        "detail_level": "Summarized totals",
+        "name": "Houston police transparency dashboards",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "Dashboard / Visualization"
+        ],
+        "record_type": "List of Data Sources",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://policetransparency-mycity.hub.arcgis.com/#datadashboards",
+        "submitted_name": "Houston police transparency dashboards",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
             "name": "United States Aggregated",
             "submitted_name": "United States Aggregated",
             "homepage_url": "https://www.usa.gov/",
@@ -76520,6 +78470,56 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Iowa Colony Police Department - TX",
+            "submitted_name": "Iowa Colony Police Department",
+            "homepage_url": "https://www.iowacolonytx.gov/police-department",
+            "jurisdiction_type": "local",
+            "state_iso": "TX",
+            "municipality": "Iowa Colony",
+            "county_fips": "48039",
+            "county_name": [
+                "Brazoria"
+            ],
+            "lat": 29.4100395,
+            "lng": -95.4108303,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "A form and instructions for making records requests.\t\n",
+        "detail_level": "Individual record",
+        "name": "Records request info for Iowa Colony PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table",
+            "PDF: Machine Created"
+        ],
+        "record_type": "Records Request Info",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.iowacolonytx.gov/police-department/public-information",
+        "submitted_name": "Records request info for Iowa Colony PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Salt Lake City Police Department - UT",
@@ -76842,6 +78842,55 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Birmingham Police Department - AL",
+            "submitted_name": "Birmingham Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "AL",
+            "municipality": "Birmingham",
+            "county_fips": "01073",
+            "county_name": [
+                "Jefferson"
+            ],
+            "lat": 33.479446,
+            "lng": -86.79001,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2005-01-01 00:00:00",
+        "coverage_end": "2019-12-31 00:00:00",
+        "data_portal_type": null,
+        "description": "Yearly homicide spreadsheets with victim name and demographics.\n",
+        "detail_level": "Individual record",
+        "name": "Homicide data for Birmingham, AL",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "XLS"
+        ],
+        "record_type": "Crime Maps & Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": null,
+        "source_url": "https://data.birminghamal.gov/dataset/homicide-data-annual-birmingham",
+        "submitted_name": "Homicide data for Birmingham, AL",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "No updates"
     },
     {
         "access_restrictions": null,
@@ -77626,6 +79675,55 @@
         "supplying_entity": null,
         "tags": [],
         "update_frequency": "Annually",
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Madison Police Department - WI",
+            "submitted_name": "Madison Police Department",
+            "homepage_url": "https://www.cityofmadison.com/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "WI",
+            "municipality": "Madison",
+            "county_fips": "55025",
+            "county_name": [
+                "Dane"
+            ],
+            "lat": 43.03947,
+            "lng": -89.39578,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Contact info, forms, fees, and instructions for making records requests.\n",
+        "detail_level": "Individual record",
+        "name": "Records request info for Madison PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text"
+        ],
+        "record_type": "Records Request Info",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.cityofmadison.com/police/support/records/",
+        "submitted_name": "Records request info for Madison PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
         "update_method": null
     },
     {
@@ -79012,51 +81110,6 @@
         "source_last_updated": null,
         "source_url": null,
         "submitted_name": "Operations Manuals",
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": null,
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
-            "name": "Dallas Police Department - TX",
-            "submitted_name": "Dallas Police Department",
-            "homepage_url": "https://dallaspolice.net/",
-            "jurisdiction_type": "local",
-            "state_iso": "TX",
-            "municipality": "Dallas",
-            "county_fips": "48113",
-            "county_name": [
-                "Dallas"
-            ],
-            "lat": 32.828606,
-            "lng": -96.796234,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": null,
-        "coverage_end": null,
-        "data_portal_type": "Socrata",
-        "description": null,
-        "detail_level": null,
-        "name": "API Information",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": null,
-        "record_format": [],
-        "record_type": "List of Data Sources",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": "https://www.dallasopendata.com/",
-        "submitted_name": "API Information",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -80614,6 +82667,55 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Direct download"
+        ],
+        "agency_described": {
+            "name": "Beacon Police Department - NY",
+            "submitted_name": "Beacon Police Department",
+            "homepage_url": "https://www.beaconny.gov/index.php/departments/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Beacon",
+            "county_fips": "36027",
+            "county_name": [
+                "Dutchess"
+            ],
+            "lat": 41.508034,
+            "lng": -73.97847,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "PDF org chart of police officers and detectives.\n",
+        "detail_level": "Individual record",
+        "name": "City of Beacon PD Organizational Chart",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Personnel Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": "2022-10-13 00:00:00",
+        "source_url": "https://beaconny.gov/wp-content/uploads/2022/10/Organization-Chart-PDF-101322.pdf",
+        "submitted_name": "City of Beacon PD Organizational Chart",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Bakersfield Police Department - CA",
@@ -81453,6 +83555,57 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page",
+            "API"
+        ],
+        "agency_described": {
+            "name": "Buffalo Police Department - NY",
+            "submitted_name": "Buffalo Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "Buffalo",
+            "county_fips": "36029",
+            "county_name": [
+                "Erie"
+            ],
+            "lat": 42.947433,
+            "lng": -78.883736,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": "Tyler Technologies",
+        "description": "Location and other information about cameras put in place by BPD.\t\n",
+        "detail_level": "Aggregated records",
+        "name": "Surveillance camera locations for Buffalo PD",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://data.buffalony.gov/Public-Safety/BPD-Cameras/gpj7-v6rr",
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Misc Police Activity",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://data.buffalony.gov/Public-Safety/BPD-Cameras/gpj7-v6rr/explore",
+        "submitted_name": "Surveillance camera locations for Buffalo PD",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "Web page"
         ],
         "agency_described": {
@@ -81497,6 +83650,53 @@
         "tags": [],
         "update_frequency": null,
         "update_method": "Overwrite"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Maryland Aggregated - MD",
+            "submitted_name": "Maryland Aggregated",
+            "homepage_url": null,
+            "jurisdiction_type": "state",
+            "state_iso": "MD",
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2018-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": "Microsoft Power BI",
+        "description": "[Transportation Article \u00a7 25\u2013113(f)(2)](https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtr&section=25-113&enactments=false)\u00a0requires the Maryland Statistical Analysis Center to post race-based traffic stop data on its website in a location that is easily accessible to the public with a filterable data display of all data collected under this section for the previous calendar year.\u00a0The filterable data display, titled\u00a0_Race-Based Traffic Stop Data Dashboard_, includes traffic stop data from 135 law enforcement agencies in Maryland over the last five years with the most recent data collected during the 2021 calendar year. It also allows users to select one or more data measures to view results.\n\n### Data Sources\nData reflected in this dashboard is reported by law enforcement agencies in Maryland to the Maryland Department of State Police.\n",
+        "detail_level": "Summarized totals",
+        "name": "Race-based traffic stop data dashboard for Maryland",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "http://goccp.maryland.gov/data-dashboards/traffic-stop-data-dashboard/",
+        "record_download_option_provided": null,
+        "record_format": [
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Stops",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://app.powerbigov.us/view?r=eyJrIjoiZTBhNDYzMTMtZTRhMy00OWRkLTk3ZGItZmJlMGQ2OTRjMDQzIiwidCI6IjYwYWZlOWUyLTQ5Y2QtNDliMS04ODUxLTY0ZGYwMjc2YTJlOCJ9&pageName=ReportSection",
+        "submitted_name": "Race-based traffic stop data dashboard for Maryland",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": "Yearly",
+        "update_method": null
     },
     {
         "access_restrictions": null,
@@ -82390,6 +84590,55 @@
         "source_last_updated": null,
         "source_url": "data.nola.gov/resource/jsyu-nz5r.json",
         "submitted_name": null,
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Birmingham Police Department - AL",
+            "submitted_name": "Birmingham Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "AL",
+            "municipality": "Birmingham",
+            "county_fips": "01073",
+            "county_name": [
+                "Jefferson"
+            ],
+            "lat": 33.479446,
+            "lng": -86.79001,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Link to a PDF form and instructions for submission.\n",
+        "detail_level": "Individual record",
+        "name": "Records request form for Birmingham, AL",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created"
+        ],
+        "record_type": "Records Request Info",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://data.birminghamal.gov/dataset/law-department-public-records-request-form",
+        "submitted_name": "Records request form for Birmingham, AL",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -84799,6 +87048,56 @@
         "source_last_updated": null,
         "source_url": "https://data.cityofsacramento.org/search?collection=Dataset&tags=dispatch",
         "submitted_name": null,
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Birmingham Police Department - AL",
+            "submitted_name": "Birmingham Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "AL",
+            "municipality": "Birmingham",
+            "county_fips": "01073",
+            "county_name": [
+                "Jefferson"
+            ],
+            "lat": 33.479446,
+            "lng": -86.79001,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2015-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Annualized spreadsheets of crime data.\t\n",
+        "detail_level": "Individual record",
+        "name": "Birmingham East precinct crime data",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "XLS"
+        ],
+        "record_type": "Crime Maps & Reports",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://data.birminghamal.gov/dataset/east-precinct-crime-data",
+        "submitted_name": "Birmingham East precinct crime data",
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
@@ -93742,6 +96041,55 @@
         ],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Birmingham Police Department - AL",
+            "submitted_name": "Birmingham Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "AL",
+            "municipality": "Birmingham",
+            "county_fips": "01073",
+            "county_name": [
+                "Jefferson"
+            ],
+            "lat": 33.479446,
+            "lng": -86.79001,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Names, photos, and demographic information about people incarcerated by Birmingham PD.\n",
+        "detail_level": "Individual record",
+        "name": "Birmingham Police Department jail custody search",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table"
+        ],
+        "record_type": "Incarceration Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "http://birminghamjailsearch.birminghamal.gov/newworld.inmateinquiry/AL0010200",
+        "submitted_name": "Birmingham Police Department jail custody search",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Overwrite"
     },
     {
         "access_restrictions": null,
