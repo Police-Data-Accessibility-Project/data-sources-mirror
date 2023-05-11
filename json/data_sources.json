@@ -2091,6 +2091,54 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "North Carolina Aggregated - NC",
+            "submitted_name": "North Carolina Aggregated",
+            "homepage_url": null,
+            "jurisdiction_type": "state",
+            "state_iso": "NC",
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2009-12-31 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Open Data Policing aggregates, visualizes, and publishes public records related to all known traffic stops to have occurred in North Carolina since Jan 01, 2002. Data is available for most North Carolina departments and officers serving populations greater than 10,000.\nNorth Carolina law requires all such agencies to report their data on a monthly basis to the NC Department of Justice; however, some datasets are incomplete or remain unreported. Where data sets are incomplete or missing from the website it is because they have not been reported to the state agency from which the site derives its records. Open Data Policing does not have access to, nor does it publish, the names of officers, drivers, or passengers involved in traffic stops.\n",
+        "detail_level": "Aggregated records",
+        "name": "North Carolina Traffic Stops",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://www.opendatapolicingnc.com/state/nc",
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML table",
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Stops",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": null,
+        "source_url": "https://www.opendatapolicingnc.com/stop",
+        "submitted_name": "North Carolina Traffic Stops",
+        "supplying_entity": "Southern Coalition for Social Justice https://southerncoalition.org/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Insert"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Tucson Police Department - AZ",
@@ -12986,7 +13034,7 @@
         "coverage_start": "2020-01-01 00:00:00",
         "coverage_end": "2022-12-30 00:00:00",
         "data_portal_type": "MuckRock",
-        "description": "City of Pittsburgh response to a Right to Know Law request for traffic stops between 2020\u20132022. Separate request for data dictionary provided. 27,033 rows. Anonymized data with demographic information intact.\n",
+        "description": "City of Pittsburgh response to a Right to Know Law request for traffic stops between 2020\u20132022. 27,033 rows. Anonymized data with demographic information intact.\n\nA data dictionary can be found attached to this subsequent request: https://www.muckrock.com/foi/pittsburgh-130/q1-2023-traffic-stops-144011/\n",
         "detail_level": "Individual record",
         "name": "Pittsburgh Traffic Stops 2020\u20132022",
         "number_of_records_available": null,
@@ -15178,6 +15226,54 @@
             "Web page"
         ],
         "agency_described": {
+            "name": "Boston Police Department - MA",
+            "submitted_name": "Boston Police Department",
+            "homepage_url": null,
+            "jurisdiction_type": "local",
+            "state_iso": "MA",
+            "municipality": "Boston",
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2001-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "This is a community-led project focused on investigating officer activities. Citations, Complaints, Officers, Contributions, Field Contacts, and Overtimes are all present.\n",
+        "detail_level": "Individual record",
+        "name": "Woke Windows Boston PD collection",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://www.wokewindows.org/data_sources",
+        "record_download_option_provided": null,
+        "record_format": [
+            "CSV",
+            "HTML table"
+        ],
+        "record_type": "List of Data Sources",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.wokewindows.org/exports",
+        "submitted_name": "Woke Windows Boston PD collection",
+        "supplying_entity": "Woke Windows Project https://www.wokewindows.org/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Append"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
             "name": "Beacon Police Department - NY",
             "submitted_name": "Beacon Police Department",
             "homepage_url": "https://www.beaconny.gov/index.php/departments/police/",
@@ -15635,6 +15731,56 @@
         "supplying_entity": "PDAP <https://pdap.io>\n",
         "tags": [],
         "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Pittsburgh Bureau of Police - PA",
+            "submitted_name": "Pittsburgh Bureau of Police",
+            "homepage_url": "http://pittsburghpa.gov/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "PA",
+            "municipality": "Pittsburgh",
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.450523,
+            "lng": -80.02128,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2013-01-01 00:00:00",
+        "coverage_end": "2022-12-31 00:00:00",
+        "data_portal_type": null,
+        "description": "This news article contains several data tables. Most useful are the two near the bottom. \"Pittsburgh Police Disciplinary Action Report data 2013-2022\" and \"Pittsburgh Office of Municipal Investigations police-related complaint data 2013-2022\". Both are in paginated HTML tables and can be downloaded as a CSV by clicking a \"Get the data\" link.\n",
+        "detail_level": "Aggregated records",
+        "name": "Pittsburgh Police Complaints and Disciplinary Actions 2013-2022",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "HTML table"
+        ],
+        "record_type": "Complaints & Misconduct",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.publicsource.org/pittsburgh-bureau-police-discipline-complaints-disciplinary-matrix-new-chief/",
+        "submitted_name": "Pittsburgh Police Complaints and Disciplinary Actions 2013-2022",
+        "supplying_entity": "Public Source https://www.publicsource.org/\n",
+        "tags": [],
+        "update_frequency": "Annually",
         "update_method": null
     },
     {
@@ -38564,6 +38710,55 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Pittsburgh Bureau of Police - PA",
+            "submitted_name": "Pittsburgh Bureau of Police",
+            "homepage_url": "http://pittsburghpa.gov/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "PA",
+            "municipality": "Pittsburgh",
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.450523,
+            "lng": -80.02128,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": "2023-01-01 00:00:00",
+        "coverage_end": "2023-03-30 00:00:00",
+        "data_portal_type": null,
+        "description": "City of Pittsburgh response to a Right to Know Law request for traffic stops in the first quarter of 2023. Includes a data dictionary. 2,062 rows. Anonymized data with demographic information intact.\n",
+        "detail_level": "Aggregated records",
+        "name": "Pittsburgh Traffic Stops Q1 2023",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "XLS"
+        ],
+        "record_type": "Stops",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.muckrock.com/foi/pittsburgh-130/q1-2023-traffic-stops-144011/",
+        "submitted_name": "Pittsburgh Traffic Stops Q1 2023",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "No updates"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Memphis Police Department - TN",
@@ -51617,6 +51812,58 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Baltimore Police Department - MD",
+            "submitted_name": "Baltimore Police Department",
+            "homepage_url": "https://www.baltimorepolice.org/districts/central-district",
+            "jurisdiction_type": "local",
+            "state_iso": "MD",
+            "municipality": "Towson",
+            "county_fips": "24005",
+            "county_name": [
+                "Baltimore"
+            ],
+            "lat": 39.40036,
+            "lng": -76.58889,
+            "defunct_year": null
+        },
+        "agency_originated": false,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2018-05-03 00:00:00",
+        "coverage_end": "2021-11-18 00:00:00",
+        "data_portal_type": null,
+        "description": "Community-compiled database of Baltimore Police officers and incidents.\n",
+        "detail_level": "Aggregated records",
+        "name": "BPD Watch officers and incidents",
+        "number_of_records_available": null,
+        "originating_entity": "Community-sourced and submitted to BPD Watch\n",
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "HTML table",
+            "CSV",
+            "XLS",
+            "Video / Image"
+        ],
+        "record_type": "Personnel Records",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://bpdwatch.com/browse",
+        "submitted_name": "BPD Watch officers and incidents",
+        "supplying_entity": "BPD Watch https://bpdwatch.com/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "No updates"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Boston Police Department - MA",
@@ -58657,6 +58904,55 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "United States Aggregated",
+            "submitted_name": "United States Aggregated",
+            "homepage_url": "https://www.usa.gov/",
+            "jurisdiction_type": "federal",
+            "state_iso": null,
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "An independent database of police budgets & support from federal grants, military equipment, consent decrees, and legal settlements.\n",
+        "detail_level": "Summarized totals",
+        "name": "National Police Funding Database",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://policefundingdatabase.org/explore-the-database/using-the-dashboards/",
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "HTML table",
+            "Dashboard / Visualization"
+        ],
+        "record_type": "Budgets & Finances",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://policefundingdatabase.org/explore-the-database/find-a-location/",
+        "submitted_name": "National Police Funding Database",
+        "supplying_entity": "LDF's Thurgood Marshall Institute https://tminstituteldf.org/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Insert"
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Citrus College Campus Safety - CA",
@@ -59076,6 +59372,55 @@
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "New York City Police Department - NY",
+            "submitted_name": "New York City Police Department",
+            "homepage_url": "https://www1.nyc.gov/site/nypd/bureaus/patrol/precincts/23rd-precinct.page?",
+            "jurisdiction_type": "local",
+            "state_iso": "NY",
+            "municipality": "New York",
+            "county_fips": "36047",
+            "county_name": [
+                "Kings"
+            ],
+            "lat": 40.57627,
+            "lng": -73.9904,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2000-01-01 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "50-a.org is a searchable website of NYC Civilian Complaint Review Board and related public NYPD data.\n",
+        "detail_level": "Aggregated records",
+        "name": "50-a NYPD misconduct database",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://www.50-a.org/about",
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV"
+        ],
+        "record_type": "Complaints & Misconduct",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": null,
+        "source_url": "https://www.50-a.org/",
+        "submitted_name": "50-a NYPD misconduct database",
+        "supplying_entity": "50-a https://www.50-a.org/\n",
+        "tags": [],
+        "update_frequency": "Daily",
         "update_method": null
     },
     {
@@ -68648,7 +68993,7 @@
         "record_format": [
             "PDF: Machine Created"
         ],
-        "record_type": "Other",
+        "record_type": "Annual & Monthly Reports",
         "retention_schedule": null,
         "size": null,
         "sort_method": null,
@@ -69964,6 +70309,55 @@
         "tags": [],
         "update_frequency": "About weekly at least",
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page",
+            "API"
+        ],
+        "agency_described": {
+            "name": "Maryland Aggregated - MD",
+            "submitted_name": "Maryland Aggregated",
+            "homepage_url": null,
+            "jurisdiction_type": "state",
+            "state_iso": "MD",
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "1907-08-27 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "A community project to scrape the\u00a0[Maryland Judiciary Case Search](https://casesearch.courts.state.md.us/casesearch/inquiry-index.jsp)\u00a0(MJCS) and build a near-complete database of Maryland court cases that can be queried and analyzed without the limitations of the MJCS interface.\n",
+        "detail_level": "Aggregated records",
+        "name": "Maryland Case Explorer",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": "https://github.com/dismantl/CaseHarvester",
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "HTML table"
+        ],
+        "record_type": "Court Cases",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "newest first",
+        "source_last_updated": null,
+        "source_url": "https://mdcaseexplorer.com/",
+        "submitted_name": "Maryland Case Explorer",
+        "supplying_entity": "Open Justice Baltimore https://openjusticebaltimore.org/\n",
+        "tags": [],
+        "update_frequency": "Daily",
+        "update_method": "Insert"
     },
     {
         "access_restrictions": null,
@@ -81794,6 +82188,56 @@
         "tags": [],
         "update_frequency": null,
         "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Massachusetts Aggregated - MA",
+            "submitted_name": "Massachusetts Aggregated",
+            "homepage_url": null,
+            "jurisdiction_type": "state",
+            "state_iso": "MA",
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2015-07-10 00:00:00",
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Records about mostly Brady lists, internal affairs documents, and other records of misconduct about agencies in Massachusetts.\n",
+        "detail_level": "Individual record",
+        "name": "The Mass Dump public records database",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Machine Created",
+            "PDF: Scanned",
+            "XLS",
+            "DOC / TXT"
+        ],
+        "record_type": "List of Data Sources",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": "oldest first",
+        "source_last_updated": null,
+        "source_url": "https://qmr.news/public-records/",
+        "submitted_name": "The Mass Dump public records database",
+        "supplying_entity": "Andrew Quemere https://qmr.news/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": "Append"
     },
     {
         "access_restrictions": null,

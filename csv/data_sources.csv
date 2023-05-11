@@ -49,6 +49,10 @@ API Information,API Information,,List of Data Sources,,['reciGRFmQ8wyX4U9c'],Tru
 Calls for Service for Carmel Police Department - IN,,,Calls for Service,https://cityprotect.com/agency/carmelpd,['recPifkIYBtMPq4jp'],False,,,,,2017-01-01 00:00:00,,,,,,,,,CityProtect,,,[],quarterly,,,,[],
 Los Angeles Police Department SB 1421 releases,Los Angeles Police Department SB 1421 releases,"This webpage contains documents disclosable under SB 1421 and SB 16 that the Los Angeles Police Department has released through the City of Los Angeles’ online public records request portal (NextRequest). The Department will continue to upload records disclosed pursuant to the CPRA and SB 1421, and SB 16, on THURSDAYS (except on City-observed holidays). Please re-visit this site to view the latest Thursday releases.
 ",Incident Reports,https://www.lapdonline.org/office-of-the-chief-of-police/constitutional-policing/risk-management-division/senate-bill-1421-senate-bill-16-sb-16/,['rec72qU5SjuqNmKBx'],True,,,,,,,,,Individual record,,,['Web page'],True,,,,"['Audio', 'PDF: Machine Created', 'PDF: Scanned', 'Video / Image']",,Append,,,[],
+North Carolina Traffic Stops,North Carolina Traffic Stops,"Open Data Policing aggregates, visualizes, and publishes public records related to all known traffic stops to have occurred in North Carolina since Jan 01, 2002. Data is available for most North Carolina departments and officers serving populations greater than 10,000.
+North Carolina law requires all such agencies to report their data on a monthly basis to the NC Department of Justice; however, some datasets are incomplete or remain unreported. Where data sets are incomplete or missing from the website it is because they have not been reported to the state agency from which the site derives its records. Open Data Policing does not have access to, nor does it publish, the names of officers, drivers, or passengers involved in traffic stops.
+",Stops,https://www.opendatapolicingnc.com/stop,['rec4gY5riieBSRJrO'],False,"Southern Coalition for Social Justice https://southerncoalition.org/
+",True,,,2009-12-31 00:00:00,,,,Aggregated records,,,['Web page'],,,,,"['HTML table', 'Dashboard / Visualization']",,Insert,newest first,,[],https://www.opendatapolicingnc.com/state/nc
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.tucsonaz.gov/files/police/general-orders/2000USE_OF_FORCE.pdf,['rec2FkksoIU2I4PtQ'],True,,,,,,,,,,,,,True,,,,[],,,,,[],
 Officer Involved Shootings for Portland Police Bureau - OR,,,Officer Involved Shootings,https://www.portland.gov/police/open-data/ois,['recQP2UsPocuNvjcb'],True,,,,,2010-01-29 00:00:00,,,,,,,['Web page'],True,,,,['CSV'],,,,,[],
 Complaints & Misconduct for Kansas City Police Department - KS,,,Complaints & Misconduct,,['rec9nw1thbPhMmIB6'],True,,,,,,,,,,,,,,,,,[],,,,,[],
@@ -354,7 +358,9 @@ Crime Maps & Reports for Miami-Dade Police Department - FL,,,Crime Maps & Report
 Complaints & Misconduct for Saint Louis County Police Department - MO,,,Complaints & Misconduct,,['recUHGnbrW8IuuafX'],True,,,,,,,,,,,,,,,,,[],,,,,[],
 Complaints & Misconduct for San Antonio Police Department - TX,,,Complaints & Misconduct,,['recLg3tH58kqChcE8'],True,,,,,,,,,,,,,,,,,[],,,,,[],
 Complaints & Misconduct for DeKalb County Police Department - GA,,,Complaints & Misconduct,,['recB7U0asoiWGDLGI'],True,,,,,,,,,,,,,,,,,[],,,,,[],
-Pittsburgh Traffic Stops 2020–2022,Pittsburgh Traffic Stops 2020–2022,"City of Pittsburgh response to a Right to Know Law request for traffic stops between 2020–2022. Separate request for data dictionary provided. 27,033 rows. Anonymized data with demographic information intact.
+Pittsburgh Traffic Stops 2020–2022,Pittsburgh Traffic Stops 2020–2022,"City of Pittsburgh response to a Right to Know Law request for traffic stops between 2020–2022. 27,033 rows. Anonymized data with demographic information intact.
+
+A data dictionary can be found attached to this subsequent request: https://www.muckrock.com/foi/pittsburgh-130/q1-2023-traffic-stops-144011/
 ",Stops,https://www.muckrock.com/foi/pittsburgh-130/traffic-stops-140596/,['recxUlLdt3Wwov6P1'],False,"City of Pittsburgh Department of Law
 ",True,,,2020-01-01 00:00:00,2022-12-30 00:00:00,2022-12-30 00:00:00,,Individual record,,2.7MB,['Web page'],True,MuckRock,,,['XLS'],,No updates,,,['traffic'],
 Officer Involved Shootings for Los Angeles County Sheriff's Department - CA,,,Officer Involved Shootings,https://services.arcgis.com/RmCCgQtiZLDCtblq/arcgis/rest/services/Sheriff_Hit_Shooting_Incidents_and_Non_Hit_Shooting_Incidents_2010_to_Present/FeatureServer/0,['recORZJTseJPLKsIl'],True,,,,,2010-01-14 00:00:00,,,,,,,['API'],True,ArcGIS,,,['GIS / Shapefile'],,,,,[],
@@ -410,6 +416,9 @@ Officer Involved Shootings for Philadelphia Police Department - PA,,,Officer Inv
 Arrest Records for Wichita Police Department - KS,,,Arrest Records,https://www.wichita.gov/WPD/Pages/PublicRelations.aspx,['recTfxDdANAoFK39R'],True,,,,,2018-01-01 00:00:00,,,,Individual record,,,,True,,,,['PDF'],<2 Weeks,,,,[],
 Use of Force Reports for Newark Police Department - NJ,,,Use of Force Reports,https://npd.newarkpublicsafety.org/statistics/transparency,['recokZNFBjC0IhPUq'],True,,,,,2022-01-01 00:00:00,,,,Summarized totals,,,['Web page'],True,,,,[],Monthly,,,,[],
 Complaints & Misconduct for New Orleans Police Department - LA,,,Complaints & Misconduct,https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-Misconduct-Complaints/gz2m-ef5u,['rec0cHhCkS656IOeX'],True,,,,,2016-01-01 00:00:00,,,,Individual record,,,,True,,,,['CSV'],<2 Weeks,,,,[],
+Woke Windows Boston PD collection,Woke Windows Boston PD collection,"This is a community-led project focused on investigating officer activities. Citations, Complaints, Officers, Contributions, Field Contacts, and Overtimes are all present.
+",List of Data Sources,https://www.wokewindows.org/exports,['recoah8hN98lDiC4L'],False,"Woke Windows Project https://www.wokewindows.org/
+",True,,,2001-01-01 00:00:00,,,,Individual record,,,['Web page'],,,,,"['CSV', 'HTML table']",,Append,,,[],https://www.wokewindows.org/data_sources
 Daily Blotter,Daily Blotter,"PDFs of daily police blotter.
 ",Calls for Service,https://beaconny.gov/index.php/beacon-police-department-daily-blotter/,['recmNd5AS4J9cJGYy'],True,,,,,2020-09-03 00:00:00,,2022-09-19 00:00:00,,Individual record,860,86 MB,['Web page'],True,Other,,,['PDF: Machine Created'],daily,Append,newest first,,[],
 Use of Force Reports for Cincinnati Police Department - OH,,,Use of Force Reports,https://insights.cincinnati-oh.gov/stories/s/quk6-rcaw,['reckfmcGwQJErdkkT'],True,,,,,2016-01-01 00:00:00,,,,Summarized totals,,,['API'],True,,,,[],Monthly,,,,[],
@@ -424,6 +433,9 @@ Stops for St. Paul Police Department - MN,,"Traffic stops.
 Warden's Report for Jail Oversight Board Meeting December 2022,Warden's Report for Jail Oversight Board Meeting December 2022,"A scanned PDF of notes prepared for the monthly JOB meeting. 11 pages.
 ",Annual & Monthly Reports,https://www.documentcloud.org/documents/23577766-january-2023-warden-report,['recNjgPW5kD573LeK'],False,"PDAP <https://pdap.io>
 ",True,,,2022-11-16 00:00:00,2022-12-15 00:00:00,2022-12-29 00:00:00,,,1,,['Web page'],True,DocumentCloud,,,['PDF: Scanned'],,,,,[],
+Pittsburgh Police Complaints and Disciplinary Actions 2013-2022,Pittsburgh Police Complaints and Disciplinary Actions 2013-2022,"This news article contains several data tables. Most useful are the two near the bottom. ""Pittsburgh Police Disciplinary Action Report data 2013-2022"" and ""Pittsburgh Office of Municipal Investigations police-related complaint data 2013-2022"". Both are in paginated HTML tables and can be downloaded as a CSV by clicking a ""Get the data"" link.
+",Complaints & Misconduct,https://www.publicsource.org/pittsburgh-bureau-police-discipline-complaints-disciplinary-matrix-new-chief/,['recxUlLdt3Wwov6P1'],False,"Public Source https://www.publicsource.org/
+",True,,,2013-01-01 00:00:00,2022-12-31 00:00:00,,,Aggregated records,,,['Web page'],True,,,,"['CSV', 'HTML table']",Annually,,,,[],
 Calls for Service for Oakland Police Department - CA,,"GIS map and accompanying table updated every 48 hours. Calls older than that may be removed. Archives accessible via the linked scraper.
 ",Calls for Service,http://gisapps1.mapoakland.com/callsforservice/ ,['recncupgm6l7tzbqT'],True,,,,,,,,Past 1–2 days ,Individual record,,,['API'],,ArcGIS,Other,"The [ArcGIS/Esri REST API](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/common/base_scrapers/esri/esri_process.md) process can be used on this URL: <http://gismaps.oaklandca.gov/oaklandgis/rest/services/callforservice_2015_FC/FeatureServer/0>
 ",['HTML table'],Daily,,,,[],
@@ -1033,6 +1045,8 @@ Crime Statistics for Fresno Police Department - CA,,,Crime Statistics,https://ww
 Press Releases,Press Releases,,Media Bulletins,https://www.dutchessny.gov/Departments/Sheriff/sheriff-news-releases.htm,['recu1jS3ckc7n2oUx'],True,,,,,2014-01-08 00:00:00,,2022-09-19 00:00:00,,Individual record,100,,['Web page'],,,,,['HTML text'],weekly or more often,Append,newest first,,[],
 Disciplinary handbook for Denver PD,Disciplinary handbook for Denver PD,"111-page PDF detailing disciplinary policy.
 ",Policies & Contracts,https://www.denvergov.org/files/assets/public/police-department/documents/discipline-handbook/discipline-handbook.pdf,['rec09zJG7sRXlxNva'],True,,,,,,,,,Individual record,,,['Direct download'],True,,,,['PDF: Machine Created'],,,,,[],
+Pittsburgh Traffic Stops Q1 2023,Pittsburgh Traffic Stops Q1 2023,"City of Pittsburgh response to a Right to Know Law request for traffic stops in the first quarter of 2023. Includes a data dictionary. 2,062 rows. Anonymized data with demographic information intact.
+",Stops,https://www.muckrock.com/foi/pittsburgh-130/q1-2023-traffic-stops-144011/,['recxUlLdt3Wwov6P1'],True,,,,,2023-01-01 00:00:00,2023-03-30 00:00:00,,,Aggregated records,,,['Web page'],True,,,,['XLS'],,No updates,,,[],
 Stops for Memphis Police Department - TN,,,Stops,,['rec6lwwXGqeoMIJ9z'],True,,,,,,,,,,,,,,,,,[],,,,,[],
 Incident Reports for Pittsfield Police Department - MA,,,Incident Reports,https://www.pittsfieldpd.org/open-data-portal/,['rece1UqOEml0RGEhV'],True,,,,,2014-01-01 00:00:00,2021-12-31 00:00:00,,,,,,['Web page'],True,,,,['XLS'],,,,,['crashes'],
 Citations for Fort Lauderdale Police Department - FL,,,Citations,https://fortlauderdale.data.socrata.com/stories/s/Datasets/u4dm-3u2d/,['recgZbmQbysuajzfd'],True,,,,,2002-01-22 00:00:00,,,,,,,['API'],True,Socrata,,,['JSON'],,,,,['traffic'],
@@ -1366,6 +1380,10 @@ Contact Info & Agency Meta for Jackson Police Department - MS,,,Contact Info & A
 Officer Involved Shootings for Philadelphia Police Department - PA,,,Officer Involved Shootings,https://www.opendataphilly.org/dataset/shooting-victims,['recRvBpZqXM8mjddz'],True,,,,,2015-02-04 00:00:00,,,,,,,['API'],True,Carto,,,['JSON'],,,,,[],
 Officer Involved Shootings for Charlotte-Mecklenburg Police Department - NC,,,Officer Involved Shootings,https://data.charlottenc.gov/datasets/cmpd-officer-involved-shootings-incidents-1/explore?showTable=true,['reco9uv3qebC6UdmP'],True,,,,,2005-01-01 00:00:00,2022-12-31 00:00:00,,,Individual record,,,['API'],True,,,,[],Annually,,,,[],
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.denvergov.org/content/dam/denvergov/Portals/720/documents/OperationsManual/OMSBook/OM_Book.pdf,['rec09zJG7sRXlxNva'],True,,,,,,,,,,,,,True,,,,[],,,,,[],
+BPD Watch officers and incidents,BPD Watch officers and incidents,"Community-compiled database of Baltimore Police officers and incidents.
+",Personnel Records,https://bpdwatch.com/browse,['recScO6h3Gt8BatgD'],False,"BPD Watch https://bpdwatch.com/
+",False,"Community-sourced and submitted to BPD Watch
+",,2018-05-03 00:00:00,2021-11-18 00:00:00,,,Aggregated records,,,['Web page'],True,,,,"['HTML table', 'CSV', 'XLS', 'Video / Image']",,No updates,,,[],
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.boston.gov/news/boston-police-department-police-reform-policy-update,['rec3G8tNUNHgBUhd8'],True,,,,,,,,,,,,,,,,,[],,,,,[],
 Officer Involved Shootings for Metropolitan Nashville Police Department - TN,,,Officer Involved Shootings,,['rec6qxEjIGfHANoBd'],True,,,,,,,,,,,,,,,,,[],none,,,,[],
 Use of Force Policy,Use of Force Policy,,Policies & Contracts,https://www.kcpd.org/media/3251/pi-21-01-response-to-resistance-2221.pdf,['reccamf6BHYYHmFDn'],True,,,,,,,,,,,,,True,,,,[],,,,,[],
@@ -1536,6 +1554,9 @@ Complaints & Misconduct for Los Angeles Police Department - CA,,,Complaints & Mi
 API Information,API Information,,List of Data Sources,,['recyttVYM3YNTp5QN'],True,,,,,,,,,,,,,,,,,[],,,,,[],
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://public.powerdms.com/MESAPD/tree,['recOrC5Wf0RkcLHPG'],True,,,,,,,,,,,,,,,,,[],,,,,[],
 Complaints & Misconduct for Detroit Police Department - MI,,,Complaints & Misconduct,,['recsCx4e70CrvOc2X'],True,,,,,,,,,,,,,,,,,[],,,,,[],
+National Police Funding Database,National Police Funding Database,"An independent database of police budgets & support from federal grants, military equipment, consent decrees, and legal settlements.
+",Budgets & Finances,https://policefundingdatabase.org/explore-the-database/find-a-location/,['recdokcmI0N0lJw2b'],False,"LDF's Thurgood Marshall Institute https://tminstituteldf.org/
+",True,,,,,,,Summarized totals,,,['Web page'],True,,,,"['CSV', 'HTML table', 'Dashboard / Visualization']",,Insert,,,[],https://policefundingdatabase.org/explore-the-database/using-the-dashboards/
 Annual & Monthly Reports for Citrus College Campus Safety - CA,,,Annual & Monthly Reports,https://www.citruscollege.edu/campussafety/Pages/AnnualReports.aspx,['recG49WuJr0PMD27d'],True,,,,,2020-01-01 00:00:00,,,,,,,,,,,,[],annually,,,,[],
 Stops for Austin Police Department - TX,,"Traffic stops.
 ",Stops,data.austintexas.gov/resource/c65h-gw3m.json,['rec4sEAPcstcFaxeM'],True,,,,,2020-01-01 00:00:00,2020-12-31 00:00:00,,,,,,['API'],True,Socrata,,,"['JSON', 'CSV']",,,,,['traffic'],https://data.austintexas.gov/Public-Safety/2020-Racial-Profiling-RP-Guide/64yt-89ub
@@ -1547,6 +1568,9 @@ Data source list for Madison PD,Data source list for Madison PD,"A page of links
 ",List of Data Sources,https://www.cityofmadison.com/police/data/,['recWH4WH2iI7bd0iD'],True,,,,,,,,,Individual record,,,['Web page'],,,,,['HTML text'],,,,,[],
 Contact Info & Agency Meta for Miami-Dade Police Department - FL,,,Contact Info & Agency Meta,https://www.miamidade.gov/global/police/contact-police.page,['recOc0KkWA2SnMFYJ'],True,,,,,,,,,,,,,,,,,[],,,,,[],
 List of Data Sources for Los Angeles Police Department - CA,,,List of Data Sources,https://data.lacity.org/browse?category=Public+Safety&limitTo=datasets,['rec72qU5SjuqNmKBx'],True,,,,,,,,,,,,['Web page'],,,,,['HTML text'],,,,,[],https://data.lacity.org/Public-Safety/Vehicle-and-Pedestrian-Stop-Data-2010-to-Present/ci25-wgt7
+50-a NYPD misconduct database,50-a NYPD misconduct database,"50-a.org is a searchable website of NYC Civilian Complaint Review Board and related public NYPD data.
+",Complaints & Misconduct,https://www.50-a.org/,['recs9GgulhKtr0mey'],False,"50-a https://www.50-a.org/
+",True,,,2000-01-01 00:00:00,,,,Aggregated records,,,['Web page'],True,,,,['CSV'],Daily,,newest first,,[],https://www.50-a.org/about
 Calls for Service for Fishers Police Department - IN,,,Calls for Service,https://cityprotect.com/agency/70d8655a-838f-466e-8451-9d21177cbd04,['recXRY2eLJXn8uTf7'],False,,,,,2017-01-01 00:00:00,,,,,,,,,CityProtect,,,[],quarterly,,,,[],
 Calls for Service for San Jose Police Department - CA,,,Calls for Service,https://data.sanjoseca.gov/dataset/police-calls-for-service,['recQuWrNs4zJWIKzm'],True,,,,,2014-01-01 00:00:00,,,,,,,['Web page'],True,,,,['CSV'],,,,,[],
 Crime Maps & Reports for Charleston Police Department - WV,,,Crime Maps & Reports,,['reciGRFmQ8wyX4U9c'],True,,,,,,,,,,,,,,,,,[],,,,,[],
@@ -1787,7 +1811,7 @@ Officer Involved Shootings for Minneapolis Police Department - MN,,,Officer Invo
 Westland Police Crime Map,Westland Police Crime Map,"A map of Reported Incidents in Westland with details about each incident. The details include a short description, the date/location, and the incident number.
 ",Crime Statistics,https://www.crimemapping.com/map/agency/405,['recUA2egBydYJ6hKp'],False,,True,,,2022-03-24 00:00:00,,2022-09-18 00:00:00,180 Days,Individual record,631,,['Web page'],,,,,['Dashboard / Visualization'],Daily,Not sure,newest first,,[],
 Draft Jail Oversight Board meeting minutes 12/1/2022,Draft Jail Oversight Board meeting minutes 12/1/2022,"Allegheny County Jail's Jail Oversight Board's meeting minutes for December 1, 2022. 255 pages.
-",Other,https://www.documentcloud.org/documents/23577767-draft-job-meeting-minutes-december-1-2022,['recNjgPW5kD573LeK'],False,"PDAP <https://pdap.io>
+",Annual & Monthly Reports,https://www.documentcloud.org/documents/23577767-draft-job-meeting-minutes-december-1-2022,['recNjgPW5kD573LeK'],False,"PDAP <https://pdap.io>
 ",True,,,2022-12-31 00:00:00,2022-12-31 00:00:00,,,,1,,['Web page'],True,DocumentCloud,,,['PDF: Machine Created'],,,,,[],
 Use of Force Reports for Saint Louis County Police Department - MO,,,Use of Force Reports,https://data-stlcogis.opendata.arcgis.com/apps/st-louis-county-police-department-uses-of-force/explore,['recUHGnbrW8IuuafX'],True,,,,,2018-01-01 00:00:00,2021-12-31 00:00:00,,,Summarized totals,,,['API'],,,,,[],Annually,,,,[],
 Crime Statistics for Louisville Metro Police Department - KY,,,Crime Statistics,https://data.louisvilleky.gov/dataset/crime-reports,['recAGAe57BJc0uH3Y'],True,,,,,2003-01-01 00:00:00,2021-12-31 00:00:00,,,Individual record,,,,True,,,,['CSV'],Annually,,,,[],
@@ -1830,6 +1854,9 @@ Calls for Service for El Paso Police Department - TX,,,Calls for Service,https:/
 Ottumwa Courier police and sheriff records,Ottumwa Courier police and sheriff records,"Public newspaper website with limited views that can be bypassed with 12ft.io. Shows names of those arrested, charges, dates, times and locations. Records for Ottumwa and Centerville Iowa police and sheriff, along with smaller surrounding towns under each jurisdiction.
 ",Arrest Records,https://www.ottumwacourier.com/news/record/,['recQnkT68y9JT2JYl'],False,"Ottumwa Courier newspaper: https://www.ottumwacourier.com/
 ",,,,,,2022-08-03 00:00:00,,,,,['Web page'],,,,,[],About weekly at least,,oldest first,,[],
+Maryland Case Explorer,Maryland Case Explorer,"A community project to scrape the [Maryland Judiciary Case Search](https://casesearch.courts.state.md.us/casesearch/inquiry-index.jsp) (MJCS) and build a near-complete database of Maryland court cases that can be queried and analyzed without the limitations of the MJCS interface.
+",Court Cases,https://mdcaseexplorer.com/,['recqwSLbS6s5n4EnF'],False,"Open Justice Baltimore https://openjusticebaltimore.org/
+",True,,,1907-08-27 00:00:00,,,,Aggregated records,,,"['Web page', 'API']",True,,,,"['CSV', 'HTML table']",Daily,Insert,newest first,,[],https://github.com/dismantl/CaseHarvester
 API Information,API Information,,List of Data Sources,https://transparency.jaxsheriff.org/,['recnM8KygH68vlnj0'],True,,,,,,,,,,,,,,Department,,,[],,,,,[],
 Crime Statistics for Chicago Police Department - IL,,,Crime Statistics,https://home.chicagopolice.org/statistics-data/crime-statistics/,['recv9fMNEQTbVarj2'],True,,,,,2018-01-01 00:00:00,,,,Summarized totals,,,,True,,,,['PDF'],<2 Weeks,,,,[],
 Use of Force Reports for Austin Police Department - TX,,,Use of Force Reports,data.austintexas.gov/resource/5evd-3tba.json,['rec4sEAPcstcFaxeM'],True,,,,,2017-01-01 00:00:00,2017-12-31 00:00:00,,,,,,['API'],True,Socrata,,,"['JSON', 'CSV']",,,,,[],https://data.austintexas.gov/Public-Safety/GUIDE-2017-R2R/27tg-e4dt
@@ -2129,6 +2156,9 @@ Contact Info & Agency Meta for Memphis Police Department - TN,,,Contact Info & A
 Officer Involved Shootings for Boston Police Department - MA,,,Officer Involved Shootings,,['rec3G8tNUNHgBUhd8'],True,,,,,,,,,,,,,,,,,[],none,,,,[],
 Contact Info & Agency Meta for Salt Lake City Police Department - UT,,,Contact Info & Agency Meta,http://www.slcpd.com/contact-us/,['rec3BZ9BPYAGNSkxD'],True,,,,,,,,,,,,,,,,,[],,,,,[],
 Operations Manuals,Operations Manuals,,Policies & Contracts,https://www.kcpd.org/transparency/policies-and-procedures/,['reccamf6BHYYHmFDn'],True,,,,,,,,,,,,,,,,,[],,,,,[],
+The Mass Dump public records database,The Mass Dump public records database,"Records about mostly Brady lists, internal affairs documents, and other records of misconduct about agencies in Massachusetts.
+",List of Data Sources,https://qmr.news/public-records/,['recFzKpFzoJkmR8RA'],False,"Andrew Quemere https://qmr.news/
+",True,,,2015-07-10 00:00:00,,,,Individual record,,,['Web page'],True,,,,"['PDF: Machine Created', 'PDF: Scanned', 'XLS', 'DOC / TXT']",,Append,oldest first,,[],
 Crime Statistics for Washington Metropolitan Police Department - DC,,,Crime Statistics,https://opendata.dc.gov/search?collection=Dataset&q=crime%20incidents,['recNNfzh6R2eGptZv'],True,,,,,2008-01-01 00:00:00,,,,Individual record,,,['API'],True,,,,[],<2 Weeks,,,,[],
 Accident Reports for Brunswick Police Department - GA,,,Accident Reports,https://buycrash.lexisnexisrisk.com/,['rec0pJjdo7TEmD7Af'],False,,,,,,,,,,,,,,LexisNexis,,,[],,,,,[],
 Use of Force Reports for El Paso Police Department - TX,,,Use of Force Reports,https://www.elpasotexas.gov/police-department/about-us/annual-report/,['recJ6eSEdvYpaReDM'],True,,,,,2004-01-01 00:00:00,2020-12-31 00:00:00,,,Summarized totals,,,,True,,,,['PDF'],none,,,,[],
