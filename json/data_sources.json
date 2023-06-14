@@ -6385,53 +6385,6 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
-            "name": "Aurora Police Department - CO",
-            "submitted_name": "Aurora Police Department",
-            "homepage_url": "https://www.auroragov.org/residents/public_safety/police",
-            "jurisdiction_type": "local",
-            "state_iso": "CO",
-            "municipality": "Aurora",
-            "county_fips": "08005",
-            "county_name": [
-                "Arapahoe"
-            ],
-            "lat": 39.71186,
-            "lng": -104.81336,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": "2011-01-01 00:00:00",
-        "coverage_end": "2020-12-31 00:00:00",
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": "Summarized totals",
-        "name": "Complaints & Misconduct for Aurora Police Department - CO",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": true,
-        "record_format": [
-            "PDF"
-        ],
-        "record_type": "Complaints & Misconduct",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": "https://www.auroragov.org/cms/One.aspx?portalId=16242704&pageId=16573554",
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": "Annually",
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
         "access_type": [
             "Web page"
         ],
@@ -11144,51 +11097,6 @@
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
-            "name": "Atlanta Police Department - GA",
-            "submitted_name": "Atlanta Police Department",
-            "homepage_url": "https://www.atlantapd.org/",
-            "jurisdiction_type": "local",
-            "state_iso": "GA",
-            "municipality": "Atlanta",
-            "county_fips": "13121",
-            "county_name": [
-                "Fulton"
-            ],
-            "lat": 33.760303,
-            "lng": -84.54082,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": "2009-01-01 00:00:00",
-        "coverage_end": null,
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": null,
-        "name": "Calls for Service for Atlanta Police Department - GA",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": null,
-        "record_format": [],
-        "record_type": "Calls for Service",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": "https://www.atlantapd.org/i-want-to/crime-data-downloads",
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": "daily",
         "update_method": null
     },
     {
@@ -24054,53 +23962,6 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
-        "access_type": [
-            "API"
-        ],
-        "agency_described": {
-            "name": "Boston Police Department - MA",
-            "submitted_name": "Boston Police Department",
-            "homepage_url": "https://bpdnews.com/",
-            "jurisdiction_type": "local",
-            "state_iso": "MA",
-            "municipality": "Jamaica Plain",
-            "county_fips": "25025",
-            "county_name": [
-                "Suffolk"
-            ],
-            "lat": 42.3097,
-            "lng": -71.1046,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": "2015-01-01 00:00:00",
-        "coverage_end": null,
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": "Individual record",
-        "name": "Crime Statistics for Boston Police Department - MA",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": true,
-        "record_format": [],
-        "record_type": "Crime Statistics",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system",
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": "<2 Weeks",
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Oklahoma City Police Department - OK",
@@ -26902,53 +26763,6 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
-        "access_type": [
-            "Web page"
-        ],
-        "agency_described": {
-            "name": "Baltimore Police Department - MD",
-            "submitted_name": "Baltimore Police Department",
-            "homepage_url": "https://www.baltimorepolice.org/",
-            "jurisdiction_type": "local",
-            "state_iso": "MD",
-            "municipality": "Baltimore",
-            "county_fips": "24005",
-            "county_name": [
-                "Baltimore"
-            ],
-            "lat": null,
-            "lng": null,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": "2017-01-01 00:00:00",
-        "coverage_end": "2021-12-31 00:00:00",
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": "Summarized totals",
-        "name": "Use of Force Reports for Baltimore Police Department - MD",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": null,
-        "record_format": [],
-        "record_type": "Use of Force Reports",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": "https://app.powerbigov.us/view?r=eyJrIjoiYmJjZmUwMTEtODY2NS00MGEyLWI0YTctYTVlYzkzYWNlODc3IiwidCI6Ijk0NGZhOWJhLTg0NTQtNDEzZC1iOWU2LWJmNDBhZjFkNmE5YiJ9&pageName=ReportSection2544927b6a86287348d3",
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": "none",
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Miami-Dade Police Department - FL",
@@ -28525,17 +28339,19 @@
         "agency_originated": null,
         "agency_supplied": true,
         "agency_aggregation": null,
-        "coverage_start": null,
-        "coverage_end": null,
+        "coverage_start": "2011-01-01 00:00:00",
+        "coverage_end": "2020-12-31 00:00:00",
         "data_portal_type": null,
         "description": null,
-        "detail_level": null,
+        "detail_level": "Summarized totals",
         "name": "Annual & Monthly Reports for Aurora Police Department - CO",
         "number_of_records_available": null,
         "originating_entity": null,
         "readme_url": null,
         "record_download_option_provided": null,
-        "record_format": [],
+        "record_format": [
+            "PDF"
+        ],
         "record_type": "Annual & Monthly Reports",
         "retention_schedule": null,
         "size": null,
@@ -28545,7 +28361,7 @@
         "submitted_name": null,
         "supplying_entity": null,
         "tags": [],
-        "update_frequency": null,
+        "update_frequency": "Annually",
         "update_method": null
     },
     {
@@ -52192,6 +52008,53 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
+        "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Arkansas Aggregated - AR",
+            "submitted_name": "Arkansas Aggregated",
+            "homepage_url": null,
+            "jurisdiction_type": "state",
+            "state_iso": "AR",
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": null,
+        "agency_supplied": true,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "Crime statistics and related information about the state of Arkansas from the Department of Public Safety.\n",
+        "detail_level": "Individual record",
+        "name": "Arkansas Crime Information Center",
+        "number_of_records_available": null,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": null,
+        "record_format": [
+            "HTML text"
+        ],
+        "record_type": "List of Data Sources",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://www.dps.arkansas.gov/crime-info-support/arkansas-crime-information-center/",
+        "submitted_name": "Arkansas Crime Information Center",
+        "supplying_entity": null,
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
             "name": "Indianapolis Police - IN",
@@ -56518,53 +56381,6 @@
         "supplying_entity": null,
         "tags": [],
         "update_frequency": "annually",
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
-            "name": "Aurora Police Department - CO",
-            "submitted_name": "Aurora Police Department",
-            "homepage_url": "https://www.auroragov.org/residents/public_safety/police",
-            "jurisdiction_type": "local",
-            "state_iso": "CO",
-            "municipality": "Aurora",
-            "county_fips": "08005",
-            "county_name": [
-                "Arapahoe"
-            ],
-            "lat": 39.71186,
-            "lng": -104.81336,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": "2016-01-01 00:00:00",
-        "coverage_end": "2020-12-31 00:00:00",
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": "Summarized totals",
-        "name": "Use of Force Reports for Aurora Police Department - CO",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": true,
-        "record_format": [
-            "PDF"
-        ],
-        "record_type": "Use of Force Reports",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": "https://www.auroragov.org/cms/One.aspx?portalId=16242704&pageId=16573554",
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": "Annually",
         "update_method": null
     },
     {
@@ -70503,6 +70319,54 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "United States Aggregated",
+            "submitted_name": "United States Aggregated",
+            "homepage_url": "https://www.usa.gov/",
+            "jurisdiction_type": "federal",
+            "state_iso": null,
+            "municipality": null,
+            "county_fips": null,
+            "county_name": null,
+            "lat": null,
+            "lng": null,
+            "defunct_year": null
+        },
+        "agency_originated": false,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": null,
+        "coverage_end": null,
+        "data_portal_type": null,
+        "description": "National open-source database of police technology compiled through crowdsourcing.\n",
+        "detail_level": "Individual record",
+        "name": "Atlas of Surveillance",
+        "number_of_records_available": null,
+        "originating_entity": "Varies; often news articles or FOIA requests\n",
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "CSV",
+            "HTML text"
+        ],
+        "record_type": "Misc Police Activity",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://atlasofsurveillance.org/",
+        "submitted_name": "Atlas of Surveillance",
+        "supplying_entity": "Atlas of Surveillance, by the Electronic Frontier Foundation https://www.eff.org/\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "API"
         ],
         "agency_described": {
@@ -74823,51 +74687,6 @@
         "tags": [
             "traffic"
         ],
-        "update_frequency": null,
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
-            "name": "Alameda Police Department - CA",
-            "submitted_name": "Alameda Police Department",
-            "homepage_url": "https://www.facebook.com/AlamedaPD/",
-            "jurisdiction_type": "local",
-            "state_iso": "CA",
-            "municipality": "Alameda",
-            "county_fips": "06001",
-            "county_name": [
-                "Alameda"
-            ],
-            "lat": 37.76706,
-            "lng": -122.24303,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": null,
-        "coverage_end": null,
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": null,
-        "name": "List of Data Sources for Alameda Police Department - CA",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": null,
-        "record_format": [],
-        "record_type": "List of Data Sources",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": "https://www.alamedaca.gov/Departments/Police-Department/Crime-Activity",
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
         "update_frequency": null,
         "update_method": null
     },
@@ -83476,53 +83295,6 @@
     {
         "access_restrictions": null,
         "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
-            "name": "Bakersfield Police Department - CA",
-            "submitted_name": "Bakersfield Police Department",
-            "homepage_url": "https://bakersfieldcity.us/gov/depts/police/",
-            "jurisdiction_type": "local",
-            "state_iso": "CA",
-            "municipality": "Bakersfield",
-            "county_fips": "06029",
-            "county_name": [
-                "Kern"
-            ],
-            "lat": 35.373096,
-            "lng": -119.02057,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": "2015-01-01 00:00:00",
-        "coverage_end": "2018-12-31 00:00:00",
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": "Summarized totals",
-        "name": "Complaints & Misconduct for Bakersfield Police Department - CA",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": true,
-        "record_format": [
-            "PDF"
-        ],
-        "record_type": "Complaints & Misconduct",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": "https://www.bakersfieldcity.us/483/Statistics-Data",
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": "none",
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
         "access_type": [
             "Web page"
         ],
@@ -86199,51 +85971,6 @@
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
-            "name": "Atlanta Police Department - GA",
-            "submitted_name": "Atlanta Police Department",
-            "homepage_url": "https://www.atlantapd.org/",
-            "jurisdiction_type": "local",
-            "state_iso": "GA",
-            "municipality": "Atlanta",
-            "county_fips": "13121",
-            "county_name": [
-                "Fulton"
-            ],
-            "lat": 33.760303,
-            "lng": -84.54082,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": "2011-01-01 00:00:00",
-        "coverage_end": null,
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": null,
-        "name": "List of Data Sources for Atlanta Police Department - GA",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": null,
-        "record_format": [],
-        "record_type": "List of Data Sources",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": "https://www.atlantapd.org/i-want-to/crime-data-downloads",
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": "weekly",
         "update_method": null
     },
     {
@@ -89481,53 +89208,6 @@
         "access_restrictions_notes": null,
         "access_type": null,
         "agency_described": {
-            "name": "San Francisco Police Department - CA",
-            "submitted_name": "San Francisco Police Department",
-            "homepage_url": "https://www.sanfranciscopolice.org/stations/central-station",
-            "jurisdiction_type": "local",
-            "state_iso": "CA",
-            "municipality": "San Francisco",
-            "county_fips": "06075",
-            "county_name": [
-                "San Francisco"
-            ],
-            "lat": 37.744427,
-            "lng": -122.44138,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": "2016-01-01 00:00:00",
-        "coverage_end": "2020-12-31 00:00:00",
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": "Summarized totals",
-        "name": "Arrest Records for San Francisco Police Department - CA",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": true,
-        "record_format": [
-            "PDF"
-        ],
-        "record_type": "Arrest Records",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": "https://www.sanfranciscopolice.org/your-sfpd/published-reports/arrests-use-force-and-stop-data-admin-code-96a",
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": "Annually",
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
             "name": "West Linn Police Department - OR",
             "submitted_name": "West Linn Police Department",
             "homepage_url": "http://westlinnoregon.gov/police",
@@ -91898,6 +91578,55 @@
         "access_restrictions": null,
         "access_restrictions_notes": null,
         "access_type": [
+            "Web page"
+        ],
+        "agency_described": {
+            "name": "Pittsburgh Bureau of Police - PA",
+            "submitted_name": "Pittsburgh Bureau of Police",
+            "homepage_url": "http://pittsburghpa.gov/police/",
+            "jurisdiction_type": "local",
+            "state_iso": "PA",
+            "municipality": "Pittsburgh",
+            "county_fips": "42003",
+            "county_name": [
+                "Allegheny"
+            ],
+            "lat": 40.450523,
+            "lng": -80.02128,
+            "defunct_year": null
+        },
+        "agency_originated": true,
+        "agency_supplied": false,
+        "agency_aggregation": null,
+        "coverage_start": "2023-01-01 00:00:00",
+        "coverage_end": "2025-12-31 00:00:00",
+        "data_portal_type": null,
+        "description": "A scanned PDF of a notice to Mayor Gainey of the tentative agreement signed between the Pittsburgh Fraternal Order of Police and the city of Pittsburgh. Lays out changes made to the existing police contract which will then be converted to a full contract document.\n\nAttachments: Tentative Agreement signed February 27, 2023; Disciplinary Matrix Appendix; Disciplinary Terminable Offenses Appendix; Tentative Agreements June 2022\n",
+        "detail_level": "Individual record",
+        "name": "2023\u20132025 police contract Tentative Agreement",
+        "number_of_records_available": 1,
+        "originating_entity": null,
+        "readme_url": null,
+        "record_download_option_provided": true,
+        "record_format": [
+            "PDF: Scanned"
+        ],
+        "record_type": "Policies & Contracts",
+        "retention_schedule": null,
+        "size": null,
+        "sort_method": null,
+        "source_last_updated": null,
+        "source_url": "https://apps.pittsburghpa.gov/redtail/images/20764_2023_2025_CONTRACT_RATIFICATION_.pdf",
+        "submitted_name": "2023\u20132025 police contract Tentative Agreement",
+        "supplying_entity": "City of Pittsburgh\n",
+        "tags": [],
+        "update_frequency": null,
+        "update_method": null
+    },
+    {
+        "access_restrictions": null,
+        "access_restrictions_notes": null,
+        "access_type": [
             "Direct download",
             "Web page"
         ],
@@ -92461,53 +92190,6 @@
         "supplying_entity": null,
         "tags": [],
         "update_frequency": null,
-        "update_method": null
-    },
-    {
-        "access_restrictions": null,
-        "access_restrictions_notes": null,
-        "access_type": null,
-        "agency_described": {
-            "name": "Arlington Police Department - TX",
-            "submitted_name": "Arlington Police Department",
-            "homepage_url": null,
-            "jurisdiction_type": "local",
-            "state_iso": "TX",
-            "municipality": "Arlington",
-            "county_fips": "48439",
-            "county_name": [
-                "Tarrant"
-            ],
-            "lat": null,
-            "lng": null,
-            "defunct_year": null
-        },
-        "agency_originated": null,
-        "agency_supplied": true,
-        "agency_aggregation": null,
-        "coverage_start": "2014-01-01 00:00:00",
-        "coverage_end": "2021-12-31 00:00:00",
-        "data_portal_type": null,
-        "description": null,
-        "detail_level": "Individual record",
-        "name": "Officer Involved Shootings for Arlington Police Department - TX",
-        "number_of_records_available": null,
-        "originating_entity": null,
-        "readme_url": null,
-        "record_download_option_provided": true,
-        "record_format": [
-            "PDF"
-        ],
-        "record_type": "Officer Involved Shootings",
-        "retention_schedule": null,
-        "size": null,
-        "sort_method": null,
-        "source_last_updated": null,
-        "source_url": "https://www.arlingtontx.gov/city_hall/departments/police/reporting/use_of_force_report",
-        "submitted_name": null,
-        "supplying_entity": null,
-        "tags": [],
-        "update_frequency": "Annually",
         "update_method": null
     },
     {
