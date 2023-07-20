@@ -3,7 +3,8 @@ name: Mirror Airtable data
 
 on:
   schedule:
-  - cron: "23 0 * * 4"
+    
+  - cron: "0 8 * * *" #ER: changed it to update every day at 8AM
   workflow_dispatch:
 
 jobs:

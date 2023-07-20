@@ -9,6 +9,7 @@ import os
 
 # third-party imports
 from pyairtable import Table
+from supabase import create_client #ER: added
 
 Sheet = namedtuple("Sheet", ['headers', 'rows'])
 
@@ -54,6 +55,7 @@ def process_data(table_name, data):
 
 def process_agencies(data):
     processed = []
+   
     # doing this here because we only need to do it for agencies and
     # only want to do it after we know there's agencies data
     counties = prep_counties()
@@ -94,12 +96,14 @@ def process_agencies(data):
         }
 
         processed.append(row)
+        
 
     return processed
 
 
 def process_sources(data):
     processed = []
+
     for source in data:
         # TODO: handle cases where there is more than one item in the list
         agency_linked = source.get("agency_described_linked_uid", None)
@@ -187,7 +191,7 @@ def process_sources(data):
             "update_method": update_method,
         }
 
-        processed.append(row)
+        processed.append(row) 
 
     return processed
 
@@ -280,7 +284,7 @@ def prep_counties():
 
 
 def write_csv(data_package, location):
-    with open(location, "w") as f:
+    with open(location, "w") as f: #ER: may need to add encoding
         writer = csv.DictWriter(f, fieldnames=data_package.headers)
         writer.writeheader()
         writer.writerows(data_package.rows)
@@ -328,6 +332,38 @@ def setup_json(data_dict):
 def search_agencies(agency_id, agencies):
     return next(a for a in agencies if a.get("airtable_uid", None) == agency_id)
 
+#ER Added:
+def connect_supabase(processed_data, table_name):
+    #get records
+    processed_records = processed_data[1]
+
+    #Get supabase key & url to create client
+    url = os.environ.get("SUPABASE_URL") # change to real URL
+    key = os.environ.get("SUPABASE_KEY") # change to real KEY
+    supabase = create_client(url, key)
+
+    #update supabase for agencies:
+    if table_name == AGENCIES_TABLE_NAME:
+        print("Updating the ", table_name, " table...")
+        for record in processed_records:
+            data = supabase.table(table_name).upsert(record).execute()
+
+    #update supabase for data sources
+    elif table_name == SOURCES_TABLE_NAME:
+        print("Updating the ", table_name, " table...")
+        #Convert datetimes to strings but NOT the None values so supabase can read it:
+        for record in processed_records:
+            if record['source_last_updated'] != None:
+                record['source_last_updated'] = str(record['source_last_updated'])
+            if record['coverage_start'] != None:
+                record['coverage_start'] = str(record['coverage_start'])
+            if record['coverage_end'] != None:
+                record['coverage_end'] = str(record['coverage_end'])
+            data = supabase.table(table_name).upsert(record).execute()
+
+    else:
+        print("Unexpected table name!")
+
 
 def run_the_jewels(table_names, csv_locations, json_location):
     csv_targets = zip(table_names, csv_locations)
@@ -337,6 +373,8 @@ def run_the_jewels(table_names, csv_locations, json_location):
     for target in csv_targets:
         data = get_table_data(target[0])
         processed = process_data(target[0], data)
+        #ER: added
+        connect_supabase(processed, target[0]) #Will be "Agencies" or "Data Sources"
         print(f"writing {target} csv")
         write_csv(processed, target[1])
 
