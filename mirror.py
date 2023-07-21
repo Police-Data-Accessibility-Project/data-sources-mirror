@@ -338,8 +338,8 @@ def connect_supabase(processed_data, table_name):
     processed_records = processed_data[1]
 
     #Get supabase key & url to create client
-    url = os.environ.get("SUPABASE_URL") # change to real URL
-    key = os.environ.get("SUPABASE_KEY") # change to real KEY
+    url = os.environ.get("SUPABASE_URL") 
+    key = os.environ.get("SUPABASE_KEY") 
     supabase = create_client(url, key)
 
     #update supabase for agencies:
