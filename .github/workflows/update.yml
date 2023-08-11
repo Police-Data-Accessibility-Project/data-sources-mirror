@@ -4,7 +4,7 @@ name: Mirror Airtable data
 on:
   schedule:
     
-  - cron: "0 8 * * *" #ER: changed it to update every day at 8AM
+  - cron: "0 8 * * *" #update every day at 8AM
   workflow_dispatch:
 
 jobs:
@@ -25,10 +25,10 @@ jobs:
       env:
         AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
         AIRTABLE_KEY: ${{ secrets.AIRTABLE_KEY }}
-        #ER ADDED:
-        SUPABASE_KEY: ${{secrets.SUPABASE_KEY}}
-        SUPABASE_URL: ${{secrets.SUPABASE_URL}}
-        #----
+        
+        SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+
       run: pipenv run python mirror.py
     - name: Add and commit
       id: add_commit
