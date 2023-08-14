@@ -51,107 +51,6 @@ def get_full_table_data(table_name):
     rows = (d["fields"] for d in data)
     return Sheet(fieldnames, rows)
 
-def process_data_full(table_name, data):
-
-    print(f"processing {table_name} data ....")
-    if table_name == "Agencies":
-        processed = process_agencies_full(data.rows)
-    elif table_name == "Counties":
-        processed = process_counties_full(data.rows)
-    else:
-        raise RuntimeError("Check the table name -- it might not be accurate")
-    return Sheet(data.headers, processed)
-
-def process_data_link_full(table_name, data):
-    print(f"processing {table_name} data ....")
-    processed, processed_link = process_sources_full(data.rows) 
-    return Sheet(data.headers, processed), Sheet(["airtable_uid", "agency_described_linked_uid"], processed_link)
-
-def process_agencies_full(data):
-    processed = []
-   
-    # doing this here because we only need to do it for agencies and
-    # only want to do it after we know there's agencies data
-    # (get counties fips codes from their airtable uids)
-    counties = prep_counties()
-
-    #handling specific cases
-    def process_county(column):
-        encoded_fips = agency.get(column, None)
-        decoded_fips = None
-        if encoded_fips:
-            if type(encoded_fips) == list and len(encoded_fips) > 0:
-                encoded_fips_popped = encoded_fips[0]
-                if (cfips := counties.get(encoded_fips_popped, None)):
-                    decoded_fips = cfips["fips"]
-        return decoded_fips
-    
-    def process_county_uid(column):
-        #get the string rep, it's in a list of one
-        if county_airtable_uid := agency.get(column, None):
-            return county_airtable_uid[0]
-        
-    for agency in data:
-        
-        columns = get_full_fieldnames(AGENCIES_TABLE_NAME)
-        row = {}
-        for field in columns:
-            # TODO: handle cases of more than one county; we have none at the moment, but it's possible  
-            if field == "county_fips":
-                row[field] = process_county(field)
-            elif field == "county_airtable_uid":
-                row[field] = process_county_uid(field)
-            else:
-                row[field] = agency.get(field, None)
-
-        processed.append(row)
-        
-
-    return processed
-
-def process_counties_full(data):
-    processed = []
-    columns = get_full_fieldnames(COUNTIES_TABLE_NAME)
-    for source in data:
-
-        row = {}
-        for field in columns:
-            row[field] = source.get(field, None)
-
-        processed.append(row)
-    return processed
-
-def process_sources_full(data):
-    processed = []
-    processed_link = [] #for the link table
-
-    columns = get_full_fieldnames(SOURCES_TABLE_NAME)
-    for source in data:
-
-        row = {}
-        for field in columns:
-            #For the link table:
-            if field == "agency_described_linked_uid":
-                agency_linked = source.get(field, None)
-            elif field == "airtable_uid":
-                airtable_uid = source.get(field, None)
-                row[field] = airtable_uid
-            else:
-                row[field] = source.get(field, None)
-
-        #if there is a linked agency, save it to the link table
-        if agency_linked:
-            #Sometimes there are multiple linked agencies, we want to capture each one
-            for i in range(len(agency_linked)):
-                link_row = {
-                    "airtable_uid": airtable_uid,
-                    "agency_described_linked_uid": agency_linked[i]
-                    }
-                processed_link.append(link_row)
-
-        processed.append(row) 
-    return processed, processed_link
-
 def get_full_fieldnames(name):
     if name == "Agencies":
         return agency_fieldnames_full()
@@ -269,6 +168,64 @@ def county_fieldnames_full():
         "airtable_county_created"
     ]
 
+def process_data_full(table_name, data):
+
+    print(f"processing {table_name} data ....")
+    if table_name == "Agencies":
+        processed = process_agencies_full(data.rows)
+    elif table_name == "Counties":
+        processed = process_counties_full(data.rows)
+    else:
+        raise RuntimeError("Check the table name -- it might not be accurate")
+    return Sheet(data.headers, processed)
+
+def process_data_link_full(table_name, data):
+    print(f"processing {table_name} data ....")
+    processed, processed_link = process_sources_full(data.rows) 
+    return Sheet(data.headers, processed), Sheet(["airtable_uid", "agency_described_linked_uid"], processed_link)
+
+def process_agencies_full(data):
+    processed = []
+   
+    # doing this here because we only need to do it for agencies and
+    # only want to do it after we know there's agencies data
+    # (get counties fips codes from their airtable uids)
+    counties = prep_counties()
+
+    #handling specific cases
+    def process_county(column):
+        encoded_fips = agency.get(column, None)
+        decoded_fips = None
+        if encoded_fips:
+            if type(encoded_fips) == list and len(encoded_fips) > 0:
+                encoded_fips_popped = encoded_fips[0]
+                if (cfips := counties.get(encoded_fips_popped, None)):
+                    decoded_fips = cfips["fips"]
+        return decoded_fips
+    
+    def process_county_uid(column):
+        #get the string rep, it's in a list of one
+        if county_airtable_uid := agency.get(column, None):
+            return county_airtable_uid[0]
+        
+    for agency in data:
+        
+        columns = get_full_fieldnames(AGENCIES_TABLE_NAME)
+        row = {}
+        for field in columns:
+            # TODO: handle cases of more than one county; we have none at the moment, but it's possible  
+            if field == "county_fips":
+                row[field] = process_county(field)
+            elif field == "county_airtable_uid":
+                row[field] = process_county_uid(field)
+            else:
+                row[field] = agency.get(field, None)
+
+        processed.append(row)
+        
+
+    return processed
+
 #For getting county fips in agencies table
 def prep_counties():
     table_name = "Counties"
@@ -291,6 +248,49 @@ def prep_counties():
         }
         for county in cleaned
     }
+
+def process_counties_full(data):
+    processed = []
+    columns = get_full_fieldnames(COUNTIES_TABLE_NAME)
+    for source in data:
+
+        row = {}
+        for field in columns:
+            row[field] = source.get(field, None)
+
+        processed.append(row)
+    return processed
+
+def process_sources_full(data):
+    processed = []
+    processed_link = [] #for the link table
+
+    columns = get_full_fieldnames(SOURCES_TABLE_NAME)
+    for source in data:
+
+        row = {}
+        for field in columns:
+            #For the link table:
+            if field == "agency_described_linked_uid":
+                agency_linked = source.get(field, None)
+            elif field == "airtable_uid":
+                airtable_uid = source.get(field, None)
+                row[field] = airtable_uid
+            else:
+                row[field] = source.get(field, None)
+
+        #if there is a linked agency, save it to the link table
+        if agency_linked:
+            #Sometimes there are multiple linked agencies, we want to capture each one
+            for i in range(len(agency_linked)):
+                link_row = {
+                    "airtable_uid": airtable_uid,
+                    "agency_described_linked_uid": agency_linked[i]
+                    }
+                processed_link.append(link_row)
+
+        processed.append(row) 
+    return processed, processed_link
 
 def connect_supabase(processed_data, table_name):
     processed_records = processed_data[1]
