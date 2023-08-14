@@ -18,6 +18,22 @@ SOURCES_TABLE_NAME = "Data Sources"
 COUNTIES_TABLE_NAME = "Counties"
 
 # Functions for writing to Supabase. 
+def full_mirror_to_supabase(table_names):
+    #Get the data from Airtable, process it, upload to Supabase.
+    for table in table_names:
+        data = get_full_table_data(table)
+
+        #If data sources table, need to handle separately for link table:
+        if table == SOURCES_TABLE_NAME:
+            processed, processed_link = process_data_link_full(table, data)
+            connect_supabase(processed, table) 
+            #This is also where we handle the link table
+            connect_supabase(processed_link, "Link Table")
+
+        else:
+            processed = process_data_full(table, data)
+            connect_supabase(processed, table) 
+
 def get_full_table_data(table_name):
 
     print(f"getting {table_name} table data ....")
@@ -297,24 +313,6 @@ def connect_supabase(processed_data, table_name):
     else:
         print("Unexpected table name!")
     
-
-def full_mirror_to_supabase(table_names):
-    #Get the data from Airtable, process it, upload to Supabase.
-    for table in table_names:
-        data = get_full_table_data(table)
-
-        #If data sources table, need to handle separately for link table:
-        if table == SOURCES_TABLE_NAME:
-            processed, processed_link = process_data_link_full(table, data)
-            connect_supabase(processed, table) 
-            #This is also where we handle the link table
-            connect_supabase(processed_link, "Link Table")
-
-        else:
-            processed = process_data_full(table, data)
-            connect_supabase(processed, table) 
-
-
 #Functions for writing to CSV/JSON (SKIP FOR NOW)
 def get_table_data(table_name):
     print(f"getting {table_name} table data ....")
