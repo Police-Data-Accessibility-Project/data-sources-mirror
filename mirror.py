@@ -230,7 +230,7 @@ def process_agencies_full(data):
         for field in columns:
             # TODO: handle cases of more than one county; we have none at the moment, but it's possible  
             if field == "county_fips":
-                row[field] = process_county(field, agency)
+                row[field] = process_county(field, agency, counties)
             elif field == "county_airtable_uid":
                 row[field] = process_county_uid(field, agency)
             else:
@@ -265,7 +265,7 @@ def prep_counties():
     }
 
 #handling specific cases
-def process_county(column, agency):
+def process_county(column, agency, counties):
     encoded_fips = agency.get(column, None)
     decoded_fips = None
     if encoded_fips:
