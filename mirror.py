@@ -17,7 +17,7 @@ AGENCIES_TABLE_NAME = "Agencies"
 SOURCES_TABLE_NAME = "Data Sources"
 COUNTIES_TABLE_NAME = "Counties"
 
-#Functions for writing to CSV/JSON
+#Functions for writing to CSV/JSON (SKIP FOR NOW)
 def get_table_data(table_name):
     print(f"getting {table_name} table data ....")
     fieldnames = get_fieldnames(table_name)
@@ -250,7 +250,69 @@ def source_fieldnames():
         "readme_url"
     ]
 
-#--------------------------------
+def write_csv(data_package, location):
+    with open(location, "w") as f: #may need to add encoding
+        writer = csv.DictWriter(f, fieldnames=data_package.headers)
+        writer.writeheader()
+        writer.writerows(data_package.rows)
+
+def write_json(data_package, location):
+    print("writing json ....")
+    with open(location, "w+") as f:
+        json.dump(data_package, f, indent=4, default=str)
+
+def setup_json(data_dict):
+    print("preparing json ....")
+    agencies = data_dict[AGENCIES_TABLE_NAME]
+    sources = data_dict[SOURCES_TABLE_NAME]
+    
+    agencies_seen = {}
+    for source in sources:
+        target_agency = source.get("agency_described", None)
+        if target_agency:
+            # so fun that they're wrapped in a list of length 1 🙄
+            agency_id = target_agency[0]
+            if (agency := agencies_seen.get(agency_id, None)):
+                source["agency_described"] = agency
+            else:
+                agency = search_agencies(agency_id, agencies)
+
+                # don't need this anymore and
+                # shouldn't get written to the user-facing file
+                agency.pop("airtable_uid", None)
+
+                # nest this gently into the source obj
+                source["agency_described"] = agency
+
+                # who wants to have to search for it a second time?
+                # just make it a lookup
+                agencies_seen[agency_id] = agency
+        else:
+            source["agency_described"] = target_agency
+            
+    return sources
+
+# a simple scan; ignore anything that doesn't match something we know about
+def search_agencies(agency_id, agencies):
+    return next(a for a in agencies if a.get("airtable_uid", None) == agency_id)
+
+def run_the_jewels(table_names, csv_locations, json_location):
+    csv_targets = zip(table_names, csv_locations)
+
+    to_json = {}
+
+    for target in csv_targets:
+        data = get_table_data(target[0])
+        processed = process_data(target[0], data)
+        print(f"writing {target} csv")
+        write_csv(processed, target[1])
+
+        to_json[target[0]] = processed.rows
+
+    formatted = setup_json(to_json)
+    write_json(formatted, json_location)
+
+#-------------------------------------------------------------------------------------------
 
 # Functions for writing to Supabase. 
 def get_full_table_data(table_name):
@@ -509,62 +571,6 @@ def prep_counties():
         for county in cleaned
     }
 
-#SKIP FOR NOW
-def write_csv(data_package, location):
-    with open(location, "w") as f: #may need to add encoding
-        writer = csv.DictWriter(f, fieldnames=data_package.headers)
-        writer.writeheader()
-        writer.writerows(data_package.rows)
-
-#SKIP FOR NOW
-def write_json(data_package, location):
-    print("writing json ....")
-    with open(location, "w+") as f:
-        json.dump(data_package, f, indent=4, default=str)
-
-#SKIP FOR NOW
-def setup_json(data_dict):
-    print("preparing json ....")
-    agencies = data_dict[AGENCIES_TABLE_NAME]
-    sources = data_dict[SOURCES_TABLE_NAME]
-    
-    agencies_seen = {}
-    for source in sources:
-        target_agency = source.get("agency_described", None)
-        if target_agency:
-            # so fun that they're wrapped in a list of length 1 🙄
-            #for testing
-            if len(target_agency) > 1:
-                print(target_agency)
-                print(source.get("name", None))
-            
-            agency_id = target_agency[0]
-            if (agency := agencies_seen.get(agency_id, None)):
-                source["agency_described"] = agency
-            else:
-                agency = search_agencies(agency_id, agencies)
-
-                # don't need this anymore and
-                # shouldn't get written to the user-facing file
-                agency.pop("airtable_uid", None)
-
-                # nest this gently into the source obj
-                source["agency_described"] = agency
-
-                # who wants to have to search for it a second time?
-                # just make it a lookup
-                agencies_seen[agency_id] = agency
-        else:
-            source["agency_described"] = target_agency
-            
-    return sources
-
-#SKIP FOR NOW
-# a simple scan; ignore anything that doesn't match something we know about
-def search_agencies(agency_id, agencies):
-    return next(a for a in agencies if a.get("airtable_uid", None) == agency_id)
-
-
 def connect_supabase(processed_data, table_name):
     processed_records = processed_data[1]
     #For translating between airtable and supabase table name differences
@@ -587,23 +593,6 @@ def connect_supabase(processed_data, table_name):
         print("Unexpected table name!")
     
 
-#SKIP FOR NOW
-def run_the_jewels(table_names, csv_locations, json_location):
-    csv_targets = zip(table_names, csv_locations)
-
-    to_json = {}
-
-    for target in csv_targets:
-        data = get_table_data(target[0])
-        processed = process_data(target[0], data)
-        print(f"writing {target} csv")
-        write_csv(processed, target[1])
-
-        to_json[target[0]] = processed.rows
-
-    formatted = setup_json(to_json)
-    write_json(formatted, json_location)
-    
 def full_mirror_to_supabase(table_names):
     #Get the data from Airtable, process it, upload to Supabase.
     for table in table_names:
