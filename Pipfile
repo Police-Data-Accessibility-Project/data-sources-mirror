@@ -5,8 +5,9 @@ name = "pypi"
 
 [packages]
 pyairtable = "*"
-ipython = "*"
 ipdb = "*"
+ipython = "*"
+supabase = "*"
 
 [dev-packages]
 
