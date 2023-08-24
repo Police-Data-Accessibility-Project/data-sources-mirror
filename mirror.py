@@ -296,8 +296,8 @@ def connect_supabase(processed_data, table_name):
     processed_records = processed_data[1]
     #For translating between airtable and supabase table name differences
     supabase_table_names = {COUNTIES_TABLE_NAME: "counties", 
-                            AGENCIES_TABLE_NAME: "Agencies", 
-                            SOURCES_TABLE_NAME: "Data Sources",
+                            AGENCIES_TABLE_NAME: "agencies", 
+                            SOURCES_TABLE_NAME: "data_sources",
                             "Link Table": "agency_source_link"}
     
     #Get supabase key & url to create client
