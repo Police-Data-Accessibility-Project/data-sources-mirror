@@ -611,7 +611,7 @@ def mirror_to_csv(table_names, csv_locations, json_location):
 #-------------------------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    create_csv_and_json = False #change this to True if you want to do this!
+    create_csv_and_json = True #change this to False if you want to turn this off!
     table_names = [COUNTIES_TABLE_NAME, AGENCIES_TABLE_NAME, SOURCES_TABLE_NAME]
     full_mirror_to_supabase(table_names)
 
