@@ -7,7 +7,7 @@ name = "pypi"
 pyairtable = "*"
 ipdb = "*"
 ipython = "*"
-supabase = "*"
+Psycopg2 = "*"
 
 [dev-packages]
 

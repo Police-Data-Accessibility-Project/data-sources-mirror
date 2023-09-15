@@ -6,10 +6,11 @@ import csv
 import datetime
 import json
 import os
+import psycopg2
+from psycopg2.extras import execute_values
 
 # third-party imports
 from pyairtable import Table
-from supabase import create_client 
 
 Sheet = namedtuple("Sheet", ['headers', 'rows'])
 
@@ -67,7 +68,7 @@ def agency_fieldnames_full():
         "homepage_url",
         "count_data_sources",
         "agency_type",
-        "multi-agency",
+        "multi_agency",
         "submitted_name",
         "jurisdiction_type",
         "state_iso",
@@ -127,12 +128,6 @@ def source_fieldnames_full():
         "tags",
         "readme_url",
         "scraper_url",
-        "state",
-        "county",
-        "municipality",
-        "agency_type",
-        "jurisdiction_type",
-        #"View Archive",
         "community_data_source",
         "data_source_created",
         "airtable_source_last_modified",
@@ -180,25 +175,22 @@ def process_sources_full(data):
     columns = get_full_fieldnames(SOURCES_TABLE_NAME)
     for source in data:
 
-        row = {}
+        row = []
         for field in columns:
             #For the link table:
             if field == "agency_described_linked_uid":
                 agency_linked = source.get(field, None)
             elif field == "airtable_uid":
                 airtable_uid = source.get(field, None)
-                row[field] = airtable_uid
+                row.append(airtable_uid)
             else:
-                row[field] = source.get(field, None)
+                row.append(source.get(field, None))
 
         #if there is a linked agency, save it to the link table
         if agency_linked:
             #Sometimes there are multiple linked agencies, we want to capture each one
             for i in range(len(agency_linked)):
-                link_row = {
-                    "airtable_uid": airtable_uid,
-                    "agency_described_linked_uid": agency_linked[i]
-                    }
+                link_row = [airtable_uid, agency_linked[i]]
                 processed_link.append(link_row)
 
         processed.append(row) 
@@ -226,15 +218,15 @@ def process_agencies_full(data):
     for agency in data:
         
         columns = get_full_fieldnames(AGENCIES_TABLE_NAME)
-        row = {}
+        row = []
         for field in columns:
             # TODO: handle cases of more than one county; we have none at the moment, but it's possible  
             if field == "county_fips":
-                row[field] = process_county(field, agency, counties)
+                row.append(process_county(field, agency, counties))
             elif field == "county_airtable_uid":
-                row[field] = process_county_uid(field, agency)
+                row.append(process_county_uid(field, agency))
             else:
-                row[field] = agency.get(field, None)
+                row.append(agency.get(field, None))
 
         processed.append(row)
         
@@ -285,14 +277,31 @@ def process_counties_full(data):
     columns = get_full_fieldnames(COUNTIES_TABLE_NAME)
     for source in data:
 
-        row = {}
+        row = []
         for field in columns:
-            row[field] = source.get(field, None)
-
+            row.append(source.get(field, None))
         processed.append(row)
     return processed
 
+
 def connect_supabase(processed_data, table_name):
+    if table_name == COUNTIES_TABLE_NAME:
+        primary_key = "fips"
+    elif table_name == "Link Table":
+        primary_key = "airtable_uid, agency_described_linked_uid"
+    else:
+        primary_key = "airtable_uid"
+    if table_name == "Link Table":
+        headers = ["airtable_uid", "agency_described_linked_uid"]
+    else:
+        headers = [h for h in processed_data[0] if h != "agency_described_linked_uid"]
+    headers_no_id = [h for h in headers if h != primary_key]
+    if table_name == "Link Table":
+        conflict_clause = "nothing"
+    else:
+        set_headers = ", ".join(headers_no_id)
+        excluded_headers = "(EXCLUDED." + ", EXCLUDED.".join(headers_no_id) + ")"
+        conflict_clause = f"update set ({set_headers}) = {excluded_headers}"
     processed_records = processed_data[1]
     #For translating between airtable and supabase table name differences
     supabase_table_names = {COUNTIES_TABLE_NAME: "counties", 
@@ -300,18 +309,36 @@ def connect_supabase(processed_data, table_name):
                             SOURCES_TABLE_NAME: "data_sources",
                             "Link Table": "agency_source_link"}
     
-    #Get supabase key & url to create client
-    url = os.environ.get("SUPABASE_URL") 
-    key = os.environ.get("SUPABASE_KEY") 
-    supabase = create_client(url, key)
+    #Get supabase connection params to create connection
+    dbname = os.environ.get("SUPABASE_DBNAME") 
+    user = os.environ.get("SUPABASE_USER") 
+    host = os.environ.get("SUPABASE_HOST") 
+    password = os.environ.get("SUPABASE_PASSWORD") 
 
     if table_name := supabase_table_names.get(table_name, None):
         print("Updating the", table_name, "table...")
-        for record in processed_records:
-            data = supabase.table(table_name).upsert(record).execute()
-            
+        conn = psycopg2.connect(f"dbname={dbname} user={user} host={host} password={password}")
+        with conn.cursor() as curs:
+            for record in processed_records:
+                clean_record = []
+                for field in record:
+                    if type(field) in (list, dict):
+                        clean_field = json.dumps(field).replace("'","''")
+                        clean_record.append(f"'{clean_field}'")
+                    elif field is None:
+                        clean_record.append("NULL")
+                    elif type(field) == str:
+                        clean_field = field.replace("'","''")
+                        clean_record.append(f"'{clean_field}'")
+                    else:
+                        clean_record.append(f"'{field}'")
+                query = f"insert into {table_name} ({', '.join(headers)}) values ({', '.join(clean_record)}) on conflict ({primary_key}) do {conflict_clause}"
+                curs.execute(query)
+        conn.commit()
+        conn.close()
     else:
         print("Unexpected table name!")
+
     
 #Functions for writing to CSV/JSON (SKIP FOR NOW)
 def get_table_data(table_name):
