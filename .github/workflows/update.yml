@@ -26,10 +26,7 @@ jobs:
         AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
         AIRTABLE_KEY: ${{ secrets.AIRTABLE_KEY }}
         
-        SUPABASE_DBNAME: ${{ secrets.SUPABASE_DBNAME }}
-        SUPABASE_USER: ${{ secrets.SUPABASE_USER }}
-        SUPABASE_HOST: ${{ secrets.SUPABASE_HOST }}
-        SUPABASE_PASSWORD: ${{ secrets.SUPABASE_PASSWORD }}
+        SUPABASE_DATABASE_URL: ${{ secrets.SUPABASE_DATABASE_URL }}
 
       run: pipenv run python mirror.py
     - name: Add and commit
