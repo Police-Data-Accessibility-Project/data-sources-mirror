@@ -131,7 +131,6 @@ def source_fieldnames_full():
         "tags",
         "readme_url",
         "scraper_url",
-        "community_data_source",
         "data_source_created",
         "airtable_source_last_modified",
         "submission_notes",
