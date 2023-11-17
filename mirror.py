@@ -8,9 +8,7 @@ import json
 import os
 import psycopg2
 from psycopg2.extras import execute_values
-from dotenv import load_dotenv
 
-load_dotenv()
 
 # third-party imports
 from pyairtable import Table
