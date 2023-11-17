@@ -8,6 +8,9 @@ import json
 import os
 import psycopg2
 from psycopg2.extras import execute_values
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # third-party imports
 from pyairtable import Table
@@ -20,22 +23,22 @@ COUNTIES_TABLE_NAME = "Counties"
 REQUESTS_TABLE_NAME = "Data Requests"
 VOLUNTEERS_TABLE_NAME = "Volunteers"
 
-# Functions for writing to Supabase. 
-def full_mirror_to_supabase(table_names):
-    #Get the data from Airtable, process it, upload to Supabase.
+# Functions for writing to DigitalOcean. 
+def full_mirror_to_digital_ocean(table_names):
+    #Get the data from Airtable, process it, upload to DigitalOcean.
     for table in table_names:
         data = get_full_table_data(table)
 
         #If data sources table, need to handle separately for link table:
         if table == SOURCES_TABLE_NAME:
             processed, processed_link = process_data_link_full(table, data)
-            connect_supabase(processed, table) 
+            connect_digital_ocean(processed, table) 
             #This is also where we handle the link table
-            connect_supabase(processed_link, "Link Table")
+            connect_digital_ocean(processed_link, "Link Table")
 
         else:
             processed = process_data_full(table, data)
-            connect_supabase(processed, table) 
+            connect_digital_ocean(processed, table) 
 
 def get_full_table_data(table_name):
 
@@ -101,7 +104,7 @@ def agency_fieldnames_full():
 def source_fieldnames_full():
     # agency_aggregation -- str
     # detail_level -- str
-    # "agency_described" -- skipped because we don't need this in supabase
+    # "agency_described" -- skipped because we don't need this in DigitalOcean
     return [
         "name",
         "submitted_name",
@@ -312,7 +315,7 @@ def process_standard_full(table_name, data):
     return processed
 
 
-def connect_supabase(processed_data, table_name):
+def connect_digital_ocean(processed_data, table_name):
     if table_name == COUNTIES_TABLE_NAME:
         primary_key = "fips"
     elif table_name == "Link Table":
@@ -335,20 +338,20 @@ def connect_supabase(processed_data, table_name):
         excluded_headers = "(EXCLUDED." + ", EXCLUDED.".join(headers_no_id) + ")"
         conflict_clause = f"update set ({set_headers}) = {excluded_headers}"
     processed_records = processed_data[1]
-    #For translating between airtable and supabase table name differences
-    supabase_table_names = {COUNTIES_TABLE_NAME: "counties", 
+    #For translating between airtable and DigitalOcean table name differences
+    digital_ocean_table_names = {COUNTIES_TABLE_NAME: "counties", 
                             AGENCIES_TABLE_NAME: "agencies", 
                             SOURCES_TABLE_NAME: "data_sources",
                             REQUESTS_TABLE_NAME: "data_requests",
                             VOLUNTEERS_TABLE_NAME: "volunteers",
                             "Link Table": "agency_source_link"}
     
-    #Get supabase connection params to create connection
-    SUPABASE_DATABASE_URL = os.getenv('SUPABASE_DATABASE_URL')
+    #Get DigitalOcean connection params to create connection
+    DIGITAL_OCEAN_DATABASE_URL = os.getenv('DO_DATABASE_URL')
 
-    if table_name := supabase_table_names.get(table_name, None):
+    if table_name := digital_ocean_table_names.get(table_name, None):
         print("Updating the", table_name, "table...")
-        conn = psycopg2.connect(SUPABASE_DATABASE_URL)
+        conn = psycopg2.connect(DIGITAL_OCEAN_DATABASE_URL)
         with conn.cursor() as curs:
             for record in processed_records:
                 clean_record = []
@@ -373,6 +376,6 @@ def connect_supabase(processed_data, table_name):
 
 if __name__ == "__main__":
     table_names = [COUNTIES_TABLE_NAME, AGENCIES_TABLE_NAME, SOURCES_TABLE_NAME, REQUESTS_TABLE_NAME, VOLUNTEERS_TABLE_NAME]
-    full_mirror_to_supabase(table_names)
+    full_mirror_to_digital_ocean(table_names)
 
 
