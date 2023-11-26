@@ -29,3 +29,22 @@ jobs:
         SUPABASE_DATABASE_URL: ${{ secrets.SUPABASE_DATABASE_URL }}
 
       run: pipenv run python mirror.py
+
+  notify:
+    runs-on: ubuntu-latest
+    needs: 
+      - scrape  # Ensure notification is sent after the scrape job
+    if: ${{ failure() }} # Trigger only on failure
+
+    steps:
+      - name: Notify Discord
+        uses: nobrayner/discord-webhook@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          discord-webhook: ${{ secrets.discord-failure-webhook }}
+          username: 'GitHub Action Pipeline Failure Notification'
+          avatar-url: ${{ secrets.avatar-url }}
+          title: '${{ github.repository }}: {{Status}}'
+          description: 'The repository ${{ github.repository }} had an event: ${{ github.event_name }} which trigged this {{STATUS}}!'
+          include-details: false
+          color-failure: 'eb4034'
