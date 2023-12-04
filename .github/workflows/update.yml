@@ -21,6 +21,12 @@ jobs:
         cache: "pipenv"
     - name: Install deps
       run: pipenv install
+    - name: Add IP address to trusted source (managed database)
+      uses: GarreauArthur/manage-digital-ocean-managed-database-trusted-sources-gh-action@main
+      with:
+        action: "add"
+        database_id: ${{ secrets.DATABASE_ID }}
+        digitalocean_token: ${{ secrets.DIGITALOCEAN_TOKEN }}
     - name: Make that mirror, please
       env:
         AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
@@ -29,3 +35,9 @@ jobs:
         SUPABASE_DATABASE_URL: ${{ secrets.SUPABASE_DATABASE_URL }}
 
       run: pipenv run python mirror.py
+    - name: Remove IP address to trusted source (managed database)
+      uses: GarreauArthur/manage-digital-ocean-managed-database-trusted-sources-gh-action@main
+      with:
+        action: "remove"
+        database_id: ${{ secrets.DATABASE_ID }}
+        digitalocean_token: ${{ secrets.DIGITALOCEAN_TOKEN }}
