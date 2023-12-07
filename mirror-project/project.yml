@@ -1,0 +1,14 @@
+environment:
+  AIRTABLE_KEY: ${AIRTABLE_KEY}
+  AIRTABLE_BASE_ID: ${AIRTABLE_BASE_ID}
+  DO_DATABASE_URL: ${DO_DATABASE_URL}
+packages:
+  - name: mirror-package
+    functions:
+      - name: mirror-function
+        runtime: 'python:3.11'
+        triggers:
+        - name: daily
+          sourceType: scheduler
+          sourceDetails:
+            cron: 0 8 * * *
