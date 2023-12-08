@@ -8,6 +8,7 @@ import json
 import os
 import psycopg2
 from psycopg2.extras import execute_values
+from mirror_env import AIRTABLE_KEY, AIRTABLE_BASE_ID, DO_DATABASE_URL
 
 
 # third-party imports
@@ -44,8 +45,8 @@ def get_full_table_data(table_name):
     fieldnames = get_full_fieldnames(table_name)
 
     data = Table(
-        os.environ["AIRTABLE_KEY"],
-        os.environ["AIRTABLE_BASE_ID"],
+        AIRTABLE_KEY,
+        AIRTABLE_BASE_ID,
         table_name
     ).all()
 
@@ -266,8 +267,8 @@ def process_agencies_full(data):
 def prep_counties():
     table_name = "Counties"
     counties = Table(
-        os.environ["AIRTABLE_KEY"],
-        os.environ["AIRTABLE_BASE_ID"],
+        AIRTABLE_KEY,
+        AIRTABLE_BASE_ID,
         table_name
     ).all(fields=["fips", "name", "airtable_uid"])
 
@@ -345,11 +346,9 @@ def connect_digital_ocean(processed_data, table_name):
                             "Link Table": "agency_source_link"}
     
     #Get DigitalOcean connection params to create connection
-    DIGITAL_OCEAN_DATABASE_URL = os.getenv('DO_DATABASE_URL')
-
     if table_name := digital_ocean_table_names.get(table_name, None):
         print("Updating the", table_name, "table...")
-        conn = psycopg2.connect(DIGITAL_OCEAN_DATABASE_URL)
+        conn = psycopg2.connect(DO_DATABASE_URL)
         with conn.cursor() as curs:
             for record in processed_records:
                 clean_record = []
