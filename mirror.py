@@ -8,7 +8,7 @@ import json
 import os
 import psycopg2
 from psycopg2.extras import execute_values
-from mirror_env import AIRTABLE_KEY, AIRTABLE_BASE_ID, DO_DATABASE_URL
+from mirror_env import AIRTABLE_TOKEN, AIRTABLE_BASE_ID, DO_DATABASE_URL
 
 
 # third-party imports
@@ -45,7 +45,7 @@ def get_full_table_data(table_name):
     fieldnames = get_full_fieldnames(table_name)
 
     data = Table(
-        AIRTABLE_KEY,
+        AIRTABLE_TOKEN,
         AIRTABLE_BASE_ID,
         table_name
     ).all()
@@ -267,7 +267,7 @@ def process_agencies_full(data):
 def prep_counties():
     table_name = "Counties"
     counties = Table(
-        AIRTABLE_KEY,
+        AIRTABLE_TOKEN,
         AIRTABLE_BASE_ID,
         table_name
     ).all(fields=["fips", "name", "airtable_uid"])
