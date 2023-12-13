@@ -4,6 +4,68 @@
 ## What this is
 This mirrors our Data Sources [what's that?](https://docs.pdap.io/activities/data-sources/what-is-a-data-source) from Airtable to our PostgreSQL database. Airtable is the entry point for our data, but using Postgres allows us to make an API that's decoupled from Airtable.
 
+## Installation
+### 1. Clone this repository and navigate to the root directory.
+
+```
+git clone https://github.com/Police-Data-Accessibility-Project/data-sources-mirror.git
+cd data-sources-mirror
+```
+
+### 2. Create a virtual environment.
+
+If you don't already have virtualenv, install the package:
+
+```
+
+pip install virtualenv
+
+```
+
+Then run the following command to create a virtual environment:
+
+```
+
+virtualenv -p python3.9 mirror_venv
+
+```
+
+### 3. Activate the virtual environment.
+
+```
+
+source mirror_venv/bin/activate
+
+```
+
+### 4. Install dependencies.
+
+```
+
+pip install -r requirements.txt
+
+```
+
+### 5. Create a file named mirror_env.py in the same directory containing secrets for DO_DATABASE_URL, AIRTABLE_BASE_ID, and AIRTABLE_TOKEN
+
+The app should have a DO_DATABASE_URL, AIRTABLE_BASE_ID, and AIRTABLE_TOKEN for PDAP's Data Sources [DigitalOcean](https://digitalocean.com/). Reach out to contact@pdap.io or make noise in Discord if you'd like access to these keys.
+
+```
+DO_DATABASE_URL = 'postgres://data_sources_app:<password>@db-postgresql-nyc3-38355-do-user-8463429-0.c.db.ondigitalocean.com:25060/defaultdb'
+AIRTABLE_BASE_ID = '<airtable_base_id>'
+AIRTABLE_TOKEN = '<airtable_token>'
+
+```
+
+### 6. Run the mirror script.
+
+```
+
+python3 mirror.py
+
+```
+
+
 ### Update frequency
 Weekly
 
