@@ -146,7 +146,8 @@ def source_fieldnames_full():
         "data_portal_type_other",
         "data_source_request",
         "url_button",
-        "tags_other"
+        "tags_other",
+        "url_status"
     ]
 
 def county_fieldnames_full():
