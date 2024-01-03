@@ -20,7 +20,6 @@ AGENCIES_TABLE_NAME = "Agencies"
 SOURCES_TABLE_NAME = "Data Sources"
 COUNTIES_TABLE_NAME = "Counties"
 REQUESTS_TABLE_NAME = "Data Requests"
-VOLUNTEERS_TABLE_NAME = "Volunteers"
 
 # Functions for writing to DigitalOcean. 
 def full_mirror_to_digital_ocean(table_names):
@@ -65,8 +64,6 @@ def get_full_fieldnames(name):
         return county_fieldnames_full()
     elif name == "Data Requests":
         return requests_fieldnames_full()  
-    elif name == "Volunteers":
-        return volunteers_fieldnames_full()      
     else:
         raise RuntimeError("This is not a supported name")
 
@@ -167,7 +164,7 @@ def county_fieldnames_full():
 
 def requests_fieldnames_full():
     return [
-        "request_id",
+        "id",
         "submission_notes",
         "request_status",
         "submitter_contact_info",
@@ -178,21 +175,6 @@ def requests_fieldnames_full():
         "status_last_changed"
     ]
 
-def volunteers_fieldnames_full():
-    return [
-        "email",
-        "discord",
-        "name",
-        "help_topics",
-        "status",
-        "geographic_interest",
-        "submission_notes",
-        "internal_notes",
-        "last_contacted",
-        "github",
-        "created_by",
-        "created"
-    ]
 
 def process_data_link_full(table_name, data):
     print(f"processing {table_name} data ....")
@@ -232,7 +214,7 @@ def process_data_full(table_name, data):
     print(f"processing {table_name} data ....")
     if table_name == "Agencies":
         processed = process_agencies_full(data.rows)
-    elif table_name in ("Counties", "Data Requests", "Volunteers"):
+    elif table_name in ("Counties", "Data Requests"):
         processed = process_standard_full(table_name, data.rows)   
     else:
         raise RuntimeError("Check the table name -- it might not be accurate")
@@ -307,7 +289,6 @@ def process_standard_full(table_name, data):
     processed = []
     columns = get_full_fieldnames(table_name)
     for source in data:
-
         row = []
         for field in columns:
             row.append(source.get(field, None))
@@ -321,9 +302,7 @@ def connect_digital_ocean(processed_data, table_name):
     elif table_name == "Link Table":
         primary_key = "airtable_uid, agency_described_linked_uid"
     elif table_name == REQUESTS_TABLE_NAME:
-        primary_key = "request_id"
-    elif table_name == VOLUNTEERS_TABLE_NAME:
-        primary_key = "name"
+        primary_key = "id"
     else:
         primary_key = "airtable_uid"
     if table_name == "Link Table":
@@ -343,7 +322,6 @@ def connect_digital_ocean(processed_data, table_name):
                             AGENCIES_TABLE_NAME: "agencies", 
                             SOURCES_TABLE_NAME: "data_sources",
                             REQUESTS_TABLE_NAME: "data_requests",
-                            VOLUNTEERS_TABLE_NAME: "volunteers",
                             "Link Table": "agency_source_link"}
     
     #Get DigitalOcean connection params to create connection
@@ -373,7 +351,7 @@ def connect_digital_ocean(processed_data, table_name):
 
 
 if __name__ == "__main__":
-    table_names = [COUNTIES_TABLE_NAME, AGENCIES_TABLE_NAME, SOURCES_TABLE_NAME, REQUESTS_TABLE_NAME, VOLUNTEERS_TABLE_NAME]
+    table_names = [COUNTIES_TABLE_NAME, AGENCIES_TABLE_NAME, SOURCES_TABLE_NAME, REQUESTS_TABLE_NAME]
     full_mirror_to_digital_ocean(table_names)
 
 
