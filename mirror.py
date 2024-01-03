@@ -351,8 +351,7 @@ def connect_digital_ocean(processed_data, table_name):
 
 
 if __name__ == "__main__":
-    table_names = [#COUNTIES_TABLE_NAME, AGENCIES_TABLE_NAME, SOURCES_TABLE_NAME, 
-    REQUESTS_TABLE_NAME]
+    table_names = [COUNTIES_TABLE_NAME, AGENCIES_TABLE_NAME, SOURCES_TABLE_NAME, REQUESTS_TABLE_NAME]
     full_mirror_to_digital_ocean(table_names)
 
 
