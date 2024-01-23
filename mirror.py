@@ -12,23 +12,20 @@ from mirror_env import AIRTABLE_TOKEN, AIRTABLE_BASE_ID, DO_DATABASE_URL
 
 
 # third-party imports
-from pyairtable import Table
+from pyairtable import Api
 
+api = Api(AIRTABLE_TOKEN)
 Sheet = namedtuple("Sheet", ['headers', 'rows'])
-
-AGENCIES_TABLE_NAME = "Agencies"
-SOURCES_TABLE_NAME = "Data Sources"
-COUNTIES_TABLE_NAME = "Counties"
-REQUESTS_TABLE_NAME = "Data Requests"
+TABLES = {"Agencies": "airtable_agency_last_modified", "Data Sources": "airtable_source_last_modified", "Counties": "airtable_county_created", "Data Requests": "status_last_changed"}
 
 # Functions for writing to DigitalOcean. 
-def full_mirror_to_digital_ocean(table_names):
+def full_mirror_to_digital_ocean():
     #Get the data from Airtable, process it, upload to DigitalOcean.
-    for table in table_names:
+    for table in TABLES.keys():
         data = get_full_table_data(table)
 
         #If data sources table, need to handle separately for link table:
-        if table == SOURCES_TABLE_NAME:
+        if table == "Data Sources":
             processed, processed_link = process_data_link_full(table, data)
             connect_digital_ocean(processed, table) 
             #This is also where we handle the link table
@@ -43,11 +40,10 @@ def get_full_table_data(table_name):
     print(f"getting {table_name} table data ....")
     fieldnames = get_full_fieldnames(table_name)
 
-    data = Table(
-        AIRTABLE_TOKEN,
+    data = api.table(
         AIRTABLE_BASE_ID,
         table_name
-    ).all()
+    ).all(formula=f"DATETIME_DIFF(NOW(),{TABLES[table_name]},'hours') < 2")
 
     # ditch unneeded nesting and get to the objects we care about;
     # nothing should have to care about the original
@@ -143,8 +139,7 @@ def source_fieldnames_full():
         "data_portal_type_other",
         "data_source_request",
         "url_button",
-        "tags_other",
-        "url_status"
+        "tags_other"
     ]
 
 def county_fieldnames_full():
@@ -185,7 +180,7 @@ def process_sources_full(data):
     processed = []
     processed_link = [] #for the link table
 
-    columns = get_full_fieldnames(SOURCES_TABLE_NAME)
+    columns = get_full_fieldnames("Data Sources")
     for source in data:
 
         row = []
@@ -230,7 +225,7 @@ def process_agencies_full(data):
         
     for agency in data:
         
-        columns = get_full_fieldnames(AGENCIES_TABLE_NAME)
+        columns = get_full_fieldnames("Agencies")
         row = []
         for field in columns:
             # TODO: handle cases of more than one county; we have none at the moment, but it's possible  
@@ -249,8 +244,7 @@ def process_agencies_full(data):
 #For getting county fips in agencies table
 def prep_counties():
     table_name = "Counties"
-    counties = Table(
-        AIRTABLE_TOKEN,
+    counties = api.table(
         AIRTABLE_BASE_ID,
         table_name
     ).all(fields=["fips", "name", "airtable_uid"])
@@ -297,11 +291,11 @@ def process_standard_full(table_name, data):
 
 
 def connect_digital_ocean(processed_data, table_name):
-    if table_name == COUNTIES_TABLE_NAME:
+    if table_name == "Counties":
         primary_key = "fips"
     elif table_name == "Link Table":
         primary_key = "airtable_uid, agency_described_linked_uid"
-    elif table_name == REQUESTS_TABLE_NAME:
+    elif table_name == "Data Requests":
         primary_key = "id"
     else:
         primary_key = "airtable_uid"
@@ -318,10 +312,10 @@ def connect_digital_ocean(processed_data, table_name):
         conflict_clause = f"update set ({set_headers}) = {excluded_headers}"
     processed_records = processed_data[1]
     #For translating between airtable and DigitalOcean table name differences
-    digital_ocean_table_names = {COUNTIES_TABLE_NAME: "counties", 
-                            AGENCIES_TABLE_NAME: "agencies", 
-                            SOURCES_TABLE_NAME: "data_sources",
-                            REQUESTS_TABLE_NAME: "data_requests",
+    digital_ocean_table_names = {"Counties": "counties", 
+                            "Agencies": "agencies", 
+                            "Data Sources": "data_sources",
+                            "Data Requests": "data_requests",
                             "Link Table": "agency_source_link"}
     
     #Get DigitalOcean connection params to create connection
@@ -351,7 +345,6 @@ def connect_digital_ocean(processed_data, table_name):
 
 
 if __name__ == "__main__":
-    table_names = [COUNTIES_TABLE_NAME, AGENCIES_TABLE_NAME, SOURCES_TABLE_NAME, REQUESTS_TABLE_NAME]
-    full_mirror_to_digital_ocean(table_names)
+    full_mirror_to_digital_ocean()
 
 
