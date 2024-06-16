@@ -70,7 +70,7 @@ python3 mirror.py
 Hourly
 
 ## How it works
-We're taking advantage of a Python wrapper around the Airtable API to provide flat data joinable on an agency's `airtable_uid`. The script is scheduled to run via crontab on a droplet in DigitalOcean. On each run, the latest code from the main branch of the repo is fetched and current requirements are installed in order to make sure the script is up to date on the droplet. During execution, only rows from each table that are new or have been updated in the last two hours are fetched to update our Postgres database.
+We're taking advantage of a Python wrapper around the Airtable API to provide flat data joinable on an agency's `airtable_uid`. The script is scheduled to run via crontab on the Automation Manager droplet in DigitalOcean, on an hourly basis. On each run, the latest code from the main branch of the repo is fetched and current requirements are installed in order to make sure the script is up to date on the droplet. During execution, only rows from each table that are new or have been updated in the last two hours are fetched to update our Postgres database.
 
 The intent is to do as little transformation as we can, erring on the side of being true to what the API wrapper returns, while also being transparent about how we're doing things.
 
