@@ -1,14 +1,13 @@
-#!/usr/bin/env python3
-
-# python imports
-from collections import namedtuple
-import csv
-import datetime
-import json
 import os
+from collections import namedtuple
+import json
 import psycopg2
-from psycopg2.extras import execute_values
-from mirror_env import AIRTABLE_TOKEN, AIRTABLE_BASE_ID, DO_DATABASE_URL
+
+from dotenv import load_dotenv
+load_dotenv()
+AIRTABLE_TOKEN = os.getenv("AIRTABLE_TOKEN")
+AIRTABLE_BASE_ID = os.getenv("AIRTABLE_BASE_ID")
+DO_DATABASE_URL = os.getenv("DO_DATABASE_URL")
 
 
 # third-party imports
@@ -52,14 +51,15 @@ def get_full_table_data(table_name):
     return Sheet(fieldnames, rows)
 
 def get_full_fieldnames(name):
-    if name == "Agencies":
-        return agency_fieldnames_full()
-    elif name == "Data Sources":
-        return source_fieldnames_full()
-    elif name == "Counties":
-        return county_fieldnames_full()
-    elif name == "Data Requests":
-        return requests_fieldnames_full()  
+    fieldnames_map = {
+        "Agencies": agency_fieldnames_full,
+        "Data Sources": source_fieldnames_full,
+        "Counties": county_fieldnames_full,
+        "Data Requests": requests_fieldnames_full,
+    }
+
+    if name in fieldnames_map:
+        return fieldnames_map[name]()
     else:
         raise RuntimeError("This is not a supported name")
 
@@ -267,11 +267,12 @@ def prep_counties():
 def process_county(column, agency, counties):
     encoded_fips = agency.get(column, None)
     decoded_fips = None
-    if encoded_fips:
-        if type(encoded_fips) == list and len(encoded_fips) > 0:
-            encoded_fips_popped = encoded_fips[0]
-            if (cfips := counties.get(encoded_fips_popped, None)):
-                decoded_fips = cfips["fips"]
+    if encoded_fips and isinstance(encoded_fips, list) and len(encoded_fips) > 0:
+        encoded_fips_popped = encoded_fips[0]
+        cfips = counties.get(encoded_fips_popped, None)
+
+        if cfips:
+            decoded_fips = cfips["fips"]
     return decoded_fips
 
 def process_county_uid(column, agency):
@@ -291,57 +292,97 @@ def process_standard_full(table_name, data):
 
 
 def connect_digital_ocean(processed_data, table_name):
-    if table_name == "Counties":
-        primary_key = "fips"
-    elif table_name == "Link Table":
-        primary_key = "airtable_uid, agency_described_linked_uid"
-    elif table_name == "Data Requests":
-        primary_key = "id"
-    else:
-        primary_key = "airtable_uid"
+    primary_key = get_primary_key(table_name)
+    headers = get_headers(processed_data, table_name)
+    headers_no_id = get_headers_no_id(headers, primary_key)
+    do_table_name = get_do_table_name(table_name)
+
+    if not do_table_name:
+        print("Unexpected table name!")
+        return
+    update_do_table(
+        conflict_clause=get_conflict_clause(headers_no_id, table_name),
+        headers=headers,
+        primary_key=primary_key,
+        processed_records=processed_data[1],
+        table_name=do_table_name)
+
+
+def get_primary_key(table_name):
+    primary_key = {
+        "Counties": "fips",
+        "Link Table": "airtable_uid, agency_described_linked_uid",
+        "Data Requests": "id",
+    }.get(table_name, "airtable_uid")
+    return primary_key
+
+
+def update_do_table(conflict_clause, headers, primary_key, processed_records, table_name):
+    print("Updating the", table_name, "table...")
+    conn = psycopg2.connect(DO_DATABASE_URL)
+    with conn.cursor() as curs:
+        for record in processed_records:
+            clean_record = clean_records(record)
+            query = f"""
+                        insert into {table_name} ({', '.join(headers)}) 
+                        values ({', '.join(clean_record)}) 
+                        on conflict ({primary_key}) do {conflict_clause}
+                    """
+            curs.execute(query)
+    conn.commit()
+    conn.close()
+
+
+def clean_records(record):
+    clean_record = []
+    for field in record:
+        if type(field) in (list, dict):
+            clean_field = json.dumps(field).replace("'", "''")
+            clean_record.append(f"'{clean_field}'")
+        elif field is None:
+            clean_record.append("NULL")
+        elif type(field) == str:
+            clean_field = field.replace("'", "''")
+            clean_record.append(f"'{clean_field}'")
+        else:
+            clean_record.append(f"'{field}'")
+    return clean_record
+
+
+def get_headers_no_id(headers, primary_key):
+    headers_no_id = [h for h in headers if h != primary_key]
+    return headers_no_id
+
+
+def get_headers(processed_data, table_name):
     if table_name == "Link Table":
         headers = ["airtable_uid", "agency_described_linked_uid"]
     else:
         headers = [h for h in processed_data[0] if h != "agency_described_linked_uid"]
-    headers_no_id = [h for h in headers if h != primary_key]
+    return headers
+
+
+def get_do_table_name(table_name):
+    # For translating between airtable and DigitalOcean table name differences
+    table_name_mapping = {
+        "Counties": "counties",
+        "Agencies": "agencies",
+        "Data Sources": "data_sources",
+        "Data Requests": "data_requests",
+        "Link Table": "agency_source_link"
+    }
+    do_table_name = table_name_mapping.get(table_name, None)
+    return do_table_name
+
+
+def get_conflict_clause(headers_no_id, table_name):
     if table_name == "Link Table":
         conflict_clause = "nothing"
     else:
         set_headers = ", ".join(headers_no_id)
         excluded_headers = "(EXCLUDED." + ", EXCLUDED.".join(headers_no_id) + ")"
         conflict_clause = f"update set ({set_headers}) = {excluded_headers}"
-    processed_records = processed_data[1]
-    #For translating between airtable and DigitalOcean table name differences
-    digital_ocean_table_names = {"Counties": "counties", 
-                            "Agencies": "agencies", 
-                            "Data Sources": "data_sources",
-                            "Data Requests": "data_requests",
-                            "Link Table": "agency_source_link"}
-    
-    #Get DigitalOcean connection params to create connection
-    if table_name := digital_ocean_table_names.get(table_name, None):
-        print("Updating the", table_name, "table...")
-        conn = psycopg2.connect(DO_DATABASE_URL)
-        with conn.cursor() as curs:
-            for record in processed_records:
-                clean_record = []
-                for field in record:
-                    if type(field) in (list, dict):
-                        clean_field = json.dumps(field).replace("'","''")
-                        clean_record.append(f"'{clean_field}'")
-                    elif field is None:
-                        clean_record.append("NULL")
-                    elif type(field) == str:
-                        clean_field = field.replace("'","''")
-                        clean_record.append(f"'{clean_field}'")
-                    else:
-                        clean_record.append(f"'{field}'")
-                query = f"insert into {table_name} ({', '.join(headers)}) values ({', '.join(clean_record)}) on conflict ({primary_key}) do {conflict_clause}"
-                curs.execute(query)
-        conn.commit()
-        conn.close()
-    else:
-        print("Unexpected table name!")
+    return conflict_clause
 
 
 if __name__ == "__main__":
