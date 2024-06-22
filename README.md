@@ -46,15 +46,14 @@ pip install -r requirements.txt
 
 ```
 
-### 5. Create a file named mirror_env.py in the same directory containing secrets for DO_DATABASE_URL, AIRTABLE_BASE_ID, and AIRTABLE_TOKEN
+### 5. Create a file named .env in the same directory containing secrets for DO_DATABASE_URL, AIRTABLE_BASE_ID, and AIRTABLE_TOKEN
 
 The app should have a DO_DATABASE_URL, AIRTABLE_BASE_ID, and AIRTABLE_TOKEN for PDAP's Data Sources [DigitalOcean](https://digitalocean.com/). Reach out to contact@pdap.io or make noise in Discord if you'd like access to these keys.
 
 ```
-DO_DATABASE_URL = 'postgres://data_sources_app:<password>@db-postgresql-nyc3-38355-do-user-8463429-0.c.db.ondigitalocean.com:25060/defaultdb'
-AIRTABLE_BASE_ID = '<airtable_base_id>'
-AIRTABLE_TOKEN = '<airtable_token>'
-
+DO_DATABASE_URL=postgres://data_sources_app:<password>@db-postgresql-nyc3-38355-do-user-8463429-0.c.db.ondigitalocean.com:25060/defaultdb
+AIRTABLE_TOKEN=<airtable_token>
+AIRTABLE_BASE_ID=<airtable_base_id>
 ```
 
 ### 6. Run the mirror script.
