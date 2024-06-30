@@ -4,6 +4,8 @@
 ## What this is
 This mirrors our Data Sources [what's that?](https://docs.pdap.io/activities/data-sources/what-is-a-data-source) from Airtable to our PostgreSQL database. Airtable is the entry point for our data, but using Postgres allows us to make an API that's decoupled from Airtable.
 
+This script runs daily from the Automation Manager, using the Dockerfile and Jenkinsfile to pull the latest changes, install any requirements, and run the script from a container environment.
+
 ## Installation
 ### 1. Clone this repository and navigate to the root directory.
 
