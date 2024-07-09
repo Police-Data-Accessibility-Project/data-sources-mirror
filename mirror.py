@@ -15,7 +15,7 @@ from pyairtable import Api
 
 api = Api(AIRTABLE_TOKEN)
 Sheet = namedtuple("Sheet", ['headers', 'rows'])
-TABLES = {"Agencies": "airtable_agency_last_modified", "Data Sources": "airtable_source_last_modified", "Counties": "airtable_county_created", "Data Requests": "status_last_changed"}
+TABLES = {"Agencies": "airtable_agency_last_modified", "Data Sources": "airtable_source_last_modified", "Counties": "airtable_county_created", "Data Requests": "date_status_last_changed"}
 
 # Functions for writing to DigitalOcean. 
 def full_mirror_to_digital_ocean():
@@ -34,7 +34,7 @@ def full_mirror_to_digital_ocean():
             processed = process_data_full(table, data)
             connect_digital_ocean(processed, table) 
 
-def get_full_table_data(table_name):
+def get_full_table_data(table_name: str) -> Sheet:
 
     print(f"getting {table_name} table data ....")
     fieldnames = get_full_fieldnames(table_name)
@@ -50,7 +50,7 @@ def get_full_table_data(table_name):
     rows = (d["fields"] for d in data)
     return Sheet(fieldnames, rows)
 
-def get_full_fieldnames(name):
+def get_full_fieldnames(name: str) -> list:
     fieldnames_map = {
         "Agencies": agency_fieldnames_full,
         "Data Sources": source_fieldnames_full,
@@ -171,12 +171,12 @@ def requests_fieldnames_full():
     ]
 
 
-def process_data_link_full(table_name, data):
+def process_data_link_full(table_name: str, data: Sheet) -> (Sheet, Sheet):
     print(f"processing {table_name} data ....")
     processed, processed_link = process_sources_full(data.rows) 
     return Sheet(data.headers, processed), Sheet(["airtable_uid", "agency_described_linked_uid"], processed_link)
 
-def process_sources_full(data):
+def process_sources_full(data: Sheet) -> (Sheet, Sheet):
     processed = []
     processed_link = [] #for the link table
 
@@ -204,7 +204,7 @@ def process_sources_full(data):
         processed.append(row) 
     return processed, processed_link
 
-def process_data_full(table_name, data):
+def process_data_full(table_name: str, data: Sheet) -> Sheet:
 
     print(f"processing {table_name} data ....")
     if table_name == "Agencies":
@@ -215,7 +215,7 @@ def process_data_full(table_name, data):
         raise RuntimeError("Check the table name -- it might not be accurate")
     return Sheet(data.headers, processed)
 
-def process_agencies_full(data):
+def process_agencies_full(data: list) -> list:
     processed = []
    
     # doing this here because we only need to do it for agencies and
@@ -242,7 +242,7 @@ def process_agencies_full(data):
     return processed
 
 #For getting county fips in agencies table
-def prep_counties():
+def prep_counties() -> dict:
     table_name = "Counties"
     counties = api.table(
         AIRTABLE_BASE_ID,
@@ -264,7 +264,7 @@ def prep_counties():
     }
 
 #handling specific cases
-def process_county(column, agency, counties):
+def process_county(column: str, agency: str, counties: dict) -> str:
     encoded_fips = agency.get(column, None)
     decoded_fips = None
     if encoded_fips and isinstance(encoded_fips, list) and len(encoded_fips) > 0:
@@ -275,12 +275,12 @@ def process_county(column, agency, counties):
             decoded_fips = cfips["fips"]
     return decoded_fips
 
-def process_county_uid(column, agency):
+def process_county_uid(column: str, agency: dict) -> str:
     #get the string rep, it's in a list of one
     if county_airtable_uid := agency.get(column, None):
         return county_airtable_uid[0]
 
-def process_standard_full(table_name, data):
+def process_standard_full(table_name: str, data: list) -> list:
     processed = []
     columns = get_full_fieldnames(table_name)
     for source in data:
@@ -291,7 +291,7 @@ def process_standard_full(table_name, data):
     return processed
 
 
-def connect_digital_ocean(processed_data, table_name):
+def connect_digital_ocean(processed_data: list, table_name: str):
     primary_key = get_primary_key(table_name)
     headers = get_headers(processed_data, table_name)
     headers_no_id = get_headers_no_id(headers, primary_key)
@@ -317,7 +317,7 @@ def get_primary_key(table_name):
     return primary_key
 
 
-def update_do_table(conflict_clause, headers, primary_key, processed_records, table_name):
+def update_do_table(conflict_clause: str, headers: list, primary_key: str, processed_records: list, table_name: str):
     print("Updating the", table_name, "table...")
     conn = psycopg2.connect(DO_DATABASE_URL)
     with conn.cursor() as curs:
@@ -333,7 +333,7 @@ def update_do_table(conflict_clause, headers, primary_key, processed_records, ta
     conn.close()
 
 
-def clean_records(record):
+def clean_records(record: list) -> list:
     clean_record = []
     for field in record:
         if type(field) in (list, dict):
@@ -349,12 +349,12 @@ def clean_records(record):
     return clean_record
 
 
-def get_headers_no_id(headers, primary_key):
+def get_headers_no_id(headers, primary_key) -> list[str]:
     headers_no_id = [h for h in headers if h != primary_key]
     return headers_no_id
 
 
-def get_headers(processed_data, table_name):
+def get_headers(processed_data: list, table_name: str) -> list[str]:
     if table_name == "Link Table":
         headers = ["airtable_uid", "agency_described_linked_uid"]
     else:
@@ -362,7 +362,7 @@ def get_headers(processed_data, table_name):
     return headers
 
 
-def get_do_table_name(table_name):
+def get_do_table_name(table_name: str) -> str:
     # For translating between airtable and DigitalOcean table name differences
     table_name_mapping = {
         "Counties": "counties",
@@ -375,7 +375,7 @@ def get_do_table_name(table_name):
     return do_table_name
 
 
-def get_conflict_clause(headers_no_id, table_name):
+def get_conflict_clause(headers_no_id: list, table_name: str) -> str:
     if table_name == "Link Table":
         conflict_clause = "nothing"
     else:
