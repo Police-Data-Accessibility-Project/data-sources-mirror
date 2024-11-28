@@ -189,7 +189,8 @@ def requests_fieldnames_full():
         "record_type",
         "archive_reason",
         "date_created",
-        "status_last_changed"
+        "status_last_changed",
+        "sources_airtable_uid"
     ]
 
 
